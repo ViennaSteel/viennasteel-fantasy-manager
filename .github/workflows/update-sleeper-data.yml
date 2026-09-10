@@ -83,6 +83,7 @@ jobs:
             const fantasyContext = {
               updated_at: new Date().toISOString(),
               bridge: "ViennaSteel Fantasy Manager",
+              version: 2,
               username: USERNAME,
               sleeper_user_id: user.user_id,
               season: SEASON,
@@ -91,6 +92,7 @@ jobs:
             };
 
             ensureDir("data/leagues");
+            ensureDir("data/waivers");
 
             for (const league of leagues) {
               const [rosters, users, matchups] = await Promise.all([
@@ -103,16 +105,16 @@ jobs:
               if (!mine) continue;
 
               const me = users.find(u => u.user_id === user.user_id) || null;
-              const starters = new Set(mine.starters || []);
-              const reserve = new Set(mine.reserve || []);
+              const starters = new Set((mine.starters || []).map(String));
+              const reserve = new Set((mine.reserve || []).map(String));
               const rostered = new Set();
 
               for (const r of rosters) {
                 for (const id of r.players || []) rostered.add(String(id));
               }
 
-              const team = (mine.players || []).map(id => {
-                id = String(id);
+              const team = (mine.players || []).map(rawId => {
+                const id = String(rawId);
                 return {
                   ...playerInfo(id, players[id], trendAddMap.get(id) || 0),
                   trending_drops_24h: trendDropMap.get(id) || 0,
@@ -135,7 +137,7 @@ jobs:
                     ) || null
                   : null;
 
-              const fantasyPositions = new Set(["QB", "RB", "WR", "TE", "K", "DEF"]);
+              const fantasyPositions = ["QB", "RB", "WR", "TE", "K", "DEF"];
               const available = [];
 
               for (const [id, p] of Object.entries(players)) {
@@ -144,7 +146,7 @@ jobs:
                 const positions = new Set(
                   [p?.position, ...(p?.fantasy_positions || [])].filter(Boolean)
                 );
-                if (![...positions].some(x => fantasyPositions.has(x))) continue;
+                if (!fantasyPositions.some(x => positions.has(x))) continue;
 
                 const info = playerInfo(
                   String(id),
@@ -153,7 +155,6 @@ jobs:
                 );
 
                 if (!info.team && info.trending_adds_24h === 0) continue;
-
                 available.push(info);
               }
 
@@ -172,15 +173,36 @@ jobs:
                 return (a.name || "").localeCompare(b.name || "");
               });
 
-              const byPosition = {};
-              for (const pos of ["QB", "RB", "WR", "TE", "K", "DEF"]) {
-                byPosition[pos] = available
+              const waiverIndex = {
+                updated_at: new Date().toISOString(),
+                week: state.week,
+                league_id: league.league_id,
+                league_name: league.name,
+                files: {}
+              };
+
+              for (const pos of fantasyPositions) {
+                const limit = pos === "K" || pos === "DEF" ? 20 : 50;
+                const list = available
                   .filter(p =>
                     p.position === pos ||
                     (p.fantasy_positions || []).includes(pos)
                   )
-                  .slice(0, 50);
+                  .slice(0, limit);
+
+                const waiverPath = `data/waivers/${league.league_id}/${pos}.json`;
+                writeJson(waiverPath, {
+                  updated_at: new Date().toISOString(),
+                  week: state.week,
+                  league_id: league.league_id,
+                  league_name: league.name,
+                  position: pos,
+                  available: list
+                });
+                waiverIndex.files[pos] = waiverPath;
               }
+
+              writeJson(`data/waivers/${league.league_id}/index.json`, waiverIndex);
 
               const leaguePayload = {
                 updated_at: new Date().toISOString(),
@@ -201,7 +223,7 @@ jobs:
                 team,
                 matchup: myMatchup,
                 opponent,
-                available: byPosition
+                waiver_index: `data/waivers/${league.league_id}/index.json`
               };
 
               writeJson(`data/leagues/${league.league_id}.json`, leaguePayload);
@@ -212,7 +234,9 @@ jobs:
                 teams: league.total_rosters,
                 my_roster_id: mine.roster_id,
                 my_team_name:
-                  me?.metadata?.team_name || me?.display_name || USERNAME
+                  me?.metadata?.team_name || me?.display_name || USERNAME,
+                league_file: `data/leagues/${league.league_id}.json`,
+                waiver_index: `data/waivers/${league.league_id}/index.json`
               });
             }
 
