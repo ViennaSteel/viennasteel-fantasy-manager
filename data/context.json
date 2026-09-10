@@ -1,6 +1,7 @@
 {
-  "updated_at": "2026-09-10T20:25:27.264Z",
+  "updated_at": "2026-09-10T20:39:42.834Z",
   "bridge": "ViennaSteel Fantasy Manager",
+  "version": 2,
   "username": "ViennaSteel",
   "sleeper_user_id": "1303014625205321728",
   "season": "2026",
@@ -11,14 +12,18 @@
       "name": "SLR2026  - Liga 57",
       "teams": 12,
       "my_roster_id": 2,
-      "my_team_name": "Vienna Steel"
+      "my_team_name": "Vienna Steel",
+      "league_file": "data/leagues/1391811143542009856.json",
+      "waiver_index": "data/waivers/1391811143542009856/index.json"
     },
     {
       "league_id": "1389530060859392000",
       "name": "BROMANCE LIGA KRGLCH",
       "teams": 10,
       "my_roster_id": 1,
-      "my_team_name": "Vienna Steel"
+      "my_team_name": "Vienna Steel",
+      "league_file": "data/leagues/1389530060859392000.json",
+      "waiver_index": "data/waivers/1389530060859392000/index.json"
     }
   ]
 }
