@@ -80,7 +80,7 @@ jobs:
               trendingDrops.map(x => [String(x.player_id), Number(x.count || 0)])
             );
 
-            const context = {
+            const fantasyContext = {
               updated_at: new Date().toISOString(),
               bridge: "ViennaSteel Fantasy Manager",
               username: USERNAME,
@@ -206,7 +206,7 @@ jobs:
 
               writeJson(`data/leagues/${league.league_id}.json`, leaguePayload);
 
-              context.leagues.push({
+              fantasyContext.leagues.push({
                 league_id: league.league_id,
                 name: league.name,
                 teams: league.total_rosters,
@@ -216,7 +216,7 @@ jobs:
               });
             }
 
-            writeJson("data/context.json", context);
+            writeJson("data/context.json", fantasyContext);
 
       - name: Commit updated data
         run: |
