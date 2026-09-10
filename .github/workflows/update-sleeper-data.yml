@@ -1,0 +1,231 @@
+name: Update Sleeper data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Sleeper data
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const path = require("path");
+
+            const USERNAME = "ViennaSteel";
+            const SEASON = "2026";
+            const API = "https://api.sleeper.app/v1";
+
+            async function get(p) {
+              const r = await fetch(API + p);
+              if (!r.ok) throw new Error(`Sleeper ${r.status}: ${p}`);
+              return await r.json();
+            }
+
+            function ensureDir(p) {
+              fs.mkdirSync(p, { recursive: true });
+            }
+
+            function writeJson(filename, data) {
+              ensureDir(path.dirname(filename));
+              fs.writeFileSync(filename, JSON.stringify(data, null, 2) + "\n");
+            }
+
+            function playerInfo(id, p, trendingAdds = 0) {
+              return {
+                player_id: id,
+                name:
+                  p?.full_name ||
+                  [p?.first_name, p?.last_name].filter(Boolean).join(" ") ||
+                  id,
+                team: p?.team ?? null,
+                position: p?.position ?? null,
+                fantasy_positions: p?.fantasy_positions ?? [],
+                status: p?.status ?? null,
+                injury_status: p?.injury_status ?? null,
+                injury_body_part: p?.injury_body_part ?? null,
+                injury_notes: p?.injury_notes ?? null,
+                practice_participation: p?.practice_participation ?? null,
+                depth_chart_position: p?.depth_chart_position ?? null,
+                trending_adds_24h: trendingAdds
+              };
+            }
+
+            const user = await get(`/user/${encodeURIComponent(USERNAME)}`);
+            if (!user?.user_id) throw new Error(`Sleeper user "${USERNAME}" not found`);
+
+            const [state, leagues, players, trendingAdds, trendingDrops] = await Promise.all([
+              get("/state/nfl"),
+              get(`/user/${user.user_id}/leagues/nfl/${SEASON}`),
+              get("/players/nfl"),
+              get("/players/nfl/trending/add?lookback_hours=24&limit=200").catch(() => []),
+              get("/players/nfl/trending/drop?lookback_hours=24&limit=200").catch(() => [])
+            ]);
+
+            const trendAddMap = new Map(
+              trendingAdds.map(x => [String(x.player_id), Number(x.count || 0)])
+            );
+            const trendDropMap = new Map(
+              trendingDrops.map(x => [String(x.player_id), Number(x.count || 0)])
+            );
+
+            const context = {
+              updated_at: new Date().toISOString(),
+              bridge: "ViennaSteel Fantasy Manager",
+              username: USERNAME,
+              sleeper_user_id: user.user_id,
+              season: SEASON,
+              nfl_week: state.week,
+              leagues: []
+            };
+
+            ensureDir("data/leagues");
+
+            for (const league of leagues) {
+              const [rosters, users, matchups] = await Promise.all([
+                get(`/league/${league.league_id}/rosters`),
+                get(`/league/${league.league_id}/users`),
+                get(`/league/${league.league_id}/matchups/${state.week}`)
+              ]);
+
+              const mine = rosters.find(r => r.owner_id === user.user_id) || null;
+              if (!mine) continue;
+
+              const me = users.find(u => u.user_id === user.user_id) || null;
+              const starters = new Set(mine.starters || []);
+              const reserve = new Set(mine.reserve || []);
+              const rostered = new Set();
+
+              for (const r of rosters) {
+                for (const id of r.players || []) rostered.add(String(id));
+              }
+
+              const team = (mine.players || []).map(id => {
+                id = String(id);
+                return {
+                  ...playerInfo(id, players[id], trendAddMap.get(id) || 0),
+                  trending_drops_24h: trendDropMap.get(id) || 0,
+                  slot: starters.has(id)
+                    ? "STARTER"
+                    : reserve.has(id)
+                    ? "IR"
+                    : "BENCH"
+                };
+              });
+
+              const myMatchup =
+                matchups.find(m => m.roster_id === mine.roster_id) || null;
+              const opponent =
+                myMatchup
+                  ? matchups.find(
+                      m =>
+                        m.matchup_id === myMatchup.matchup_id &&
+                        m.roster_id !== mine.roster_id
+                    ) || null
+                  : null;
+
+              const fantasyPositions = new Set(["QB", "RB", "WR", "TE", "K", "DEF"]);
+              const available = [];
+
+              for (const [id, p] of Object.entries(players)) {
+                if (rostered.has(String(id))) continue;
+
+                const positions = new Set(
+                  [p?.position, ...(p?.fantasy_positions || [])].filter(Boolean)
+                );
+                if (![...positions].some(x => fantasyPositions.has(x))) continue;
+
+                const info = playerInfo(
+                  String(id),
+                  p,
+                  trendAddMap.get(String(id)) || 0
+                );
+
+                if (!info.team && info.trending_adds_24h === 0) continue;
+
+                available.push(info);
+              }
+
+              available.sort((a, b) => {
+                if (b.trending_adds_24h !== a.trending_adds_24h) {
+                  return b.trending_adds_24h - a.trending_adds_24h;
+                }
+                const at = a.team ? 1 : 0;
+                const bt = b.team ? 1 : 0;
+                if (bt !== at) return bt - at;
+
+                const ad = Number(a.depth_chart_position ?? 99);
+                const bd = Number(b.depth_chart_position ?? 99);
+                if (ad !== bd) return ad - bd;
+
+                return (a.name || "").localeCompare(b.name || "");
+              });
+
+              const byPosition = {};
+              for (const pos of ["QB", "RB", "WR", "TE", "K", "DEF"]) {
+                byPosition[pos] = available
+                  .filter(p =>
+                    p.position === pos ||
+                    (p.fantasy_positions || []).includes(pos)
+                  )
+                  .slice(0, 50);
+              }
+
+              const leaguePayload = {
+                updated_at: new Date().toISOString(),
+                week: state.week,
+                league: {
+                  league_id: league.league_id,
+                  name: league.name,
+                  season: league.season,
+                  status: league.status,
+                  teams: league.total_rosters,
+                  roster_positions: league.roster_positions,
+                  scoring_settings: league.scoring_settings,
+                  settings: league.settings
+                },
+                my_team_name:
+                  me?.metadata?.team_name || me?.display_name || USERNAME,
+                my_roster_id: mine.roster_id,
+                team,
+                matchup: myMatchup,
+                opponent,
+                available: byPosition
+              };
+
+              writeJson(`data/leagues/${league.league_id}.json`, leaguePayload);
+
+              context.leagues.push({
+                league_id: league.league_id,
+                name: league.name,
+                teams: league.total_rosters,
+                my_roster_id: mine.roster_id,
+                my_team_name:
+                  me?.metadata?.team_name || me?.display_name || USERNAME
+              });
+            }
+
+            writeJson("data/context.json", context);
+
+      - name: Commit updated data
+        run: |
+          git config user.name "ViennaSteel Fantasy Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update Sleeper data"
+            git push
+          fi
