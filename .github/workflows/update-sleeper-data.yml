@@ -83,7 +83,7 @@ jobs:
             const fantasyContext = {
               updated_at: new Date().toISOString(),
               bridge: "ViennaSteel Fantasy Manager",
-              version: 2,
+              version: 3,
               username: USERNAME,
               sleeper_user_id: user.user_id,
               season: SEASON,
@@ -93,6 +93,7 @@ jobs:
 
             ensureDir("data/leagues");
             ensureDir("data/waivers");
+            ensureDir("data/trades");
 
             for (const league of leagues) {
               const [rosters, users, matchups] = await Promise.all([
@@ -104,7 +105,8 @@ jobs:
               const mine = rosters.find(r => r.owner_id === user.user_id) || null;
               if (!mine) continue;
 
-              const me = users.find(u => u.user_id === user.user_id) || null;
+              const usersById = new Map(users.map(u => [u.user_id, u]));
+              const me = usersById.get(user.user_id) || null;
               const starters = new Set((mine.starters || []).map(String));
               const reserve = new Set((mine.reserve || []).map(String));
               const rostered = new Set();
@@ -142,34 +144,24 @@ jobs:
 
               for (const [id, p] of Object.entries(players)) {
                 if (rostered.has(String(id))) continue;
-
                 const positions = new Set(
                   [p?.position, ...(p?.fantasy_positions || [])].filter(Boolean)
                 );
                 if (!fantasyPositions.some(x => positions.has(x))) continue;
 
-                const info = playerInfo(
-                  String(id),
-                  p,
-                  trendAddMap.get(String(id)) || 0
-                );
-
+                const info = playerInfo(String(id), p, trendAddMap.get(String(id)) || 0);
                 if (!info.team && info.trending_adds_24h === 0) continue;
                 available.push(info);
               }
 
               available.sort((a, b) => {
-                if (b.trending_adds_24h !== a.trending_adds_24h) {
-                  return b.trending_adds_24h - a.trending_adds_24h;
-                }
+                if (b.trending_adds_24h !== a.trending_adds_24h) return b.trending_adds_24h - a.trending_adds_24h;
                 const at = a.team ? 1 : 0;
                 const bt = b.team ? 1 : 0;
                 if (bt !== at) return bt - at;
-
                 const ad = Number(a.depth_chart_position ?? 99);
                 const bd = Number(b.depth_chart_position ?? 99);
                 if (ad !== bd) return ad - bd;
-
                 return (a.name || "").localeCompare(b.name || "");
               });
 
@@ -184,10 +176,7 @@ jobs:
               for (const pos of fantasyPositions) {
                 const limit = pos === "K" || pos === "DEF" ? 20 : 50;
                 const list = available
-                  .filter(p =>
-                    p.position === pos ||
-                    (p.fantasy_positions || []).includes(pos)
-                  )
+                  .filter(p => p.position === pos || (p.fantasy_positions || []).includes(pos))
                   .slice(0, limit);
 
                 const waiverPath = `data/waivers/${league.league_id}/${pos}.json`;
@@ -204,6 +193,53 @@ jobs:
 
               writeJson(`data/waivers/${league.league_id}/index.json`, waiverIndex);
 
+              // League-wide roster snapshot for trade analysis.
+              const allTeams = rosters.map(r => {
+                const owner = usersById.get(r.owner_id) || null;
+                const teamStarters = new Set((r.starters || []).map(String));
+                const teamReserve = new Set((r.reserve || []).map(String));
+                const namedPlayers = (r.players || []).map(rawId => {
+                  const id = String(rawId);
+                  return {
+                    ...playerInfo(id, players[id], trendAddMap.get(id) || 0),
+                    trending_drops_24h: trendDropMap.get(id) || 0,
+                    slot: teamStarters.has(id)
+                      ? "STARTER"
+                      : teamReserve.has(id)
+                      ? "IR"
+                      : "BENCH"
+                  };
+                });
+
+                const counts = {};
+                for (const p of namedPlayers) {
+                  for (const pos of (p.fantasy_positions?.length ? p.fantasy_positions : [p.position]).filter(Boolean)) {
+                    counts[pos] = (counts[pos] || 0) + 1;
+                  }
+                }
+
+                return {
+                  roster_id: r.roster_id,
+                  owner_id: r.owner_id,
+                  display_name: owner?.display_name || null,
+                  team_name: owner?.metadata?.team_name || owner?.display_name || `Roster ${r.roster_id}`,
+                  is_me: r.owner_id === user.user_id,
+                  position_counts: counts,
+                  players: namedPlayers
+                };
+              });
+
+              const tradePath = `data/trades/${league.league_id}.json`;
+              writeJson(tradePath, {
+                updated_at: new Date().toISOString(),
+                week: state.week,
+                league_id: league.league_id,
+                league_name: league.name,
+                scoring_settings: league.scoring_settings,
+                roster_positions: league.roster_positions,
+                teams: allTeams
+              });
+
               const leaguePayload = {
                 updated_at: new Date().toISOString(),
                 week: state.week,
@@ -217,13 +253,13 @@ jobs:
                   scoring_settings: league.scoring_settings,
                   settings: league.settings
                 },
-                my_team_name:
-                  me?.metadata?.team_name || me?.display_name || USERNAME,
+                my_team_name: me?.metadata?.team_name || me?.display_name || USERNAME,
                 my_roster_id: mine.roster_id,
                 team,
                 matchup: myMatchup,
                 opponent,
-                waiver_index: `data/waivers/${league.league_id}/index.json`
+                waiver_index: `data/waivers/${league.league_id}/index.json`,
+                trade_file: tradePath
               };
 
               writeJson(`data/leagues/${league.league_id}.json`, leaguePayload);
@@ -233,10 +269,10 @@ jobs:
                 name: league.name,
                 teams: league.total_rosters,
                 my_roster_id: mine.roster_id,
-                my_team_name:
-                  me?.metadata?.team_name || me?.display_name || USERNAME,
+                my_team_name: me?.metadata?.team_name || me?.display_name || USERNAME,
                 league_file: `data/leagues/${league.league_id}.json`,
-                waiver_index: `data/waivers/${league.league_id}/index.json`
+                waiver_index: `data/waivers/${league.league_id}/index.json`,
+                trade_file: tradePath
               });
             }
 
@@ -251,5 +287,6 @@ jobs:
             echo "No changes."
           else
             git commit -m "Update Sleeper data"
+            git pull --rebase origin main
             git push
           fi
