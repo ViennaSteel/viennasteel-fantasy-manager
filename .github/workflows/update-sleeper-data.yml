@@ -79,6 +79,14 @@ jobs:
             const trendDropMap = new Map(
               trendingDrops.map(x => [String(x.player_id), Number(x.count || 0)])
             );
+            const projections = await fetch(
+              `https://api.sleeper.com/projections/nfl/${SEASON}/${state.week}?season_type=regular`
+            )
+              .then(r => (r.ok ? r.json() : []))
+              .catch(() => []);
+            const projectionMap = new Map(
+              projections.map(item => [String(item.player_id), item])
+            );
 
             const fantasyContext = {
               updated_at: new Date().toISOString(),
@@ -141,6 +149,20 @@ jobs:
               const opponentRoster = opponent
                 ? rosters.find(r => r.roster_id === opponent.roster_id) || null
                 : null;
+              const teamWithWeekData = team.map(player => {
+                const projection = projectionMap.get(String(player.player_id)) || null;
+                const projected = Number(projection?.stats?.pts_ppr);
+                const points = myMatchup?.players_points || {};
+                const hasActual = Object.prototype.hasOwnProperty.call(points, String(player.player_id));
+                return {
+                  ...player,
+                  projected_points: Number.isFinite(projected) ? projected : null,
+                  actual_points: hasActual ? Number(points[String(player.player_id)] || 0) : null,
+                  week_opponent: projection?.opponent || null,
+                  game_date: projection?.date || null,
+                  projection_updated_at: projection?.updated_at || null
+                };
+              });
 
               function teamIdentity(roster) {
                 if (!roster) return null;
@@ -273,7 +295,7 @@ jobs:
                 my_team_name: me?.metadata?.team_name || me?.display_name || USERNAME,
                 my_team: teamIdentity(mine),
                 my_roster_id: mine.roster_id,
-                team,
+                team: teamWithWeekData,
                 matchup: myMatchup,
                 opponent,
                 opponent_team: teamIdentity(opponentRoster),

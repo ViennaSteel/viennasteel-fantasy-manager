@@ -31,6 +31,27 @@ function formatTime(value) {
   }).format(new Date(value));
 }
 
+function formatPoints(value, fallback = "–") {
+  return value !== null && value !== undefined && Number.isFinite(Number(value))
+    ? Number(value).toFixed(1)
+    : fallback;
+}
+
+function actualPointsLabel(player) {
+  if (player.actual_points === null || player.actual_points === undefined) return "–";
+  if (Number(player.actual_points) !== 0) return formatPoints(player.actual_points);
+  if (player.game_date && new Date(`${player.game_date}T23:59:59`) > new Date()) return "–";
+  return "0.0";
+}
+
+function matchupLabel(player) {
+  if (!player.week_opponent) return "Termin offen";
+  const opponent = `vs ${player.week_opponent}`;
+  if (!player.game_date) return opponent;
+  const date = new Intl.DateTimeFormat("de-AT", { day: "2-digit", month: "2-digit" }).format(new Date(`${player.game_date}T12:00:00`));
+  return `${opponent} · ${date}`;
+}
+
 function initials(name, fallback) {
   const value = String(name || "").trim();
   if (!value) return fallback;
@@ -101,6 +122,9 @@ function comparisonCard(player, label) {
   flags.push(`<li><span>Lineup</span><strong>${player.slot === "STARTER" ? "Starter" : player.slot === "BENCH" ? "Bank" : "IR"}</strong></li>`);
   flags.push(`<li><span>Status</span><strong class="${player.injury_status ? "negative" : "positive"}">${player.injury_status || "Aktiv"}</strong></li>`);
   flags.push(`<li><span>Depth Chart</span><strong>${player.depth_chart_position || "–"}</strong></li>`);
+  flags.push(`<li><span>Gegner</span><strong>${matchupLabel(player)}</strong></li>`);
+  flags.push(`<li><span>Prognose</span><strong>${availability(player) === "unavailable" ? "0.0" : formatPoints(player.projected_points)} Pkt.</strong></li>`);
+  flags.push(`<li><span>Ist-Punkte</span><strong>${actualPointsLabel(player)} Pkt.</strong></li>`);
   flags.push(`<li><span>Trending Adds</span><strong>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</strong></li>`);
   return `<article class="compare-player panel">
     <span class="compare-label">${label}</span>
@@ -223,6 +247,11 @@ function renderRoster() {
         <h3>${player.name}</h3>
         <p>${player.depth_chart_position || "Depth Chart offen"}</p>
         <div class="trend"><span>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</span> Adds 24h</div>
+      </div>
+      <div class="player-week">
+        <div><span>Matchup</span><strong>${matchupLabel(player)}</strong></div>
+        <div><span>Prognose</span><strong class="projection">${availability(player) === "unavailable" ? "0.0" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></div>
+        <div><span>Erreicht</span><strong>${actualPointsLabel(player)}</strong><small>Pkt.</small></div>
       </div>
     </article>
     `).join("")}
