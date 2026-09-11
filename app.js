@@ -78,6 +78,16 @@ function comparisonCard(player, label) {
   </article>`;
 }
 
+function availability(player) {
+  const status = String(player.injury_status || "").toUpperCase();
+  const unavailable = new Set(["OUT", "PUP", "IR", "SUSPENDED", "NFI"]);
+  const uncertain = new Set(["DOUBTFUL", "QUESTIONABLE"]);
+
+  if (player.slot === "IR" || unavailable.has(status)) return "unavailable";
+  if (uncertain.has(status)) return "uncertain";
+  return "available";
+}
+
 function renderComparison() {
   if (!state.league) return;
   const players = selectablePlayers();
@@ -88,15 +98,24 @@ function renderComparison() {
 
   const title = $("#recommendation-title");
   const text = $("#recommendation-text");
+  const aAvailability = availability(a);
+  const bAvailability = availability(b);
   if (a.player_id === b.player_id) {
     title.textContent = "Bitte zwei unterschiedliche Spieler wählen";
     text.textContent = "Für einen Vergleich müssen Spieler A und Spieler B verschieden sein.";
-  } else if (a.injury_status && !b.injury_status) {
+  } else if (aAvailability === "unavailable" && bAvailability === "unavailable") {
+    title.textContent = "Keiner der beiden Spieler ist aktuell einsatzfähig";
+    text.textContent = `${a.name} (${a.injury_status || "IR"}) und ${b.name} (${b.injury_status || "IR"}) dürfen aktuell nicht als Start-Option gewertet werden.`;
+  } else if (aAvailability === "unavailable") {
     title.textContent = `${b.name} hat aktuell den sichereren Status`;
-    text.textContent = `${a.name} ist mit „${a.injury_status}“ gemeldet. Eine finale Start/Sit-Empfehlung folgt mit den Wochen-Projektionen.`;
-  } else if (b.injury_status && !a.injury_status) {
+    text.textContent = `${a.name} ist mit „${a.injury_status || "IR"}“ nicht einsatzfähig und darf aktuell keine Start-Empfehlung erhalten.`;
+  } else if (bAvailability === "unavailable") {
     title.textContent = `${a.name} hat aktuell den sichereren Status`;
-    text.textContent = `${b.name} ist mit „${b.injury_status}“ gemeldet. Eine finale Start/Sit-Empfehlung folgt mit den Wochen-Projektionen.`;
+    text.textContent = `${b.name} ist mit „${b.injury_status || "IR"}“ nicht einsatzfähig und darf aktuell keine Start-Empfehlung erhalten.`;
+  } else if (aAvailability === "uncertain" || bAvailability === "uncertain") {
+    const uncertainPlayers = [a, b].filter((player) => availability(player) === "uncertain");
+    title.textContent = "Mindestens ein Status ist noch nicht sicher";
+    text.textContent = `${uncertainPlayers.map((player) => `${player.name} (${player.injury_status})`).join(" und ")} vor dem Start noch einmal prüfen.`;
   } else if (a.position !== b.position && ![a.position, b.position].every((position) => ["RB", "WR", "TE"].includes(position))) {
     title.textContent = "Diese Positionen sind nicht austauschbar";
     text.textContent = `${a.position} und ${b.position} konkurrieren in deinem Lineup nicht um denselben Slot.`;
