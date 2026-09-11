@@ -231,7 +231,8 @@ function comparisonCard(player, label) {
   flags.push(`<li><span>Gegner</span><strong>${matchupLabel(player)}</strong></li>`);
   flags.push(`<li><span>Prognose</span><strong>${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)} Pkt.</strong></li>`);
   flags.push(`<li><span>Ist-Punkte</span><strong>${actualPointsLabel(player)} Pkt.</strong></li>`);
-  flags.push(`<li><span>Trending Adds</span><strong>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</strong></li>`);
+  flags.push(`<li><span>Rostered</span><strong>${formatPercent(player.rostered_percent)}</strong></li>`);
+  flags.push(`<li><span>Startquote</span><strong>${formatPercent(player.start_percent)}</strong></li>`);
   return `<article class="compare-player panel">
     <span class="compare-label">${label}</span>
     <div class="compare-player-head">
@@ -253,6 +254,29 @@ function availability(player) {
   return "available";
 }
 
+function positionsCompatible(a, b) {
+  if (a.position === b.position) return true;
+  const rosterPositions = new Set(state.league.league.roster_positions || []);
+  if (rosterPositions.has("WRRB_FLEX") && [a.position, b.position].every(position => ["RB", "WR"].includes(position))) return true;
+  if (rosterPositions.has("FLEX") && [a.position, b.position].every(position => ["RB", "WR", "TE"].includes(position))) return true;
+  return false;
+}
+
+function kickoffLocked(player) {
+  return Boolean(player.game_start && new Date(player.game_start) <= new Date());
+}
+
+function setRecommendation(tone, titleText, bodyText, metaText = "") {
+  const card = $("#recommendation");
+  card.classList.remove("good", "warning", "danger", "neutral");
+  card.classList.add(tone);
+  $("#recommendation-title").textContent = titleText;
+  $("#recommendation-text").textContent = bodyText;
+  const meta = $("#recommendation-meta");
+  meta.textContent = metaText;
+  meta.hidden = !metaText;
+}
+
 function renderComparison() {
   if (!state.league) return;
   const players = selectablePlayers();
@@ -261,32 +285,71 @@ function renderComparison() {
   if (!a || !b) return;
   $("#comparison").innerHTML = comparisonCard(a, "Spieler A") + comparisonCard(b, "Spieler B");
 
-  const title = $("#recommendation-title");
-  const text = $("#recommendation-text");
   const aAvailability = availability(a);
   const bAvailability = availability(b);
   if (a.player_id === b.player_id) {
-    title.textContent = "Bitte zwei unterschiedliche Spieler wählen";
-    text.textContent = "Für einen Vergleich müssen Spieler A und Spieler B verschieden sein.";
+    setRecommendation("neutral", "Bitte zwei unterschiedliche Spieler wählen", "Für einen Vergleich müssen Spieler A und Spieler B verschieden sein.");
+  } else if (state.week < Number(state.context.nfl_week)) {
+    const aPoints = Number(a.actual_points);
+    const bPoints = Number(b.actual_points);
+    if (!Number.isFinite(aPoints) || !Number.isFinite(bPoints)) {
+      setRecommendation("neutral", "Für diese Woche fehlen Ergebnisdaten", "Sobald beide Spielerpunkte verfügbar sind, zeigt der Rückblick die bessere Entscheidung.");
+    } else {
+      const winner = aPoints >= bPoints ? a : b;
+      const loser = winner === a ? b : a;
+      const difference = Math.abs(aPoints - bPoints);
+      setRecommendation(
+        difference === 0 ? "neutral" : "good",
+        difference === 0 ? "Beide Spieler erzielten gleich viele Punkte" : `${winner.name} war die bessere Wahl`,
+        `${winner.name} erzielte ${formatPoints(winner.actual_points)} Punkte, ${loser.name} ${formatPoints(loser.actual_points)} Punkte.`,
+        difference === 0 ? "Rückblick · Gleichstand" : `Rückblick · Vorteil ${formatPoints(difference)} Punkte`
+      );
+    }
+  } else if (!positionsCompatible(a, b)) {
+    setRecommendation("neutral", "Diese Positionen sind nicht austauschbar", `${a.position} und ${b.position} konkurrieren in dieser Liga nicht um denselben Startplatz.`);
+  } else if (kickoffLocked(a) || kickoffLocked(b)) {
+    const locked = [a, b].filter(kickoffLocked).map(player => player.name).join(" und ");
+    setRecommendation("warning", "Lineup-Entscheidung bereits gesperrt", `${locked} hat bereits gespielt oder das Spiel hat begonnen. Sleeper erlaubt deshalb keinen Wechsel mehr.`, "Kickoff-Sperre aktiv");
   } else if (aAvailability === "unavailable" && bAvailability === "unavailable") {
-    title.textContent = "Keiner der beiden Spieler ist aktuell einsatzfähig";
-    text.textContent = `${a.name} (${a.injury_status || "IR"}) und ${b.name} (${b.injury_status || "IR"}) dürfen aktuell nicht als Start-Option gewertet werden.`;
+    setRecommendation("danger", "Keiner der beiden Spieler ist aktuell einsatzfähig", `${a.name} (${a.injury_status || "IR"}) und ${b.name} (${b.injury_status || "IR"}) dürfen aktuell nicht als Start-Option gewertet werden.`);
   } else if (aAvailability === "unavailable") {
-    title.textContent = `${b.name} hat aktuell den sichereren Status`;
-    text.textContent = `${a.name} ist mit „${a.injury_status || "IR"}“ nicht einsatzfähig und darf aktuell keine Start-Empfehlung erhalten.`;
+    setRecommendation("good", `Starte ${b.name}`, `${a.name} ist mit „${a.injury_status || "IR"}“ nicht einsatzfähig und erhält deshalb keine Start-Empfehlung.`, "Klare Empfehlung · Statusentscheidung");
   } else if (bAvailability === "unavailable") {
-    title.textContent = `${a.name} hat aktuell den sichereren Status`;
-    text.textContent = `${b.name} ist mit „${b.injury_status || "IR"}“ nicht einsatzfähig und darf aktuell keine Start-Empfehlung erhalten.`;
-  } else if (aAvailability === "uncertain" || bAvailability === "uncertain") {
-    const uncertainPlayers = [a, b].filter((player) => availability(player) === "uncertain");
-    title.textContent = "Mindestens ein Status ist noch nicht sicher";
-    text.textContent = `${uncertainPlayers.map((player) => `${player.name} (${player.injury_status})`).join(" und ")} vor dem Start noch einmal prüfen.`;
-  } else if (a.position !== b.position && ![a.position, b.position].every((position) => ["RB", "WR", "TE"].includes(position))) {
-    title.textContent = "Diese Positionen sind nicht austauschbar";
-    text.textContent = `${a.position} und ${b.position} konkurrieren in deinem Lineup nicht um denselben Slot.`;
+    setRecommendation("good", `Starte ${a.name}`, `${b.name} ist mit „${b.injury_status || "IR"}“ nicht einsatzfähig und erhält deshalb keine Start-Empfehlung.`, "Klare Empfehlung · Statusentscheidung");
   } else {
-    title.textContent = "Beide Spieler sind aktuell einsatzfähig";
-    text.textContent = "Für die finale Empfehlung ergänzen wir als Nächstes Gegner, Projektionen, Usage und aktuelle News.";
+    const aProjection = Number(a.projected_points);
+    const bProjection = Number(b.projected_points);
+    if (!Number.isFinite(aProjection) || !Number.isFinite(bProjection)) {
+      setRecommendation("neutral", "Noch keine belastbare Prognose verfügbar", "Für mindestens einen Spieler fehlen aktuell ligaabhängige Projektionsdaten. Bitte später erneut prüfen.");
+      return;
+    }
+    let winner = aProjection >= bProjection ? a : b;
+    let loser = winner === a ? b : a;
+    let difference = Math.abs(aProjection - bProjection);
+    const winnerUncertain = availability(winner) === "uncertain";
+    const loserUncertain = availability(loser) === "uncertain";
+    if (winnerUncertain && !loserUncertain && difference < 3) {
+      [winner, loser] = [loser, winner];
+      difference = Math.abs(aProjection - bProjection);
+    } else if (difference < 0.25 && Number(loser.start_percent || 0) > Number(winner.start_percent || 0)) {
+      [winner, loser] = [loser, winner];
+    }
+    const winnerProjection = Number(winner.projected_points);
+    const loserProjection = Number(loser.projected_points);
+    const projectionAdvantage = winnerProjection - loserProjection;
+    const confidence = Math.abs(projectionAdvantage) >= 5 ? "Hoch" : Math.abs(projectionAdvantage) >= 2.5 ? "Mittel" : "Knapp";
+    const switched = winner.slot === "BENCH" && loser.slot === "STARTER";
+    const statusNote = availability(winner) === "uncertain"
+      ? ` ${winner.name} ist allerdings ${winner.injury_status}; Status vor dem Kickoff erneut prüfen.`
+      : availability(loser) === "uncertain"
+      ? ` Der unsichere Status von ${loser.name} spricht zusätzlich für diese Wahl.`
+      : "";
+    setRecommendation(
+      availability(winner) === "uncertain" ? "warning" : "good",
+      `${switched ? "Wechsel zu" : "Starte"} ${winner.name}`,
+      `${winner.name} wird in dieser Liga mit ${formatPoints(winnerProjection)} Punkten prognostiziert, ${loser.name} mit ${formatPoints(loserProjection)}.${statusNote}`,
+      `Sicherheit: ${availability(winner) === "uncertain" ? "Riskant" : confidence} · Prognose-Differenz ${projectionAdvantage >= 0 ? "+" : ""}${formatPoints(projectionAdvantage)} Punkte`
+    );
   }
 }
 
@@ -320,6 +383,7 @@ function renderAlerts() {
 function renderRoster() {
   const data = activeWeekData();
   const teamById = new Map(data.team.map((player) => [String(player.player_id), player]));
+  const benchPositionOrder = new Map(["QB", "RB", "WR", "TE", "K", "DEF"].map((position, index) => [position, index]));
   const starterIds = (data.matchup?.starters || []).map(String);
   const starterPositions = state.league.league.roster_positions
     .filter((position) => position !== "BN")
@@ -331,7 +395,13 @@ function renderRoster() {
     ...teamById.get(id),
     displaySlot: starterLabels[index] || teamById.get(id)?.position || "–"
   })).filter((player) => player.player_id);
-  const reserves = data.team.filter((player) => player.slot === "BENCH").map((player) => ({ ...player, displaySlot: "RES" }));
+  const reserves = data.team
+    .filter((player) => player.slot === "BENCH")
+    .map((player) => ({ ...player, displaySlot: "RES" }))
+    .sort((a, b) =>
+      (benchPositionOrder.get(a.position) ?? 99) - (benchPositionOrder.get(b.position) ?? 99) ||
+      String(a.name || "").localeCompare(String(b.name || ""), "de")
+    );
   const injuredReserve = data.team.filter((player) => player.slot === "IR").map((player) => ({ ...player, displaySlot: "IR" }));
   const groups = [
     { slot: "STARTER", label: "Aufstellung", players: starters },

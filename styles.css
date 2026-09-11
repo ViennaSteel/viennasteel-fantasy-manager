@@ -151,7 +151,11 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .recommendation { display: flex; align-items: center; gap: 17px; }
 .recommendation-icon { flex: 0 0 44px; height: 44px; display: grid; place-items: center; border-radius: 13px; color: #180b24; background: var(--steel); font-weight: 900; }
 .recommendation h3 { font-size: 19px; margin: 0 0 5px; }
-.recommendation p:last-child { color: var(--muted); margin: 0; line-height: 1.5; }
+.recommendation p { color: var(--muted); margin: 0; line-height: 1.5; }
+.recommendation.good { border-color: #55df9155; }.recommendation.good .recommendation-icon { background: #55df91; }
+.recommendation.warning { border-color: #ffc65866; }.recommendation.warning .recommendation-icon { background: var(--warning); }
+.recommendation.danger { border-color: #ff686866; }.recommendation.danger .recommendation-icon { background: var(--danger); color: white; }
+.recommendation-meta { width: max-content; max-width: 100%; margin-top: 10px; padding: 6px 9px; border-radius: 8px; color: var(--text); background: #ffffff0a; font-size: 11px; font-weight: 800; }
 [hidden] { display: none !important; }
 
 @media (max-width: 1080px) {

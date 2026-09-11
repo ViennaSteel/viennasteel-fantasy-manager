@@ -26,6 +26,9 @@ jobs:
             const USERNAME = "ViennaSteel";
             const SEASON = "2026";
             const API = "https://api.sleeper.app/v1";
+            const FAAB_BUDGET_OVERRIDES = {
+              "1389530060859392000": 100
+            };
 
             async function get(p) {
               const r = await fetch(API + p);
@@ -60,6 +63,20 @@ jobs:
                 depth_chart_position: p?.depth_chart_position ?? null,
                 trending_adds_24h: trendingAdds
               };
+            }
+
+            function calculateProjectedPoints(stats, scoringSettings) {
+              if (!stats || !scoringSettings) return null;
+              let total = 0;
+              let matched = false;
+              for (const [category, pointsPerUnit] of Object.entries(scoringSettings)) {
+                const projectedUnits = Number(stats[category]);
+                const multiplier = Number(pointsPerUnit);
+                if (!Number.isFinite(projectedUnits) || !Number.isFinite(multiplier) || multiplier === 0) continue;
+                total += projectedUnits * multiplier;
+                matched = true;
+              }
+              return matched ? Math.round((total + Number.EPSILON) * 100) / 100 : null;
             }
 
             const user = await get(`/user/${encodeURIComponent(USERNAME)}`);
@@ -158,6 +175,17 @@ jobs:
               const mine = rosters.find(r => r.owner_id === user.user_id) || null;
               if (!mine) continue;
 
+              const configuredFaab = FAAB_BUDGET_OVERRIDES[String(league.league_id)];
+              const faabTotal = Number(configuredFaab ?? league.settings?.waiver_budget ?? 0);
+              const faabUsed = Number(mine.settings?.waiver_budget_used || 0);
+              const faab = {
+                enabled: configuredFaab !== undefined || Number(league.settings?.waiver_type) === 2,
+                total: faabTotal,
+                used: faabUsed,
+                remaining: Math.max(0, faabTotal - faabUsed),
+                currency: "USD"
+              };
+
               const usersById = new Map(users.map(u => [u.user_id, u]));
               const me = usersById.get(user.user_id) || null;
               const reserve = new Set((mine.reserve || []).map(String));
@@ -238,13 +266,14 @@ jobs:
                   const base = playerInfo(id, players[id], trendAddMap.get(id) || 0);
                   const projection = projectionMap.get(id) || null;
                   const ownership = ownershipMap.get(normalizePlayerName(base.name)) || null;
-                  const projected = Number(projection?.stats?.pts_ppr);
+                  const projected = calculateProjectedPoints(projection?.stats, league.scoring_settings);
                   const hasActual = Object.prototype.hasOwnProperty.call(points, id);
                   return {
                     ...base,
                     trending_drops_24h: trendDropMap.get(id) || 0,
                     slot: weeklyStarters.has(id) ? "STARTER" : (week === Number(state.week) && reserve.has(id) ? "IR" : "BENCH"),
                     projected_points: Number.isFinite(projected) ? projected : null,
+                    projection_basis: "league_scoring",
                     rostered_percent: Number.isFinite(Number(ownership?.percentOwned)) ? Number(ownership.percentOwned) : null,
                     start_percent: Number.isFinite(Number(ownership?.percentStarted)) ? Number(ownership.percentStarted) : null,
                     actual_points: hasActual ? Number(points[id] || 0) : null,
@@ -296,6 +325,7 @@ jobs:
                 week: state.week,
                 league_id: league.league_id,
                 league_name: league.name,
+                faab,
                 files: {}
               };
 
@@ -382,6 +412,7 @@ jobs:
                   settings: league.settings
                 },
                 my_team_name: me?.metadata?.team_name || me?.display_name || USERNAME,
+                faab,
                 my_team: weeks[state.week]?.my_team || null,
                 my_roster_id: mine.roster_id,
                 team: weeks[state.week]?.team || [],
