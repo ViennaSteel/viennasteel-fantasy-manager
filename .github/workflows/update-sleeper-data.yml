@@ -138,6 +138,23 @@ jobs:
                         m.roster_id !== mine.roster_id
                     ) || null
                   : null;
+              const opponentRoster = opponent
+                ? rosters.find(r => r.roster_id === opponent.roster_id) || null
+                : null;
+
+              function teamIdentity(roster) {
+                if (!roster) return null;
+                const owner = usersById.get(roster.owner_id) || null;
+                return {
+                  roster_id: roster.roster_id,
+                  team_name:
+                    owner?.metadata?.team_name ||
+                    owner?.display_name ||
+                    `Roster ${roster.roster_id}`,
+                  owner_name: owner?.display_name || null,
+                  avatar: owner?.metadata?.avatar || owner?.avatar || null
+                };
+              }
 
               const fantasyPositions = ["QB", "RB", "WR", "TE", "K", "DEF"];
               const available = [];
@@ -254,10 +271,12 @@ jobs:
                   settings: league.settings
                 },
                 my_team_name: me?.metadata?.team_name || me?.display_name || USERNAME,
+                my_team: teamIdentity(mine),
                 my_roster_id: mine.roster_id,
                 team,
                 matchup: myMatchup,
                 opponent,
+                opponent_team: teamIdentity(opponentRoster),
                 waiver_index: `data/waivers/${league.league_id}/index.json`,
                 trade_file: tradePath
               };

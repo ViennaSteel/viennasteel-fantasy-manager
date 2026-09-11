@@ -48,6 +48,7 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .scoreboard small { color: var(--muted); }
 .versus { color: #60766b; font-weight: 900; font-size: 12px; }
 .team-badge { width: 56px; height: 56px; border-radius: 16px; display: grid; place-items: center; font-size: 13px; font-weight: 900; }
+.team-badge img { width: 100%; height: 100%; border-radius: inherit; object-fit: cover; }
 .team-badge.steel { color: #180b24; background: var(--steel); transform: rotate(-4deg); }
 .team-badge.opponent { background: var(--surface-2); border: 1px solid var(--line); color: var(--muted); }
 .alerts { display: grid; gap: 10px; margin-top: 24px; }

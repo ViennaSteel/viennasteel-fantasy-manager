@@ -31,6 +31,27 @@ function formatTime(value) {
   }).format(new Date(value));
 }
 
+function initials(name, fallback) {
+  const value = String(name || "").trim();
+  if (!value) return fallback;
+  return value.split(/\s+/).slice(0, 2).map((part) => part[0]).join("").toUpperCase();
+}
+
+function avatarUrl(avatar) {
+  if (!avatar) return null;
+  if (/^https?:\/\//i.test(avatar)) return avatar;
+  return `https://sleepercdn.com/avatars/thumbs/${encodeURIComponent(avatar)}`;
+}
+
+function renderTeamBadge(selector, identity, fallback) {
+  const element = $(selector);
+  const src = avatarUrl(identity?.avatar);
+  const label = identity?.team_name || fallback;
+  element.innerHTML = src
+    ? `<img src="${src}" alt="${label} Wappen" onerror="this.remove();this.parentElement.querySelector('span').hidden=false"><span hidden>${initials(label, fallback)}</span>`
+    : `<span>${initials(label, fallback)}</span>`;
+}
+
 function renderContext() {
   const picker = $("#league-picker");
   picker.innerHTML = state.context.leagues.map((league) =>
@@ -48,6 +69,10 @@ function renderLeague() {
   $("#compare-week").textContent = data.week;
   $("#my-score").textContent = Number(data.matchup?.points || 0).toFixed(2);
   $("#opponent-score").textContent = Number(data.opponent?.points || 0).toFixed(2);
+  $("#my-matchup-name").textContent = data.my_team?.team_name || data.my_team_name || "Vienna Steel";
+  $("#opponent-matchup-name").textContent = data.opponent_team?.team_name || "Gegner";
+  renderTeamBadge("#my-team-badge", data.my_team, "VS");
+  renderTeamBadge("#opponent-team-badge", data.opponent_team, "OPP");
   $("#sync-label").textContent = `Aktuell · ${formatTime(data.updated_at)}`;
   renderAlerts();
   renderRoster();
