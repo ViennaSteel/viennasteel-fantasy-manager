@@ -58,17 +58,25 @@ function performanceIndicator(player) {
   const hasStarted = Number(actual) !== 0 || (player.game_start && new Date(player.game_start) <= new Date());
   if (!hasValues || !hasStarted || availability(player) === "unavailable") {
     return `<div class="performance neutral" aria-label="Performance noch offen">
-      <svg viewBox="0 0 72 30" aria-hidden="true"><path d="M4 18 L20 18 L36 18 L52 18 L68 18" /></svg>
+      <svg viewBox="0 0 88 38" aria-hidden="true"><path class="performance-line" d="M4 22 C25 22 63 22 84 22" /><circle cx="84" cy="22" r="3.5" /></svg>
       <strong>Offen</strong>
     </div>`;
   }
   const difference = actual - projected;
   const direction = difference >= 0 ? "up" : "down";
   const sign = difference >= 0 ? "+" : "";
-  const path = direction === "up" ? "M4 24 L20 19 L34 21 L50 11 L68 5" : "M4 6 L20 11 L34 9 L50 20 L68 25";
-  const label = direction === "up" ? "Prognose übertroffen" : "Unter Prognose";
+  const path = direction === "up"
+    ? "M4 29 C16 27 20 22 31 23 C43 24 48 16 58 15 C69 14 74 8 84 7"
+    : "M4 8 C16 10 20 16 31 15 C43 14 48 23 58 24 C69 25 74 30 84 31";
+  const area = `${path} L84 36 L4 36 Z`;
+  const endpointY = direction === "up" ? 7 : 31;
+  const label = direction === "up" ? "Über Prognose" : "Unter Prognose";
   return `<div class="performance ${direction}" aria-label="${label}: ${sign}${formatPoints(difference)} Punkte">
-    <svg viewBox="0 0 72 30" aria-hidden="true"><path d="${path}"/><polyline points="${direction === "up" ? "59,5 68,5 68,14" : "59,25 68,25 68,16"}"/></svg>
+    <svg viewBox="0 0 88 38" aria-hidden="true">
+      <path class="performance-area" d="${area}" />
+      <path class="performance-line" d="${path}" />
+      <circle cx="84" cy="${endpointY}" r="3.5" />
+    </svg>
     <strong>${sign}${formatPoints(difference)}</strong><small>${label}</small>
   </div>`;
 }
