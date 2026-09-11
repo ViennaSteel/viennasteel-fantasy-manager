@@ -45,6 +45,28 @@ function actualPointsLabel(player) {
   return "0.00";
 }
 
+function performanceIndicator(player) {
+  const projected = Number(player.projected_points);
+  const actual = Number(player.actual_points);
+  const hasValues = Number.isFinite(projected) && player.actual_points !== null && player.actual_points !== undefined;
+  const hasStarted = Number(actual) !== 0 || (player.game_start && new Date(player.game_start) <= new Date());
+  if (!hasValues || !hasStarted || availability(player) === "unavailable") {
+    return `<div class="performance neutral" aria-label="Performance noch offen">
+      <svg viewBox="0 0 72 30" aria-hidden="true"><path d="M4 18 L20 18 L36 18 L52 18 L68 18" /></svg>
+      <strong>Offen</strong>
+    </div>`;
+  }
+  const difference = actual - projected;
+  const direction = difference >= 0 ? "up" : "down";
+  const sign = difference >= 0 ? "+" : "";
+  const path = direction === "up" ? "M4 24 L20 19 L34 21 L50 11 L68 5" : "M4 6 L20 11 L34 9 L50 20 L68 25";
+  const label = direction === "up" ? "Prognose übertroffen" : "Unter Prognose";
+  return `<div class="performance ${direction}" aria-label="${label}: ${sign}${formatPoints(difference)} Punkte">
+    <svg viewBox="0 0 72 30" aria-hidden="true"><path d="${path}"/><polyline points="${direction === "up" ? "59,5 68,5 68,14" : "59,25 68,25 68,16"}"/></svg>
+    <strong>${sign}${formatPoints(difference)}</strong><small>${label}</small>
+  </div>`;
+}
+
 function matchupLabel(player) {
   if (!player.week_opponent) return "Termin offen";
   const opponent = `vs ${player.week_opponent}`;
@@ -275,6 +297,7 @@ function renderRoster() {
         <div><span>Matchup</span><strong>${matchupLabel(player)}</strong></div>
         <div><span>Prognose</span><strong class="projection">${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></div>
         <div><span>Erreicht</span><strong>${actualPointsLabel(player)}</strong><small>Pkt.</small></div>
+        ${performanceIndicator(player)}
       </div>
     </article>
     `).join("")}
