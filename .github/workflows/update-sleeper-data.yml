@@ -79,14 +79,16 @@ jobs:
             const trendDropMap = new Map(
               trendingDrops.map(x => [String(x.player_id), Number(x.count || 0)])
             );
-            const projections = await fetch(
-              `https://api.sleeper.com/projections/nfl/${SEASON}/${state.week}?season_type=regular`
-            )
-              .then(r => (r.ok ? r.json() : []))
-              .catch(() => []);
-            const projectionMap = new Map(
-              projections.map(item => [String(item.player_id), item])
-            );
+            const weekNumbers = Array.from({ length: 18 }, (_, index) => index + 1);
+            const projectionWeeks = await Promise.all(weekNumbers.map(week =>
+              fetch(`https://api.sleeper.com/projections/nfl/${SEASON}/${week}?season_type=regular`)
+                .then(r => (r.ok ? r.json() : []))
+                .catch(() => [])
+            ));
+            const projectionMaps = new Map(weekNumbers.map((week, index) => [
+              week,
+              new Map(projectionWeeks[index].map(item => [String(item.player_id), item]))
+            ]));
             const normalizePlayerName = value => String(value || "")
               .normalize("NFD")
               .replace(/[\u0300-\u036f]/g, "")
@@ -111,19 +113,23 @@ jobs:
                 item.player?.ownership || null
               ])
             );
-            const espnWeek = await fetch(
-              `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=${SEASON}&seasontype=2&week=${state.week}`
-            )
-              .then(r => (r.ok ? r.json() : { events: [] }))
-              .catch(() => ({ events: [] }));
+            const espnWeeks = await Promise.all(weekNumbers.map(week =>
+              fetch(`https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=${SEASON}&seasontype=2&week=${week}`)
+                .then(r => (r.ok ? r.json() : { events: [] }))
+                .catch(() => ({ events: [] }))
+            ));
             const teamAliases = { WSH: "WAS" };
-            const kickoffMap = new Map();
-            for (const event of espnWeek.events || []) {
-              for (const competitor of event.competitions?.[0]?.competitors || []) {
-                const abbreviation = teamAliases[competitor.team?.abbreviation] || competitor.team?.abbreviation;
-                if (abbreviation && event.date) kickoffMap.set(abbreviation, event.date);
+            const kickoffMaps = new Map();
+            weekNumbers.forEach((week, index) => {
+              const kickoffMap = new Map();
+              for (const event of espnWeeks[index].events || []) {
+                for (const competitor of event.competitions?.[0]?.competitors || []) {
+                  const abbreviation = teamAliases[competitor.team?.abbreviation] || competitor.team?.abbreviation;
+                  if (abbreviation && event.date) kickoffMap.set(abbreviation, event.date);
+                }
               }
-            }
+              kickoffMaps.set(week, kickoffMap);
+            });
 
             const fantasyContext = {
               updated_at: new Date().toISOString(),
@@ -141,10 +147,12 @@ jobs:
             ensureDir("data/trades");
 
             for (const league of leagues) {
-              const [rosters, users, matchups] = await Promise.all([
+              const [rosters, users, matchupWeeks] = await Promise.all([
                 get(`/league/${league.league_id}/rosters`),
                 get(`/league/${league.league_id}/users`),
-                get(`/league/${league.league_id}/matchups/${state.week}`)
+                Promise.all(weekNumbers.map(week =>
+                  get(`/league/${league.league_id}/matchups/${week}`).catch(() => [])
+                ))
               ]);
 
               const mine = rosters.find(r => r.owner_id === user.user_id) || null;
@@ -152,7 +160,6 @@ jobs:
 
               const usersById = new Map(users.map(u => [u.user_id, u]));
               const me = usersById.get(user.user_id) || null;
-              const starters = new Set((mine.starters || []).map(String));
               const reserve = new Set((mine.reserve || []).map(String));
               const rostered = new Set();
 
@@ -160,63 +167,43 @@ jobs:
                 for (const id of r.players || []) rostered.add(String(id));
               }
 
-              const team = (mine.players || []).map(rawId => {
-                const id = String(rawId);
-                return {
-                  ...playerInfo(id, players[id], trendAddMap.get(id) || 0),
-                  trending_drops_24h: trendDropMap.get(id) || 0,
-                  slot: starters.has(id)
-                    ? "STARTER"
-                    : reserve.has(id)
-                    ? "IR"
-                    : "BENCH"
-                };
-              });
+              const matchupsByWeek = new Map(weekNumbers.map((week, index) => [week, matchupWeeks[index]]));
 
-              const myMatchup =
-                matchups.find(m => m.roster_id === mine.roster_id) || null;
-              const opponent =
-                myMatchup
-                  ? matchups.find(
-                      m =>
-                        m.matchup_id === myMatchup.matchup_id &&
-                        m.roster_id !== mine.roster_id
-                    ) || null
-                  : null;
-              const opponentRoster = opponent
-                ? rosters.find(r => r.roster_id === opponent.roster_id) || null
-                : null;
-              const pointsFor = roster =>
-                Number(roster.settings?.fpts || 0) + Number(roster.settings?.fpts_decimal || 0) / 100;
-              const standings = [...rosters].sort((a, b) =>
-                Number(b.settings?.wins || 0) - Number(a.settings?.wins || 0) ||
-                Number(b.settings?.ties || 0) - Number(a.settings?.ties || 0) ||
-                pointsFor(b) - pointsFor(a) ||
-                Number(a.roster_id) - Number(b.roster_id)
-              );
-              const rankMap = new Map(standings.map((roster, index) => [roster.roster_id, index + 1]));
-              const teamWithWeekData = team.map(player => {
-                const projection = projectionMap.get(String(player.player_id)) || null;
-                const ownership = ownershipMap.get(normalizePlayerName(player.name)) || null;
-                const projected = Number(projection?.stats?.pts_ppr);
-                const points = myMatchup?.players_points || {};
-                const hasActual = Object.prototype.hasOwnProperty.call(points, String(player.player_id));
-                return {
-                  ...player,
-                  projected_points: Number.isFinite(projected) ? projected : null,
-                  rostered_percent: Number.isFinite(Number(ownership?.percentOwned)) ? Number(ownership.percentOwned) : null,
-                  start_percent: Number.isFinite(Number(ownership?.percentStarted)) ? Number(ownership.percentStarted) : null,
-                  actual_points: hasActual ? Number(points[String(player.player_id)] || 0) : null,
-                  week_opponent: projection?.opponent || null,
-                  game_date: projection?.date || null,
-                  game_start: kickoffMap.get(player.team) || null,
-                  projection_updated_at: projection?.updated_at || null
-                };
-              });
+              function standingsThrough(selectedWeek) {
+                const records = new Map(rosters.map(roster => [roster.roster_id, { wins: 0, losses: 0, ties: 0, points: 0 }]));
+                const completedThrough = selectedWeek < Number(state.week) ? selectedWeek : Math.max(0, Number(state.week) - 1);
+                for (let week = 1; week <= completedThrough; week += 1) {
+                  const groups = new Map();
+                  for (const entry of matchupsByWeek.get(week) || []) {
+                    if (!groups.has(entry.matchup_id)) groups.set(entry.matchup_id, []);
+                    groups.get(entry.matchup_id).push(entry);
+                    const record = records.get(entry.roster_id);
+                    if (record) record.points += Number(entry.points || 0);
+                  }
+                  for (const entries of groups.values()) {
+                    if (entries.length !== 2) continue;
+                    const [a, b] = entries;
+                    const aRecord = records.get(a.roster_id);
+                    const bRecord = records.get(b.roster_id);
+                    if (!aRecord || !bRecord) continue;
+                    if (Number(a.points || 0) > Number(b.points || 0)) { aRecord.wins += 1; bRecord.losses += 1; }
+                    else if (Number(a.points || 0) < Number(b.points || 0)) { bRecord.wins += 1; aRecord.losses += 1; }
+                    else { aRecord.ties += 1; bRecord.ties += 1; }
+                  }
+                }
+                const ordered = [...rosters].sort((a, b) => {
+                  const ar = records.get(a.roster_id);
+                  const br = records.get(b.roster_id);
+                  return br.wins - ar.wins || br.ties - ar.ties || br.points - ar.points || Number(a.roster_id) - Number(b.roster_id);
+                });
+                ordered.forEach((roster, index) => { records.get(roster.roster_id).rank = index + 1; });
+                return records;
+              }
 
-              function teamIdentity(roster) {
+              function teamIdentity(roster, standings) {
                 if (!roster) return null;
                 const owner = usersById.get(roster.owner_id) || null;
+                const record = standings?.get(roster.roster_id) || {};
                 return {
                   roster_id: roster.roster_id,
                   team_name:
@@ -225,10 +212,56 @@ jobs:
                     `Roster ${roster.roster_id}`,
                   owner_name: owner?.display_name || null,
                   avatar: owner?.metadata?.avatar || owner?.avatar || null,
-                  wins: Number(roster.settings?.wins || 0),
-                  losses: Number(roster.settings?.losses || 0),
-                  ties: Number(roster.settings?.ties || 0),
-                  rank: rankMap.get(roster.roster_id) || null
+                  wins: Number(record.wins || 0),
+                  losses: Number(record.losses || 0),
+                  ties: Number(record.ties || 0),
+                  rank: record.rank || null
+                };
+              }
+
+              const weeks = {};
+              for (const week of weekNumbers) {
+                const matchups = matchupsByWeek.get(week) || [];
+                const myMatchup = matchups.find(m => m.roster_id === mine.roster_id) || null;
+                const opponent = myMatchup
+                  ? matchups.find(m => m.matchup_id === myMatchup.matchup_id && m.roster_id !== mine.roster_id) || null
+                  : null;
+                const opponentRoster = opponent
+                  ? rosters.find(r => r.roster_id === opponent.roster_id) || null
+                  : null;
+                const weeklyStarters = new Set((myMatchup?.starters || mine.starters || []).map(String));
+                const weeklyPlayerIds = (myMatchup?.players?.length ? myMatchup.players : mine.players || []).map(String);
+                const projectionMap = projectionMaps.get(week) || new Map();
+                const kickoffMap = kickoffMaps.get(week) || new Map();
+                const points = myMatchup?.players_points || {};
+                const weeklyTeam = weeklyPlayerIds.map(id => {
+                  const base = playerInfo(id, players[id], trendAddMap.get(id) || 0);
+                  const projection = projectionMap.get(id) || null;
+                  const ownership = ownershipMap.get(normalizePlayerName(base.name)) || null;
+                  const projected = Number(projection?.stats?.pts_ppr);
+                  const hasActual = Object.prototype.hasOwnProperty.call(points, id);
+                  return {
+                    ...base,
+                    trending_drops_24h: trendDropMap.get(id) || 0,
+                    slot: weeklyStarters.has(id) ? "STARTER" : (week === Number(state.week) && reserve.has(id) ? "IR" : "BENCH"),
+                    projected_points: Number.isFinite(projected) ? projected : null,
+                    rostered_percent: Number.isFinite(Number(ownership?.percentOwned)) ? Number(ownership.percentOwned) : null,
+                    start_percent: Number.isFinite(Number(ownership?.percentStarted)) ? Number(ownership.percentStarted) : null,
+                    actual_points: hasActual ? Number(points[id] || 0) : null,
+                    week_opponent: projection?.opponent || null,
+                    game_date: projection?.date || null,
+                    game_start: kickoffMap.get(base.team) || null,
+                    projection_updated_at: projection?.updated_at || null
+                  };
+                });
+                const standings = standingsThrough(week);
+                weeks[week] = {
+                  week,
+                  team: weeklyTeam,
+                  matchup: myMatchup,
+                  opponent,
+                  my_team: teamIdentity(mine, standings),
+                  opponent_team: teamIdentity(opponentRoster, standings)
                 };
               }
 
@@ -336,6 +369,8 @@ jobs:
               const leaguePayload = {
                 updated_at: new Date().toISOString(),
                 week: state.week,
+                available_weeks: weekNumbers,
+                weeks,
                 league: {
                   league_id: league.league_id,
                   name: league.name,
@@ -347,12 +382,12 @@ jobs:
                   settings: league.settings
                 },
                 my_team_name: me?.metadata?.team_name || me?.display_name || USERNAME,
-                my_team: teamIdentity(mine),
+                my_team: weeks[state.week]?.my_team || null,
                 my_roster_id: mine.roster_id,
-                team: teamWithWeekData,
-                matchup: myMatchup,
-                opponent,
-                opponent_team: teamIdentity(opponentRoster),
+                team: weeks[state.week]?.team || [],
+                matchup: weeks[state.week]?.matchup || null,
+                opponent: weeks[state.week]?.opponent || null,
+                opponent_team: weeks[state.week]?.opponent_team || null,
                 waiver_index: `data/waivers/${league.league_id}/index.json`,
                 trade_file: tradePath
               };

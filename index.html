@@ -51,7 +51,14 @@
             <article class="matchup-card panel">
               <div class="panel-heading">
                 <div><p class="eyebrow">Aktuelles Matchup</p><h2>Week <span id="matchup-week">–</span></h2></div>
-                <span class="status-pill">Live</span>
+                <div class="matchup-actions">
+                  <div class="week-nav" aria-label="Fantasy-Woche auswählen">
+                    <button id="previous-week" type="button" aria-label="Vorherige Woche">‹</button>
+                    <select id="matchup-week-picker" aria-label="Fantasy-Woche auswählen"></select>
+                    <button id="next-week" type="button" aria-label="Nächste Woche">›</button>
+                  </div>
+                  <span class="status-pill" id="matchup-status">Live</span>
+                </div>
               </div>
               <div class="scoreboard">
                 <div><span class="team-badge steel" id="my-team-badge"><span>VS</span></span><strong id="my-score">0.00</strong><small id="my-matchup-name">Vienna Steel</small><span class="matchup-meta" id="my-matchup-meta">0–0 · Platz –</span></div>

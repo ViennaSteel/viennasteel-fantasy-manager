@@ -1,4 +1,4 @@
-const state = { context: null, league: null, slot: "ALL", view: "dashboard-view" };
+const state = { context: null, league: null, week: null, slot: "ALL", view: "dashboard-view" };
 
 const $ = (selector) => document.querySelector(selector);
 const cacheKey = () => `v=${Date.now()}`;
@@ -130,6 +130,19 @@ function standingsLabel(identity) {
   return `${record} · Platz ${identity.rank || "–"}`;
 }
 
+function activeWeekData() {
+  return state.league?.weeks?.[String(state.week)] || state.league;
+}
+
+function renderWeekPicker() {
+  const weeks = state.league.available_weeks || [Number(state.league.week)];
+  const picker = $("#matchup-week-picker");
+  picker.innerHTML = weeks.map(week => `<option value="${week}">Woche ${week}</option>`).join("");
+  picker.value = String(state.week);
+  $("#previous-week").disabled = state.week <= Math.min(...weeks);
+  $("#next-week").disabled = state.week >= Math.max(...weeks);
+}
+
 function renderContext() {
   const picker = $("#league-picker");
   picker.innerHTML = state.context.leagues.map((league) =>
@@ -140,28 +153,32 @@ function renderContext() {
 }
 
 function renderLeague() {
-  const data = state.league;
-  $("#league-name").textContent = data.league.name;
-  $("#team-name").textContent = data.my_team_name;
-  $("#matchup-week").textContent = data.week;
-  $("#compare-week").textContent = data.week;
+  const root = state.league;
+  const data = activeWeekData();
+  $("#league-name").textContent = root.league.name;
+  $("#team-name").textContent = root.my_team_name;
+  $("#week").textContent = state.week;
+  $("#matchup-week").textContent = state.week;
+  $("#compare-week").textContent = state.week;
   $("#my-score").textContent = Number(data.matchup?.points || 0).toFixed(2);
   $("#opponent-score").textContent = Number(data.opponent?.points || 0).toFixed(2);
-  $("#my-matchup-name").textContent = data.my_team?.team_name || data.my_team_name || "Vienna Steel";
+  $("#my-matchup-name").textContent = data.my_team?.team_name || root.my_team_name || "Vienna Steel";
   $("#opponent-matchup-name").textContent = data.opponent_team?.team_name || "Gegner";
   $("#my-matchup-meta").textContent = standingsLabel(data.my_team);
   $("#opponent-matchup-meta").textContent = standingsLabel(data.opponent_team);
   renderTeamBadge("#my-team-badge", data.my_team, "VS");
   renderTeamBadge("#opponent-team-badge", data.opponent_team, "OPP");
-  renderBrand(data.my_team, data.my_team_name);
-  $("#sync-label").textContent = `Aktuell · ${formatTime(data.updated_at)}`;
+  renderBrand(data.my_team, root.my_team_name);
+  $("#sync-label").textContent = `Aktuell · ${formatTime(root.updated_at)}`;
+  $("#matchup-status").textContent = state.week < Number(state.context.nfl_week) ? "Final" : state.week === Number(state.context.nfl_week) ? "Live" : "Vorschau";
+  renderWeekPicker();
   renderAlerts();
   renderRoster();
   renderPlayerOptions();
 }
 
 function selectablePlayers() {
-  return state.league.team.filter((player) => ["QB", "RB", "WR", "TE"].includes(player.position));
+  return activeWeekData().team.filter((player) => ["QB", "RB", "WR", "TE"].includes(player.position));
 }
 
 function renderPlayerOptions() {
@@ -252,7 +269,7 @@ function switchView(viewId) {
 }
 
 function renderAlerts() {
-  const injured = state.league.team.filter((player) => player.injury_status);
+  const injured = activeWeekData().team.filter((player) => player.injury_status);
   const starterInjuries = injured.filter((player) => player.slot === "STARTER");
   const alerts = [];
 
@@ -272,8 +289,9 @@ function renderAlerts() {
 }
 
 function renderRoster() {
-  const teamById = new Map(state.league.team.map((player) => [String(player.player_id), player]));
-  const starterIds = (state.league.matchup?.starters || []).map(String);
+  const data = activeWeekData();
+  const teamById = new Map(data.team.map((player) => [String(player.player_id), player]));
+  const starterIds = (data.matchup?.starters || []).map(String);
   const starterPositions = state.league.league.roster_positions
     .filter((position) => position !== "BN")
     .slice(0, starterIds.length);
@@ -284,8 +302,8 @@ function renderRoster() {
     ...teamById.get(id),
     displaySlot: starterLabels[index] || teamById.get(id)?.position || "–"
   })).filter((player) => player.player_id);
-  const reserves = state.league.team.filter((player) => player.slot === "BENCH").map((player) => ({ ...player, displaySlot: "RES" }));
-  const injuredReserve = state.league.team.filter((player) => player.slot === "IR").map((player) => ({ ...player, displaySlot: "IR" }));
+  const reserves = data.team.filter((player) => player.slot === "BENCH").map((player) => ({ ...player, displaySlot: "RES" }));
+  const injuredReserve = data.team.filter((player) => player.slot === "IR").map((player) => ({ ...player, displaySlot: "IR" }));
   const groups = [
     { slot: "STARTER", label: "Aufstellung", players: starters },
     { slot: "BENCH", label: "Reserve", players: reserves },
@@ -328,10 +346,22 @@ async function selectLeague(leagueId) {
   $("#loading").hidden = false;
   $("#dashboard").hidden = true;
   state.league = await loadJson(league.league_file);
+  const savedWeek = Number(localStorage.getItem(`vienna-steel-week-${leagueId}`));
+  const availableWeeks = state.league.available_weeks || [Number(state.league.week)];
+  state.week = availableWeeks.includes(savedWeek) ? savedWeek : Number(state.context.nfl_week);
   localStorage.setItem("vienna-steel-league", leagueId);
   renderLeague();
   $("#loading").hidden = true;
   $("#dashboard").hidden = false;
+}
+
+function selectWeek(week) {
+  const availableWeeks = state.league.available_weeks || [Number(state.league.week)];
+  const selected = Number(week);
+  if (!availableWeeks.includes(selected)) return;
+  state.week = selected;
+  localStorage.setItem(`vienna-steel-week-${state.league.league.league_id}`, String(selected));
+  renderLeague();
 }
 
 async function init() {
@@ -354,6 +384,9 @@ async function init() {
 }
 
 $("#league-picker").addEventListener("change", (event) => selectLeague(event.target.value).catch(init));
+$("#matchup-week-picker").addEventListener("change", (event) => selectWeek(event.target.value));
+$("#previous-week").addEventListener("click", () => selectWeek(state.week - 1));
+$("#next-week").addEventListener("click", () => selectWeek(state.week + 1));
 $("#retry").addEventListener("click", init);
 document.querySelectorAll("[data-slot]").forEach((button) => button.addEventListener("click", () => {
   state.slot = button.dataset.slot;
