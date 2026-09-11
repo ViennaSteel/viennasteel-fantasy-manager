@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T11:13:17.692Z",
+  "updated_at": "2026-09-11T11:29:14.279Z",
   "week": 1,
   "league": {
     "league_id": "1391811143542009856",
@@ -152,7 +152,8 @@
       "actual_points": 12.82,
       "week_opponent": "SEA",
       "game_date": "2026-09-09",
-      "projection_updated_at": 1789123828441
+      "game_start": "2026-09-10T00:20Z",
+      "projection_updated_at": 1789125028598
     },
     {
       "player_id": "11584",
@@ -175,7 +176,8 @@
       "actual_points": 0,
       "week_opponent": "CIN",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828536
+      "game_start": "2026-09-13T17:00Z",
+      "projection_updated_at": 1789125028681
     },
     {
       "player_id": "11620",
@@ -198,7 +200,8 @@
       "actual_points": 0,
       "week_opponent": "CAR",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828783
+      "game_start": "2026-09-13T17:00Z",
+      "projection_updated_at": 1789125028940
     },
     {
       "player_id": "12506",
@@ -221,7 +224,8 @@
       "actual_points": 0,
       "week_opponent": "JAX",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828637
+      "game_start": "2026-09-13T17:00Z",
+      "projection_updated_at": 1789125028776
     },
     {
       "player_id": "12527",
@@ -244,7 +248,8 @@
       "actual_points": 0,
       "week_opponent": "MIA",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828834
+      "game_start": "2026-09-13T20:25Z",
+      "projection_updated_at": 1789125028982
     },
     {
       "player_id": "12711",
@@ -260,14 +265,15 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 14550,
+      "trending_adds_24h": 14640,
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 7.05,
       "actual_points": 0,
       "week_opponent": "IND",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828493
+      "game_start": "2026-09-13T17:00Z",
+      "projection_updated_at": 1789125028649
     },
     {
       "player_id": "4199",
@@ -284,13 +290,14 @@
       "practice_participation": null,
       "depth_chart_position": "RB",
       "trending_adds_24h": 0,
-      "trending_drops_24h": 6663,
+      "trending_drops_24h": 6717,
       "slot": "BENCH",
       "projected_points": 8.95,
       "actual_points": 0,
       "week_opponent": "GB",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828794
+      "game_start": "2026-09-13T20:25Z",
+      "projection_updated_at": 1789125028949
     },
     {
       "player_id": "5872",
@@ -313,7 +320,8 @@
       "actual_points": 18,
       "week_opponent": "LAR",
       "game_date": "2026-09-10",
-      "projection_updated_at": 1789123828543
+      "game_start": "2026-09-11T00:35Z",
+      "projection_updated_at": 1789125028687
     },
     {
       "player_id": "6786",
@@ -336,7 +344,8 @@
       "actual_points": 0,
       "week_opponent": "NYG",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828851
+      "game_start": "2026-09-14T00:20Z",
+      "projection_updated_at": 1789125028997
     },
     {
       "player_id": "6801",
@@ -359,7 +368,8 @@
       "actual_points": 0,
       "week_opponent": "TB",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828452
+      "game_start": "2026-09-13T17:00Z",
+      "projection_updated_at": 1789125028610
     },
     {
       "player_id": "7594",
@@ -382,7 +392,8 @@
       "actual_points": 0,
       "week_opponent": "CHI",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828712
+      "game_start": "2026-09-13T17:00Z",
+      "projection_updated_at": 1789125028848
     },
     {
       "player_id": "8121",
@@ -398,14 +409,15 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 17800,
-      "trending_drops_24h": 52144,
+      "trending_adds_24h": 17840,
+      "trending_drops_24h": 52512,
       "slot": "BENCH",
       "projected_points": 10.57,
       "actual_points": 0,
       "week_opponent": "SEA",
       "game_date": "2026-09-09",
-      "projection_updated_at": 1789123828453
+      "game_start": "2026-09-10T00:20Z",
+      "projection_updated_at": 1789125028608
     },
     {
       "player_id": "8183",
@@ -421,14 +433,15 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 13412,
+      "trending_adds_24h": 13592,
       "trending_drops_24h": 0,
       "slot": "BENCH",
       "projected_points": 18.45,
       "actual_points": 22.1,
       "week_opponent": "LAR",
       "game_date": "2026-09-10",
-      "projection_updated_at": 1789123828526
+      "game_start": "2026-09-11T00:35Z",
+      "projection_updated_at": 1789125028674
     },
     {
       "player_id": "9756",
@@ -444,14 +457,15 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 5373,
-      "trending_drops_24h": 7443,
+      "trending_adds_24h": 5382,
+      "trending_drops_24h": 7506,
       "slot": "BENCH",
       "projected_points": 11.71,
       "actual_points": 0,
       "week_opponent": "GB",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828805
+      "game_start": "2026-09-13T20:25Z",
+      "projection_updated_at": 1789125028958
     },
     {
       "player_id": "LAC",
@@ -474,7 +488,8 @@
       "actual_points": 0,
       "week_opponent": "ARI",
       "game_date": "2026-09-13",
-      "projection_updated_at": 1789123828873
+      "game_start": "2026-09-13T20:25Z",
+      "projection_updated_at": 1789125029007
     }
   ],
   "matchup": {
