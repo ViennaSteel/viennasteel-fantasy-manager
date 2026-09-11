@@ -33,7 +33,7 @@ function formatTime(value) {
 
 function formatPoints(value, fallback = "–") {
   return value !== null && value !== undefined && Number.isFinite(Number(value))
-    ? Number(value).toFixed(1)
+    ? Number(value).toFixed(2)
     : fallback;
 }
 
@@ -42,7 +42,7 @@ function actualPointsLabel(player) {
   if (Number(player.actual_points) !== 0) return formatPoints(player.actual_points);
   if (player.game_start && new Date(player.game_start) > new Date()) return "–";
   if (!player.game_start && player.game_date && new Date(`${player.game_date}T23:59:59`) > new Date()) return "–";
-  return "0.0";
+  return "0.00";
 }
 
 function matchupLabel(player) {
@@ -146,7 +146,7 @@ function comparisonCard(player, label) {
   flags.push(`<li><span>Status</span><strong class="${player.injury_status ? "negative" : "positive"}">${player.injury_status || "Aktiv"}</strong></li>`);
   flags.push(`<li><span>Depth Chart</span><strong>${player.depth_chart_position || "–"}</strong></li>`);
   flags.push(`<li><span>Gegner</span><strong>${matchupLabel(player)}</strong></li>`);
-  flags.push(`<li><span>Prognose</span><strong>${availability(player) === "unavailable" ? "0.0" : formatPoints(player.projected_points)} Pkt.</strong></li>`);
+  flags.push(`<li><span>Prognose</span><strong>${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)} Pkt.</strong></li>`);
   flags.push(`<li><span>Ist-Punkte</span><strong>${actualPointsLabel(player)} Pkt.</strong></li>`);
   flags.push(`<li><span>Trending Adds</span><strong>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</strong></li>`);
   return `<article class="compare-player panel">
@@ -273,7 +273,7 @@ function renderRoster() {
       </div>
       <div class="player-week">
         <div><span>Matchup</span><strong>${matchupLabel(player)}</strong></div>
-        <div><span>Prognose</span><strong class="projection">${availability(player) === "unavailable" ? "0.0" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></div>
+        <div><span>Prognose</span><strong class="projection">${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></div>
         <div><span>Erreicht</span><strong>${actualPointsLabel(player)}</strong><small>Pkt.</small></div>
       </div>
     </article>
