@@ -100,6 +100,26 @@ function matchupLabel(player) {
   return `${opponent} · ${date} · Uhrzeit offen`;
 }
 
+function matchupDisplay(player) {
+  if (!player.week_opponent) return `<span class="matchup-date">Termin offen</span>`;
+  const opponent = `vs ${player.week_opponent}`;
+  if (player.game_start) {
+    const game = new Date(player.game_start);
+    const date = new Intl.DateTimeFormat("de-AT", {
+      timeZone: "Europe/Vienna", weekday: "short", day: "2-digit", month: "2-digit"
+    }).format(game);
+    const time = new Intl.DateTimeFormat("de-AT", {
+      timeZone: "Europe/Vienna", hour: "2-digit", minute: "2-digit"
+    }).format(game);
+    return `<span class="matchup-date">${opponent} · ${date}</span><span class="matchup-time">${time} Uhr</span>`;
+  }
+  if (!player.game_date) return `<span class="matchup-date">${opponent}</span>`;
+  const date = new Intl.DateTimeFormat("de-AT", {
+    weekday: "short", day: "2-digit", month: "2-digit"
+  }).format(new Date(`${player.game_date}T12:00:00`));
+  return `<span class="matchup-date">${opponent} · ${date}</span><span class="matchup-time">Uhrzeit offen</span>`;
+}
+
 function initials(name, fallback) {
   const value = String(name || "").trim();
   if (!value) return fallback;
@@ -339,7 +359,7 @@ function renderRoster() {
         </div>
       </div>
       <div class="player-week">
-        <div class="week-stat"><span>Matchup</span><div class="week-value"><strong>${matchupLabel(player)}</strong></div></div>
+        <div class="week-stat"><span>Matchup</span><div class="week-value matchup-value"><strong>${matchupDisplay(player)}</strong></div></div>
         <div class="week-stat"><span>Prognose</span><div class="week-value"><strong class="projection">${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></div></div>
         <div class="week-stat"><span>Erreicht</span><div class="week-value"><strong>${actualPointsLabel(player)}</strong><small>Pkt.</small></div></div>
         ${performanceIndicator(player)}

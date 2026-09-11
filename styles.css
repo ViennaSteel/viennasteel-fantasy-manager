@@ -77,7 +77,7 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .roster-group-title { display: flex; justify-content: space-between; align-items: center; margin: 23px 0 3px; color: var(--text); font-weight: 800; }
 .roster-group-title:first-child { margin-top: 0; }
 .roster-group-title small { color: var(--muted); font-weight: 500; }
-.player-card { overflow: hidden; min-height: 104px; display: grid; grid-template-columns: 90px 80px minmax(210px, 1fr) minmax(500px, 1.2fr); align-items: center; border-radius: 15px; background: var(--surface); border: 1px solid var(--line); }
+.player-card { overflow: hidden; min-height: 104px; display: grid; grid-template-columns: 90px 80px minmax(260px, .72fr) minmax(600px, 1.4fr); align-items: center; border-radius: 15px; background: var(--surface); border: 1px solid var(--line); }
 .player-card.availability-unavailable { border-color: #ff686885; box-shadow: inset 4px 0 0 var(--danger); }
 .player-card.availability-uncertain { border-color: #ffc65878; box-shadow: inset 4px 0 0 var(--warning); }
 .player-photo-wrap { position: relative; align-self: stretch; background: linear-gradient(155deg, #4e2c6c, #160d20); display: flex; align-items: end; justify-content: center; overflow: hidden; }
@@ -100,10 +100,12 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .roster-meta strong { color: var(--steel); font-size: 12px; }
 .player-week { align-self: stretch; display: grid; grid-template-columns: 1.2fr .72fr .72fr 1fr; align-items: stretch; border-left: 1px solid var(--line); }
 .player-week > div { min-width: 0; padding: 14px 18px; }
-.week-stat { display: grid; grid-template-rows: 18px minmax(42px, auto); align-content: center; row-gap: 7px; }
-.player-week span { display: block; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+.week-stat { display: grid; grid-template-rows: 18px minmax(42px, auto); align-content: start; row-gap: 7px; padding-top: 25px !important; }
+.week-stat > span { display: block; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
 .week-value { min-width: 0; align-self: start; }
 .week-value strong { line-height: 1.18; }
+.matchup-value strong { display: grid; gap: 2px; }
+.matchup-date, .matchup-time { color: var(--text); font-size: inherit; text-transform: none; letter-spacing: normal; white-space: nowrap; }
 .player-week strong { font-size: 18px; }
 .player-week strong.projection { color: var(--steel); }
 .player-week small { color: var(--muted); margin-left: 4px; }
@@ -152,6 +154,11 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .recommendation p:last-child { color: var(--muted); margin: 0; line-height: 1.5; }
 [hidden] { display: none !important; }
 
+@media (max-width: 1080px) {
+  .player-card { grid-template-columns: 90px 70px 1fr; }
+  .player-week { grid-column: 2 / 4; border-left: 0; border-top: 1px solid var(--line); grid-template-columns: 1.2fr .72fr .72fr 1fr; }
+}
+
 @media (max-width: 900px) {
   .overview-grid { grid-template-columns: 1fr; }
   .comparison-grid { grid-template-columns: 1fr; }
@@ -176,6 +183,7 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
   .lineup-slot { font-size: 12px; }
   .player-info { padding: 11px 12px; }
   .player-week > div { padding: 11px 10px; }
+  .week-stat { padding-top: 14px !important; }
   .player-week strong { font-size: 15px; }
   .player-week { grid-template-columns: 1.25fr .75fr; }
   .performance { min-height: 82px; padding-inline: 10px !important; }
