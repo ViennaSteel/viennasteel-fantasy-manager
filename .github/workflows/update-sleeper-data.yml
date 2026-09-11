@@ -87,6 +87,30 @@ jobs:
             const projectionMap = new Map(
               projections.map(item => [String(item.player_id), item])
             );
+            const normalizePlayerName = value => String(value || "")
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "")
+              .toLowerCase()
+              .replace(/\b(jr|sr|ii|iii|iv)\b/g, "")
+              .replace(/[^a-z0-9]/g, "");
+            const ownershipData = await fetch(
+              `https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/${SEASON}/segments/0/leaguedefaults/1?view=kona_player_info`,
+              {
+                headers: {
+                  "x-fantasy-filter": JSON.stringify({
+                    players: { limit: 2000, sortPercOwned: { sortPriority: 1, sortAsc: false } }
+                  })
+                }
+              }
+            )
+              .then(r => (r.ok ? r.json() : { players: [] }))
+              .catch(() => ({ players: [] }));
+            const ownershipMap = new Map(
+              (ownershipData.players || []).map(item => [
+                normalizePlayerName(item.player?.fullName),
+                item.player?.ownership || null
+              ])
+            );
             const espnWeek = await fetch(
               `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=${SEASON}&seasontype=2&week=${state.week}`
             )
@@ -164,12 +188,15 @@ jobs:
                 : null;
               const teamWithWeekData = team.map(player => {
                 const projection = projectionMap.get(String(player.player_id)) || null;
+                const ownership = ownershipMap.get(normalizePlayerName(player.name)) || null;
                 const projected = Number(projection?.stats?.pts_ppr);
                 const points = myMatchup?.players_points || {};
                 const hasActual = Object.prototype.hasOwnProperty.call(points, String(player.player_id));
                 return {
                   ...player,
                   projected_points: Number.isFinite(projected) ? projected : null,
+                  rostered_percent: Number.isFinite(Number(ownership?.percentOwned)) ? Number(ownership.percentOwned) : null,
+                  start_percent: Number.isFinite(Number(ownership?.percentStarted)) ? Number(ownership.percentStarted) : null,
                   actual_points: hasActual ? Number(points[String(player.player_id)] || 0) : null,
                   week_opponent: projection?.opponent || null,
                   game_date: projection?.date || null,

@@ -37,6 +37,12 @@ function formatPoints(value, fallback = "–") {
     : fallback;
 }
 
+function formatPercent(value) {
+  return value !== null && value !== undefined && Number.isFinite(Number(value))
+    ? `${Number(value).toFixed(1)}%`
+    : "–";
+}
+
 function actualPointsLabel(player) {
   if (player.actual_points === null || player.actual_points === undefined) return "–";
   if (Number(player.actual_points) !== 0) return formatPoints(player.actual_points);
@@ -291,7 +297,10 @@ function renderRoster() {
         <div class="player-topline"><span>${player.team || "FA"} · ${player.position || "–"}</span></div>
         <h3>${player.name}</h3>
         <p>${player.depth_chart_position || "Depth Chart offen"}</p>
-        <div class="trend"><span>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</span> Adds 24h</div>
+        <div class="roster-meta">
+          <span><small>Rostered</small><strong>${formatPercent(player.rostered_percent)}</strong></span>
+          <span><small>Start</small><strong>${formatPercent(player.start_percent)}</strong></span>
+        </div>
       </div>
       <div class="player-week">
         <div><span>Matchup</span><strong>${matchupLabel(player)}</strong></div>
