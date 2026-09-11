@@ -16,6 +16,15 @@ function playerImage(player) {
   return `https://sleepercdn.com/content/nfl/players/thumb/${player.player_id}.jpg`;
 }
 
+function statusBadge(player) {
+  const status = String(player.injury_status || "").toUpperCase();
+  if (!status && player.slot !== "IR") return "";
+  const labels = { QUESTIONABLE: "Q", DOUBTFUL: "D", OUT: "OUT", PUP: "PUP", IR: "IR", SUSPENDED: "SUSP", NFI: "NFI" };
+  const label = labels[status] || (player.slot === "IR" ? "IR" : status);
+  const tone = availability(player) === "uncertain" ? "uncertain" : "unavailable";
+  return `<span class="photo-status ${tone}" title="${player.injury_status || "Injured Reserve"}">${label}</span>`;
+}
+
 function formatTime(value) {
   return new Intl.DateTimeFormat("de-AT", {
     day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"
@@ -72,6 +81,7 @@ function comparisonCard(player, label) {
     <span class="compare-label">${label}</span>
     <div class="compare-player-head">
       <img src="${playerImage(player)}" alt="" onerror="this.src='./favicon.svg'" />
+      ${statusBadge(player)}
       <div><span class="position-inline">${player.position}</span><h3>${player.name}</h3><p>${player.team || "FA"}</p></div>
     </div>
     <ul>${flags.join("")}</ul>
@@ -176,14 +186,15 @@ function renderRoster() {
   $("#roster").innerHTML = groups.map((group) => `
     <div class="roster-group-title"><span>${group.label}</span><small>${group.players.length} Spieler</small></div>
     ${group.players.map((player) => `
-    <article class="player-card">
+    <article class="player-card availability-${availability(player)}">
       <div class="player-photo-wrap">
         <img class="player-photo" src="${playerImage(player)}" alt="" loading="lazy" onerror="this.src='./favicon.svg'" />
+        ${statusBadge(player)}
         <span class="position position-${player.position?.toLowerCase()}">${player.position || "–"}</span>
       </div>
       <div class="lineup-slot">${player.displaySlot}</div>
       <div class="player-info">
-        <div class="player-topline"><span>${player.team || "FA"} · ${player.position || "–"}</span>${player.injury_status ? `<b class="injury">${player.injury_status}</b>` : ""}</div>
+        <div class="player-topline"><span>${player.team || "FA"} · ${player.position || "–"}</span></div>
         <h3>${player.name}</h3>
         <p>${player.depth_chart_position || "Depth Chart offen"}</p>
         <div class="trend"><span>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</span> Adds 24h</div>
