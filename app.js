@@ -87,6 +87,7 @@ function matchupLabel(player) {
   if (player.game_start) {
     const kickoff = new Intl.DateTimeFormat("de-AT", {
       timeZone: "Europe/Vienna",
+      weekday: "short",
       day: "2-digit",
       month: "2-digit",
       hour: "2-digit",
@@ -95,7 +96,7 @@ function matchupLabel(player) {
     return `${opponent} · ${kickoff} Uhr`;
   }
   if (!player.game_date) return opponent;
-  const date = new Intl.DateTimeFormat("de-AT", { day: "2-digit", month: "2-digit" }).format(new Date(`${player.game_date}T12:00:00`));
+  const date = new Intl.DateTimeFormat("de-AT", { weekday: "short", day: "2-digit", month: "2-digit" }).format(new Date(`${player.game_date}T12:00:00`));
   return `${opponent} · ${date} · Uhrzeit offen`;
 }
 
@@ -338,9 +339,9 @@ function renderRoster() {
         </div>
       </div>
       <div class="player-week">
-        <div><span>Matchup</span><strong>${matchupLabel(player)}</strong></div>
-        <div><span>Prognose</span><strong class="projection">${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></div>
-        <div><span>Erreicht</span><strong>${actualPointsLabel(player)}</strong><small>Pkt.</small></div>
+        <div class="week-stat"><span>Matchup</span><div class="week-value"><strong>${matchupLabel(player)}</strong></div></div>
+        <div class="week-stat"><span>Prognose</span><div class="week-value"><strong class="projection">${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></div></div>
+        <div class="week-stat"><span>Erreicht</span><div class="week-value"><strong>${actualPointsLabel(player)}</strong><small>Pkt.</small></div></div>
         ${performanceIndicator(player)}
       </div>
     </article>
