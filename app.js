@@ -153,23 +153,43 @@ function renderAlerts() {
 }
 
 function renderRoster() {
-  const players = state.league.team.filter((player) => state.slot === "ALL" || player.slot === state.slot);
-  const order = { STARTER: 0, BENCH: 1, IR: 2 };
-  players.sort((a, b) => order[a.slot] - order[b.slot]);
+  const teamById = new Map(state.league.team.map((player) => [String(player.player_id), player]));
+  const starterIds = (state.league.matchup?.starters || []).map(String);
+  const starterPositions = state.league.league.roster_positions
+    .filter((position) => position !== "BN")
+    .slice(0, starterIds.length);
+  const starterLabels = starterPositions.map((position) =>
+    ["FLEX", "WRRB_FLEX"].includes(position) ? "RB/WR" : position
+  );
+  const starters = starterIds.map((id, index) => ({
+    ...teamById.get(id),
+    displaySlot: starterLabels[index] || teamById.get(id)?.position || "–"
+  })).filter((player) => player.player_id);
+  const reserves = state.league.team.filter((player) => player.slot === "BENCH").map((player) => ({ ...player, displaySlot: "RES" }));
+  const injuredReserve = state.league.team.filter((player) => player.slot === "IR").map((player) => ({ ...player, displaySlot: "IR" }));
+  const groups = [
+    { slot: "STARTER", label: "Aufstellung", players: starters },
+    { slot: "BENCH", label: "Reserve", players: reserves },
+    { slot: "IR", label: "Injured Reserve", players: injuredReserve }
+  ].filter((group) => (state.slot === "ALL" || state.slot === group.slot) && group.players.length);
 
-  $("#roster").innerHTML = players.map((player) => `
+  $("#roster").innerHTML = groups.map((group) => `
+    <div class="roster-group-title"><span>${group.label}</span><small>${group.players.length} Spieler</small></div>
+    ${group.players.map((player) => `
     <article class="player-card">
       <div class="player-photo-wrap">
         <img class="player-photo" src="${playerImage(player)}" alt="" loading="lazy" onerror="this.src='./favicon.svg'" />
         <span class="position position-${player.position?.toLowerCase()}">${player.position || "–"}</span>
       </div>
+      <div class="lineup-slot">${player.displaySlot}</div>
       <div class="player-info">
-        <div class="player-topline"><span>${player.slot === "STARTER" ? "Starter" : player.slot === "BENCH" ? "Bank" : "IR"}</span>${player.injury_status ? `<b class="injury">${player.injury_status}</b>` : ""}</div>
+        <div class="player-topline"><span>${player.team || "FA"} · ${player.position || "–"}</span>${player.injury_status ? `<b class="injury">${player.injury_status}</b>` : ""}</div>
         <h3>${player.name}</h3>
-        <p>${player.team || "FA"} · ${player.depth_chart_position || player.position || "–"}</p>
+        <p>${player.depth_chart_position || "Depth Chart offen"}</p>
         <div class="trend"><span>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</span> Adds 24h</div>
       </div>
     </article>
+    `).join("")}
   `).join("");
 }
 
