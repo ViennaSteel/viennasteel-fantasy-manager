@@ -1,4 +1,4 @@
-const state = { context: null, league: null, week: null, slot: "ALL", view: "dashboard-view" };
+const state = { context: null, league: null, week: null, slot: "ALL", view: "dashboard-view", rankingPosition: "QB", rankingSearch: "" };
 
 const $ = (selector) => document.querySelector(selector);
 const cacheKey = () => `v=${Date.now()}`;
@@ -189,6 +189,7 @@ function renderLeague() {
   $("#week").textContent = state.week;
   $("#matchup-week").textContent = state.week;
   $("#compare-week").textContent = state.week;
+  $("#ranking-week").textContent = root.ranking_week || state.context.nfl_week;
   $("#my-score").textContent = Number(data.matchup?.points || 0).toFixed(2);
   $("#opponent-score").textContent = Number(data.opponent?.points || 0).toFixed(2);
   $("#my-matchup-name").textContent = data.my_team?.team_name || root.my_team_name || "Vienna Steel";
@@ -204,6 +205,7 @@ function renderLeague() {
   renderAlerts();
   renderRoster();
   renderPlayerOptions();
+  renderRankings();
 }
 
 function selectablePlayers() {
@@ -277,6 +279,36 @@ function setRecommendation(tone, titleText, bodyText, metaText = "") {
   meta.hidden = !metaText;
 }
 
+function consensusComparison(a, b) {
+  const clamp = (value, minimum, maximum) => Math.max(minimum, Math.min(maximum, value));
+  const projectionDifference = Number(a.projected_points) - Number(b.projected_points);
+  const projectionRatings = [
+    50 + clamp(projectionDifference * 10, -50, 50),
+    50 - clamp(projectionDifference * 10, -50, 50)
+  ];
+  const players = [a, b];
+  const definitions = [
+    { key: "projection", label: "Ligaprognose", weight: 45, values: projectionRatings },
+    { key: "start", label: "Startquoten-Konsens", weight: 25, values: players.map(player => player.start_percent) },
+    { key: "usage", label: "Rolle & Nutzung", weight: 15, values: players.map(player => player.usage_percentile) },
+    { key: "matchup", label: "Matchup", weight: 10, values: players.map(player => player.matchup_rating === null || player.matchup_rating === undefined ? null : 50 + Number(player.matchup_rating) * 50) },
+    { key: "health", label: "Einsatzsicherheit", weight: 5, values: players.map(player => availability(player) === "uncertain" ? 30 : 100) }
+  ];
+  const usable = definitions.filter(definition => definition.values.every(value => value !== null && value !== undefined && Number.isFinite(Number(value))));
+  const totalWeight = usable.reduce((sum, definition) => sum + definition.weight, 0);
+  const scores = players.map((_, playerIndex) => usable.reduce(
+    (sum, definition) => sum + clamp(Number(definition.values[playerIndex]), 0, 100) * definition.weight,
+    0
+  ) / totalWeight);
+  const decisive = usable
+    .map(definition => ({
+      ...definition,
+      impact: Math.abs(Number(definition.values[0]) - Number(definition.values[1])) * definition.weight / totalWeight
+    }))
+    .sort((left, right) => right.impact - left.impact)[0];
+  return { scores, basis: decisive?.label || "Ligaprognose", signals: usable.map(definition => definition.key) };
+}
+
 function renderComparison() {
   if (!state.league) return;
   const players = selectablePlayers();
@@ -323,34 +355,84 @@ function renderComparison() {
       setRecommendation("neutral", "Noch keine belastbare Prognose verfügbar", "Für mindestens einen Spieler fehlen aktuell ligaabhängige Projektionsdaten. Bitte später erneut prüfen.");
       return;
     }
-    let winner = aProjection >= bProjection ? a : b;
-    let loser = winner === a ? b : a;
-    let difference = Math.abs(aProjection - bProjection);
-    const winnerUncertain = availability(winner) === "uncertain";
-    const loserUncertain = availability(loser) === "uncertain";
-    if (winnerUncertain && !loserUncertain && difference < 3) {
+    const consensus = consensusComparison(a, b);
+    let winnerIndex = consensus.scores[0] >= consensus.scores[1] ? 0 : 1;
+    let loserIndex = winnerIndex === 0 ? 1 : 0;
+    let winner = [a, b][winnerIndex];
+    let loser = [a, b][loserIndex];
+    let decisionBasis = consensus.basis;
+    const projectionDifference = Math.abs(aProjection - bProjection);
+    if (availability(winner) === "uncertain" && availability(loser) === "available" && projectionDifference < 3) {
       [winner, loser] = [loser, winner];
-      difference = Math.abs(aProjection - bProjection);
-    } else if (difference < 0.25 && Number(loser.start_percent || 0) > Number(winner.start_percent || 0)) {
-      [winner, loser] = [loser, winner];
+      [winnerIndex, loserIndex] = [loserIndex, winnerIndex];
+      decisionBasis = "Einsatzsicherheit";
     }
     const winnerProjection = Number(winner.projected_points);
     const loserProjection = Number(loser.projected_points);
     const projectionAdvantage = winnerProjection - loserProjection;
-    const confidence = Math.abs(projectionAdvantage) >= 5 ? "Hoch" : Math.abs(projectionAdvantage) >= 2.5 ? "Mittel" : "Knapp";
+    const scoreAdvantage = consensus.scores[winnerIndex] - consensus.scores[loserIndex];
+    const confidence = scoreAdvantage >= 15 ? "Hoch" : scoreAdvantage >= 7 ? "Mittel" : "Knapp";
     const switched = winner.slot === "BENCH" && loser.slot === "STARTER";
     const statusNote = availability(winner) === "uncertain"
       ? ` ${winner.name} ist allerdings ${winner.injury_status}; Status vor dem Kickoff erneut prüfen.`
       : availability(loser) === "uncertain"
       ? ` Der unsichere Status von ${loser.name} spricht zusätzlich für diese Wahl.`
       : "";
+    const extraSignals = [
+      consensus.signals.includes("usage") ? `Nutzung ${formatPoints(winner.usage_opportunities, "–")} Opportunities/Spiel` : null,
+      consensus.signals.includes("matchup") ? `Matchup ${Number(winner.matchup_index) >= 100 ? "+" : ""}${formatPoints(Number(winner.matchup_index) - 100)} % gegenüber dem Liga-Schnitt` : null
+    ].filter(Boolean).join(" · ");
+    const recommendationText = `${winner.name} erreicht im Vienna-Steel-Konsens ${formatPoints(consensus.scores[winnerIndex])} Punkte, ${loser.name} ${formatPoints(consensus.scores[loserIndex])}. Die Ligaprognosen liegen bei ${formatPoints(winnerProjection)} zu ${formatPoints(loserProjection)} Punkten; ausschlaggebend ist „${decisionBasis}“.${extraSignals ? ` ${extraSignals}.` : ""}${statusNote}`;
     setRecommendation(
       availability(winner) === "uncertain" ? "warning" : "good",
       `${switched ? "Wechsel zu" : "Starte"} ${winner.name}`,
-      `${winner.name} wird in dieser Liga mit ${formatPoints(winnerProjection)} Punkten prognostiziert, ${loser.name} mit ${formatPoints(loserProjection)}.${statusNote}`,
-      `Sicherheit: ${availability(winner) === "uncertain" ? "Riskant" : confidence} · Prognose-Differenz ${projectionAdvantage >= 0 ? "+" : ""}${formatPoints(projectionAdvantage)} Punkte`
+      recommendationText,
+      `Sicherheit: ${availability(winner) === "uncertain" ? "Riskant" : confidence} · Basis: ${decisionBasis} · Score-Vorsprung ${formatPoints(Math.abs(scoreAdvantage))}`
     );
   }
+}
+
+function rankingRosterLabel(player) {
+  if (player.roster_status === "STARTER") return "Dein Starter";
+  if (player.roster_status === "BENCH") return "Deine Bank";
+  if (player.roster_status === "IR") return "Dein IR";
+  if (player.roster_status === "WAIVER") return "Waiver";
+  return player.fantasy_team || "Vergeben";
+}
+
+function renderRankings() {
+  if (!state.league) return;
+  const source = state.league.rankings?.[state.rankingPosition] || [];
+  const query = state.rankingSearch.trim().toLowerCase();
+  const players = source.filter(player => !query || `${player.name} ${player.team}`.toLowerCase().includes(query));
+  const list = $("#ranking-list");
+  if (!source.length) {
+    list.innerHTML = `<div class="ranking-empty"><strong>Rankings werden vorbereitet</strong><span>Nach der nächsten Datensynchronisierung erscheint hier die aktuelle Wochenrangliste.</span></div>`;
+    return;
+  }
+  if (!players.length) {
+    list.innerHTML = `<div class="ranking-empty"><strong>Kein Spieler gefunden</strong><span>Versuche einen anderen Namen oder ein anderes Team.</span></div>`;
+    return;
+  }
+  list.innerHTML = players.map(player => {
+    const matchupDifference = player.matchup_index === null || player.matchup_index === undefined
+      ? null
+      : Number(player.matchup_index) - 100;
+    const matchupClass = matchupDifference === null ? "" : matchupDifference >= 5 ? "positive" : matchupDifference <= -5 ? "negative" : "";
+    const availabilityClass = player.unavailable ? "unavailable" : availability(player) === "uncertain" ? "uncertain" : "";
+    return `<article class="ranking-row ${availabilityClass}">
+      <div class="ranking-rank"><span>#</span>${player.rank}</div>
+      <div class="ranking-player">
+        <span class="ranking-photo"><img src="${playerImage(player)}" alt="" loading="lazy" onerror="this.src='./favicon.svg'" />${statusBadge({ ...player, slot: player.roster_status })}</span>
+        <span><strong>${player.name}</strong><small>${player.team || "FA"} · ${player.position} · ${rankingRosterLabel(player)}</small></span>
+      </div>
+      <strong class="ranking-score">${formatPoints(player.consensus_score)}</strong>
+      <span><strong>${formatPoints(player.projected_points)}</strong><small>Pkt.</small></span>
+      <span><strong>${formatPercent(player.start_percent)}</strong><small>Startquote</small></span>
+      <span class="${matchupClass}"><strong>${matchupDifference === null ? "–" : `${matchupDifference >= 0 ? "+" : ""}${formatPoints(matchupDifference)}%`}</strong><small>${player.week_opponent ? `vs ${player.week_opponent}` : "Offen"}</small></span>
+      <span class="ranking-status ${player.roster_status?.toLowerCase() || ""}">${rankingRosterLabel(player)}</span>
+    </article>`;
+  }).join("");
 }
 
 function switchView(viewId) {
@@ -495,5 +577,14 @@ document.querySelectorAll("[data-slot]").forEach((button) => button.addEventList
 document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => switchView(button.dataset.view)));
 $("#player-a").addEventListener("change", renderComparison);
 $("#player-b").addEventListener("change", renderComparison);
+$("#ranking-search").addEventListener("input", (event) => {
+  state.rankingSearch = event.target.value;
+  renderRankings();
+});
+document.querySelectorAll("[data-ranking-position]").forEach((button) => button.addEventListener("click", () => {
+  state.rankingPosition = button.dataset.rankingPosition;
+  document.querySelectorAll("[data-ranking-position]").forEach((item) => item.classList.toggle("active", item === button));
+  renderRankings();
+}));
 
 init();

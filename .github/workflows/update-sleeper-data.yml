@@ -106,6 +106,52 @@ jobs:
               week,
               new Map(projectionWeeks[index].map(item => [String(item.player_id), item]))
             ]));
+            const completedWeekNumbers = weekNumbers.filter(week => week < Number(state.week));
+            const actualStatsWeeks = await Promise.all(completedWeekNumbers.map(week =>
+              fetch(`https://api.sleeper.com/stats/nfl/${SEASON}/${week}?season_type=regular`)
+                .then(r => (r.ok ? r.json() : []))
+                .catch(() => [])
+            ));
+            const actualStatsByWeek = new Map(completedWeekNumbers.map((week, index) => {
+              const payload = actualStatsWeeks[index];
+              return [week, Array.isArray(payload) ? payload : Object.values(payload || {})];
+            }));
+
+            function opportunity(stats, position) {
+              if (!stats) return null;
+              const rushAttempts = Number(stats.rush_att || 0);
+              if (position === "QB") return Number(stats.pass_att || 0) + rushAttempts;
+              if (["RB", "WR", "TE"].includes(position)) return rushAttempts + Number(stats.rec_tgt || 0);
+              return null;
+            }
+
+            const recentUsage = new Map();
+            for (const week of completedWeekNumbers.slice(-3)) {
+              for (const item of actualStatsByWeek.get(week) || []) {
+                const id = String(item.player_id || "");
+                const position = players[id]?.position;
+                const volume = opportunity(item.stats || item, position);
+                if (!id || !Number.isFinite(volume) || volume <= 0) continue;
+                if (!recentUsage.has(id)) recentUsage.set(id, { total: 0, games: 0, position });
+                const entry = recentUsage.get(id);
+                entry.total += volume;
+                entry.games += 1;
+              }
+            }
+            const usageProfiles = new Map([...recentUsage].map(([id, entry]) => [id, {
+              average: entry.total / entry.games,
+              games: entry.games,
+              position: entry.position
+            }]));
+            for (const position of ["QB", "RB", "WR", "TE"]) {
+              const group = [...usageProfiles.entries()]
+                .filter(([, entry]) => entry.position === position)
+                .sort((a, b) => a[1].average - b[1].average);
+              group.forEach(([id, entry], index) => {
+                entry.percentile = group.length <= 1 ? 50 : Math.round((index / (group.length - 1)) * 1000) / 10;
+                usageProfiles.set(id, entry);
+              });
+            }
             const normalizePlayerName = value => String(value || "")
               .normalize("NFD")
               .replace(/[\u0300-\u036f]/g, "")
@@ -190,12 +236,60 @@ jobs:
               const me = usersById.get(user.user_id) || null;
               const reserve = new Set((mine.reserve || []).map(String));
               const rostered = new Set();
+              const rosterByPlayer = new Map();
 
               for (const r of rosters) {
-                for (const id of r.players || []) rostered.add(String(id));
+                for (const id of r.players || []) {
+                  rostered.add(String(id));
+                  rosterByPlayer.set(String(id), r);
+                }
               }
 
               const matchupsByWeek = new Map(weekNumbers.map((week, index) => [week, matchupWeeks[index]]));
+
+              const defenseWeekTotals = new Map();
+              for (const week of completedWeekNumbers) {
+                for (const item of actualStatsByWeek.get(week) || []) {
+                  const id = String(item.player_id || "");
+                  const position = players[id]?.position;
+                  const opponent = item.opponent || item.stats?.opponent;
+                  if (!opponent || !["QB", "RB", "WR", "TE"].includes(position)) continue;
+                  const fantasyPoints = calculateProjectedPoints(item.stats || item, league.scoring_settings);
+                  if (!Number.isFinite(fantasyPoints)) continue;
+                  const key = `${week}|${opponent}|${position}`;
+                  defenseWeekTotals.set(key, (defenseWeekTotals.get(key) || 0) + fantasyPoints);
+                }
+              }
+              const defenseSamples = new Map();
+              for (const [key, points] of defenseWeekTotals) {
+                const [, opponent, position] = key.split("|");
+                const sampleKey = `${opponent}|${position}`;
+                if (!defenseSamples.has(sampleKey)) defenseSamples.set(sampleKey, []);
+                defenseSamples.get(sampleKey).push(points);
+              }
+              const defenseAverages = new Map([...defenseSamples].map(([key, samples]) => [
+                key,
+                samples.reduce((sum, value) => sum + value, 0) / samples.length
+              ]));
+              const leaguePositionAverages = new Map();
+              for (const position of ["QB", "RB", "WR", "TE"]) {
+                const values = [...defenseAverages]
+                  .filter(([key]) => key.endsWith(`|${position}`))
+                  .map(([, value]) => value);
+                if (values.length) leaguePositionAverages.set(position, values.reduce((sum, value) => sum + value, 0) / values.length);
+              }
+
+              function matchupProfile(opponent, position) {
+                const allowed = defenseAverages.get(`${opponent}|${position}`);
+                const leagueAverage = leaguePositionAverages.get(position);
+                if (!Number.isFinite(allowed) || !Number.isFinite(leagueAverage) || leagueAverage <= 0) return null;
+                const difference = (allowed - leagueAverage) / leagueAverage;
+                return {
+                  index: Math.round((1 + difference) * 1000) / 10,
+                  rating: Math.round(Math.max(-1, Math.min(1, difference / 0.2)) * 100) / 100,
+                  sample_weeks: defenseSamples.get(`${opponent}|${position}`)?.length || 0
+                };
+              }
 
               function standingsThrough(selectedWeek) {
                 const records = new Map(rosters.map(roster => [roster.roster_id, { wins: 0, losses: 0, ties: 0, points: 0 }]));
@@ -267,6 +361,8 @@ jobs:
                   const projection = projectionMap.get(id) || null;
                   const ownership = ownershipMap.get(normalizePlayerName(base.name)) || null;
                   const projected = calculateProjectedPoints(projection?.stats, league.scoring_settings);
+                  const usage = usageProfiles.get(id) || null;
+                  const matchup = matchupProfile(projection?.opponent, base.position);
                   const hasActual = Object.prototype.hasOwnProperty.call(points, id);
                   return {
                     ...base,
@@ -276,6 +372,12 @@ jobs:
                     projection_basis: "league_scoring",
                     rostered_percent: Number.isFinite(Number(ownership?.percentOwned)) ? Number(ownership.percentOwned) : null,
                     start_percent: Number.isFinite(Number(ownership?.percentStarted)) ? Number(ownership.percentStarted) : null,
+                    usage_opportunities: usage ? Math.round(usage.average * 10) / 10 : null,
+                    usage_percentile: usage?.percentile ?? null,
+                    usage_sample_games: usage?.games ?? 0,
+                    matchup_index: matchup?.index ?? null,
+                    matchup_rating: matchup?.rating ?? null,
+                    matchup_sample_weeks: matchup?.sample_weeks ?? 0,
                     actual_points: hasActual ? Number(points[id] || 0) : null,
                     week_opponent: projection?.opponent || null,
                     game_date: projection?.date || null,
@@ -295,6 +397,85 @@ jobs:
               }
 
               const fantasyPositions = ["QB", "RB", "WR", "TE", "K", "DEF"];
+              const rankingProjectionMap = projectionMaps.get(Number(state.week)) || new Map();
+              const rankingKickoffMap = kickoffMaps.get(Number(state.week)) || new Map();
+              const rankingCandidates = [...rankingProjectionMap.entries()].map(([id, projection]) => {
+                const base = playerInfo(id, players[id], trendAddMap.get(id) || 0);
+                const projected = calculateProjectedPoints(projection?.stats, league.scoring_settings);
+                if (!base.team || !fantasyPositions.includes(base.position) || !Number.isFinite(projected)) return null;
+                const ownership = ownershipMap.get(normalizePlayerName(base.name)) || null;
+                const usage = usageProfiles.get(id) || null;
+                const matchup = matchupProfile(projection?.opponent, base.position);
+                const playerRoster = rosterByPlayer.get(id) || null;
+                const rosterOwner = playerRoster ? usersById.get(playerRoster.owner_id) : null;
+                const playerOnReserve = Boolean(playerRoster && new Set((playerRoster.reserve || []).map(String)).has(id));
+                const injury = String(base.injury_status || "").toUpperCase();
+                const unavailable = playerOnReserve || ["OUT", "PUP", "IR", "SUSPENDED", "NFI"].includes(injury);
+                const uncertain = ["QUESTIONABLE", "DOUBTFUL"].includes(injury);
+                let rosterStatus = "WAIVER";
+                let fantasyTeam = null;
+                if (playerRoster?.roster_id === mine.roster_id) {
+                  rosterStatus = playerOnReserve ? "IR" : (mine.starters || []).map(String).includes(id) ? "STARTER" : "BENCH";
+                  fantasyTeam = me?.metadata?.team_name || me?.display_name || USERNAME;
+                } else if (playerRoster) {
+                  rosterStatus = "ROSTERED";
+                  fantasyTeam = rosterOwner?.metadata?.team_name || rosterOwner?.display_name || `Roster ${playerRoster.roster_id}`;
+                }
+                return {
+                  ...base,
+                  projected_points: projected,
+                  start_percent: Number.isFinite(Number(ownership?.percentStarted)) ? Number(ownership.percentStarted) : null,
+                  rostered_percent: Number.isFinite(Number(ownership?.percentOwned)) ? Number(ownership.percentOwned) : null,
+                  usage_opportunities: usage ? Math.round(usage.average * 10) / 10 : null,
+                  usage_percentile: usage?.percentile ?? null,
+                  usage_sample_games: usage?.games ?? 0,
+                  matchup_index: matchup?.index ?? null,
+                  matchup_rating: matchup?.rating ?? null,
+                  matchup_sample_weeks: matchup?.sample_weeks ?? 0,
+                  week_opponent: projection?.opponent || null,
+                  game_start: rankingKickoffMap.get(base.team) || null,
+                  roster_status: rosterStatus,
+                  fantasy_team: fantasyTeam,
+                  health_score: unavailable ? 0 : uncertain ? 30 : 100,
+                  unavailable
+                };
+              }).filter(Boolean);
+
+              for (const position of fantasyPositions) {
+                const group = rankingCandidates
+                  .filter(player => player.position === position)
+                  .sort((a, b) => a.projected_points - b.projected_points);
+                group.forEach((player, index) => {
+                  player.projection_percentile = group.length <= 1 ? 50 : Math.round((index / (group.length - 1)) * 1000) / 10;
+                });
+              }
+
+              const rankingDefinitions = [
+                { field: "projection_percentile", weight: 45 },
+                { field: "start_percent", weight: 25 },
+                { field: "usage_percentile", weight: 15 },
+                { field: "matchup_rating", weight: 10, transform: value => 50 + Number(value) * 50 },
+                { field: "health_score", weight: 5 }
+              ];
+              for (const player of rankingCandidates) {
+                const availableSignals = rankingDefinitions.filter(definition =>
+                  player[definition.field] !== null && player[definition.field] !== undefined && Number.isFinite(Number(player[definition.field]))
+                );
+                const totalWeight = availableSignals.reduce((sum, definition) => sum + definition.weight, 0);
+                const weightedScore = availableSignals.reduce((sum, definition) => {
+                  const raw = definition.transform ? definition.transform(player[definition.field]) : Number(player[definition.field]);
+                  return sum + Math.max(0, Math.min(100, raw)) * definition.weight;
+                }, 0) / totalWeight;
+                player.consensus_score = player.unavailable ? 0 : Math.round(weightedScore * 100) / 100;
+              }
+              const rankings = {};
+              for (const position of fantasyPositions) {
+                rankings[position] = rankingCandidates
+                  .filter(player => player.position === position)
+                  .sort((a, b) => b.consensus_score - a.consensus_score || b.projected_points - a.projected_points)
+                  .map((player, index) => ({ ...player, rank: index + 1 }));
+              }
+
               const available = [];
 
               for (const [id, p] of Object.entries(players)) {
@@ -413,6 +594,8 @@ jobs:
                 },
                 my_team_name: me?.metadata?.team_name || me?.display_name || USERNAME,
                 faab,
+                ranking_week: Number(state.week),
+                rankings,
                 my_team: weeks[state.week]?.my_team || null,
                 my_roster_id: mine.roster_id,
                 team: weeks[state.week]?.team || [],

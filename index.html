@@ -22,6 +22,7 @@
       <nav class="main-nav" aria-label="Hauptnavigation">
         <button class="active" data-view="dashboard-view" type="button">Dashboard</button>
         <button data-view="start-sit-view" type="button">Start / Sit</button>
+        <button data-view="rankings-view" type="button">Rankings</button>
         <button type="button" disabled>Waiver <small>demnächst</small></button>
         <button type="button" disabled>Trades <small>demnächst</small></button>
       </nav>
@@ -114,6 +115,36 @@
                 <div class="recommendation-meta" id="recommendation-meta" hidden></div>
               </div>
             </article>
+          </section>
+
+          <section id="rankings-view" class="app-view rankings-view" hidden>
+            <div class="tool-heading">
+              <div>
+                <p class="eyebrow">Vienna Steel Consensus</p>
+                <h2>Wochenrankings</h2>
+                <p>Individuell für das Scoring deiner Liga – aus Prognose, Startquote, Nutzung, Matchup und Einsatzstatus.</p>
+              </div>
+              <span class="week-chip">Week <span id="ranking-week">–</span></span>
+            </div>
+
+            <div class="ranking-toolbar panel">
+              <div class="ranking-tabs" role="tablist" aria-label="Position auswählen">
+                <button class="active" data-ranking-position="QB" type="button">QB</button>
+                <button data-ranking-position="RB" type="button">RB</button>
+                <button data-ranking-position="WR" type="button">WR</button>
+                <button data-ranking-position="TE" type="button">TE</button>
+                <button data-ranking-position="K" type="button">K</button>
+                <button data-ranking-position="DEF" type="button">DEF</button>
+              </div>
+              <label class="ranking-search"><span>Spieler suchen</span><input id="ranking-search" type="search" placeholder="Name oder Team" /></label>
+            </div>
+
+            <div class="ranking-table-wrap panel">
+              <div class="ranking-table-head" aria-hidden="true">
+                <span>Rang</span><span>Spieler</span><span>VS Score</span><span>Prognose</span><span>Start</span><span>Matchup</span><span>Status</span>
+              </div>
+              <div id="ranking-list" class="ranking-list"></div>
+            </div>
           </section>
         </div>
       </main>
