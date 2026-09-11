@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07120e" />
+    <meta name="description" content="Vienna Steel Fantasy Football Manager" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Vienna Steel Fantasy Manager</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Vienna Steel Fantasy Manager Startseite">
+          <span class="brand-mark">VS</span>
+          <span><strong>Vienna Steel</strong><small>Fantasy Manager</small></span>
+        </a>
+        <div class="sync-state"><span></span><span id="sync-label">Daten werden geladen</span></div>
+      </header>
+
+      <main>
+        <section class="league-bar" aria-label="Liga auswählen">
+          <div>
+            <p class="eyebrow">Saison <span id="season">–</span> · Week <span id="week">–</span></p>
+            <h1 id="league-name">Fantasy Dashboard</h1>
+          </div>
+          <label class="league-select">
+            <span>Liga</span>
+            <select id="league-picker" aria-label="Liga auswählen"></select>
+          </label>
+        </section>
+
+        <div id="loading" class="state-card">Deine aktuellen Sleeper-Daten werden geladen …</div>
+        <div id="error" class="state-card error" hidden>
+          <strong>Daten konnten nicht geladen werden.</strong>
+          <span>Bitte versuche es gleich noch einmal.</span>
+          <button id="retry" type="button">Erneut laden</button>
+        </div>
+
+        <div id="dashboard" hidden>
+          <section class="overview-grid">
+            <article class="matchup-card panel">
+              <div class="panel-heading">
+                <div><p class="eyebrow">Aktuelles Matchup</p><h2>Week <span id="matchup-week">–</span></h2></div>
+                <span class="status-pill">Live</span>
+              </div>
+              <div class="scoreboard">
+                <div><span class="team-badge steel">VS</span><strong id="my-score">0.00</strong><small>Vienna Steel</small></div>
+                <span class="versus">VS</span>
+                <div><span class="team-badge opponent">OPP</span><strong id="opponent-score">0.00</strong><small>Gegner</small></div>
+              </div>
+            </article>
+
+            <article class="attention-card panel">
+              <div class="panel-heading"><div><p class="eyebrow">Lineup Check</p><h2>Deine Hinweise</h2></div></div>
+              <div id="alerts" class="alerts"></div>
+            </article>
+          </section>
+
+          <section class="roster-section">
+            <div class="section-heading">
+              <div><p class="eyebrow">Mein Team</p><h2 id="team-name">Vienna Steel</h2></div>
+              <div class="roster-tabs" role="tablist" aria-label="Kader filtern">
+                <button class="active" data-slot="ALL" type="button">Alle</button>
+                <button data-slot="STARTER" type="button">Starter</button>
+                <button data-slot="BENCH" type="button">Bank</button>
+                <button data-slot="IR" type="button">IR</button>
+              </div>
+            </div>
+            <div id="roster" class="roster-grid"></div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
