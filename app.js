@@ -40,16 +40,27 @@ function formatPoints(value, fallback = "–") {
 function actualPointsLabel(player) {
   if (player.actual_points === null || player.actual_points === undefined) return "–";
   if (Number(player.actual_points) !== 0) return formatPoints(player.actual_points);
-  if (player.game_date && new Date(`${player.game_date}T23:59:59`) > new Date()) return "–";
+  if (player.game_start && new Date(player.game_start) > new Date()) return "–";
+  if (!player.game_start && player.game_date && new Date(`${player.game_date}T23:59:59`) > new Date()) return "–";
   return "0.0";
 }
 
 function matchupLabel(player) {
   if (!player.week_opponent) return "Termin offen";
   const opponent = `vs ${player.week_opponent}`;
+  if (player.game_start) {
+    const kickoff = new Intl.DateTimeFormat("de-AT", {
+      timeZone: "Europe/Vienna",
+      day: "2-digit",
+      month: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit"
+    }).format(new Date(player.game_start));
+    return `${opponent} · ${kickoff} Uhr`;
+  }
   if (!player.game_date) return opponent;
   const date = new Intl.DateTimeFormat("de-AT", { day: "2-digit", month: "2-digit" }).format(new Date(`${player.game_date}T12:00:00`));
-  return `${opponent} · ${date}`;
+  return `${opponent} · ${date} · Uhrzeit offen`;
 }
 
 function initials(name, fallback) {

@@ -87,6 +87,19 @@ jobs:
             const projectionMap = new Map(
               projections.map(item => [String(item.player_id), item])
             );
+            const espnWeek = await fetch(
+              `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=${SEASON}&seasontype=2&week=${state.week}`
+            )
+              .then(r => (r.ok ? r.json() : { events: [] }))
+              .catch(() => ({ events: [] }));
+            const teamAliases = { WSH: "WAS" };
+            const kickoffMap = new Map();
+            for (const event of espnWeek.events || []) {
+              for (const competitor of event.competitions?.[0]?.competitors || []) {
+                const abbreviation = teamAliases[competitor.team?.abbreviation] || competitor.team?.abbreviation;
+                if (abbreviation && event.date) kickoffMap.set(abbreviation, event.date);
+              }
+            }
 
             const fantasyContext = {
               updated_at: new Date().toISOString(),
@@ -160,6 +173,7 @@ jobs:
                   actual_points: hasActual ? Number(points[String(player.player_id)] || 0) : null,
                   week_opponent: projection?.opponent || null,
                   game_date: projection?.date || null,
+                  game_start: kickoffMap.get(player.team) || null,
                   projection_updated_at: projection?.updated_at || null
                 };
               });
