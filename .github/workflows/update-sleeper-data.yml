@@ -186,6 +186,15 @@ jobs:
               const opponentRoster = opponent
                 ? rosters.find(r => r.roster_id === opponent.roster_id) || null
                 : null;
+              const pointsFor = roster =>
+                Number(roster.settings?.fpts || 0) + Number(roster.settings?.fpts_decimal || 0) / 100;
+              const standings = [...rosters].sort((a, b) =>
+                Number(b.settings?.wins || 0) - Number(a.settings?.wins || 0) ||
+                Number(b.settings?.ties || 0) - Number(a.settings?.ties || 0) ||
+                pointsFor(b) - pointsFor(a) ||
+                Number(a.roster_id) - Number(b.roster_id)
+              );
+              const rankMap = new Map(standings.map((roster, index) => [roster.roster_id, index + 1]));
               const teamWithWeekData = team.map(player => {
                 const projection = projectionMap.get(String(player.player_id)) || null;
                 const ownership = ownershipMap.get(normalizePlayerName(player.name)) || null;
@@ -215,7 +224,11 @@ jobs:
                     owner?.display_name ||
                     `Roster ${roster.roster_id}`,
                   owner_name: owner?.display_name || null,
-                  avatar: owner?.metadata?.avatar || owner?.avatar || null
+                  avatar: owner?.metadata?.avatar || owner?.avatar || null,
+                  wins: Number(roster.settings?.wins || 0),
+                  losses: Number(roster.settings?.losses || 0),
+                  ties: Number(roster.settings?.ties || 0),
+                  rank: rankMap.get(roster.roster_id) || null
                 };
               }
 

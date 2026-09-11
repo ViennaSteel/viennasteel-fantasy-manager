@@ -47,6 +47,7 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .scoreboard > div { display: grid; justify-items: center; }
 .scoreboard strong { font-size: 34px; margin: 12px 0 3px; letter-spacing: -.04em; }
 .scoreboard small { color: var(--muted); }
+.matchup-meta { margin-top: 6px; color: var(--steel); font-size: 12px; font-weight: 800; letter-spacing: .02em; }
 .versus { color: #60766b; font-weight: 900; font-size: 12px; }
 .team-badge { width: 56px; height: 56px; border-radius: 16px; display: grid; place-items: center; font-size: 13px; font-weight: 900; }
 .team-badge img { width: 100%; height: 100%; border-radius: inherit; object-fit: cover; }

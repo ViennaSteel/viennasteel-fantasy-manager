@@ -123,6 +123,13 @@ function renderBrand(identity, fallback) {
     : `<span>${initials(name, "FT")}</span>`;
 }
 
+function standingsLabel(identity) {
+  if (!identity) return "Bilanz offen · Platz –";
+  const ties = Number(identity.ties || 0);
+  const record = `${Number(identity.wins || 0)}–${Number(identity.losses || 0)}${ties ? `–${ties}` : ""}`;
+  return `${record} · Platz ${identity.rank || "–"}`;
+}
+
 function renderContext() {
   const picker = $("#league-picker");
   picker.innerHTML = state.context.leagues.map((league) =>
@@ -142,6 +149,8 @@ function renderLeague() {
   $("#opponent-score").textContent = Number(data.opponent?.points || 0).toFixed(2);
   $("#my-matchup-name").textContent = data.my_team?.team_name || data.my_team_name || "Vienna Steel";
   $("#opponent-matchup-name").textContent = data.opponent_team?.team_name || "Gegner";
+  $("#my-matchup-meta").textContent = standingsLabel(data.my_team);
+  $("#opponent-matchup-meta").textContent = standingsLabel(data.opponent_team);
   renderTeamBadge("#my-team-badge", data.my_team, "VS");
   renderTeamBadge("#opponent-team-badge", data.opponent_team, "OPP");
   renderBrand(data.my_team, data.my_team_name);
