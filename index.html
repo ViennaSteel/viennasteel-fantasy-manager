@@ -19,8 +19,15 @@
         <div class="sync-state"><span></span><span id="sync-label">Daten werden geladen</span></div>
       </header>
 
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <button class="active" data-view="dashboard-view" type="button">Dashboard</button>
+        <button data-view="start-sit-view" type="button">Start / Sit</button>
+        <button type="button" disabled>Waiver <small>demnächst</small></button>
+        <button type="button" disabled>Trades <small>demnächst</small></button>
+      </nav>
+
       <main>
-        <section class="league-bar" aria-label="Liga auswählen">
+        <section class="league-bar global-league-bar" aria-label="Liga auswählen">
           <div>
             <p class="eyebrow">Saison <span id="season">–</span> · Week <span id="week">–</span></p>
             <h1 id="league-name">Fantasy Dashboard</h1>
@@ -39,6 +46,7 @@
         </div>
 
         <div id="dashboard" hidden>
+          <div id="dashboard-view" class="app-view">
           <section class="overview-grid">
             <article class="matchup-card panel">
               <div class="panel-heading">
@@ -69,6 +77,35 @@
               </div>
             </div>
             <div id="roster" class="roster-grid"></div>
+          </section>
+          </div>
+
+          <section id="start-sit-view" class="app-view start-sit-view" hidden>
+            <div class="tool-heading">
+              <div>
+                <p class="eyebrow">Lineup Entscheidung</p>
+                <h2>Start / Sit Vergleich</h2>
+                <p>Vergleiche zwei Spieler aus deinem aktuellen Kader. Verletzungen, Einsatzstatus und Ligakontext werden bereits berücksichtigt.</p>
+              </div>
+              <span class="week-chip">Week <span id="compare-week">–</span></span>
+            </div>
+
+            <div class="compare-controls panel">
+              <label><span>Spieler A</span><select id="player-a" aria-label="Ersten Spieler auswählen"></select></label>
+              <span class="compare-vs">VS</span>
+              <label><span>Spieler B</span><select id="player-b" aria-label="Zweiten Spieler auswählen"></select></label>
+            </div>
+
+            <div id="comparison" class="comparison-grid"></div>
+
+            <article class="recommendation panel">
+              <div class="recommendation-icon">i</div>
+              <div>
+                <p class="eyebrow">Aktueller Datencheck</p>
+                <h3 id="recommendation-title">Wähle zwei Spieler</h3>
+                <p id="recommendation-text">Danach siehst du, welche Faktoren aktuell für oder gegen einen Start sprechen.</p>
+              </div>
+            </article>
           </section>
         </div>
       </main>

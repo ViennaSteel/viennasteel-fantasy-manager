@@ -1,4 +1,4 @@
-const state = { context: null, league: null, slot: "ALL" };
+const state = { context: null, league: null, slot: "ALL", view: "dashboard-view" };
 
 const $ = (selector) => document.querySelector(selector);
 const cacheKey = () => `v=${Date.now()}`;
@@ -36,11 +36,81 @@ function renderLeague() {
   $("#league-name").textContent = data.league.name;
   $("#team-name").textContent = data.my_team_name;
   $("#matchup-week").textContent = data.week;
+  $("#compare-week").textContent = data.week;
   $("#my-score").textContent = Number(data.matchup?.points || 0).toFixed(2);
   $("#opponent-score").textContent = Number(data.opponent?.points || 0).toFixed(2);
   $("#sync-label").textContent = `Aktuell · ${formatTime(data.updated_at)}`;
   renderAlerts();
   renderRoster();
+  renderPlayerOptions();
+}
+
+function selectablePlayers() {
+  return state.league.team.filter((player) => ["QB", "RB", "WR", "TE"].includes(player.position));
+}
+
+function renderPlayerOptions() {
+  const players = selectablePlayers();
+  const options = players.map((player) => `<option value="${player.player_id}">${player.name} · ${player.position} · ${player.slot === "STARTER" ? "Starter" : player.slot === "BENCH" ? "Bank" : "IR"}</option>`).join("");
+  $("#player-a").innerHTML = options;
+  $("#player-b").innerHTML = options;
+
+  const firstBench = players.find((player) => player.slot === "BENCH" && ["RB", "WR", "TE"].includes(player.position));
+  const samePositionStarter = players.find((player) => player.slot === "STARTER" && player.position === firstBench?.position);
+  $("#player-a").value = samePositionStarter?.player_id || players[0]?.player_id || "";
+  $("#player-b").value = firstBench?.player_id || players[1]?.player_id || players[0]?.player_id || "";
+  renderComparison();
+}
+
+function comparisonCard(player, label) {
+  const flags = [];
+  flags.push(`<li><span>Lineup</span><strong>${player.slot === "STARTER" ? "Starter" : player.slot === "BENCH" ? "Bank" : "IR"}</strong></li>`);
+  flags.push(`<li><span>Status</span><strong class="${player.injury_status ? "negative" : "positive"}">${player.injury_status || "Aktiv"}</strong></li>`);
+  flags.push(`<li><span>Depth Chart</span><strong>${player.depth_chart_position || "–"}</strong></li>`);
+  flags.push(`<li><span>Trending Adds</span><strong>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</strong></li>`);
+  return `<article class="compare-player panel">
+    <span class="compare-label">${label}</span>
+    <div class="compare-player-head">
+      <img src="${playerImage(player)}" alt="" onerror="this.src='./favicon.svg'" />
+      <div><span class="position-inline">${player.position}</span><h3>${player.name}</h3><p>${player.team || "FA"}</p></div>
+    </div>
+    <ul>${flags.join("")}</ul>
+  </article>`;
+}
+
+function renderComparison() {
+  if (!state.league) return;
+  const players = selectablePlayers();
+  const a = players.find((player) => player.player_id === $("#player-a").value);
+  const b = players.find((player) => player.player_id === $("#player-b").value);
+  if (!a || !b) return;
+  $("#comparison").innerHTML = comparisonCard(a, "Spieler A") + comparisonCard(b, "Spieler B");
+
+  const title = $("#recommendation-title");
+  const text = $("#recommendation-text");
+  if (a.player_id === b.player_id) {
+    title.textContent = "Bitte zwei unterschiedliche Spieler wählen";
+    text.textContent = "Für einen Vergleich müssen Spieler A und Spieler B verschieden sein.";
+  } else if (a.injury_status && !b.injury_status) {
+    title.textContent = `${b.name} hat aktuell den sichereren Status`;
+    text.textContent = `${a.name} ist mit „${a.injury_status}“ gemeldet. Eine finale Start/Sit-Empfehlung folgt mit den Wochen-Projektionen.`;
+  } else if (b.injury_status && !a.injury_status) {
+    title.textContent = `${a.name} hat aktuell den sichereren Status`;
+    text.textContent = `${b.name} ist mit „${b.injury_status}“ gemeldet. Eine finale Start/Sit-Empfehlung folgt mit den Wochen-Projektionen.`;
+  } else if (a.position !== b.position && ![a.position, b.position].every((position) => ["RB", "WR", "TE"].includes(position))) {
+    title.textContent = "Diese Positionen sind nicht austauschbar";
+    text.textContent = `${a.position} und ${b.position} konkurrieren in deinem Lineup nicht um denselben Slot.`;
+  } else {
+    title.textContent = "Beide Spieler sind aktuell einsatzfähig";
+    text.textContent = "Für die finale Empfehlung ergänzen wir als Nächstes Gegner, Projektionen, Usage und aktuelle News.";
+  }
+}
+
+function switchView(viewId) {
+  state.view = viewId;
+  document.querySelectorAll(".app-view").forEach((view) => { view.hidden = view.id !== viewId; });
+  document.querySelectorAll("[data-view]").forEach((button) => button.classList.toggle("active", button.dataset.view === viewId));
+  localStorage.setItem("vienna-steel-view", viewId);
 }
 
 function renderAlerts() {
@@ -122,5 +192,8 @@ document.querySelectorAll("[data-slot]").forEach((button) => button.addEventList
   document.querySelectorAll("[data-slot]").forEach((item) => item.classList.toggle("active", item === button));
   renderRoster();
 }));
+document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => switchView(button.dataset.view)));
+$("#player-a").addEventListener("change", renderComparison);
+$("#player-b").addEventListener("change", renderComparison);
 
 init();
