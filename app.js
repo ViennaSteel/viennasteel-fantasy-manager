@@ -58,8 +58,8 @@ function performanceIndicator(player) {
   const hasStarted = Number(actual) !== 0 || (player.game_start && new Date(player.game_start) <= new Date());
   if (!hasValues || !hasStarted || availability(player) === "unavailable") {
     return `<div class="performance neutral" aria-label="Performance noch offen">
+      <div class="performance-copy"><strong>Offen</strong><small>Noch kein Ergebnis</small></div>
       <svg viewBox="0 0 88 38" aria-hidden="true"><path class="performance-line" d="M4 22 C25 22 63 22 84 22" /><circle cx="84" cy="22" r="3.5" /></svg>
-      <strong>Offen</strong>
     </div>`;
   }
   const difference = actual - projected;
@@ -72,12 +72,12 @@ function performanceIndicator(player) {
   const endpointY = direction === "up" ? 7 : 31;
   const label = direction === "up" ? "Über Prognose" : "Unter Prognose";
   return `<div class="performance ${direction}" aria-label="${label}: ${sign}${formatPoints(difference)} Punkte">
+    <div class="performance-copy"><strong>${sign}${formatPoints(difference)}</strong><small>${label}</small></div>
     <svg viewBox="0 0 88 38" aria-hidden="true">
       <path class="performance-area" d="${area}" />
       <path class="performance-line" d="${path}" />
       <circle cx="84" cy="${endpointY}" r="3.5" />
     </svg>
-    <strong>${sign}${formatPoints(difference)}</strong><small>${label}</small>
   </div>`;
 }
 

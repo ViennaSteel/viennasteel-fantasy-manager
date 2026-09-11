@@ -107,17 +107,18 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .player-week strong { font-size: 18px; }
 .player-week strong.projection { color: var(--steel); }
 .player-week small { color: var(--muted); margin-left: 4px; }
-.performance { align-self: stretch; overflow: hidden; display: grid; grid-template-columns: minmax(70px, 92px) minmax(0, 1fr); grid-template-rows: 1fr 1fr; align-items: end; column-gap: 10px; padding: 14px 12px !important; border-left: 1px solid var(--line); background: linear-gradient(90deg, transparent, #ffffff03); }
-.performance svg { grid-row: 1 / 3; width: min(88px, 100%); overflow: hidden; }
+.performance { align-self: stretch; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; padding: 9px 16px !important; border-left: 1px solid var(--line); background: linear-gradient(90deg, transparent, #ffffff03); text-align: center; }
+.performance-copy { width: 100%; min-width: 0; display: grid; justify-items: center; gap: 1px; }
+.performance svg { width: min(108px, 100%); height: 38px; flex: 0 0 38px; overflow: hidden; }
 .performance svg .performance-area { fill: currentColor; opacity: .11; stroke: none; }
 .performance svg .performance-line { fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
 .performance svg circle { fill: currentColor; stroke: var(--surface); stroke-width: 2; }
-.performance strong { min-width: 0; align-self: end; font-size: 16px; white-space: nowrap; }
-.performance small { min-width: 0; align-self: start; display: block; overflow: hidden; margin: 2px 0 0; font-size: 9px; line-height: 1.2; white-space: normal; text-overflow: ellipsis; }
+.performance strong { min-width: 0; font-size: 16px; line-height: 1.1; white-space: nowrap; }
+.performance small { min-width: 0; display: block; overflow: hidden; margin: 0; max-width: 100%; color: currentColor; font-size: 9px; line-height: 1.2; white-space: nowrap; text-overflow: ellipsis; }
 .performance.up { color: #55df91; }
 .performance.down { color: var(--danger); }
-.performance.neutral { color: var(--muted); grid-template-rows: 1fr; align-items: center; }
-.performance.neutral strong { align-self: center; font-size: 13px; }
+.performance.neutral { color: var(--muted); }
+.performance.neutral strong { font-size: 13px; }
 .state-card { color: var(--muted); }
 .state-card.error { display: grid; gap: 8px; color: var(--text); }
 .state-card.error span { color: var(--muted); }
@@ -177,7 +178,7 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
   .player-week > div { padding: 11px 10px; }
   .player-week strong { font-size: 15px; }
   .player-week { grid-template-columns: 1.25fr .75fr; }
-  .performance { min-height: 70px; grid-template-columns: 54px minmax(0, 1fr); column-gap: 7px; }
+  .performance { min-height: 82px; padding-inline: 10px !important; }
   .scoreboard { gap: 10px; }
   .panel-heading { gap: 12px; }
   .matchup-actions { align-items: end; flex-direction: column-reverse; }
