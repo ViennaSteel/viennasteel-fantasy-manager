@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-11T03:56:25.662Z",
+  "updated_at": "2026-09-11T04:07:03.300Z",
   "bridge": "ViennaSteel Fantasy Manager",
-  "version": 2,
+  "version": 3,
   "username": "ViennaSteel",
   "sleeper_user_id": "1303014625205321728",
   "season": "2026",
@@ -14,7 +14,8 @@
       "my_roster_id": 2,
       "my_team_name": "Vienna Steel",
       "league_file": "data/leagues/1391811143542009856.json",
-      "waiver_index": "data/waivers/1391811143542009856/index.json"
+      "waiver_index": "data/waivers/1391811143542009856/index.json",
+      "trade_file": "data/trades/1391811143542009856.json"
     },
     {
       "league_id": "1389530060859392000",
@@ -23,7 +24,8 @@
       "my_roster_id": 1,
       "my_team_name": "Vienna Steel",
       "league_file": "data/leagues/1389530060859392000.json",
-      "waiver_index": "data/waivers/1389530060859392000/index.json"
+      "waiver_index": "data/waivers/1389530060859392000/index.json",
+      "trade_file": "data/trades/1389530060859392000.json"
     }
   ]
 }

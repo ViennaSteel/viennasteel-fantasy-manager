@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T03:56:25.795Z",
+  "updated_at": "2026-09-11T04:07:03.794Z",
   "week": 1,
   "league": {
     "league_id": "1391811143542009856",
@@ -229,7 +229,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 15348,
+      "trending_adds_24h": 15468,
       "trending_drops_24h": 0,
       "slot": "STARTER"
     },
@@ -337,8 +337,8 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 19720,
-      "trending_drops_24h": 62928,
+      "trending_adds_24h": 19824,
+      "trending_drops_24h": 63184,
       "slot": "BENCH"
     },
     {
@@ -355,7 +355,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 11516,
+      "trending_adds_24h": 11700,
       "trending_drops_24h": 0,
       "slot": "BENCH"
     },
@@ -373,8 +373,8 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 5427,
-      "trending_drops_24h": 7677,
+      "trending_adds_24h": 5445,
+      "trending_drops_24h": 7722,
       "slot": "BENCH"
     },
     {
@@ -520,5 +520,6 @@
       "SEA": 13
     }
   },
-  "waiver_index": "data/waivers/1391811143542009856/index.json"
+  "waiver_index": "data/waivers/1391811143542009856/index.json",
+  "trade_file": "data/trades/1391811143542009856.json"
 }

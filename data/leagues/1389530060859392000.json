@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T03:56:25.916Z",
+  "updated_at": "2026-09-11T04:07:03.994Z",
   "week": 1,
   "league": {
     "league_id": "1389530060859392000",
@@ -242,7 +242,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 6669,
+      "trending_adds_24h": 6741,
       "trending_drops_24h": 0,
       "slot": "BENCH"
     },
@@ -260,7 +260,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 9224,
+      "trending_adds_24h": 9256,
       "trending_drops_24h": 0,
       "slot": "STARTER"
     },
@@ -422,8 +422,8 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 42480,
-      "trending_drops_24h": 14256,
+      "trending_adds_24h": 42597,
+      "trending_drops_24h": 14310,
       "slot": "STARTER"
     },
     {
@@ -621,5 +621,6 @@
       "LAR": 13.9
     }
   },
-  "waiver_index": "data/waivers/1389530060859392000/index.json"
+  "waiver_index": "data/waivers/1389530060859392000/index.json",
+  "trade_file": "data/trades/1389530060859392000.json"
 }
