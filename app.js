@@ -84,6 +84,17 @@ function renderTeamBadge(selector, identity, fallback) {
     : `<span>${initials(label, fallback)}</span>`;
 }
 
+function renderBrand(identity, fallback) {
+  const name = identity?.team_name || fallback || "Fantasy Team";
+  const mark = $("#brand-mark");
+  const src = avatarUrl(identity?.avatar);
+  $("#brand-team-name").textContent = name;
+  $("#team-brand").setAttribute("aria-label", `${name} Fantasy Manager Startseite`);
+  mark.innerHTML = src
+    ? `<img src="${src}" alt="${name} Wappen" onerror="this.remove();this.parentElement.querySelector('span').hidden=false"><span hidden>${initials(name, "FT")}</span>`
+    : `<span>${initials(name, "FT")}</span>`;
+}
+
 function renderContext() {
   const picker = $("#league-picker");
   picker.innerHTML = state.context.leagues.map((league) =>
@@ -105,6 +116,7 @@ function renderLeague() {
   $("#opponent-matchup-name").textContent = data.opponent_team?.team_name || "Gegner";
   renderTeamBadge("#my-team-badge", data.my_team, "VS");
   renderTeamBadge("#opponent-team-badge", data.opponent_team, "OPP");
+  renderBrand(data.my_team, data.my_team_name);
   $("#sync-label").textContent = `Aktuell · ${formatTime(data.updated_at)}`;
   renderAlerts();
   renderRoster();
