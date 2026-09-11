@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T11:29:14.398Z",
+  "updated_at": "2026-09-11T11:43:34.058Z",
   "week": 1,
   "league": {
     "league_id": "1389530060859392000",
@@ -230,7 +230,11 @@
     "roster_id": 1,
     "team_name": "Vienna Steel",
     "owner_name": "ViennaSteel",
-    "avatar": "https://sleepercdn.com/uploads/e793f0a7bb688ec471ab76bcd31eccc2.jpg"
+    "avatar": "https://sleepercdn.com/uploads/e793f0a7bb688ec471ab76bcd31eccc2.jpg",
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "rank": 1
   },
   "my_roster_id": 1,
   "team": [
@@ -248,15 +252,17 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 6642,
+      "trending_adds_24h": 6552,
       "trending_drops_24h": 0,
       "slot": "BENCH",
       "projected_points": 12.08,
+      "rostered_percent": 71.1,
+      "start_percent": 4.65,
       "actual_points": 0,
       "week_opponent": "MIN",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T20:25Z",
-      "projection_updated_at": 1789125028874
+      "projection_updated_at": 1789125628846
     },
     {
       "player_id": "11539",
@@ -272,15 +278,17 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 8376,
+      "trending_adds_24h": 8160,
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 7.2,
+      "rostered_percent": 72.61,
+      "start_percent": 66.12,
       "actual_points": 0,
       "week_opponent": "NO",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028770
+      "projection_updated_at": 1789125628748
     },
     {
       "player_id": "11584",
@@ -300,11 +308,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 13.56,
+      "rostered_percent": 96.51,
+      "start_percent": 69.71,
       "actual_points": 0,
       "week_opponent": "CIN",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028681
+      "projection_updated_at": 1789125628664
     },
     {
       "player_id": "11604",
@@ -324,6 +334,8 @@
       "trending_drops_24h": 0,
       "slot": "BENCH",
       "projected_points": null,
+      "rostered_percent": 99.85,
+      "start_percent": 25.55,
       "actual_points": 0,
       "week_opponent": null,
       "game_date": null,
@@ -348,11 +360,13 @@
       "trending_drops_24h": 0,
       "slot": "BENCH",
       "projected_points": 9.65,
+      "rostered_percent": 92.56,
+      "start_percent": 31.82,
       "actual_points": 0,
       "week_opponent": "LAC",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T20:25Z",
-      "projection_updated_at": 1789125028964
+      "projection_updated_at": 1789125628928
     },
     {
       "player_id": "11631",
@@ -372,11 +386,13 @@
       "trending_drops_24h": 0,
       "slot": "BENCH",
       "projected_points": 10.45,
+      "rostered_percent": 84.32,
+      "start_percent": 9.23,
       "actual_points": 0,
       "week_opponent": "CLE",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028822
+      "projection_updated_at": 1789125628794
     },
     {
       "player_id": "12507",
@@ -396,11 +412,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 16,
+      "rostered_percent": 99.65,
+      "start_percent": 97.63,
       "actual_points": 0,
       "week_opponent": "ARI",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T20:25Z",
-      "projection_updated_at": 1789125029012
+      "projection_updated_at": 1789125628976
     },
     {
       "player_id": "12512",
@@ -420,11 +438,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 10.85,
+      "rostered_percent": 97.13,
+      "start_percent": 77.97,
       "actual_points": 0,
       "week_opponent": "JAX",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028761
+      "projection_updated_at": 1789125628740
     },
     {
       "player_id": "12526",
@@ -444,11 +464,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 14.9,
+      "rostered_percent": 98.75,
+      "start_percent": 88.43,
       "actual_points": 0,
       "week_opponent": "CHI",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028858
+      "projection_updated_at": 1789125628834
     },
     {
       "player_id": "4881",
@@ -468,11 +490,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 19.96,
+      "rostered_percent": 99.86,
+      "start_percent": 95.15,
       "actual_points": 0,
       "week_opponent": "IND",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028600
+      "projection_updated_at": 1789125628580
     },
     {
       "player_id": "5012",
@@ -488,15 +512,17 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 36405,
-      "trending_drops_24h": 13158,
+      "trending_adds_24h": 35379,
+      "trending_drops_24h": 12969,
       "slot": "STARTER",
       "projected_points": 10.28,
+      "rostered_percent": 83.4,
+      "start_percent": 33.96,
       "actual_points": 0,
       "week_opponent": "IND",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028624
+      "projection_updated_at": 1789125628622
     },
     {
       "player_id": "7564",
@@ -516,11 +542,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 20.37,
+      "rostered_percent": 99.93,
+      "start_percent": 99.42,
       "actual_points": 0,
       "week_opponent": "TB",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028613
+      "projection_updated_at": 1789125628591
     },
     {
       "player_id": "7594",
@@ -540,11 +568,13 @@
       "trending_drops_24h": 0,
       "slot": "BENCH",
       "projected_points": 10.81,
+      "rostered_percent": 85.23,
+      "start_percent": 14.58,
       "actual_points": 0,
       "week_opponent": "CHI",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028848
+      "projection_updated_at": 1789125628824
     },
     {
       "player_id": "9753",
@@ -564,6 +594,8 @@
       "trending_drops_24h": 0,
       "slot": "IR",
       "projected_points": null,
+      "rostered_percent": 54.48,
+      "start_percent": 0.26,
       "actual_points": 0,
       "week_opponent": null,
       "game_date": null,
@@ -588,11 +620,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 8.45,
+      "rostered_percent": null,
+      "start_percent": null,
       "actual_points": 0,
       "week_opponent": "ARI",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T20:25Z",
-      "projection_updated_at": 1789125029007
+      "projection_updated_at": 1789125628971
     }
   ],
   "matchup": {
@@ -721,7 +755,11 @@
     "roster_id": 9,
     "team_name": "Krieglach City Chiefs",
     "owner_name": "pockichri",
-    "avatar": "https://sleepercdn.com/uploads/001355d86f2fac064828bbdfa6b4022e.jpg"
+    "avatar": "https://sleepercdn.com/uploads/001355d86f2fac064828bbdfa6b4022e.jpg",
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "rank": 9
   },
   "waiver_index": "data/waivers/1389530060859392000/index.json",
   "trade_file": "data/trades/1389530060859392000.json"

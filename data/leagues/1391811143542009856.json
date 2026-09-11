@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T11:29:14.279Z",
+  "updated_at": "2026-09-11T11:43:33.880Z",
   "week": 1,
   "league": {
     "league_id": "1391811143542009856",
@@ -127,7 +127,11 @@
     "roster_id": 2,
     "team_name": "Vienna Steel",
     "owner_name": "ViennaSteel",
-    "avatar": "e793f0a7bb688ec471ab76bcd31eccc2"
+    "avatar": "e793f0a7bb688ec471ab76bcd31eccc2",
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "rank": 2
   },
   "my_roster_id": 2,
   "team": [
@@ -149,11 +153,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 19.67,
+      "rostered_percent": 99.42,
+      "start_percent": 78.55,
       "actual_points": 12.82,
       "week_opponent": "SEA",
       "game_date": "2026-09-09",
       "game_start": "2026-09-10T00:20Z",
-      "projection_updated_at": 1789125028598
+      "projection_updated_at": 1789125628580
     },
     {
       "player_id": "11584",
@@ -173,11 +179,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 13.56,
+      "rostered_percent": 96.51,
+      "start_percent": 69.71,
       "actual_points": 0,
       "week_opponent": "CIN",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028681
+      "projection_updated_at": 1789125628664
     },
     {
       "player_id": "11620",
@@ -197,11 +205,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 11.17,
+      "rostered_percent": 94.78,
+      "start_percent": 48.06,
       "actual_points": 0,
       "week_opponent": "CAR",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028940
+      "projection_updated_at": 1789125628887
     },
     {
       "player_id": "12506",
@@ -221,11 +231,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 10.54,
+      "rostered_percent": 96.31,
+      "start_percent": 85.92,
       "actual_points": 0,
       "week_opponent": "JAX",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028776
+      "projection_updated_at": 1789125628753
     },
     {
       "player_id": "12527",
@@ -245,11 +257,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 16.43,
+      "rostered_percent": 99.69,
+      "start_percent": 96.54,
       "actual_points": 0,
       "week_opponent": "MIA",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T20:25Z",
-      "projection_updated_at": 1789125028982
+      "projection_updated_at": 1789125628935
     },
     {
       "player_id": "12711",
@@ -265,15 +279,17 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 14640,
+      "trending_adds_24h": 14352,
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 7.05,
+      "rostered_percent": 52.21,
+      "start_percent": 45.93,
       "actual_points": 0,
       "week_opponent": "IND",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028649
+      "projection_updated_at": 1789125628628
     },
     {
       "player_id": "4199",
@@ -290,14 +306,16 @@
       "practice_participation": null,
       "depth_chart_position": "RB",
       "trending_adds_24h": 0,
-      "trending_drops_24h": 6717,
+      "trending_drops_24h": 6588,
       "slot": "BENCH",
       "projected_points": 8.95,
+      "rostered_percent": 81.98,
+      "start_percent": 9.92,
       "actual_points": 0,
       "week_opponent": "GB",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T20:25Z",
-      "projection_updated_at": 1789125028949
+      "projection_updated_at": 1789125628894
     },
     {
       "player_id": "5872",
@@ -317,11 +335,13 @@
       "trending_drops_24h": 0,
       "slot": "BENCH",
       "projected_points": 10.05,
+      "rostered_percent": 67.95,
+      "start_percent": 4.45,
       "actual_points": 18,
       "week_opponent": "LAR",
       "game_date": "2026-09-10",
       "game_start": "2026-09-11T00:35Z",
-      "projection_updated_at": 1789125028687
+      "projection_updated_at": 1789125628667
     },
     {
       "player_id": "6786",
@@ -341,11 +361,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 16.06,
+      "rostered_percent": 99.93,
+      "start_percent": 99.61,
       "actual_points": 0,
       "week_opponent": "NYG",
       "game_date": "2026-09-13",
       "game_start": "2026-09-14T00:20Z",
-      "projection_updated_at": 1789125028997
+      "projection_updated_at": 1789125628946
     },
     {
       "player_id": "6801",
@@ -365,11 +387,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 16.14,
+      "rostered_percent": 97.36,
+      "start_percent": 73.86,
       "actual_points": 0,
       "week_opponent": "TB",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028610
+      "projection_updated_at": 1789125628590
     },
     {
       "player_id": "7594",
@@ -389,11 +413,13 @@
       "trending_drops_24h": 0,
       "slot": "BENCH",
       "projected_points": 10.81,
+      "rostered_percent": 85.23,
+      "start_percent": 14.58,
       "actual_points": 0,
       "week_opponent": "CHI",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T17:00Z",
-      "projection_updated_at": 1789125028848
+      "projection_updated_at": 1789125628824
     },
     {
       "player_id": "8121",
@@ -409,15 +435,17 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 17840,
-      "trending_drops_24h": 52512,
+      "trending_adds_24h": 17488,
+      "trending_drops_24h": 51152,
       "slot": "BENCH",
       "projected_points": 10.57,
+      "rostered_percent": 61.51,
+      "start_percent": 2.17,
       "actual_points": 0,
       "week_opponent": "SEA",
       "game_date": "2026-09-09",
       "game_start": "2026-09-10T00:20Z",
-      "projection_updated_at": 1789125028608
+      "projection_updated_at": 1789125628590
     },
     {
       "player_id": "8183",
@@ -433,15 +461,17 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 13592,
+      "trending_adds_24h": 13560,
       "trending_drops_24h": 0,
       "slot": "BENCH",
       "projected_points": 18.45,
+      "rostered_percent": 84.64,
+      "start_percent": 21.42,
       "actual_points": 22.1,
       "week_opponent": "LAR",
       "game_date": "2026-09-10",
       "game_start": "2026-09-11T00:35Z",
-      "projection_updated_at": 1789125028674
+      "projection_updated_at": 1789125628653
     },
     {
       "player_id": "9756",
@@ -457,15 +487,17 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 5382,
-      "trending_drops_24h": 7506,
+      "trending_adds_24h": 5256,
+      "trending_drops_24h": 7380,
       "slot": "BENCH",
       "projected_points": 11.71,
+      "rostered_percent": 79.98,
+      "start_percent": 6.13,
       "actual_points": 0,
       "week_opponent": "GB",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T20:25Z",
-      "projection_updated_at": 1789125028958
+      "projection_updated_at": 1789125628903
     },
     {
       "player_id": "LAC",
@@ -485,11 +517,13 @@
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 8.45,
+      "rostered_percent": null,
+      "start_percent": null,
       "actual_points": 0,
       "week_opponent": "ARI",
       "game_date": "2026-09-13",
       "game_start": "2026-09-13T20:25Z",
-      "projection_updated_at": 1789125029007
+      "projection_updated_at": 1789125628971
     }
   ],
   "matchup": {
@@ -620,7 +654,11 @@
     "roster_id": 9,
     "team_name": "Vollerinho09",
     "owner_name": "Vollerinho09",
-    "avatar": "c24f5d797aa5815e8d0cd24ad683b383"
+    "avatar": "c24f5d797aa5815e8d0cd24ad683b383",
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "rank": 9
   },
   "waiver_index": "data/waivers/1391811143542009856/index.json",
   "trade_file": "data/trades/1391811143542009856.json"
