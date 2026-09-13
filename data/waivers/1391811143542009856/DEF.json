@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-09-13T05:39:16.821Z",
+  "updated_at": "2026-09-13T05:50:28.494Z",
   "week": 1,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
   "position": "DEF",
   "available": [
-    {
-      "player_id": "SF",
-      "name": "San Francisco 49ers",
-      "team": "SF",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 4875
-    },
     {
       "player_id": "DET",
       "name": "Detroit Lions",
@@ -35,7 +19,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 4860
+      "trending_adds_24h": 4905
+    },
+    {
+      "player_id": "SF",
+      "name": "San Francisco 49ers",
+      "team": "SF",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 4896
     },
     {
       "player_id": "ARI",
