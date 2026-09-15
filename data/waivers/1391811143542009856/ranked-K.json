@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T21:48:44.939Z",
+  "updated_at": "2026-09-15T22:00:30.417Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -26,8 +26,8 @@
       "start_percent": 87.78,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 54159,
-      "waiver_score": 91
+      "trending_drops_24h": 54693,
+      "waiver_score": 91.2
     },
     {
       "player_id": "5189",
@@ -46,7 +46,7 @@
       "rostered_percent": 84.78,
       "start_percent": 79.14,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 30315,
+      "trending_adds_24h": 30708,
       "trending_drops_24h": 0,
       "waiver_score": 80.8
     },
@@ -69,7 +69,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 74.4
+      "waiver_score": 74.6
     },
     {
       "player_id": "13968",
@@ -90,7 +90,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 71.6
+      "waiver_score": 71.8
     },
     {
       "player_id": "7042",
@@ -109,30 +109,9 @@
       "rostered_percent": 5.05,
       "start_percent": 3.56,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 21440,
+      "trending_adds_24h": 21675,
       "trending_drops_24h": 0,
       "waiver_score": 70
-    },
-    {
-      "player_id": "7839",
-      "name": "Evan McPherson",
-      "team": "CIN",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 6.19,
-      "week_opponent": "HOU",
-      "rostered_percent": 21.75,
-      "start_percent": 18.72,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 10082,
-      "trending_drops_24h": 0,
-      "waiver_score": 69.4
     },
     {
       "player_id": "12713",
@@ -153,7 +132,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 68.8
+      "waiver_score": 69
     },
     {
       "player_id": "13833",
@@ -174,7 +153,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 67.8
+      "waiver_score": 68
     },
     {
       "player_id": "6083",
@@ -193,9 +172,30 @@
       "rostered_percent": 1.6,
       "start_percent": 1,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 25445,
+      "trending_adds_24h": 25720,
       "trending_drops_24h": 0,
       "waiver_score": 67.8
+    },
+    {
+      "player_id": "7839",
+      "name": "Evan McPherson",
+      "team": "CIN",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 6.19,
+      "week_opponent": "HOU",
+      "rostered_percent": 21.75,
+      "start_percent": 18.72,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 66.4
     },
     {
       "player_id": "12961",
@@ -216,7 +216,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 65.4
+      "waiver_score": 65.6
     },
     {
       "player_id": "4227",
@@ -342,28 +342,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 40.6
-    },
-    {
-      "player_id": "6528",
-      "name": "Joey Slye",
-      "team": "TEN",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 4.98,
-      "week_opponent": "PHI",
-      "rostered_percent": 0.82,
-      "start_percent": 0.6,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 39
+      "waiver_score": 40.8
     },
     {
       "player_id": "10955",
@@ -381,6 +360,27 @@
       "week_opponent": "SEA",
       "rostered_percent": 0.36,
       "start_percent": 0.22,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 39.2
+    },
+    {
+      "player_id": "6528",
+      "name": "Joey Slye",
+      "team": "TEN",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 4.98,
+      "week_opponent": "PHI",
+      "rostered_percent": 0.82,
+      "start_percent": 0.6,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -405,7 +405,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 38.2
+      "waiver_score": 38.4
     },
     {
       "player_id": "7922",
@@ -426,7 +426,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 36.4
+      "waiver_score": 36.6
     },
     {
       "player_id": "13804",
@@ -447,7 +447,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 35.2
+      "waiver_score": 35.4
     },
     {
       "player_id": "11653",
@@ -468,7 +468,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 30
+      "waiver_score": 30.2
     },
     {
       "player_id": "12548",
@@ -489,7 +489,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 29.4
+      "waiver_score": 29.6
     },
     {
       "player_id": "5119",
@@ -531,7 +531,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 23.2
+      "waiver_score": 23.4
     },
     {
       "player_id": "7933",
@@ -552,7 +552,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 16.2
+      "waiver_score": 16.4
     }
   ]
 }
