@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T20:21:01.445Z",
+  "updated_at": "2026-09-15T20:35:58.101Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -43,11 +43,11 @@
       "depth_chart_position": "QB",
       "projected_points": 17.64,
       "week_opponent": "SF",
-      "rostered_percent": 20.85,
+      "rostered_percent": 20.84,
       "start_percent": 2.14,
       "previous_week_opportunities": 33,
       "trending_adds_24h": 30058,
-      "trending_drops_24h": 54460,
+      "trending_drops_24h": 54166,
       "waiver_score": 96.99
     },
     {
@@ -65,7 +65,7 @@
       "projected_points": 15.58,
       "week_opponent": "ATL",
       "rostered_percent": 11.33,
-      "start_percent": 2.04,
+      "start_percent": 2.06,
       "previous_week_opportunities": 39,
       "trending_adds_24h": 304860,
       "trending_drops_24h": 0,
@@ -106,11 +106,11 @@
       "depth_chart_position": "QB",
       "projected_points": 14.34,
       "week_opponent": "KC",
-      "rostered_percent": 34.81,
+      "rostered_percent": 34.8,
       "start_percent": 2.69,
       "previous_week_opportunities": 32,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 38605,
+      "trending_drops_24h": 38430,
       "waiver_score": 93.13
     },
     {
@@ -148,7 +148,7 @@
       "depth_chart_position": "QB",
       "projected_points": 11.69,
       "week_opponent": "PHI",
-      "rostered_percent": 8.92,
+      "rostered_percent": 8.91,
       "start_percent": 0.71,
       "previous_week_opportunities": 36,
       "trending_adds_24h": 0,
@@ -237,7 +237,7 @@
       "previous_week_opportunities": 24,
       "trending_adds_24h": 69657,
       "trending_drops_24h": 0,
-      "waiver_score": 85.34
+      "waiver_score": 85.23
     },
     {
       "player_id": "13269",
@@ -253,11 +253,11 @@
       "depth_chart_position": "QB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 7.81,
+      "rostered_percent": 7.8,
       "start_percent": 0.14,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 52240,
+      "trending_drops_24h": 52000,
       "waiver_score": 79.41
     },
     {
@@ -442,11 +442,11 @@
       "depth_chart_position": "QB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 25.92,
-      "start_percent": 2.28,
+      "rostered_percent": 25.9,
+      "start_percent": 2.23,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 61644,
+      "trending_drops_24h": 61032,
       "waiver_score": 62.73
     },
     {
@@ -618,6 +618,27 @@
       "waiver_score": 60.59
     },
     {
+      "player_id": "3161",
+      "name": "Carson Wentz",
+      "team": "MIN",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.11,
+      "start_percent": 0.04,
+      "previous_week_opportunities": 24,
+      "trending_adds_24h": 587430,
+      "trending_drops_24h": 0,
+      "waiver_score": 60.21
+    },
+    {
       "player_id": "11292",
       "name": "Tommy DeVito",
       "team": "NE",
@@ -637,27 +658,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 60.16
-    },
-    {
-      "player_id": "3161",
-      "name": "Carson Wentz",
-      "team": "MIN",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.11,
-      "start_percent": 0.03,
-      "previous_week_opportunities": 24,
-      "trending_adds_24h": 587430,
-      "trending_drops_24h": 0,
-      "waiver_score": 60.1
     },
     {
       "player_id": "13404",
