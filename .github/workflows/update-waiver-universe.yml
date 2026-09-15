@@ -1,0 +1,236 @@
+name: Update complete waiver universe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build complete waiver pool
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const path = require("path");
+
+            const USERNAME = "ViennaSteel";
+            const SEASON = "2026";
+            const API = "https://api.sleeper.app/v1";
+            const POSITIONS = ["QB", "RB", "WR", "TE", "K", "DEF"];
+
+            async function get(url) {
+              const response = await fetch(url.startsWith("http") ? url : API + url);
+              if (!response.ok) throw new Error(`${response.status}: ${url}`);
+              return response.json();
+            }
+
+            function ensureDir(file) {
+              fs.mkdirSync(path.dirname(file), { recursive: true });
+            }
+
+            function writeJson(file, value) {
+              ensureDir(file);
+              fs.writeFileSync(file, JSON.stringify(value, null, 2) + "\n");
+            }
+
+            function normalizeName(value) {
+              return String(value || "")
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .toLowerCase()
+                .replace(/\b(jr|sr|ii|iii|iv)\b/g, "")
+                .replace(/[^a-z0-9]/g, "");
+            }
+
+            function projectedPoints(stats, scoring) {
+              if (!stats || !scoring) return null;
+              let total = 0;
+              let matched = false;
+              for (const [key, multiplierRaw] of Object.entries(scoring)) {
+                const units = Number(stats[key]);
+                const multiplier = Number(multiplierRaw);
+                if (!Number.isFinite(units) || !Number.isFinite(multiplier) || multiplier === 0) continue;
+                total += units * multiplier;
+                matched = true;
+              }
+              return matched ? Math.round(total * 100) / 100 : null;
+            }
+
+            function opportunity(stats, position) {
+              if (!stats) return null;
+              const rush = Number(stats.rush_att || 0);
+              if (position === "QB") return Number(stats.pass_att || 0) + rush;
+              if (["RB", "WR", "TE"].includes(position)) return rush + Number(stats.rec_tgt || 0);
+              return null;
+            }
+
+            function percentileMap(items, getter) {
+              const valid = items
+                .map(item => [item.player_id, Number(getter(item))])
+                .filter(([, value]) => Number.isFinite(value))
+                .sort((a, b) => a[1] - b[1]);
+              const result = new Map();
+              valid.forEach(([id], index) => {
+                result.set(id, valid.length <= 1 ? 50 : Math.round((index / (valid.length - 1)) * 1000) / 10);
+              });
+              return result;
+            }
+
+            const user = await get(`/user/${encodeURIComponent(USERNAME)}`);
+            const [state, leagues, players, trendingAdds, trendingDrops] = await Promise.all([
+              get("/state/nfl"),
+              get(`/user/${user.user_id}/leagues/nfl/${SEASON}`),
+              get("/players/nfl"),
+              get("/players/nfl/trending/add?lookback_hours=24&limit=500").catch(() => []),
+              get("/players/nfl/trending/drop?lookback_hours=24&limit=500").catch(() => [])
+            ]);
+
+            const week = Number(state.week);
+            const previousWeek = Math.max(1, week - 1);
+            const [projectionsRaw, statsRaw, ownershipData] = await Promise.all([
+              get(`https://api.sleeper.com/projections/nfl/${SEASON}/${week}?season_type=regular`).catch(() => []),
+              week > 1
+                ? get(`https://api.sleeper.com/stats/nfl/${SEASON}/${previousWeek}?season_type=regular`).catch(() => [])
+                : Promise.resolve([]),
+              fetch(`https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/${SEASON}/segments/0/leaguedefaults/1?view=kona_player_info`, {
+                headers: {
+                  "x-fantasy-filter": JSON.stringify({
+                    players: { limit: 3000, sortPercOwned: { sortPriority: 1, sortAsc: false } }
+                  })
+                }
+              }).then(r => r.ok ? r.json() : { players: [] }).catch(() => ({ players: [] }))
+            ]);
+
+            const projections = new Map((Array.isArray(projectionsRaw) ? projectionsRaw : Object.values(projectionsRaw || {}))
+              .map(item => [String(item.player_id), item]));
+            const stats = new Map((Array.isArray(statsRaw) ? statsRaw : Object.values(statsRaw || {}))
+              .map(item => [String(item.player_id), item.stats || item]));
+            const addMap = new Map(trendingAdds.map(item => [String(item.player_id), Number(item.count || 0)]));
+            const dropMap = new Map(trendingDrops.map(item => [String(item.player_id), Number(item.count || 0)]));
+            const ownership = new Map((ownershipData.players || []).map(item => [
+              normalizeName(item.player?.fullName),
+              item.player?.ownership || null
+            ]));
+
+            for (const league of leagues) {
+              const rosters = await get(`/league/${league.league_id}/rosters`);
+              const mine = rosters.find(r => r.owner_id === user.user_id);
+              if (!mine) continue;
+
+              const rostered = new Set();
+              for (const roster of rosters) {
+                for (const id of roster.players || []) rostered.add(String(id));
+              }
+
+              const available = [];
+              for (const [id, player] of Object.entries(players)) {
+                if (rostered.has(String(id))) continue;
+                const fantasyPositions = new Set([player?.position, ...(player?.fantasy_positions || [])].filter(Boolean));
+                if (!POSITIONS.some(position => fantasyPositions.has(position))) continue;
+                if (!player?.team && !addMap.has(String(id))) continue;
+
+                const name = player?.full_name || [player?.first_name, player?.last_name].filter(Boolean).join(" ") || String(id);
+                const own = ownership.get(normalizeName(name)) || null;
+                const projection = projections.get(String(id)) || null;
+                const previousStats = stats.get(String(id)) || null;
+                const mainPosition = POSITIONS.includes(player?.position)
+                  ? player.position
+                  : POSITIONS.find(position => fantasyPositions.has(position)) || player?.position || null;
+
+                available.push({
+                  player_id: String(id),
+                  name,
+                  team: player?.team ?? null,
+                  position: mainPosition,
+                  fantasy_positions: player?.fantasy_positions || [],
+                  status: player?.status ?? null,
+                  injury_status: player?.injury_status ?? null,
+                  injury_body_part: player?.injury_body_part ?? null,
+                  depth_chart_position: player?.depth_chart_position ?? null,
+                  projected_points: projectedPoints(projection?.stats, league.scoring_settings),
+                  week_opponent: projection?.opponent || null,
+                  rostered_percent: Number.isFinite(Number(own?.percentOwned)) ? Number(own.percentOwned) : null,
+                  start_percent: Number.isFinite(Number(own?.percentStarted)) ? Number(own.percentStarted) : null,
+                  previous_week_opportunities: opportunity(previousStats, mainPosition),
+                  trending_adds_24h: addMap.get(String(id)) || 0,
+                  trending_drops_24h: dropMap.get(String(id)) || 0
+                });
+              }
+
+              for (const position of POSITIONS) {
+                const pool = available.filter(player => player.position === position || player.fantasy_positions.includes(position));
+                const projectionPct = percentileMap(pool, player => player.projected_points);
+                const ownershipPct = percentileMap(pool, player => player.rostered_percent);
+                const startPct = percentileMap(pool, player => player.start_percent);
+                const usagePct = percentileMap(pool, player => player.previous_week_opportunities);
+                const trendPct = percentileMap(pool, player => player.trending_adds_24h);
+
+                for (const player of pool) {
+                  const injury = String(player.injury_status || "").toUpperCase();
+                  const health = ["IR", "PUP", "OUT", "SUSPENDED", "NFI"].includes(injury) ? 0 : injury === "DOUBTFUL" ? 25 : injury === "QUESTIONABLE" ? 70 : 100;
+                  const signals = [
+                    [ownershipPct.get(player.player_id), 30],
+                    [projectionPct.get(player.player_id), 30],
+                    [usagePct.get(player.player_id), 20],
+                    [startPct.get(player.player_id), 10],
+                    [trendPct.get(player.player_id), 5],
+                    [health, 5]
+                  ].filter(([value]) => Number.isFinite(Number(value)));
+                  const weight = signals.reduce((sum, [, w]) => sum + w, 0);
+                  player.waiver_score = weight
+                    ? Math.round((signals.reduce((sum, [value, w]) => sum + Number(value) * w, 0) / weight) * 100) / 100
+                    : 0;
+                }
+
+                pool.sort((a, b) =>
+                  b.waiver_score - a.waiver_score ||
+                  Number(b.rostered_percent || 0) - Number(a.rostered_percent || 0) ||
+                  Number(b.projected_points || 0) - Number(a.projected_points || 0) ||
+                  Number(b.trending_adds_24h || 0) - Number(a.trending_adds_24h || 0)
+                );
+
+                const file = `data/waivers/${league.league_id}/ranked-${position}.json`;
+                writeJson(file, {
+                  updated_at: new Date().toISOString(),
+                  week,
+                  league_id: league.league_id,
+                  league_name: league.name,
+                  position,
+                  sort: "waiver_score",
+                  scoring_note: "Composite of rostered %, league-scoring projection, previous-week opportunities, start %, Sleeper trending and health. Trending is intentionally a minor signal.",
+                  available_count: pool.length,
+                  available: pool
+                });
+              }
+
+              writeJson(`data/waivers/${league.league_id}/ranked-index.json`, {
+                updated_at: new Date().toISOString(),
+                week,
+                league_id: league.league_id,
+                league_name: league.name,
+                files: Object.fromEntries(POSITIONS.map(position => [position, `data/waivers/${league.league_id}/ranked-${position}.json`]))
+              });
+            }
+
+      - name: Commit ranked waiver data
+        run: |
+          git config user.name "ViennaSteel Fantasy Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/waivers
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update complete ranked waiver pool"
+            git pull --rebase origin main
+            git push
+          fi
