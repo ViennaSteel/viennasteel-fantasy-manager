@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T19:19:45.264Z",
+  "updated_at": "2026-09-15T19:34:36.863Z",
   "week": 2,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -23,32 +23,11 @@
       "projected_points": 19.28,
       "week_opponent": "NYJ",
       "rostered_percent": 42.01,
-      "start_percent": 6.89,
+      "start_percent": 6.93,
       "previous_week_opportunities": 43,
-      "trending_adds_24h": 15244,
+      "trending_adds_24h": 15438,
       "trending_drops_24h": 0,
       "waiver_score": 97.65
-    },
-    {
-      "player_id": "3163",
-      "name": "Jared Goff",
-      "team": "DET",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": 15.78,
-      "week_opponent": "BUF",
-      "rostered_percent": 69.61,
-      "start_percent": 14.77,
-      "previous_week_opportunities": 41,
-      "trending_adds_24h": 9215,
-      "trending_drops_24h": 41200,
-      "waiver_score": 96.62
     },
     {
       "player_id": "12508",
@@ -65,11 +44,11 @@
       "projected_points": 17.22,
       "week_opponent": "LAR",
       "rostered_percent": 94.03,
-      "start_percent": 64.45,
+      "start_percent": 64.46,
       "previous_week_opportunities": 40,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 96.6
+      "waiver_score": 96.65
     },
     {
       "player_id": "12545",
@@ -86,9 +65,9 @@
       "projected_points": 13.66,
       "week_opponent": "BAL",
       "rostered_percent": 46.67,
-      "start_percent": 4.84,
+      "start_percent": 4.86,
       "previous_week_opportunities": 60,
-      "trending_adds_24h": 211824,
+      "trending_adds_24h": 210360,
       "trending_drops_24h": 0,
       "waiver_score": 95.11
     },
@@ -107,9 +86,9 @@
       "projected_points": 17.18,
       "week_opponent": "CIN",
       "rostered_percent": 25.65,
-      "start_percent": 3.74,
+      "start_percent": 3.75,
       "previous_week_opportunities": 40,
-      "trending_adds_24h": 77539,
+      "trending_adds_24h": 78666,
       "trending_drops_24h": 0,
       "waiver_score": 94.94
     },
@@ -128,11 +107,32 @@
       "projected_points": 17.6,
       "week_opponent": "SF",
       "rostered_percent": 20.85,
-      "start_percent": 2.15,
+      "start_percent": 2.14,
       "previous_week_opportunities": 33,
-      "trending_adds_24h": 27762,
-      "trending_drops_24h": 52213,
+      "trending_adds_24h": 28217,
+      "trending_drops_24h": 52346,
       "waiver_score": 94.01
+    },
+    {
+      "player_id": "3163",
+      "name": "Jared Goff",
+      "team": "DET",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": 15.78,
+      "week_opponent": "BUF",
+      "rostered_percent": 69.6,
+      "start_percent": 14.75,
+      "previous_week_opportunities": 41,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 41085,
+      "waiver_score": 92.58
     },
     {
       "player_id": "9228",
@@ -148,10 +148,10 @@
       "depth_chart_position": "QB",
       "projected_points": 14.95,
       "week_opponent": "ATL",
-      "rostered_percent": 11.32,
-      "start_percent": 2.01,
+      "rostered_percent": 11.33,
+      "start_percent": 2.04,
       "previous_week_opportunities": 39,
-      "trending_adds_24h": 296712,
+      "trending_adds_24h": 294852,
       "trending_drops_24h": 0,
       "waiver_score": 92.46
     },
@@ -172,7 +172,7 @@
       "rostered_percent": 7.44,
       "start_percent": 0.96,
       "previous_week_opportunities": 43,
-      "trending_adds_24h": 11136,
+      "trending_adds_24h": 11304,
       "trending_drops_24h": 0,
       "waiver_score": 92.22
     },
@@ -190,12 +190,12 @@
       "depth_chart_position": "QB",
       "projected_points": 16.6,
       "week_opponent": "CLE",
-      "rostered_percent": 59.29,
-      "start_percent": 11.88,
+      "rostered_percent": 59.28,
+      "start_percent": 11.87,
       "previous_week_opportunities": 33,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 91.45
+      "waiver_score": 91.5
     },
     {
       "player_id": "5870",
@@ -211,12 +211,12 @@
       "depth_chart_position": "QB",
       "projected_points": 14.25,
       "week_opponent": "KC",
-      "rostered_percent": 34.82,
+      "rostered_percent": 34.81,
       "start_percent": 2.69,
       "previous_week_opportunities": 32,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 37490,
-      "waiver_score": 88.61
+      "trending_drops_24h": 37280,
+      "waiver_score": 88.66
     },
     {
       "player_id": "1166",
@@ -235,7 +235,7 @@
       "rostered_percent": 3.36,
       "start_percent": 0.63,
       "previous_week_opportunities": 35,
-      "trending_adds_24h": 34984,
+      "trending_adds_24h": 34896,
       "trending_drops_24h": 0,
       "waiver_score": 87.83
     },
@@ -258,7 +258,7 @@
       "previous_week_opportunities": 36,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 87.51
+      "waiver_score": 87.56
     },
     {
       "player_id": "4017",
@@ -277,7 +277,7 @@
       "rostered_percent": 1.96,
       "start_percent": 0.24,
       "previous_week_opportunities": 28,
-      "trending_adds_24h": 9664,
+      "trending_adds_24h": 9688,
       "trending_drops_24h": 0,
       "waiver_score": 86.39
     },
@@ -295,12 +295,12 @@
       "depth_chart_position": "QB",
       "projected_points": 15.8,
       "week_opponent": "CHI",
-      "rostered_percent": 66.8,
-      "start_percent": 9.14,
+      "rostered_percent": 66.75,
+      "start_percent": 9,
       "previous_week_opportunities": 7,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 357104,
-      "waiver_score": 85.4
+      "trending_drops_24h": 353096,
+      "waiver_score": 85.44
     },
     {
       "player_id": "3257",
@@ -317,11 +317,11 @@
       "projected_points": 11.62,
       "week_opponent": "SEA",
       "rostered_percent": 5.05,
-      "start_percent": 0.5,
+      "start_percent": 0.51,
       "previous_week_opportunities": 43,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 85.08
+      "waiver_score": 85.13
     },
     {
       "player_id": "1373",
@@ -337,8 +337,8 @@
       "depth_chart_position": "QB",
       "projected_points": 14.28,
       "week_opponent": "GB",
-      "rostered_percent": 3.88,
-      "start_percent": 0.43,
+      "rostered_percent": 3.87,
+      "start_percent": 0.44,
       "previous_week_opportunities": 30,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -361,7 +361,7 @@
       "rostered_percent": 0.11,
       "start_percent": 0.03,
       "previous_week_opportunities": 24,
-      "trending_adds_24h": 63418,
+      "trending_adds_24h": 64868,
       "trending_drops_24h": 0,
       "waiver_score": 81.16
     },
@@ -383,8 +383,8 @@
       "start_percent": 0.14,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 50560,
-      "waiver_score": 75.27
+      "trending_drops_24h": 50344,
+      "waiver_score": 75.32
     },
     {
       "player_id": "13425",
@@ -405,7 +405,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 74.51
+      "waiver_score": 74.56
     },
     {
       "player_id": "13602",
@@ -426,7 +426,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 72.49
+      "waiver_score": 72.53
     },
     {
       "player_id": "12524",
@@ -447,7 +447,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 70.35
+      "waiver_score": 70.4
     },
     {
       "player_id": "13303",
@@ -468,7 +468,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 69.92
+      "waiver_score": 69.97
     },
     {
       "player_id": "13272",
@@ -489,7 +489,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 67.39
+      "waiver_score": 67.43
     },
     {
       "player_id": "13275",
@@ -510,7 +510,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 66.58
+      "waiver_score": 66.63
     },
     {
       "player_id": "13289",
@@ -531,7 +531,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 66.35
+      "waiver_score": 66.4
     },
     {
       "player_id": "6768",
@@ -552,7 +552,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 65.01
+      "waiver_score": 65.06
     },
     {
       "player_id": "10857",
@@ -573,7 +573,7 @@
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 59.28
+      "waiver_score": 59.33
     },
     {
       "player_id": "13816",
@@ -594,7 +594,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 59.27
+      "waiver_score": 59.32
     },
     {
       "player_id": "4943",
@@ -610,12 +610,12 @@
       "depth_chart_position": "QB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 25.95,
-      "start_percent": 2.33,
+      "rostered_percent": 25.92,
+      "start_percent": 2.28,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 59841,
-      "waiver_score": 59.13
+      "trending_drops_24h": 59412,
+      "waiver_score": 59.18
     },
     {
       "player_id": "11565",
@@ -636,7 +636,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 58.95
+      "waiver_score": 59
     },
     {
       "player_id": "11559",
@@ -657,7 +657,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 58.35
+      "waiver_score": 58.4
     },
     {
       "player_id": "8160",
@@ -678,7 +678,7 @@
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 57.61
+      "waiver_score": 57.66
     },
     {
       "player_id": "13557",
@@ -699,7 +699,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 57.61
+      "waiver_score": 57.66
     },
     {
       "player_id": "12775",
@@ -720,7 +720,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 57.57
+      "waiver_score": 57.62
     },
     {
       "player_id": "13415",
@@ -741,7 +741,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 57.54
+      "waiver_score": 57.58
     },
     {
       "player_id": "3161",
@@ -760,7 +760,7 @@
       "rostered_percent": 0.11,
       "start_percent": 0.03,
       "previous_week_opportunities": 24,
-      "trending_adds_24h": 561666,
+      "trending_adds_24h": 560202,
       "trending_drops_24h": 0,
       "waiver_score": 57.41
     },
@@ -783,7 +783,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 57.08
+      "waiver_score": 57.13
     },
     {
       "player_id": "13404",
@@ -804,7 +804,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 56.67
+      "waiver_score": 56.72
     },
     {
       "player_id": "12510",
@@ -825,7 +825,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 56.44
+      "waiver_score": 56.48
     },
     {
       "player_id": "13306",
@@ -846,7 +846,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 56.41
+      "waiver_score": 56.45
     },
     {
       "player_id": "13428",
@@ -867,7 +867,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 56.17
+      "waiver_score": 56.22
     },
     {
       "player_id": "4574",
@@ -888,7 +888,7 @@
       "previous_week_opportunities": 22,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 55.97
+      "waiver_score": 56.01
     },
     {
       "player_id": "13350",
@@ -909,7 +909,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 54.29
+      "waiver_score": 54.34
     },
     {
       "player_id": "11557",
@@ -930,7 +930,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 53.64
+      "waiver_score": 53.69
     },
     {
       "player_id": "13335",
@@ -951,7 +951,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 53.34
+      "waiver_score": 53.39
     },
     {
       "player_id": "7591",
@@ -972,7 +972,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 52.97
+      "waiver_score": 53.02
     },
     {
       "player_id": "9229",
@@ -993,7 +993,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 52.96
+      "waiver_score": 53
     },
     {
       "player_id": "13597",
@@ -1014,7 +1014,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 52.77
+      "waiver_score": 52.82
     },
     {
       "player_id": "12500",
@@ -1035,7 +1035,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 52.6
+      "waiver_score": 52.65
     },
     {
       "player_id": "13314",
@@ -1056,7 +1056,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 52.28
+      "waiver_score": 52.33
     },
     {
       "player_id": "11562",
@@ -1077,7 +1077,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 51.88
+      "waiver_score": 51.93
     },
     {
       "player_id": "12511",
@@ -1098,7 +1098,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 51.78
+      "waiver_score": 51.83
     },
     {
       "player_id": "11256",
@@ -1119,7 +1119,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 51.15
+      "waiver_score": 51.2
     },
     {
       "player_id": "12494",
@@ -1140,7 +1140,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 50.45
+      "waiver_score": 50.5
     },
     {
       "player_id": "13295",
@@ -1161,7 +1161,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 50.05
+      "waiver_score": 50.1
     },
     {
       "player_id": "8162",
@@ -1182,7 +1182,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 49.75
+      "waiver_score": 49.8
     },
     {
       "player_id": "12470",
@@ -1203,7 +1203,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 48.97
+      "waiver_score": 49.02
     },
     {
       "player_id": "11648",
@@ -1224,7 +1224,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 48.4
+      "waiver_score": 48.45
     },
     {
       "player_id": "7527",
@@ -1245,7 +1245,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 47.52
+      "waiver_score": 47.57
     },
     {
       "player_id": "12538",
@@ -1266,7 +1266,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 46.64
+      "waiver_score": 46.69
     },
     {
       "player_id": "12792",
@@ -1287,7 +1287,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 46.52
+      "waiver_score": 46.57
     },
     {
       "player_id": "13310",
@@ -1308,7 +1308,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 46.34
+      "waiver_score": 46.39
     },
     {
       "player_id": "12486",
@@ -1329,7 +1329,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 46.24
+      "waiver_score": 46.29
     },
     {
       "player_id": "12773",
@@ -1350,7 +1350,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 45.1
+      "waiver_score": 45.15
     },
     {
       "player_id": "12705",
@@ -1371,7 +1371,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 43.79
+      "waiver_score": 43.83
     },
     {
       "player_id": "9230",
@@ -1392,7 +1392,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 43.65
+      "waiver_score": 43.7
     },
     {
       "player_id": "7610",
@@ -1413,7 +1413,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 43.32
+      "waiver_score": 43.37
     },
     {
       "player_id": "7083",
@@ -1434,7 +1434,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 40.03
+      "waiver_score": 40.08
     },
     {
       "player_id": "6136",
@@ -1455,7 +1455,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 39.85
+      "waiver_score": 39.9
     },
     {
       "player_id": "12477",
@@ -1476,7 +1476,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 38.67
+      "waiver_score": 38.72
     },
     {
       "player_id": "10983",
@@ -1497,7 +1497,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 37.92
+      "waiver_score": 37.97
     },
     {
       "player_id": "5127",
@@ -1518,7 +1518,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 37.7
+      "waiver_score": 37.74
     },
     {
       "player_id": "9998",
@@ -1539,7 +1539,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 37.17
+      "waiver_score": 37.22
     },
     {
       "player_id": "11558",
@@ -1560,7 +1560,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 36.12
+      "waiver_score": 36.16
     },
     {
       "player_id": "6011",
@@ -1581,7 +1581,28 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 36.06
+      "waiver_score": 36.11
+    },
+    {
+      "player_id": "10215",
+      "name": "Jake Haener",
+      "team": "NYG",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.01,
+      "start_percent": 0,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 36.09
     },
     {
       "player_id": "2306",
@@ -1605,27 +1626,6 @@
       "waiver_score": 36.05
     },
     {
-      "player_id": "10215",
-      "name": "Jake Haener",
-      "team": "NYG",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.01,
-      "start_percent": 0,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 36.04
-    },
-    {
       "player_id": "7585",
       "name": "Davis Mills",
       "team": "HOU",
@@ -1644,7 +1644,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 35.72
+      "waiver_score": 35.77
     },
     {
       "player_id": "10866",
@@ -1665,7 +1665,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 34.05
+      "waiver_score": 34.09
     },
     {
       "player_id": "4464",
@@ -1686,7 +1686,7 @@
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 33.62
+      "waiver_score": 33.67
     },
     {
       "player_id": "2307",
@@ -1728,7 +1728,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 32.74
+      "waiver_score": 32.79
     },
     {
       "player_id": "19",
@@ -1770,7 +1770,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 31.67
+      "waiver_score": 31.72
     },
     {
       "player_id": "4179",
@@ -1791,7 +1791,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 31.55
+      "waiver_score": 31.6
     },
     {
       "player_id": "8002",
@@ -1812,7 +1812,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 30.79
+      "waiver_score": 30.83
     },
     {
       "player_id": "8206",
@@ -1833,7 +1833,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 28.49
+      "waiver_score": 28.54
     },
     {
       "player_id": "7538",
@@ -1854,7 +1854,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 27.75
+      "waiver_score": 27.79
     },
     {
       "player_id": "827",
@@ -1896,7 +1896,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 25.75
+      "waiver_score": 25.8
     },
     {
       "player_id": "6185",
@@ -1917,7 +1917,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 24.38
+      "waiver_score": 24.42
     },
     {
       "player_id": "7262",
@@ -1938,7 +1938,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 23.51
+      "waiver_score": 23.56
     },
     {
       "player_id": "3976",
@@ -1959,7 +1959,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 22.75
+      "waiver_score": 22.8
     },
     {
       "player_id": "7149",
@@ -1980,28 +1980,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 22.62
-    },
-    {
-      "player_id": "829",
-      "name": "Andy Dalton",
-      "team": "PHI",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.05,
-      "start_percent": 0,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 20.27
+      "waiver_score": 22.67
     },
     {
       "player_id": "6147",
@@ -2020,6 +1999,27 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 20.33
+    },
+    {
+      "player_id": "829",
+      "name": "Andy Dalton",
+      "team": "PHI",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.05,
+      "start_percent": 0,
+      "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 20.27
@@ -2064,7 +2064,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 18.23
+      "waiver_score": 18.27
     },
     {
       "player_id": "4936",
@@ -2085,7 +2085,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 15.91
+      "waiver_score": 15.95
     },
     {
       "player_id": "4926",
@@ -2106,7 +2106,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 15
+      "waiver_score": 15.05
     },
     {
       "player_id": "4924",
@@ -2127,7 +2127,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 14.08
+      "waiver_score": 14.13
     },
     {
       "player_id": "4683",
@@ -2148,7 +2148,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 13.13
+      "waiver_score": 13.18
     },
     {
       "player_id": "260",
