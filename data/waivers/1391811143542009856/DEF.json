@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T23:10:15.828Z",
+  "updated_at": "2026-09-16T23:25:35.522Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 69272
+      "trending_adds_24h": 69583
     },
     {
       "player_id": "JAX",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 22596
+      "trending_adds_24h": 22740
     },
     {
       "player_id": "ARI",
@@ -214,22 +214,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "NYJ",
-      "name": "New York Jets",
-      "team": "NYJ",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "NO",
       "name": "New Orleans Saints",
       "team": "NO",
@@ -249,6 +233,22 @@
       "player_id": "NYG",
       "name": "New York Giants",
       "team": "NYG",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "NYJ",
+      "name": "New York Jets",
+      "team": "NYJ",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
