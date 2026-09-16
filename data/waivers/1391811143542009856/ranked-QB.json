@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T21:38:18.948Z",
+  "updated_at": "2026-09-16T21:59:06.914Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -25,7 +25,7 @@
       "rostered_percent": 27.4,
       "start_percent": 4.33,
       "previous_week_opportunities": 40,
-      "trending_adds_24h": 119462,
+      "trending_adds_24h": 121730,
       "trending_drops_24h": 0,
       "waiver_score": 98.8
     },
@@ -46,7 +46,7 @@
       "rostered_percent": 27.87,
       "start_percent": 5.47,
       "previous_week_opportunities": 39,
-      "trending_adds_24h": 234768,
+      "trending_adds_24h": 237696,
       "trending_drops_24h": 0,
       "waiver_score": 98.43
     },
@@ -67,8 +67,8 @@
       "rostered_percent": 19.02,
       "start_percent": 1.82,
       "previous_week_opportunities": 33,
-      "trending_adds_24h": 50589,
-      "trending_drops_24h": 69013,
+      "trending_adds_24h": 51366,
+      "trending_drops_24h": 69335,
       "waiver_score": 96.74
     },
     {
@@ -88,7 +88,7 @@
       "rostered_percent": 4.41,
       "start_percent": 1.77,
       "previous_week_opportunities": 24,
-      "trending_adds_24h": 775740,
+      "trending_adds_24h": 781992,
       "trending_drops_24h": 0,
       "waiver_score": 93.36
     },
@@ -110,7 +110,7 @@
       "start_percent": 2.29,
       "previous_week_opportunities": 32,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 46320,
+      "trending_drops_24h": 46635,
       "waiver_score": 92.83
     },
     {
@@ -130,7 +130,7 @@
       "rostered_percent": 3.32,
       "start_percent": 0.63,
       "previous_week_opportunities": 35,
-      "trending_adds_24h": 29512,
+      "trending_adds_24h": 29928,
       "trending_drops_24h": 0,
       "waiver_score": 91.9
     },
@@ -214,7 +214,7 @@
       "rostered_percent": 1.33,
       "start_percent": 0.44,
       "previous_week_opportunities": 24,
-      "trending_adds_24h": 85443,
+      "trending_adds_24h": 85844,
       "trending_drops_24h": 0,
       "waiver_score": 88.74
     },
@@ -278,7 +278,7 @@
       "start_percent": 0.14,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 58960,
+      "trending_drops_24h": 59440,
       "waiver_score": 78.69
     },
     {
@@ -698,7 +698,7 @@
       "start_percent": 1.2,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 65460,
+      "trending_drops_24h": 65895,
       "waiver_score": 61.56
     },
     {
@@ -954,27 +954,6 @@
       "waiver_score": 54.99
     },
     {
-      "player_id": "9229",
-      "name": "Anthony Richardson",
-      "team": "IND",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.14,
-      "start_percent": 0.01,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 54.83
-    },
-    {
       "player_id": "11557",
       "name": "Joe Milton",
       "team": "DAL",
@@ -1015,6 +994,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 54.04
+    },
+    {
+      "player_id": "9229",
+      "name": "Anthony Richardson",
+      "team": "IND",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": "Questionable",
+      "injury_body_part": "Groin",
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.14,
+      "start_percent": 0.01,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 53.33
     },
     {
       "player_id": "12494",
