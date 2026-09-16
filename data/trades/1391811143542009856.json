@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T15:56:01.887Z",
+  "updated_at": "2026-09-16T16:13:27.026Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -74,11 +74,11 @@
       "team_name": "The JSN Shough",
       "is_me": false,
       "position_counts": {
-        "RB": 4,
-        "K": 1,
+        "RB": 5,
         "TE": 1,
         "QB": 2,
-        "WR": 6,
+        "WR": 5,
+        "K": 1,
         "DEF": 1
       },
       "players": [
@@ -96,27 +96,9 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 28200,
+          "trending_adds_24h": 28632,
           "trending_drops_24h": 0,
           "slot": "BENCH"
-        },
-        {
-          "player_id": "11792",
-          "name": "Will Reichard",
-          "team": "MIN",
-          "position": "K",
-          "fantasy_positions": [
-            "K"
-          ],
-          "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
-          "injury_notes": null,
-          "practice_participation": null,
-          "depth_chart_position": "K",
-          "trending_adds_24h": 0,
-          "trending_drops_24h": 46473,
-          "slot": "STARTER"
         },
         {
           "player_id": "12518",
@@ -150,7 +132,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "QB",
-          "trending_adds_24h": 241032,
+          "trending_adds_24h": 242944,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -168,8 +150,26 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
-          "trending_adds_24h": 29448,
-          "trending_drops_24h": 204975,
+          "trending_adds_24h": 30078,
+          "trending_drops_24h": 206685,
+          "slot": "BENCH"
+        },
+        {
+          "player_id": "13414",
+          "name": "Kaelon Black",
+          "team": "SF",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "status": "Active",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
+          "practice_participation": null,
+          "depth_chart_position": "RB",
+          "trending_adds_24h": 1201578,
+          "trending_drops_24h": 0,
           "slot": "BENCH"
         },
         {
@@ -187,6 +187,24 @@
           "practice_participation": null,
           "depth_chart_position": "RB",
           "trending_adds_24h": 0,
+          "trending_drops_24h": 0,
+          "slot": "STARTER"
+        },
+        {
+          "player_id": "5189",
+          "name": "Eddy Pineiro",
+          "team": "SF",
+          "position": "K",
+          "fantasy_positions": [
+            "K"
+          ],
+          "status": "Active",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
+          "practice_participation": null,
+          "depth_chart_position": "K",
+          "trending_adds_24h": 63867,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         },
@@ -222,7 +240,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "QB",
-          "trending_adds_24h": 25621,
+          "trending_adds_24h": 25941,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         },
@@ -281,24 +299,6 @@
           "slot": "STARTER"
         },
         {
-          "player_id": "8676",
-          "name": "Rashid Shaheed",
-          "team": "SEA",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
-          "injury_notes": null,
-          "practice_participation": null,
-          "depth_chart_position": "RWR",
-          "trending_adds_24h": 0,
-          "trending_drops_24h": 0,
-          "slot": "BENCH"
-        },
-        {
           "player_id": "9487",
           "name": "Parker Washington",
           "team": "JAX",
@@ -312,7 +312,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
-          "trending_adds_24h": 17145,
+          "trending_adds_24h": 17316,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         },
@@ -438,7 +438,7 @@
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 58295,
+          "trending_drops_24h": 58935,
           "slot": "STARTER"
         },
         {
@@ -473,7 +473,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 105336,
+          "trending_adds_24h": 106758,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         },
@@ -491,7 +491,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 39837,
+          "trending_adds_24h": 40437,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -568,9 +568,9 @@
           "slot": "BENCH"
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
-          "team": "NE",
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "team": "BUF",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -580,9 +580,9 @@
           "injury_body_part": null,
           "injury_notes": null,
           "practice_participation": null,
-          "depth_chart_position": "RWR",
-          "trending_adds_24h": 98192,
-          "trending_drops_24h": 142040,
+          "depth_chart_position": "SWR",
+          "trending_adds_24h": 114642,
+          "trending_drops_24h": 61317,
           "slot": "BENCH"
         },
         {
@@ -599,7 +599,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "QB",
-          "trending_adds_24h": 87492,
+          "trending_adds_24h": 88400,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -617,8 +617,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RWR",
-          "trending_adds_24h": 29322,
-          "trending_drops_24h": 169488,
+          "trending_adds_24h": 30213,
+          "trending_drops_24h": 170757,
           "slot": "BENCH"
         },
         {
@@ -636,7 +636,7 @@
           "practice_participation": null,
           "depth_chart_position": null,
           "trending_adds_24h": 0,
-          "trending_drops_24h": 124795,
+          "trending_drops_24h": 125709,
           "slot": "STARTER"
         }
       ]
@@ -671,7 +671,7 @@
           "practice_participation": null,
           "depth_chart_position": "K",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 129568,
+          "trending_drops_24h": 131728,
           "slot": "STARTER"
         },
         {
@@ -689,7 +689,7 @@
           "practice_participation": null,
           "depth_chart_position": "QB",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 173268,
+          "trending_drops_24h": 175062,
           "slot": "STARTER"
         },
         {
@@ -706,7 +706,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 165105,
+          "trending_adds_24h": 167040,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -761,7 +761,7 @@
           "practice_participation": null,
           "depth_chart_position": "QB",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 62700,
+          "trending_drops_24h": 63335,
           "slot": "BENCH"
         },
         {
@@ -796,7 +796,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RWR",
-          "trending_adds_24h": 17545,
+          "trending_adds_24h": 17950,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -887,7 +887,7 @@
           "practice_participation": null,
           "depth_chart_position": "SWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 93910,
+          "trending_drops_24h": 94630,
           "slot": "STARTER"
         },
         {
@@ -1047,7 +1047,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 35216,
+          "trending_adds_24h": 35462,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -1065,8 +1065,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RWR",
-          "trending_adds_24h": 28086,
-          "trending_drops_24h": 45270,
+          "trending_adds_24h": 28476,
+          "trending_drops_24h": 45924,
           "slot": "BENCH"
         },
         {
@@ -1101,7 +1101,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 40690,
+          "trending_adds_24h": 41124,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         },
@@ -1119,8 +1119,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 19660,
-          "trending_drops_24h": 83140,
+          "trending_adds_24h": 19900,
+          "trending_drops_24h": 84085,
           "slot": "BENCH"
         },
         {
@@ -1155,8 +1155,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 24162,
-          "trending_drops_24h": 71256,
+          "trending_adds_24h": 24468,
+          "trending_drops_24h": 72012,
           "slot": "BENCH"
         },
         {
@@ -1209,8 +1209,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 87864,
-          "trending_drops_24h": 144802,
+          "trending_adds_24h": 89852,
+          "trending_drops_24h": 146426,
           "slot": "STARTER"
         }
       ]
@@ -1244,27 +1244,9 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 98840,
+          "trending_adds_24h": 99575,
           "trending_drops_24h": 0,
           "slot": "STARTER"
-        },
-        {
-          "player_id": "11603",
-          "name": "AJ Barner",
-          "team": "SEA",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
-          "injury_notes": null,
-          "practice_participation": null,
-          "depth_chart_position": "TE",
-          "trending_adds_24h": 0,
-          "trending_drops_24h": 125682,
-          "slot": "BENCH"
         },
         {
           "player_id": "11624",
@@ -1280,8 +1262,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RWR",
-          "trending_adds_24h": 37593,
-          "trending_drops_24h": 158031,
+          "trending_adds_24h": 38484,
+          "trending_drops_24h": 159372,
           "slot": "BENCH"
         },
         {
@@ -1316,9 +1298,27 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 77868,
+          "trending_adds_24h": 78480,
           "trending_drops_24h": 0,
           "slot": "STARTER"
+        },
+        {
+          "player_id": "13330",
+          "name": "Kenyon Sadiq",
+          "team": "NYJ",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "status": "Active",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
+          "practice_participation": null,
+          "depth_chart_position": "TE",
+          "trending_adds_24h": 278469,
+          "trending_drops_24h": 0,
+          "slot": "BENCH"
         },
         {
           "player_id": "3451",
@@ -1496,7 +1496,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 35118,
+          "trending_adds_24h": 35838,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         }
@@ -1531,8 +1531,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
-          "trending_adds_24h": 26136,
-          "trending_drops_24h": 139671,
+          "trending_adds_24h": 26919,
+          "trending_drops_24h": 141138,
           "slot": "BENCH"
         },
         {
@@ -1585,7 +1585,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
-          "trending_adds_24h": 115485,
+          "trending_adds_24h": 115847,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -1658,7 +1658,7 @@
           "practice_participation": null,
           "depth_chart_position": "QB",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 433472,
+          "trending_drops_24h": 437952,
           "slot": "BENCH"
         },
         {
@@ -1676,7 +1676,7 @@
           "practice_participation": null,
           "depth_chart_position": "RB",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 70015,
+          "trending_drops_24h": 70980,
           "slot": "BENCH"
         },
         {
@@ -1730,7 +1730,7 @@
           "practice_participation": null,
           "depth_chart_position": "RB",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 74982,
+          "trending_drops_24h": 75663,
           "slot": "BENCH"
         },
         {
@@ -1770,9 +1770,9 @@
           "slot": "STARTER"
         },
         {
-          "player_id": "LV",
-          "name": "Las Vegas Raiders",
-          "team": "LV",
+          "player_id": "KC",
+          "name": "Kansas City Chiefs",
+          "team": "KC",
           "position": "DEF",
           "fantasy_positions": [
             "DEF"
@@ -1784,8 +1784,8 @@
           "practice_participation": null,
           "depth_chart_position": null,
           "trending_adds_24h": 0,
-          "trending_drops_24h": 356832,
-          "slot": "STARTER"
+          "trending_drops_24h": 0,
+          "slot": "BENCH"
         }
       ]
     },
@@ -1873,7 +1873,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 53464,
+          "trending_drops_24h": 53968,
           "slot": "IR"
         },
         {
@@ -1926,8 +1926,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 42417,
-          "trending_drops_24h": 74511,
+          "trending_adds_24h": 42993,
+          "trending_drops_24h": 75384,
           "slot": "STARTER"
         },
         {
@@ -1981,7 +1981,7 @@
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 99025,
+          "trending_drops_24h": 99855,
           "slot": "BENCH"
         },
         {
@@ -2057,9 +2057,9 @@
           "slot": "STARTER"
         },
         {
-          "player_id": "JAX",
-          "name": "Jacksonville Jaguars",
-          "team": "JAX",
+          "player_id": "CAR",
+          "name": "Carolina Panthers",
+          "team": "CAR",
           "position": "DEF",
           "fantasy_positions": [
             "DEF"
@@ -2070,8 +2070,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 0,
-          "trending_drops_24h": 835182,
+          "trending_adds_24h": 22668,
+          "trending_drops_24h": 0,
           "slot": "BENCH"
         },
         {
@@ -2088,7 +2088,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 1619945,
+          "trending_adds_24h": 1632075,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         }
@@ -2141,8 +2141,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 51255,
-          "trending_drops_24h": 249417,
+          "trending_adds_24h": 52461,
+          "trending_drops_24h": 251199,
           "slot": "STARTER"
         },
         {
@@ -2177,7 +2177,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RWR",
-          "trending_adds_24h": 230615,
+          "trending_adds_24h": 232764,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -2231,7 +2231,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 75012,
+          "trending_adds_24h": 76344,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         },
@@ -2249,8 +2249,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 27450,
-          "trending_drops_24h": 45117,
+          "trending_adds_24h": 27873,
+          "trending_drops_24h": 45573,
           "slot": "BENCH"
         },
         {
@@ -2286,7 +2286,7 @@
           "practice_participation": null,
           "depth_chart_position": "QB",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 109647,
+          "trending_drops_24h": 110889,
           "slot": "STARTER"
         },
         {
@@ -2303,8 +2303,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "LWR",
-          "trending_adds_24h": 17307,
-          "trending_drops_24h": 145692,
+          "trending_adds_24h": 17820,
+          "trending_drops_24h": 147195,
           "slot": "STARTER"
         },
         {
@@ -2340,7 +2340,7 @@
           "practice_participation": null,
           "depth_chart_position": "RWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 266481,
+          "trending_drops_24h": 268596,
           "slot": "BENCH"
         },
         {
@@ -2429,7 +2429,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 41496,
+          "trending_drops_24h": 41896,
           "slot": "BENCH"
         },
         {
@@ -2483,7 +2483,7 @@
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 123030,
+          "trending_drops_24h": 124480,
           "slot": "BENCH"
         },
         {
@@ -2537,7 +2537,7 @@
           "practice_participation": null,
           "depth_chart_position": "K",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 50196,
+          "trending_drops_24h": 51140,
           "slot": "STARTER"
         },
         {
@@ -2626,8 +2626,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 55557,
-          "trending_drops_24h": 82053,
+          "trending_adds_24h": 56241,
+          "trending_drops_24h": 83088,
           "slot": "BENCH"
         },
         {
@@ -2676,11 +2676,11 @@
       "is_me": false,
       "position_counts": {
         "TE": 2,
-        "WR": 5,
+        "WR": 4,
         "RB": 4,
         "QB": 2,
         "K": 1,
-        "DEF": 1
+        "DEF": 2
       },
       "players": [
         {
@@ -2715,7 +2715,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RWR",
-          "trending_adds_24h": 1905800,
+          "trending_adds_24h": 1916472,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -2735,24 +2735,6 @@
           "depth_chart_position": "RB",
           "trending_adds_24h": 0,
           "trending_drops_24h": 0,
-          "slot": "BENCH"
-        },
-        {
-          "player_id": "13413",
-          "name": "Cyrus Allen",
-          "team": "KC",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
-          "injury_notes": null,
-          "practice_participation": null,
-          "depth_chart_position": "SWR",
-          "trending_adds_24h": 0,
-          "trending_drops_24h": 251868,
           "slot": "BENCH"
         },
         {
@@ -2841,7 +2823,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 42080,
+          "trending_adds_24h": 42584,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         },
@@ -2878,7 +2860,7 @@
           "practice_participation": null,
           "depth_chart_position": "RB",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 229928,
+          "trending_drops_24h": 231992,
           "slot": "BENCH"
         },
         {
@@ -2950,8 +2932,26 @@
           "practice_participation": null,
           "depth_chart_position": null,
           "trending_adds_24h": 0,
-          "trending_drops_24h": 195549,
+          "trending_drops_24h": 197445,
           "slot": "STARTER"
+        },
+        {
+          "player_id": "SF",
+          "name": "San Francisco 49ers",
+          "team": "SF",
+          "position": "DEF",
+          "fantasy_positions": [
+            "DEF"
+          ],
+          "status": null,
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
+          "practice_participation": null,
+          "depth_chart_position": null,
+          "trending_adds_24h": 913461,
+          "trending_drops_24h": 0,
+          "slot": "BENCH"
         }
       ]
     },
@@ -2963,9 +2963,9 @@
       "is_me": false,
       "position_counts": {
         "RB": 5,
-        "WR": 5,
+        "WR": 7,
         "K": 1,
-        "TE": 2,
+        "TE": 1,
         "QB": 1,
         "DEF": 1
       },
@@ -2984,8 +2984,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 16884,
-          "trending_drops_24h": 254880,
+          "trending_adds_24h": 17136,
+          "trending_drops_24h": 257337,
           "slot": "BENCH"
         },
         {
@@ -3003,7 +3003,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 54270,
+          "trending_drops_24h": 55045,
           "slot": "STARTER"
         },
         {
@@ -3038,8 +3038,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 441666,
-          "trending_drops_24h": 56205,
+          "trending_adds_24h": 445221,
+          "trending_drops_24h": 56961,
           "slot": "BENCH"
         },
         {
@@ -3057,7 +3057,25 @@
           "practice_participation": null,
           "depth_chart_position": "SWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 67119,
+          "trending_drops_24h": 67644,
+          "slot": "BENCH"
+        },
+        {
+          "player_id": "13424",
+          "name": "Seth McGowan",
+          "team": "IND",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "status": "Active",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
+          "practice_participation": null,
+          "depth_chart_position": "RB",
+          "trending_adds_24h": 22496,
+          "trending_drops_24h": 0,
           "slot": "BENCH"
         },
         {
@@ -3074,7 +3092,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 191520,
+          "trending_adds_24h": 194684,
           "trending_drops_24h": 0,
           "slot": "STARTER"
         },
@@ -3169,40 +3187,40 @@
           "slot": "STARTER"
         },
         {
-          "player_id": "9225",
-          "name": "Tank Bigsby",
-          "team": "PHI",
-          "position": "RB",
+          "player_id": "7571",
+          "name": "Rashod Bateman",
+          "team": "BAL",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
           "status": "Active",
           "injury_status": null,
           "injury_body_part": null,
           "injury_notes": null,
           "practice_participation": null,
-          "depth_chart_position": "RB",
-          "trending_adds_24h": 0,
-          "trending_drops_24h": 167272,
+          "depth_chart_position": "LWR",
+          "trending_adds_24h": 50440,
+          "trending_drops_24h": 0,
           "slot": "BENCH"
         },
         {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "team": "LV",
-          "position": "TE",
+          "player_id": "9486",
+          "name": "Dontayvion Wicks",
+          "team": "PHI",
+          "position": "WR",
           "fantasy_positions": [
-            "TE"
+            "WR"
           ],
           "status": "Active",
           "injury_status": null,
           "injury_body_part": null,
           "injury_notes": null,
           "practice_participation": null,
-          "depth_chart_position": "TE",
-          "trending_adds_24h": 68094,
-          "trending_drops_24h": 432738,
-          "slot": "STARTER"
+          "depth_chart_position": "RWR",
+          "trending_adds_24h": 326592,
+          "trending_drops_24h": 0,
+          "slot": "BENCH"
         },
         {
           "player_id": "9754",
@@ -3218,8 +3236,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "LWR",
-          "trending_adds_24h": 23044,
-          "trending_drops_24h": 123809,
+          "trending_adds_24h": 23583,
+          "trending_drops_24h": 125216,
           "slot": "STARTER"
         },
         {
@@ -3237,7 +3255,7 @@
           "practice_participation": null,
           "depth_chart_position": null,
           "trending_adds_24h": 0,
-          "trending_drops_24h": 73435,
+          "trending_drops_24h": 74600,
           "slot": "STARTER"
         }
       ]
@@ -3326,7 +3344,7 @@
           "practice_participation": null,
           "depth_chart_position": "SWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 77232,
+          "trending_drops_24h": 78064,
           "slot": "BENCH"
         },
         {
@@ -3380,7 +3398,7 @@
           "practice_participation": null,
           "depth_chart_position": "RWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 101142,
+          "trending_drops_24h": 101996,
           "slot": "BENCH"
         },
         {
@@ -3398,7 +3416,7 @@
           "practice_participation": null,
           "depth_chart_position": "SWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 148356,
+          "trending_drops_24h": 149784,
           "slot": "BENCH"
         },
         {
@@ -3415,7 +3433,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "LWR",
-          "trending_adds_24h": 23446,
+          "trending_adds_24h": 23682,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -3433,7 +3451,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "RB",
-          "trending_adds_24h": 20110,
+          "trending_adds_24h": 20520,
           "trending_drops_24h": 0,
           "slot": "BENCH"
         },
@@ -3469,8 +3487,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 20118,
-          "trending_drops_24h": 102410,
+          "trending_adds_24h": 20664,
+          "trending_drops_24h": 103635,
           "slot": "STARTER"
         },
         {
