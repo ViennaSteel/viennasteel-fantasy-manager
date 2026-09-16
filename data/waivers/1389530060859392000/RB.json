@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T10:14:59.311Z",
+  "updated_at": "2026-09-16T10:31:45.792Z",
   "week": 2,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 1614780
+      "trending_adds_24h": 1596294
     },
     {
       "player_id": "12472",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 858768
+      "trending_adds_24h": 857528
     },
     {
       "player_id": "13337",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 439083
+      "trending_adds_24h": 438543
     },
     {
       "player_id": "11729",
@@ -67,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 196245
+      "trending_adds_24h": 197232
     },
     {
       "player_id": "9757",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 103974
+      "trending_adds_24h": 102746
     },
     {
       "player_id": "4035",
@@ -99,7 +99,7 @@
       "injury_notes": "Sprain",
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 72496
+      "trending_adds_24h": 73096
     },
     {
       "player_id": "11576",
@@ -115,7 +115,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 40724
+      "trending_adds_24h": 40896
     },
     {
       "player_id": "11370",
@@ -131,7 +131,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 37723
+      "trending_adds_24h": 37870
     },
     {
       "player_id": "4147",
@@ -147,7 +147,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 34108
+      "trending_adds_24h": 34132
     },
     {
       "player_id": "13424",
@@ -163,7 +163,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 22248
+      "trending_adds_24h": 22128
     },
     {
       "player_id": "5995",
@@ -179,7 +179,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 21789
+      "trending_adds_24h": 21717
     },
     {
       "player_id": "8154",
@@ -195,7 +195,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 20256
+      "trending_adds_24h": 20490
     },
     {
       "player_id": "1379",
@@ -310,9 +310,41 @@
       "trending_adds_24h": 0
     },
     {
+      "player_id": "4718",
+      "name": "Dare Ogunbowale",
+      "team": "LV",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
       "player_id": "4263",
       "name": "Elijah McGuire",
       "team": "KC",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "4914",
+      "name": "Glen Coffee",
+      "team": "SF",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -355,38 +387,6 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "4718",
-      "name": "Dare Ogunbowale",
-      "team": "LV",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "4914",
-      "name": "Glen Coffee",
-      "team": "SF",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
       "trending_adds_24h": 0
     },
     {
@@ -486,22 +486,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "6323",
-      "name": "Andrew Beck",
-      "team": "NYJ",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "RB",
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "7093",
       "name": "Adrian Killins",
       "team": "DEN",
@@ -531,6 +515,22 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "6323",
+      "name": "Andrew Beck",
+      "team": "NYJ",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "RB",
       "trending_adds_24h": 0
     },
     {
