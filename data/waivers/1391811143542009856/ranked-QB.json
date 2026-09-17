@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T00:27:47.157Z",
+  "updated_at": "2026-09-17T00:51:32.645Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -22,10 +22,10 @@
       "depth_chart_position": "QB",
       "projected_points": 17.45,
       "week_opponent": "CIN",
-      "rostered_percent": 27.51,
-      "start_percent": 4.39,
+      "rostered_percent": 27.56,
+      "start_percent": 4.42,
       "previous_week_opportunities": 40,
-      "trending_adds_24h": 122094,
+      "trending_adds_24h": 118503,
       "trending_drops_24h": 0,
       "waiver_score": 98.5
     },
@@ -43,10 +43,10 @@
       "depth_chart_position": "QB",
       "projected_points": 16.06,
       "week_opponent": "ATL",
-      "rostered_percent": 28.33,
-      "start_percent": 5.71,
+      "rostered_percent": 28.54,
+      "start_percent": 5.82,
       "previous_week_opportunities": 39,
-      "trending_adds_24h": 227180,
+      "trending_adds_24h": 215324,
       "trending_drops_24h": 0,
       "waiver_score": 98.43
     },
@@ -64,11 +64,11 @@
       "depth_chart_position": "QB",
       "projected_points": 17.88,
       "week_opponent": "SF",
-      "rostered_percent": 18.97,
+      "rostered_percent": 18.94,
       "start_percent": 1.8,
       "previous_week_opportunities": 33,
-      "trending_adds_24h": 51842,
-      "trending_drops_24h": 67767,
+      "trending_adds_24h": 50127,
+      "trending_drops_24h": 64603,
       "waiver_score": 96.94
     },
     {
@@ -85,10 +85,10 @@
       "depth_chart_position": "QB",
       "projected_points": 15.78,
       "week_opponent": "CHI",
-      "rostered_percent": 4.6,
-      "start_percent": 1.88,
+      "rostered_percent": 4.69,
+      "start_percent": 1.93,
       "previous_week_opportunities": 24,
-      "trending_adds_24h": 742020,
+      "trending_adds_24h": 705156,
       "trending_drops_24h": 0,
       "waiver_score": 93.46
     },
@@ -106,11 +106,11 @@
       "depth_chart_position": "QB",
       "projected_points": 14.41,
       "week_opponent": "KC",
-      "rostered_percent": 31.34,
-      "start_percent": 2.27,
+      "rostered_percent": 31.28,
+      "start_percent": 2.26,
       "previous_week_opportunities": 32,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 45480,
+      "trending_drops_24h": 43635,
       "waiver_score": 92.83
     },
     {
@@ -130,7 +130,7 @@
       "rostered_percent": 3.32,
       "start_percent": 0.63,
       "previous_week_opportunities": 35,
-      "trending_adds_24h": 28344,
+      "trending_adds_24h": 26624,
       "trending_drops_24h": 0,
       "waiver_score": 92.2
     },
@@ -148,8 +148,8 @@
       "depth_chart_position": "QB",
       "projected_points": 11.69,
       "week_opponent": "PHI",
-      "rostered_percent": 7.82,
-      "start_percent": 0.59,
+      "rostered_percent": 7.8,
+      "start_percent": 0.58,
       "previous_week_opportunities": 36,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -169,7 +169,7 @@
       "depth_chart_position": "QB",
       "projected_points": 15.89,
       "week_opponent": "NE",
-      "rostered_percent": 7.08,
+      "rostered_percent": 7.07,
       "start_percent": 0.89,
       "previous_week_opportunities": 43,
       "trending_adds_24h": 0,
@@ -211,10 +211,10 @@
       "depth_chart_position": "QB",
       "projected_points": 12.84,
       "week_opponent": "ARI",
-      "rostered_percent": 1.39,
-      "start_percent": 0.47,
+      "rostered_percent": 1.42,
+      "start_percent": 0.49,
       "previous_week_opportunities": 24,
-      "trending_adds_24h": 76369,
+      "trending_adds_24h": 69568,
       "trending_drops_24h": 0,
       "waiver_score": 89.04
     },
@@ -295,11 +295,11 @@
       "depth_chart_position": "QB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 6.91,
+      "rostered_percent": 6.9,
       "start_percent": 0.14,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 59336,
+      "trending_drops_24h": 57112,
       "waiver_score": 78.69
     },
     {
@@ -324,6 +324,27 @@
       "waiver_score": 78.42
     },
     {
+      "player_id": "13602",
+      "name": "Jack Strand",
+      "team": "ATL",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.07,
+      "start_percent": 0,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 75.67
+    },
+    {
       "player_id": "13272",
       "name": "Carson Beck",
       "team": "ARI",
@@ -343,27 +364,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 75.58
-    },
-    {
-      "player_id": "13602",
-      "name": "Jack Strand",
-      "team": "ATL",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.07,
-      "start_percent": 0,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 75.57
     },
     {
       "player_id": "13275",
@@ -468,7 +468,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 66.6
+      "waiver_score": 66.71
     },
     {
       "player_id": "11565",
@@ -510,28 +510,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 65.9
-    },
-    {
-      "player_id": "11559",
-      "name": "Michael Penix",
-      "team": "ATL",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Knee - ACL",
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 1.46,
-      "start_percent": 0.13,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 65.32
+      "waiver_score": 66
     },
     {
       "player_id": "13306",
@@ -549,6 +528,27 @@
       "week_opponent": null,
       "rostered_percent": 0.05,
       "start_percent": 0,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 65.42
+    },
+    {
+      "player_id": "11559",
+      "name": "Michael Penix",
+      "team": "ATL",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": "Questionable",
+      "injury_body_part": "Knee - ACL",
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 1.48,
+      "start_percent": 0.13,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -594,7 +594,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 64.94
+      "waiver_score": 65.05
     },
     {
       "player_id": "10857",
@@ -615,7 +615,7 @@
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 63.1
+      "waiver_score": 63.21
     },
     {
       "player_id": "13350",
@@ -636,7 +636,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 63.07
+      "waiver_score": 63.17
     },
     {
       "player_id": "13816",
@@ -657,7 +657,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 62.44
+      "waiver_score": 62.54
     },
     {
       "player_id": "13335",
@@ -678,7 +678,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 62.11
+      "waiver_score": 62.22
     },
     {
       "player_id": "4943",
@@ -694,11 +694,11 @@
       "depth_chart_position": "QB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 22,
-      "start_percent": 1.13,
+      "rostered_percent": 21.94,
+      "start_percent": 1.09,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 65013,
+      "trending_drops_24h": 62865,
       "waiver_score": 61.26
     },
     {
@@ -741,7 +741,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 60.08
+      "waiver_score": 60.18
     },
     {
       "player_id": "11292",
@@ -762,7 +762,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 59.88
+      "waiver_score": 59.98
     },
     {
       "player_id": "13428",
@@ -783,7 +783,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 59.2
+      "waiver_score": 59.3
     },
     {
       "player_id": "8160",
@@ -804,7 +804,7 @@
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 59.19
+      "waiver_score": 59.29
     },
     {
       "player_id": "11256",
@@ -825,7 +825,28 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 58.57
+      "waiver_score": 58.67
+    },
+    {
+      "player_id": "13295",
+      "name": "Behren Morton",
+      "team": "NE",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.02,
+      "start_percent": 0,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 58.67
     },
     {
       "player_id": "12775",
@@ -849,27 +870,6 @@
       "waiver_score": 58.57
     },
     {
-      "player_id": "13295",
-      "name": "Behren Morton",
-      "team": "NE",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.02,
-      "start_percent": 0,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 58.57
-    },
-    {
       "player_id": "13597",
       "name": "Matthew Caldwell",
       "team": "LAR",
@@ -888,7 +888,28 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 55.81
+      "waiver_score": 55.91
+    },
+    {
+      "player_id": "13314",
+      "name": "Luke Altmyer",
+      "team": "DET",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 55.09
     },
     {
       "player_id": "7591",
@@ -912,27 +933,6 @@
       "waiver_score": 55.01
     },
     {
-      "player_id": "13314",
-      "name": "Luke Altmyer",
-      "team": "DET",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 54.99
-    },
-    {
       "player_id": "11557",
       "name": "Joe Milton",
       "team": "DAL",
@@ -951,7 +951,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 54.71
+      "waiver_score": 54.81
     },
     {
       "player_id": "13310",
@@ -972,7 +972,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 54.04
+      "waiver_score": 54.14
     },
     {
       "player_id": "12494",
@@ -993,7 +993,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 53.43
+      "waiver_score": 53.54
     },
     {
       "player_id": "9229",
@@ -1014,7 +1014,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 53.33
+      "waiver_score": 53.43
     },
     {
       "player_id": "8162",
@@ -1035,7 +1035,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 52.73
+      "waiver_score": 52.83
     },
     {
       "player_id": "12538",
@@ -1056,7 +1056,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 52.53
+      "waiver_score": 52.63
     },
     {
       "player_id": "9230",
@@ -1077,7 +1077,28 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 51.84
+      "waiver_score": 51.94
+    },
+    {
+      "player_id": "12470",
+      "name": "Riley Leonard",
+      "team": "IND",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.04,
+      "start_percent": 0,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 51.22
     },
     {
       "player_id": "11562",
@@ -1101,48 +1122,6 @@
       "waiver_score": 51.17
     },
     {
-      "player_id": "12470",
-      "name": "Riley Leonard",
-      "team": "IND",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.04,
-      "start_percent": 0,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 51.12
-    },
-    {
-      "player_id": "11648",
-      "name": "Kedon Slovis",
-      "team": "GB",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.02,
-      "start_percent": 0.01,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 50.86
-    },
-    {
       "player_id": "6768",
       "name": "Tua Tagovailoa",
       "team": "ATL",
@@ -1156,7 +1135,7 @@
       "depth_chart_position": "QB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 1.43,
+      "rostered_percent": 1.42,
       "start_percent": 0.05,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
@@ -1182,7 +1161,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 49.69
+      "waiver_score": 49.79
     },
     {
       "player_id": "12486",
@@ -1203,7 +1182,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 49.58
+      "waiver_score": 49.68
     },
     {
       "player_id": "12792",
@@ -1224,7 +1203,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 48.91
+      "waiver_score": 49.02
     },
     {
       "player_id": "12773",
@@ -1245,7 +1224,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 47.38
+      "waiver_score": 47.48
     },
     {
       "player_id": "12705",
@@ -1266,7 +1245,28 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 46.65
+      "waiver_score": 46.75
+    },
+    {
+      "player_id": "11648",
+      "name": "Kedon Slovis",
+      "team": "GB",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.02,
+      "start_percent": 0,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 46.58
     },
     {
       "player_id": "12477",
@@ -1287,7 +1287,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 46.25
+      "waiver_score": 46.35
     },
     {
       "player_id": "7610",
@@ -1308,7 +1308,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 44.64
+      "waiver_score": 44.75
     },
     {
       "player_id": "6136",
@@ -1329,7 +1329,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 42.49
+      "waiver_score": 42.59
     },
     {
       "player_id": "7083",
@@ -1350,7 +1350,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 42.41
+      "waiver_score": 42.51
     },
     {
       "player_id": "10866",
@@ -1392,7 +1392,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 40.26
+      "waiver_score": 40.37
     },
     {
       "player_id": "10983",
@@ -1437,6 +1437,27 @@
       "waiver_score": 37.98
     },
     {
+      "player_id": "2306",
+      "name": "Jameis Winston",
+      "team": "NYG",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.27,
+      "start_percent": 0.01,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 37.7
+    },
+    {
       "player_id": "11558",
       "name": "Sam Hartman",
       "team": "WAS",
@@ -1456,27 +1477,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 37.7
-    },
-    {
-      "player_id": "2306",
-      "name": "Jameis Winston",
-      "team": "NYG",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.27,
-      "start_percent": 0.01,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 37.6
     },
     {
       "player_id": "7585",
@@ -1539,7 +1539,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 36.65
+      "waiver_score": 36.74
     },
     {
       "player_id": "4464",
@@ -1602,7 +1602,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 34.38
+      "waiver_score": 34.48
     },
     {
       "player_id": "2307",
@@ -1623,7 +1623,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 34.31
+      "waiver_score": 34.41
     },
     {
       "player_id": "19",
@@ -1644,7 +1644,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 33.68
+      "waiver_score": 33.78
     },
     {
       "player_id": "4179",
@@ -1665,7 +1665,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 33.46
+      "waiver_score": 33.56
     },
     {
       "player_id": "8157",
@@ -1770,7 +1770,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 28.79
+      "waiver_score": 28.9
     },
     {
       "player_id": "6185",
