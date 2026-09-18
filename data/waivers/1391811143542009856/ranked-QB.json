@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T18:46:34.859Z",
+  "updated_at": "2026-09-18T18:58:51.810Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -450,27 +450,6 @@
       "waiver_score": 72.86
     },
     {
-      "player_id": "5849",
-      "name": "Kyler Murray",
-      "team": "MIN",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Concussion",
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 51.61,
-      "start_percent": 1.95,
-      "previous_week_opportunities": 7,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 77696,
-      "waiver_score": 67.62
-    },
-    {
       "player_id": "13557",
       "name": "Athan Kaliakmanis",
       "team": "WAS",
@@ -595,6 +574,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 64.65
+    },
+    {
+      "player_id": "5849",
+      "name": "Kyler Murray",
+      "team": "MIN",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Concussion",
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 51.61,
+      "start_percent": 1.95,
+      "previous_week_opportunities": 7,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 77696,
+      "waiver_score": 64.12
     },
     {
       "player_id": "13350",
