@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T21:32:25.758Z",
+  "updated_at": "2026-09-19T21:44:13.076Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -26,7 +26,7 @@
       "start_percent": 8.58,
       "previous_week_opportunities": 39,
       "trending_adds_24h": 20640,
-      "trending_drops_24h": 6376,
+      "trending_drops_24h": 0,
       "waiver_score": 98.43
     },
     {
@@ -47,7 +47,7 @@
       "start_percent": 5.07,
       "previous_week_opportunities": 40,
       "trending_adds_24h": 13419,
-      "trending_drops_24h": 7049,
+      "trending_drops_24h": 6342,
       "waiver_score": 98.12
     },
     {
@@ -68,7 +68,7 @@
       "start_percent": 1.59,
       "previous_week_opportunities": 33,
       "trending_adds_24h": 14350,
-      "trending_drops_24h": 9940,
+      "trending_drops_24h": 9128,
       "waiver_score": 96.74
     },
     {
@@ -320,7 +320,7 @@
       "start_percent": 0.12,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 9064,
+      "trending_drops_24h": 8376,
       "waiver_score": 78.32
     },
     {
@@ -593,7 +593,7 @@
       "start_percent": 1.51,
       "previous_week_opportunities": 7,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 34248,
+      "trending_drops_24h": 31544,
       "waiver_score": 64.18
     },
     {
@@ -1395,27 +1395,6 @@
       "waiver_score": 39.78
     },
     {
-      "player_id": "10866",
-      "name": "Aidan O'Connell",
-      "team": "LV",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Personal",
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.02,
-      "start_percent": 0,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 39.46
-    },
-    {
       "player_id": "9998",
       "name": "Hendon Hooker",
       "team": "TEN",
@@ -1561,6 +1540,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 36.89
+    },
+    {
+      "player_id": "10866",
+      "name": "Aidan O'Connell",
+      "team": "LV",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Personal",
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.02,
+      "start_percent": 0,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 35.96
     },
     {
       "player_id": "4464",
