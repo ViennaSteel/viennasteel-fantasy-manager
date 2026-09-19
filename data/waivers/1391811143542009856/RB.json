@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-09-19T00:14:50.813Z",
+  "updated_at": "2026-09-19T00:36:20.363Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
   "position": "RB",
   "available": [
-    {
-      "player_id": "12472",
-      "name": "Raheim Sanders",
-      "team": "CLE",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "RB",
-      "trending_adds_24h": 106784
-    },
     {
       "player_id": "4035",
       "name": "Alvin Kamara",
@@ -35,12 +19,12 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 105832
+      "trending_adds_24h": 100104
     },
     {
-      "player_id": "11729",
-      "name": "Sione Vaki",
-      "team": "DET",
+      "player_id": "12472",
+      "name": "Raheim Sanders",
+      "team": "CLE",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -51,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 35084
+      "trending_adds_24h": 92200
     },
     {
       "player_id": "6931",
@@ -67,7 +51,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 33114
+      "trending_adds_24h": 29493
+    },
+    {
+      "player_id": "11729",
+      "name": "Sione Vaki",
+      "team": "DET",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "RB",
+      "trending_adds_24h": 27188
     },
     {
       "player_id": "13347",
@@ -83,23 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 16701
-    },
-    {
-      "player_id": "11370",
-      "name": "Chris Brooks",
-      "team": "GB",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "RB",
-      "trending_adds_24h": 12120
+      "trending_adds_24h": 15270
     },
     {
       "player_id": "9511",
@@ -115,7 +99,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 11493
+      "trending_adds_24h": 10710
+    },
+    {
+      "player_id": "11370",
+      "name": "Chris Brooks",
+      "team": "GB",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "RB",
+      "trending_adds_24h": 10467
     },
     {
       "player_id": "11576",
@@ -131,7 +131,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 9492
+      "trending_adds_24h": 8604
     },
     {
       "player_id": "5995",
@@ -147,7 +147,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 9297
+      "trending_adds_24h": 8505
     },
     {
       "player_id": "1379",
@@ -454,22 +454,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "7048",
-      "name": "Benny LeMay",
-      "team": "CLE",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "6323",
       "name": "Andrew Beck",
       "team": "NYJ",
@@ -494,6 +478,22 @@
         "RB"
       ],
       "status": "Inactive",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "7048",
+      "name": "Benny LeMay",
+      "team": "CLE",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
