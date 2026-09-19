@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T17:00:10.077Z",
+  "updated_at": "2026-09-19T17:18:18.140Z",
   "week": 2,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -8,27 +8,6 @@
   "scoring_note": "Composite of rostered %, league-scoring projection, previous-week opportunities, start %, Sleeper trending and health. Trending is intentionally a minor signal.",
   "available_count": 104,
   "available": [
-    {
-      "player_id": "3163",
-      "name": "Jared Goff",
-      "team": "DET",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": 15.78,
-      "week_opponent": "BUF",
-      "rostered_percent": 69.37,
-      "start_percent": 16.76,
-      "previous_week_opportunities": 41,
-      "trending_adds_24h": 4985,
-      "trending_drops_24h": 0,
-      "waiver_score": 96.96
-    },
     {
       "player_id": "12508",
       "name": "Jaxson Dart",
@@ -67,8 +46,8 @@
       "rostered_percent": 49.8,
       "start_percent": 5.51,
       "previous_week_opportunities": 60,
-      "trending_adds_24h": 16256,
-      "trending_drops_24h": 13400,
+      "trending_adds_24h": 16472,
+      "trending_drops_24h": 13496,
       "waiver_score": 95.59
     },
     {
@@ -88,8 +67,8 @@
       "rostered_percent": 28.87,
       "start_percent": 5.05,
       "previous_week_opportunities": 40,
-      "trending_adds_24h": 15827,
-      "trending_drops_24h": 7784,
+      "trending_adds_24h": 16086,
+      "trending_drops_24h": 7875,
       "waiver_score": 94.86
     },
     {
@@ -130,8 +109,8 @@
       "rostered_percent": 33.36,
       "start_percent": 8.48,
       "previous_week_opportunities": 39,
-      "trending_adds_24h": 23624,
-      "trending_drops_24h": 6776,
+      "trending_adds_24h": 23980,
+      "trending_drops_24h": 6836,
       "waiver_score": 94.42
     },
     {
@@ -151,9 +130,30 @@
       "rostered_percent": 18.08,
       "start_percent": 1.59,
       "previous_week_opportunities": 33,
-      "trending_adds_24h": 16646,
-      "trending_drops_24h": 10269,
+      "trending_adds_24h": 16821,
+      "trending_drops_24h": 10339,
       "waiver_score": 93.89
+    },
+    {
+      "player_id": "3163",
+      "name": "Jared Goff",
+      "team": "DET",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": 15.78,
+      "week_opponent": "BUF",
+      "rostered_percent": 69.37,
+      "start_percent": 16.76,
+      "previous_week_opportunities": 41,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 92.84
     },
     {
       "player_id": "4892",
@@ -193,7 +193,7 @@
       "rostered_percent": 7.42,
       "start_percent": 3.59,
       "previous_week_opportunities": 24,
-      "trending_adds_24h": 66618,
+      "trending_adds_24h": 67482,
       "trending_drops_24h": 0,
       "waiver_score": 90.67
     },
@@ -256,7 +256,7 @@
       "rostered_percent": 3.31,
       "start_percent": 0.62,
       "previous_week_opportunities": 35,
-      "trending_adds_24h": 5128,
+      "trending_adds_24h": 5184,
       "trending_drops_24h": 0,
       "waiver_score": 87.63
     },
@@ -282,6 +282,27 @@
       "waiver_score": 87.4
     },
     {
+      "player_id": "4017",
+      "name": "Deshaun Watson",
+      "team": "CLE",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": 12.9,
+      "week_opponent": "TB",
+      "rostered_percent": 1.65,
+      "start_percent": 0.24,
+      "previous_week_opportunities": 28,
+      "trending_adds_24h": 5032,
+      "trending_drops_24h": 0,
+      "waiver_score": 85.81
+    },
+    {
       "player_id": "3257",
       "name": "Jacoby Brissett",
       "team": "ARI",
@@ -300,7 +321,7 @@
       "previous_week_opportunities": 43,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 84.72
+      "waiver_score": 84.77
     },
     {
       "player_id": "1373",
@@ -345,27 +366,6 @@
       "waiver_score": 83.2
     },
     {
-      "player_id": "4017",
-      "name": "Deshaun Watson",
-      "team": "CLE",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": 12.9,
-      "week_opponent": "TB",
-      "rostered_percent": 1.65,
-      "start_percent": 0.24,
-      "previous_week_opportunities": 28,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 81.79
-    },
-    {
       "player_id": "4574",
       "name": "Cooper Rush",
       "team": "ATL",
@@ -382,7 +382,7 @@
       "rostered_percent": 0.2,
       "start_percent": 0.08,
       "previous_week_opportunities": 22,
-      "trending_adds_24h": 8122,
+      "trending_adds_24h": 8224,
       "trending_drops_24h": 0,
       "waiver_score": 80.49
     },
@@ -425,7 +425,7 @@
       "start_percent": 0.12,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 9632,
+      "trending_drops_24h": 9768,
       "waiver_score": 74.86
     },
     {
@@ -445,7 +445,7 @@
       "rostered_percent": 0.07,
       "start_percent": 0,
       "previous_week_opportunities": 0,
-      "trending_adds_24h": 4950,
+      "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 72.68
     },
@@ -698,7 +698,7 @@
       "start_percent": 1.59,
       "previous_week_opportunities": 7,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 43224,
+      "trending_drops_24h": 43600,
       "waiver_score": 61.65
     },
     {
@@ -1558,7 +1558,7 @@
       "rostered_percent": 0.32,
       "start_percent": 0.01,
       "previous_week_opportunities": 0,
-      "trending_adds_24h": 14058,
+      "trending_adds_24h": 14265,
       "trending_drops_24h": 0,
       "waiver_score": 37.05
     },
@@ -1959,7 +1959,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 22.71
+      "waiver_score": 22.76
     },
     {
       "player_id": "6147",
