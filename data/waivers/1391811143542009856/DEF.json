@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T14:24:48.946Z",
+  "updated_at": "2026-09-19T14:38:32.378Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,12 +19,12 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 6312
+      "trending_adds_24h": 6012
     },
     {
-      "player_id": "GB",
-      "name": "Green Bay Packers",
-      "team": "GB",
+      "player_id": "CHI",
+      "name": "Chicago Bears",
+      "team": "CHI",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -35,7 +35,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 5282
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "CIN",
+      "name": "Cincinnati Bengals",
+      "team": "CIN",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
     },
     {
       "player_id": "IND",
@@ -86,38 +102,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "CHI",
-      "name": "Chicago Bears",
-      "team": "CHI",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "CIN",
-      "name": "Cincinnati Bengals",
-      "team": "CIN",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "CLE",
       "name": "Cleveland Browns",
       "team": "CLE",
@@ -153,6 +137,22 @@
       "player_id": "DET",
       "name": "Detroit Lions",
       "team": "DET",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "GB",
+      "name": "Green Bay Packers",
+      "team": "GB",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
