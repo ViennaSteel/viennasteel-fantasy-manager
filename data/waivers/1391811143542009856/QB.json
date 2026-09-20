@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T22:09:59.529Z",
+  "updated_at": "2026-09-20T22:24:44.893Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 180648
+      "trending_adds_24h": 193188
     },
     {
       "player_id": "11256",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 96192
+      "trending_adds_24h": 100086
     },
     {
       "player_id": "3161",
@@ -51,23 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 73620
-    },
-    {
-      "player_id": "8161",
-      "name": "Malik Willis",
-      "team": "MIA",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "QB",
-      "trending_adds_24h": 45647
+      "trending_adds_24h": 74382
     },
     {
       "player_id": "9758",
@@ -83,7 +67,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 44765
+      "trending_adds_24h": 47712
+    },
+    {
+      "player_id": "8161",
+      "name": "Malik Willis",
+      "team": "MIA",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 46305
     },
     {
       "player_id": "19",
@@ -99,39 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 20934
-    },
-    {
-      "player_id": "4017",
-      "name": "Deshaun Watson",
-      "team": "CLE",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "QB",
-      "trending_adds_24h": 18088
-    },
-    {
-      "player_id": "1166",
-      "name": "Kirk Cousins",
-      "team": "LV",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "QB",
-      "trending_adds_24h": 14720
+      "trending_adds_24h": 20970
     },
     {
       "player_id": "2307",
@@ -147,7 +115,55 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 11948
+      "trending_adds_24h": 20596
+    },
+    {
+      "player_id": "4017",
+      "name": "Deshaun Watson",
+      "team": "CLE",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 19752
+    },
+    {
+      "player_id": "1166",
+      "name": "Kirk Cousins",
+      "team": "LV",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 16656
+    },
+    {
+      "player_id": "5870",
+      "name": "Daniel Jones",
+      "team": "IND",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 9985
     },
     {
       "player_id": "96",
@@ -486,9 +502,41 @@
       "trending_adds_24h": 0
     },
     {
+      "player_id": "6147",
+      "name": "Clayton Thorson",
+      "team": "NYG",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
       "player_id": "5845",
       "name": "Dwayne Haskins",
       "team": "PIT",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "6185",
+      "name": "Easton Stick",
+      "team": "TB",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -534,38 +582,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "5870",
-      "name": "Daniel Jones",
-      "team": "IND",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "QB",
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "6147",
-      "name": "Clayton Thorson",
-      "team": "NYG",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "6011",
       "name": "Gardner Minshew",
       "team": "ARI",
@@ -595,22 +611,6 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "6185",
-      "name": "Easton Stick",
-      "team": "TB",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
       "trending_adds_24h": 0
     },
     {
