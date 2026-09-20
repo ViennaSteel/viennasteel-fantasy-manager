@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T18:43:26.905Z",
+  "updated_at": "2026-09-20T18:54:16.063Z",
   "week": 2,
   "available_weeks": [
     1,
@@ -39,8 +39,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
-          "trending_adds_24h": 15561,
-          "trending_drops_24h": 57960,
+          "trending_adds_24h": 15588,
+          "trending_drops_24h": 60363,
           "slot": "BENCH",
           "projected_points": 12.05,
           "projection_basis": "league_scoring",
@@ -133,7 +133,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -205,7 +205,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 10.47,
           "projection_basis": "league_scoring",
@@ -402,8 +402,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 10.24,
           "projection_basis": "league_scoring",
@@ -729,11 +729,11 @@
           "matchup_index": 70.2,
           "matchup_rating": -1,
           "matchup_sample_weeks": 1,
-          "actual_points": 7.4,
+          "actual_points": 9.9,
           "week_opponent": "CLE",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660540
+          "projection_updated_at": 1789930320366
         },
         {
           "player_id": "11604",
@@ -744,7 +744,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -783,7 +783,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 8.34,
           "projection_basis": "league_scoring",
@@ -799,7 +799,7 @@
           "week_opponent": "DEN",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T20:05Z",
-          "projection_updated_at": 1789929660898
+          "projection_updated_at": 1789930320745
         },
         {
           "player_id": "11646",
@@ -832,7 +832,7 @@
           "week_opponent": "ATL",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660723
+          "projection_updated_at": 1789930320554
         },
         {
           "player_id": "12507",
@@ -865,7 +865,7 @@
           "week_opponent": "LV",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T20:05Z",
-          "projection_updated_at": 1789929660805
+          "projection_updated_at": 1789930320637
         },
         {
           "player_id": "12512",
@@ -898,7 +898,7 @@
           "week_opponent": "TB",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660438
+          "projection_updated_at": 1789930320261
         },
         {
           "player_id": "12526",
@@ -931,7 +931,7 @@
           "week_opponent": "ATL",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660728
+          "projection_updated_at": 1789930320558
         },
         {
           "player_id": "12534",
@@ -960,11 +960,11 @@
           "matchup_index": 28.4,
           "matchup_rating": -1,
           "matchup_sample_weeks": 1,
-          "actual_points": 3.8,
+          "actual_points": 5,
           "week_opponent": "MIN",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660791
+          "projection_updated_at": 1789930320610
         },
         {
           "player_id": "12711",
@@ -980,8 +980,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -993,11 +993,11 @@
           "matchup_index": null,
           "matchup_rating": null,
           "matchup_sample_weeks": 0,
-          "actual_points": 1,
+          "actual_points": 6,
           "week_opponent": "NO",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660686
+          "projection_updated_at": 1789930320499
         },
         {
           "player_id": "4881",
@@ -1026,11 +1026,11 @@
           "matchup_index": 93.9,
           "matchup_rating": -0.31,
           "matchup_sample_weeks": 1,
-          "actual_points": 12.54,
+          "actual_points": 14.5,
           "week_opponent": "NO",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660653
+          "projection_updated_at": 1789930320464
         },
         {
           "player_id": "5012",
@@ -1046,8 +1046,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 10.47,
           "projection_basis": "league_scoring",
@@ -1059,11 +1059,11 @@
           "matchup_index": 82,
           "matchup_rating": -0.9,
           "matchup_sample_weeks": 1,
-          "actual_points": 5,
+          "actual_points": 8.5,
           "week_opponent": "NO",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660684
+          "projection_updated_at": 1789930320495
         },
         {
           "player_id": "7564",
@@ -1096,7 +1096,7 @@
           "week_opponent": "HOU",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660442
+          "projection_updated_at": 1789930320271
         },
         {
           "player_id": "7594",
@@ -1129,7 +1129,7 @@
           "week_opponent": "ATL",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660717
+          "projection_updated_at": 1789930320547
         },
         {
           "player_id": "9753",
@@ -1178,7 +1178,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 26.14,
@@ -1195,11 +1195,11 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-20",
           "game_start": "2026-09-20T17:00Z",
-          "projection_updated_at": 1789929660532
+          "projection_updated_at": 1789930320351
         }
       ],
       "matchup": {
-        "points": 78.94,
+        "points": 91.9,
         "players": [
           "11584",
           "11604",
@@ -1232,36 +1232,36 @@
           "TB"
         ],
         "starters_points": [
-          12.54,
+          14.5,
           0,
-          7.4,
+          9.9,
           14.8,
           11.3,
-          5,
+          8.5,
           11.1,
-          1,
+          6,
           15.8
         ],
         "players_points": {
-          "4881": 12.54,
-          "5012": 5,
+          "4881": 14.5,
+          "5012": 8.5,
           "7564": 14.8,
           "7594": 11.1,
           "9753": 0,
-          "11584": 7.4,
+          "11584": 9.9,
           "11604": 0,
           "11631": 0,
           "11646": 6.6,
           "12507": 0,
           "12512": 3.2,
           "12526": 11.3,
-          "12534": 3.8,
-          "12711": 1,
+          "12534": 5,
+          "12711": 6,
           "TB": 15.8
         }
       },
       "opponent": {
-        "points": 96.32,
+        "points": 97.12,
         "players": [
           "10236",
           "12489",
@@ -1294,9 +1294,9 @@
         ],
         "starters_points": [
           40.82,
-          5.4,
-          8.5,
-          2.6,
+          5.1,
+          6.9,
+          5.3,
           8.5,
           22.5,
           0,
@@ -1307,11 +1307,11 @@
           "4984": 40.82,
           "5967": 3.1,
           "6786": 0,
-          "6790": 8.5,
+          "6790": 6.9,
           "6794": 8.5,
-          "7021": 3,
-          "8146": 2.6,
-          "8155": 5.4,
+          "7021": 4.1,
+          "8146": 5.3,
+          "8155": 5.1,
           "8259": 0,
           "9487": 0,
           "10236": 22.5,
@@ -1375,7 +1375,7 @@
           "week_opponent": "MIN",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:05Z",
-          "projection_updated_at": 1789922762932
+          "projection_updated_at": 1789929963801
         },
         {
           "player_id": "11604",
@@ -1386,7 +1386,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -1408,7 +1408,7 @@
           "week_opponent": "NO",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1789922763043
+          "projection_updated_at": 1789929963931
         },
         {
           "player_id": "11631",
@@ -1425,7 +1425,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 11.24,
           "projection_basis": "league_scoring",
@@ -1441,7 +1441,7 @@
           "week_opponent": "NE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1789922762491
+          "projection_updated_at": 1789929963157
         },
         {
           "player_id": "11646",
@@ -1474,7 +1474,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1789922762697
+          "projection_updated_at": 1789929963455
         },
         {
           "player_id": "12507",
@@ -1507,7 +1507,7 @@
           "week_opponent": "BUF",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1789922762583
+          "projection_updated_at": 1789929963273
         },
         {
           "player_id": "12512",
@@ -1540,7 +1540,7 @@
           "week_opponent": "CAR",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1789922762778
+          "projection_updated_at": 1789929963576
         },
         {
           "player_id": "12526",
@@ -1573,7 +1573,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1789922762701
+          "projection_updated_at": 1789929963460
         },
         {
           "player_id": "12534",
@@ -1606,7 +1606,7 @@
           "week_opponent": "PHI",
           "game_date": "2026-09-28",
           "game_start": "2026-09-29T00:15Z",
-          "projection_updated_at": 1789922763026
+          "projection_updated_at": 1789929963926
         },
         {
           "player_id": "12711",
@@ -1622,8 +1622,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.98,
           "projection_basis": "league_scoring",
@@ -1639,7 +1639,7 @@
           "week_opponent": "DAL",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1789922763042
+          "projection_updated_at": 1789929963921
         },
         {
           "player_id": "4881",
@@ -1672,7 +1672,7 @@
           "week_opponent": "DAL",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1789922763010
+          "projection_updated_at": 1789929963879
         },
         {
           "player_id": "5012",
@@ -1688,8 +1688,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 11.28,
           "projection_basis": "league_scoring",
@@ -1705,7 +1705,7 @@
           "week_opponent": "DAL",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1789922763040
+          "projection_updated_at": 1789929963916
         },
         {
           "player_id": "7564",
@@ -1738,7 +1738,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1789922762695
+          "projection_updated_at": 1789929963427
         },
         {
           "player_id": "7594",
@@ -1771,7 +1771,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1789922762688
+          "projection_updated_at": 1789929963441
         },
         {
           "player_id": "9753",
@@ -1820,7 +1820,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 17.63,
@@ -1837,7 +1837,7 @@
           "week_opponent": "MIN",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:05Z",
-          "projection_updated_at": 1789922762924
+          "projection_updated_at": 1789929963795
         }
       ],
       "matchup": {
@@ -2017,7 +2017,7 @@
           "week_opponent": "GB",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T17:00Z",
-          "projection_updated_at": 1789922760460
+          "projection_updated_at": 1789929961974
         },
         {
           "player_id": "11604",
@@ -2028,7 +2028,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -2050,7 +2050,7 @@
           "week_opponent": "KC",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T20:25Z",
-          "projection_updated_at": 1789922760873
+          "projection_updated_at": 1789929962470
         },
         {
           "player_id": "11631",
@@ -2067,7 +2067,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 11.81,
           "projection_basis": "league_scoring",
@@ -2083,7 +2083,7 @@
           "week_opponent": "CIN",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T17:00Z",
-          "projection_updated_at": 1789922760269
+          "projection_updated_at": 1789929961744
         },
         {
           "player_id": "11646",
@@ -2116,7 +2116,7 @@
           "week_opponent": "DET",
           "game_date": "2026-10-04",
           "game_start": "2026-10-05T00:20Z",
-          "projection_updated_at": 1789922760792
+          "projection_updated_at": 1789929962372
         },
         {
           "player_id": "12507",
@@ -2149,7 +2149,7 @@
           "week_opponent": "SEA",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T20:25Z",
-          "projection_updated_at": 1789922760767
+          "projection_updated_at": 1789929962353
         },
         {
           "player_id": "12512",
@@ -2182,7 +2182,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-10-01",
           "game_start": "2026-10-02T00:15Z",
-          "projection_updated_at": 1789922760166
+          "projection_updated_at": 1789929961617
         },
         {
           "player_id": "12526",
@@ -2215,7 +2215,7 @@
           "week_opponent": "DET",
           "game_date": "2026-10-04",
           "game_start": "2026-10-05T00:20Z",
-          "projection_updated_at": 1789922760796
+          "projection_updated_at": 1789929962378
         },
         {
           "player_id": "12534",
@@ -2248,7 +2248,7 @@
           "week_opponent": "NYJ",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T17:00Z",
-          "projection_updated_at": 1789922760552
+          "projection_updated_at": 1789929962087
         },
         {
           "player_id": "12711",
@@ -2264,8 +2264,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -2281,7 +2281,7 @@
           "week_opponent": "TEN",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T17:00Z",
-          "projection_updated_at": 1789922760398
+          "projection_updated_at": 1789929961922
         },
         {
           "player_id": "4881",
@@ -2314,7 +2314,7 @@
           "week_opponent": "TEN",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T17:00Z",
-          "projection_updated_at": 1789922760366
+          "projection_updated_at": 1789929961874
         },
         {
           "player_id": "5012",
@@ -2330,8 +2330,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 11.03,
           "projection_basis": "league_scoring",
@@ -2347,7 +2347,7 @@
           "week_opponent": "TEN",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T17:00Z",
-          "projection_updated_at": 1789922760391
+          "projection_updated_at": 1789929961918
         },
         {
           "player_id": "7564",
@@ -2380,7 +2380,7 @@
           "week_opponent": "JAX",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T17:00Z",
-          "projection_updated_at": 1789922760178
+          "projection_updated_at": 1789929961617
         },
         {
           "player_id": "7594",
@@ -2413,7 +2413,7 @@
           "week_opponent": "DET",
           "game_date": "2026-10-04",
           "game_start": "2026-10-05T00:20Z",
-          "projection_updated_at": 1789922760784
+          "projection_updated_at": 1789929962364
         },
         {
           "player_id": "9753",
@@ -2462,7 +2462,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 17.42,
@@ -2479,7 +2479,7 @@
           "week_opponent": "GB",
           "game_date": "2026-10-04",
           "game_start": "2026-10-04T17:00Z",
-          "projection_updated_at": 1789922760450
+          "projection_updated_at": 1789929961963
         }
       ],
       "matchup": {
@@ -2661,7 +2661,7 @@
           "week_opponent": "DAL",
           "game_date": "2026-10-08",
           "game_start": "2026-10-09T00:15Z",
-          "projection_updated_at": 1789922762266
+          "projection_updated_at": 1789929961704
         },
         {
           "player_id": "11604",
@@ -2672,7 +2672,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -2694,7 +2694,7 @@
           "week_opponent": "NE",
           "game_date": "2026-10-11",
           "game_start": "2026-10-11T17:00Z",
-          "projection_updated_at": 1789922762164
+          "projection_updated_at": 1789929961581
         },
         {
           "player_id": "11631",
@@ -2711,7 +2711,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 9.52,
           "projection_basis": "league_scoring",
@@ -2727,7 +2727,7 @@
           "week_opponent": "PHI",
           "game_date": "2026-10-11",
           "game_start": "2026-10-11T13:30Z",
-          "projection_updated_at": 1789922762134
+          "projection_updated_at": 1789929961549
         },
         {
           "player_id": "11646",
@@ -2793,7 +2793,7 @@
           "week_opponent": "DEN",
           "game_date": "2026-10-11",
           "game_start": "2026-10-11T20:05Z",
-          "projection_updated_at": 1789922762810
+          "projection_updated_at": 1789929962268
         },
         {
           "player_id": "12512",
@@ -2826,7 +2826,7 @@
           "week_opponent": "NYJ",
           "game_date": "2026-10-11",
           "game_start": "2026-10-11T17:00Z",
-          "projection_updated_at": 1789922762409
+          "projection_updated_at": 1789929961840
         },
         {
           "player_id": "12526",
@@ -2892,7 +2892,7 @@
           "week_opponent": "GB",
           "game_date": "2026-10-11",
           "game_start": "2026-10-11T20:25Z",
-          "projection_updated_at": 1789922762702
+          "projection_updated_at": 1789929962160
         },
         {
           "player_id": "12711",
@@ -2908,8 +2908,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -2925,7 +2925,7 @@
           "week_opponent": "ATL",
           "game_date": "2026-10-11",
           "game_start": "2026-10-12T00:20Z",
-          "projection_updated_at": 1789922763091
+          "projection_updated_at": 1789929962570
         },
         {
           "player_id": "4881",
@@ -2958,7 +2958,7 @@
           "week_opponent": "ATL",
           "game_date": "2026-10-11",
           "game_start": "2026-10-12T00:20Z",
-          "projection_updated_at": 1789922763044
+          "projection_updated_at": 1789929962522
         },
         {
           "player_id": "5012",
@@ -2974,8 +2974,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 10.1,
           "projection_basis": "league_scoring",
@@ -2991,7 +2991,7 @@
           "week_opponent": "ATL",
           "game_date": "2026-10-11",
           "game_start": "2026-10-12T00:20Z",
-          "projection_updated_at": 1789922763089
+          "projection_updated_at": 1789929962559
         },
         {
           "player_id": "7564",
@@ -3024,7 +3024,7 @@
           "week_opponent": "MIA",
           "game_date": "2026-10-11",
           "game_start": "2026-10-11T17:00Z",
-          "projection_updated_at": 1789922762121
+          "projection_updated_at": 1789929961547
         },
         {
           "player_id": "7594",
@@ -3106,7 +3106,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 15.46,
@@ -3123,7 +3123,7 @@
           "week_opponent": "DAL",
           "game_date": "2026-10-08",
           "game_start": "2026-10-09T00:15Z",
-          "projection_updated_at": 1789922762259
+          "projection_updated_at": 1789929961695
         }
       ],
       "matchup": {
@@ -3303,7 +3303,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762821
+          "projection_updated_at": 1789929963496
         },
         {
           "player_id": "11604",
@@ -3314,7 +3314,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -3336,7 +3336,7 @@
           "week_opponent": "BUF",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T20:25Z",
-          "projection_updated_at": 1789922762877
+          "projection_updated_at": 1789929963583
         },
         {
           "player_id": "11631",
@@ -3353,7 +3353,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 10.09,
           "projection_basis": "league_scoring",
@@ -3369,7 +3369,7 @@
           "week_opponent": "HOU",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T13:30Z",
-          "projection_updated_at": 1789922762463
+          "projection_updated_at": 1789929963083
         },
         {
           "player_id": "11646",
@@ -3402,7 +3402,7 @@
           "week_opponent": "PHI",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762558
+          "projection_updated_at": 1789929963226
         },
         {
           "player_id": "12507",
@@ -3435,7 +3435,7 @@
           "week_opponent": "KC",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T20:25Z",
-          "projection_updated_at": 1789922762845
+          "projection_updated_at": 1789929963551
         },
         {
           "player_id": "12512",
@@ -3468,7 +3468,7 @@
           "week_opponent": "BAL",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762433
+          "projection_updated_at": 1789929963045
         },
         {
           "player_id": "12526",
@@ -3501,7 +3501,7 @@
           "week_opponent": "PHI",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762562
+          "projection_updated_at": 1789929963220
         },
         {
           "player_id": "12534",
@@ -3534,7 +3534,7 @@
           "week_opponent": "ATL",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762397
+          "projection_updated_at": 1789929963023
         },
         {
           "player_id": "12711",
@@ -3550,8 +3550,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -3567,7 +3567,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762327
+          "projection_updated_at": 1789929962961
         },
         {
           "player_id": "4881",
@@ -3600,7 +3600,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762271
+          "projection_updated_at": 1789929962893
         },
         {
           "player_id": "5012",
@@ -3616,8 +3616,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 9.98,
           "projection_basis": "league_scoring",
@@ -3633,7 +3633,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762325
+          "projection_updated_at": 1789929962958
         },
         {
           "player_id": "7564",
@@ -3699,7 +3699,7 @@
           "week_opponent": "PHI",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762545
+          "projection_updated_at": 1789929963215
         },
         {
           "player_id": "9753",
@@ -3748,7 +3748,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 16.89,
@@ -3765,7 +3765,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-10-18",
           "game_start": "2026-10-18T17:00Z",
-          "projection_updated_at": 1789922762817
+          "projection_updated_at": 1789929963487
         }
       ],
       "matchup": {
@@ -3956,7 +3956,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -3995,7 +3995,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": null,
           "projection_basis": "league_scoring",
@@ -4192,8 +4192,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -4258,8 +4258,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 10.77,
           "projection_basis": "league_scoring",
@@ -4390,7 +4390,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 16.89,
@@ -4598,7 +4598,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -4637,7 +4637,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 11.02,
           "projection_basis": "league_scoring",
@@ -4834,8 +4834,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -4900,8 +4900,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 9.52,
           "projection_basis": "league_scoring",
@@ -5032,7 +5032,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 17.72,
@@ -5240,7 +5240,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -5279,7 +5279,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 10.72,
           "projection_basis": "league_scoring",
@@ -5476,8 +5476,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -5542,8 +5542,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 9.28,
           "projection_basis": "league_scoring",
@@ -5674,7 +5674,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 16.14,
@@ -5882,7 +5882,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -5921,7 +5921,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 12.05,
           "projection_basis": "league_scoring",
@@ -6118,8 +6118,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -6184,8 +6184,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 9.28,
           "projection_basis": "league_scoring",
@@ -6316,7 +6316,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": null,
@@ -6524,7 +6524,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -6563,7 +6563,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 10.52,
           "projection_basis": "league_scoring",
@@ -6760,8 +6760,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -6826,8 +6826,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 10.05,
           "projection_basis": "league_scoring",
@@ -6958,7 +6958,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 16.14,
@@ -7155,7 +7155,7 @@
           "week_opponent": "CAR",
           "game_date": "2026-11-30",
           "game_start": "2026-12-01T01:15Z",
-          "projection_updated_at": 1789922761343
+          "projection_updated_at": 1789929963424
         },
         {
           "player_id": "11604",
@@ -7166,7 +7166,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -7188,7 +7188,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-11-29",
           "game_start": "2026-11-29T18:00Z",
-          "projection_updated_at": 1789922760894
+          "projection_updated_at": 1789929962888
         },
         {
           "player_id": "11631",
@@ -7205,7 +7205,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 12.05,
           "projection_basis": "league_scoring",
@@ -7221,7 +7221,7 @@
           "week_opponent": "TEN",
           "game_date": "2026-11-29",
           "game_start": "2026-11-29T21:05Z",
-          "projection_updated_at": 1789922761010
+          "projection_updated_at": 1789929963030
         },
         {
           "player_id": "11646",
@@ -7254,7 +7254,7 @@
           "week_opponent": "TB",
           "game_date": "2026-11-30",
           "game_start": "2026-12-01T01:15Z",
-          "projection_updated_at": 1789922761220
+          "projection_updated_at": 1789929963311
         },
         {
           "player_id": "12507",
@@ -7287,7 +7287,7 @@
           "week_opponent": "NE",
           "game_date": "2026-11-29",
           "game_start": "2026-11-30T01:20Z",
-          "projection_updated_at": 1789922761200
+          "projection_updated_at": 1789929963289
         },
         {
           "player_id": "12512",
@@ -7320,7 +7320,7 @@
           "week_opponent": "LV",
           "game_date": "2026-11-29",
           "game_start": "2026-11-29T18:00Z",
-          "projection_updated_at": 1789922760759
+          "projection_updated_at": 1789929962708
         },
         {
           "player_id": "12526",
@@ -7353,7 +7353,7 @@
           "week_opponent": "TB",
           "game_date": "2026-11-30",
           "game_start": "2026-12-01T01:15Z",
-          "projection_updated_at": 1789922761225
+          "projection_updated_at": 1789929963317
         },
         {
           "player_id": "12534",
@@ -7386,7 +7386,7 @@
           "week_opponent": "DET",
           "game_date": "2026-11-26",
           "game_start": "2026-11-26T18:00Z",
-          "projection_updated_at": 1789922760501
+          "projection_updated_at": 1789929962421
         },
         {
           "player_id": "12711",
@@ -7402,8 +7402,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -7419,7 +7419,7 @@
           "week_opponent": "HOU",
           "game_date": "2026-11-29",
           "game_start": "2026-11-29T18:00Z",
-          "projection_updated_at": 1789922760817
+          "projection_updated_at": 1789929962753
         },
         {
           "player_id": "4881",
@@ -7452,7 +7452,7 @@
           "week_opponent": "HOU",
           "game_date": "2026-11-29",
           "game_start": "2026-11-29T18:00Z",
-          "projection_updated_at": 1789922760772
+          "projection_updated_at": 1789929962695
         },
         {
           "player_id": "5012",
@@ -7468,8 +7468,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 9.42,
           "projection_basis": "league_scoring",
@@ -7485,7 +7485,7 @@
           "week_opponent": "HOU",
           "game_date": "2026-11-29",
           "game_start": "2026-11-29T18:00Z",
-          "projection_updated_at": 1789922760814
+          "projection_updated_at": 1789929962750
         },
         {
           "player_id": "7564",
@@ -7518,7 +7518,7 @@
           "week_opponent": "NO",
           "game_date": "2026-11-29",
           "game_start": "2026-11-29T18:00Z",
-          "projection_updated_at": 1789922760759
+          "projection_updated_at": 1789929962699
         },
         {
           "player_id": "7594",
@@ -7551,7 +7551,7 @@
           "week_opponent": "TB",
           "game_date": "2026-11-30",
           "game_start": "2026-12-01T01:15Z",
-          "projection_updated_at": 1789922761209
+          "projection_updated_at": 1789929963304
         },
         {
           "player_id": "9753",
@@ -7600,7 +7600,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 16.14,
@@ -7617,7 +7617,7 @@
           "week_opponent": "CAR",
           "game_date": "2026-11-30",
           "game_start": "2026-12-01T01:15Z",
-          "projection_updated_at": 1789922761322
+          "projection_updated_at": 1789929963416
         }
       ],
       "matchup": {
@@ -7797,7 +7797,7 @@
           "week_opponent": "LAC",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T18:00Z",
-          "projection_updated_at": 1789922760029
+          "projection_updated_at": 1789929961557
         },
         {
           "player_id": "11604",
@@ -7808,7 +7808,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -7847,7 +7847,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 11.86,
           "projection_basis": "league_scoring",
@@ -7863,7 +7863,7 @@
           "week_opponent": "CHI",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T18:00Z",
-          "projection_updated_at": 1789922759858
+          "projection_updated_at": 1789929961347
         },
         {
           "player_id": "11646",
@@ -7896,7 +7896,7 @@
           "week_opponent": "MIN",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T21:25Z",
-          "projection_updated_at": 1789922760173
+          "projection_updated_at": 1789929961656
         },
         {
           "player_id": "12507",
@@ -7929,7 +7929,7 @@
           "week_opponent": "TB",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T18:00Z",
-          "projection_updated_at": 1789922759944
+          "projection_updated_at": 1789929961453
         },
         {
           "player_id": "12512",
@@ -7962,7 +7962,7 @@
           "week_opponent": "CIN",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T18:00Z",
-          "projection_updated_at": 1789922759803
+          "projection_updated_at": 1789929961319
         },
         {
           "player_id": "12526",
@@ -7995,7 +7995,7 @@
           "week_opponent": "MIN",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T21:25Z",
-          "projection_updated_at": 1789922760167
+          "projection_updated_at": 1789929961662
         },
         {
           "player_id": "12534",
@@ -8028,7 +8028,7 @@
           "week_opponent": "JAX",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T18:00Z",
-          "projection_updated_at": 1789922759705
+          "projection_updated_at": 1789929961204
         },
         {
           "player_id": "12711",
@@ -8044,8 +8044,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": null,
           "projection_basis": "league_scoring",
@@ -8110,8 +8110,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": null,
           "projection_basis": "league_scoring",
@@ -8160,7 +8160,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T18:00Z",
-          "projection_updated_at": 1789922759712
+          "projection_updated_at": 1789929961208
         },
         {
           "player_id": "7594",
@@ -8193,7 +8193,7 @@
           "week_opponent": "MIN",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T21:25Z",
-          "projection_updated_at": 1789922760163
+          "projection_updated_at": 1789929961653
         },
         {
           "player_id": "9753",
@@ -8242,7 +8242,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 16.14,
@@ -8259,7 +8259,7 @@
           "week_opponent": "LAC",
           "game_date": "2026-12-06",
           "game_start": "2026-12-06T18:00Z",
-          "projection_updated_at": 1789922760023
+          "projection_updated_at": 1789929961552
         }
       ],
       "matchup": {
@@ -8452,7 +8452,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -8491,7 +8491,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 10.58,
           "projection_basis": "league_scoring",
@@ -8688,8 +8688,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -8754,8 +8754,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 10.56,
           "projection_basis": "league_scoring",
@@ -8886,7 +8886,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 16.14,
@@ -9083,7 +9083,7 @@
           "week_opponent": "NO",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922763282
+          "projection_updated_at": 1789929962560
         },
         {
           "player_id": "11604",
@@ -9094,7 +9094,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -9116,7 +9116,7 @@
           "week_opponent": "DEN",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T21:25Z",
-          "projection_updated_at": 1789922763550
+          "projection_updated_at": 1789929962902
         },
         {
           "player_id": "11631",
@@ -9133,7 +9133,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 10.09,
           "projection_basis": "league_scoring",
@@ -9149,7 +9149,7 @@
           "week_opponent": "HOU",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922763050
+          "projection_updated_at": 1789929962298
         },
         {
           "player_id": "11646",
@@ -9182,7 +9182,7 @@
           "week_opponent": "CIN",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922762629
+          "projection_updated_at": 1789929961852
         },
         {
           "player_id": "12507",
@@ -9215,7 +9215,7 @@
           "week_opponent": "SF",
           "game_date": "2026-12-17",
           "game_start": "2026-12-18T01:15Z",
-          "projection_updated_at": 1789922762622
+          "projection_updated_at": 1789929961844
         },
         {
           "player_id": "12512",
@@ -9248,7 +9248,7 @@
           "week_opponent": "NYG",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922762932
+          "projection_updated_at": 1789929962187
         },
         {
           "player_id": "12526",
@@ -9281,7 +9281,7 @@
           "week_opponent": "CIN",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922762635
+          "projection_updated_at": 1789929961858
         },
         {
           "player_id": "12534",
@@ -9314,7 +9314,7 @@
           "week_opponent": "BUF",
           "game_date": "2026-12-19",
           "game_start": "2026-12-20T01:20Z",
-          "projection_updated_at": 1789922762758
+          "projection_updated_at": 1789929961983
         },
         {
           "player_id": "12711",
@@ -9330,8 +9330,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -9347,7 +9347,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922762975
+          "projection_updated_at": 1789929962239
         },
         {
           "player_id": "4881",
@@ -9380,7 +9380,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922762929
+          "projection_updated_at": 1789929962180
         },
         {
           "player_id": "5012",
@@ -9396,8 +9396,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 9.79,
           "projection_basis": "league_scoring",
@@ -9413,7 +9413,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922762972
+          "projection_updated_at": 1789929962232
         },
         {
           "player_id": "7564",
@@ -9446,7 +9446,7 @@
           "week_opponent": "CAR",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922762813
+          "projection_updated_at": 1789929962044
         },
         {
           "player_id": "7594",
@@ -9479,7 +9479,7 @@
           "week_opponent": "CIN",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922762615
+          "projection_updated_at": 1789929961846
         },
         {
           "player_id": "9753",
@@ -9528,7 +9528,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 17.58,
@@ -9545,7 +9545,7 @@
           "week_opponent": "NO",
           "game_date": "2026-12-20",
           "game_start": "2026-12-20T18:00Z",
-          "projection_updated_at": 1789922763270
+          "projection_updated_at": 1789929962551
         }
       ],
       "matchup": {
@@ -9725,7 +9725,7 @@
           "week_opponent": "ATL",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T05:00Z",
-          "projection_updated_at": 1789922763973
+          "projection_updated_at": 1789929961878
         },
         {
           "player_id": "11604",
@@ -9736,7 +9736,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -9758,7 +9758,7 @@
           "week_opponent": "TEN",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T21:05Z",
-          "projection_updated_at": 1789922764349
+          "projection_updated_at": 1789929962249
         },
         {
           "player_id": "11631",
@@ -9775,7 +9775,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 12.38,
           "projection_basis": "league_scoring",
@@ -9791,7 +9791,7 @@
           "week_opponent": "DAL",
           "game_date": "2026-12-27",
           "game_start": "2026-12-28T01:20Z",
-          "projection_updated_at": 1789922764471
+          "projection_updated_at": 1789929962371
         },
         {
           "player_id": "11646",
@@ -9824,7 +9824,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T05:00Z",
-          "projection_updated_at": 1789922763881
+          "projection_updated_at": 1789929961781
         },
         {
           "player_id": "12507",
@@ -9857,7 +9857,7 @@
           "week_opponent": "MIA",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T18:00Z",
-          "projection_updated_at": 1789922764098
+          "projection_updated_at": 1789929962006
         },
         {
           "player_id": "12512",
@@ -9890,7 +9890,7 @@
           "week_opponent": "BAL",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T18:00Z",
-          "projection_updated_at": 1789922764215
+          "projection_updated_at": 1789929962118
         },
         {
           "player_id": "12526",
@@ -9923,7 +9923,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T05:00Z",
-          "projection_updated_at": 1789922763887
+          "projection_updated_at": 1789929961787
         },
         {
           "player_id": "12534",
@@ -9956,7 +9956,7 @@
           "week_opponent": "GB",
           "game_date": "2026-12-25",
           "game_start": "2026-12-25T18:00Z",
-          "projection_updated_at": 1789922763596
+          "projection_updated_at": 1789929961504
         },
         {
           "player_id": "12711",
@@ -9972,8 +9972,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -9989,7 +9989,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T18:00Z",
-          "projection_updated_at": 1789922764131
+          "projection_updated_at": 1789929962035
         },
         {
           "player_id": "4881",
@@ -10022,7 +10022,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T18:00Z",
-          "projection_updated_at": 1789922764088
+          "projection_updated_at": 1789929961988
         },
         {
           "player_id": "5012",
@@ -10038,8 +10038,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 9.98,
           "projection_basis": "league_scoring",
@@ -10055,7 +10055,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T18:00Z",
-          "projection_updated_at": 1789922764128
+          "projection_updated_at": 1789929962032
         },
         {
           "player_id": "7564",
@@ -10088,7 +10088,7 @@
           "week_opponent": "IND",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T05:00Z",
-          "projection_updated_at": 1789922763876
+          "projection_updated_at": 1789929961764
         },
         {
           "player_id": "7594",
@@ -10121,7 +10121,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T05:00Z",
-          "projection_updated_at": 1789922763870
+          "projection_updated_at": 1789929961774
         },
         {
           "player_id": "9753",
@@ -10170,7 +10170,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 17.58,
@@ -10187,7 +10187,7 @@
           "week_opponent": "ATL",
           "game_date": "2026-12-27",
           "game_start": "2026-12-27T05:00Z",
-          "projection_updated_at": 1789922763959
+          "projection_updated_at": 1789929961871
         }
       ],
       "matchup": {
@@ -10378,7 +10378,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -10417,7 +10417,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 12.43,
           "projection_basis": "league_scoring",
@@ -10614,8 +10614,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -10680,8 +10680,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 10.77,
           "projection_basis": "league_scoring",
@@ -10812,7 +10812,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 14.98,
@@ -11009,7 +11009,7 @@
           "week_opponent": "NO",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922762610
+          "projection_updated_at": 1789929963022
         },
         {
           "player_id": "11604",
@@ -11020,7 +11020,7 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "injury_body_part": "Knee - Meniscus",
           "injury_notes": "Surgery",
           "practice_participation": null,
@@ -11042,7 +11042,7 @@
           "week_opponent": "KC",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922762353
+          "projection_updated_at": 1789929962763
         },
         {
           "player_id": "11631",
@@ -11059,7 +11059,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12995,
+          "trending_drops_24h": 13160,
           "slot": "BENCH",
           "projected_points": 11.02,
           "projection_basis": "league_scoring",
@@ -11075,7 +11075,7 @@
           "week_opponent": "IND",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922762312
+          "projection_updated_at": 1789929962754
         },
         {
           "player_id": "11646",
@@ -11108,7 +11108,7 @@
           "week_opponent": "ATL",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922761882
+          "projection_updated_at": 1789929962160
         },
         {
           "player_id": "12507",
@@ -11141,7 +11141,7 @@
           "week_opponent": "DEN",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922762131
+          "projection_updated_at": 1789929962466
         },
         {
           "player_id": "12512",
@@ -11174,7 +11174,7 @@
           "week_opponent": "CIN",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922762100
+          "projection_updated_at": 1789929962458
         },
         {
           "player_id": "12526",
@@ -11207,7 +11207,7 @@
           "week_opponent": "ATL",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922761902
+          "projection_updated_at": 1789929962166
         },
         {
           "player_id": "12534",
@@ -11240,7 +11240,7 @@
           "week_opponent": "MIN",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922762262
+          "projection_updated_at": 1789929962651
         },
         {
           "player_id": "12711",
@@ -11256,8 +11256,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 39888,
-          "trending_drops_24h": 12132,
+          "trending_adds_24h": 39894,
+          "trending_drops_24h": 12324,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -11273,7 +11273,7 @@
           "week_opponent": "PIT",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922761824
+          "projection_updated_at": 1789929962065
         },
         {
           "player_id": "4881",
@@ -11306,7 +11306,7 @@
           "week_opponent": "PIT",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922761775
+          "projection_updated_at": 1789929961997
         },
         {
           "player_id": "5012",
@@ -11322,8 +11322,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 50355,
-          "trending_drops_24h": 10881,
+          "trending_adds_24h": 50922,
+          "trending_drops_24h": 11052,
           "slot": "STARTER",
           "projected_points": 9.79,
           "projection_basis": "league_scoring",
@@ -11339,7 +11339,7 @@
           "week_opponent": "PIT",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922761816
+          "projection_updated_at": 1789929962059
         },
         {
           "player_id": "7564",
@@ -11372,7 +11372,7 @@
           "week_opponent": "CLE",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922762004
+          "projection_updated_at": 1789929962315
         },
         {
           "player_id": "7594",
@@ -11405,7 +11405,7 @@
           "week_opponent": "ATL",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922761872
+          "projection_updated_at": 1789929962153
         },
         {
           "player_id": "9753",
@@ -11454,7 +11454,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": null,
-          "trending_adds_24h": 78815,
+          "trending_adds_24h": 78865,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 16.14,
@@ -11471,7 +11471,7 @@
           "week_opponent": "NO",
           "game_date": "2027-01-10",
           "game_start": "2027-01-10T05:00Z",
-          "projection_updated_at": 1789922762598
+          "projection_updated_at": 1789929963011
         }
       ],
       "matchup": {
@@ -12141,7 +12141,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 13896,
+        "trending_adds_24h": 14128,
         "projected_points": 19.29,
         "start_percent": 53.37,
         "rostered_percent": 90.2,
@@ -12379,7 +12379,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 25823,
+        "trending_adds_24h": 26040,
         "projected_points": 17,
         "start_percent": 5.16,
         "rostered_percent": 29.2,
@@ -12447,7 +12447,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 23009,
+        "trending_adds_24h": 23919,
         "projected_points": 17.83,
         "start_percent": 1.55,
         "rostered_percent": 17.85,
@@ -12549,7 +12549,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 17640,
+        "trending_adds_24h": 17792,
         "projected_points": 14.89,
         "start_percent": 5.48,
         "rostered_percent": 49.68,
@@ -12583,7 +12583,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 39924,
+        "trending_adds_24h": 42592,
         "projected_points": 15.41,
         "start_percent": 9.31,
         "rostered_percent": 34.27,
@@ -12617,7 +12617,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 74628,
+        "trending_adds_24h": 74826,
         "projected_points": 15.36,
         "start_percent": 4.13,
         "rostered_percent": 8.2,
@@ -12855,7 +12855,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 8116,
+        "trending_adds_24h": 8118,
         "projected_points": 9.85,
         "start_percent": 0.1,
         "rostered_percent": 0.24,
@@ -13673,7 +13673,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 22416,
+        "trending_adds_24h": 22524,
         "projected_points": 14.03,
         "start_percent": 41.71,
         "rostered_percent": 84.81,
@@ -13843,7 +13843,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 25884,
+        "trending_adds_24h": 26667,
         "projected_points": 12.67,
         "start_percent": 14.58,
         "rostered_percent": 74.9,
@@ -13979,7 +13979,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 11712,
+        "trending_adds_24h": 12112,
         "projected_points": 12.7,
         "start_percent": 5.21,
         "rostered_percent": 75.46,
@@ -14081,7 +14081,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 42660,
+        "trending_adds_24h": 43281,
         "projected_points": 11.77,
         "start_percent": 15.26,
         "rostered_percent": 77.43,
@@ -14115,7 +14115,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 8388,
+        "trending_adds_24h": 8424,
         "projected_points": 7.39,
         "start_percent": 0.87,
         "rostered_percent": 23.44,
@@ -14149,7 +14149,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 25669,
+        "trending_adds_24h": 26355,
         "projected_points": 7.07,
         "start_percent": 2.5,
         "rostered_percent": 50.16,
@@ -14285,7 +14285,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 9048,
+        "trending_adds_24h": 9096,
         "projected_points": 11.68,
         "start_percent": 9.71,
         "rostered_percent": 81.24,
@@ -14319,7 +14319,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 8856,
+        "trending_adds_24h": 9459,
         "projected_points": 6.87,
         "start_percent": 0.4,
         "rostered_percent": 25.45,
@@ -14387,7 +14387,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 16092,
+        "trending_adds_24h": 16173,
         "projected_points": 6.12,
         "start_percent": 0.62,
         "rostered_percent": 16.04,
@@ -14557,7 +14557,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 55908,
+        "trending_adds_24h": 58905,
         "projected_points": 4.61,
         "start_percent": 0.55,
         "rostered_percent": 15.7,
@@ -14591,7 +14591,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 41408,
+        "trending_adds_24h": 41480,
         "projected_points": 6.37,
         "start_percent": 0.14,
         "rostered_percent": 0.65,
@@ -14625,7 +14625,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 43887,
+        "trending_adds_24h": 43944,
         "projected_points": 6.73,
         "start_percent": 0.04,
         "rostered_percent": 0.36,
@@ -14659,7 +14659,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 13737,
+        "trending_adds_24h": 13773,
         "projected_points": 8.06,
         "start_percent": 2.97,
         "rostered_percent": 20.15,
@@ -14693,7 +14693,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 11250,
+        "trending_adds_24h": 11253,
         "projected_points": 5,
         "start_percent": 0.05,
         "rostered_percent": 1.71,
@@ -14795,7 +14795,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 150336,
+        "trending_adds_24h": 152096,
         "projected_points": 5.25,
         "start_percent": 1.05,
         "rostered_percent": 37.53,
@@ -14829,7 +14829,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 10976,
+        "trending_adds_24h": 11132,
         "projected_points": 5.73,
         "start_percent": 0.5,
         "rostered_percent": 14.43,
@@ -14897,7 +14897,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 174942,
+        "trending_adds_24h": 184554,
         "projected_points": 5.96,
         "start_percent": 1.23,
         "rostered_percent": 13.68,
@@ -14931,7 +14931,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 13563,
+        "trending_adds_24h": 14850,
         "projected_points": 8.81,
         "start_percent": 0.58,
         "rostered_percent": 19.06,
@@ -14965,7 +14965,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 13778,
+        "trending_adds_24h": 15972,
         "projected_points": 7.53,
         "start_percent": 0.39,
         "rostered_percent": 22.07,
@@ -15237,7 +15237,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 108059,
+        "trending_adds_24h": 111258,
         "projected_points": 5.9,
         "start_percent": 0.33,
         "rostered_percent": 15.24,
@@ -15849,7 +15849,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 8376,
+        "trending_adds_24h": 8768,
         "projected_points": 3.26,
         "start_percent": 0.12,
         "rostered_percent": 1.04,
@@ -16176,40 +16176,6 @@
         "rank": 95
       },
       {
-        "player_id": "12489",
-        "name": "RJ Harvey",
-        "team": "DEN",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": "Questionable",
-        "injury_body_part": "Hamstring",
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 0,
-        "projected_points": 0.85,
-        "start_percent": 2.48,
-        "rostered_percent": 72.49,
-        "usage_opportunities": 7,
-        "usage_percentile": 36.8,
-        "usage_sample_games": 1,
-        "matchup_index": 54.3,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "JAX",
-        "game_start": "2026-09-20T20:05Z",
-        "roster_status": "ROSTERED",
-        "fantasy_team": "Krieglach Packers",
-        "health_score": 30,
-        "unavailable": false,
-        "projection_percentile": 9.9,
-        "consensus_score": 12.1,
-        "rank": 96
-      },
-      {
         "player_id": "6828",
         "name": "AJ Dillon",
         "team": "CAR",
@@ -16241,7 +16207,7 @@
         "unavailable": false,
         "projection_percentile": 5,
         "consensus_score": 10.81,
-        "rank": 97
+        "rank": 96
       },
       {
         "player_id": "6012",
@@ -16275,7 +16241,7 @@
         "unavailable": false,
         "projection_percentile": 6.9,
         "consensus_score": 9.54,
-        "rank": 98
+        "rank": 97
       },
       {
         "player_id": "10235",
@@ -16309,7 +16275,7 @@
         "unavailable": false,
         "projection_percentile": 3,
         "consensus_score": 7.47,
-        "rank": 99
+        "rank": 98
       },
       {
         "player_id": "13423",
@@ -16343,7 +16309,7 @@
         "unavailable": false,
         "projection_percentile": 2,
         "consensus_score": 6.95,
-        "rank": 100
+        "rank": 99
       },
       {
         "player_id": "12471",
@@ -16377,7 +16343,7 @@
         "unavailable": false,
         "projection_percentile": 5.9,
         "consensus_score": 4.89,
-        "rank": 101
+        "rank": 100
       },
       {
         "player_id": "11651",
@@ -16410,6 +16376,40 @@
         "health_score": 0,
         "unavailable": true,
         "projection_percentile": 13.9,
+        "consensus_score": 0,
+        "rank": 101
+      },
+      {
+        "player_id": "12489",
+        "name": "RJ Harvey",
+        "team": "DEN",
+        "position": "RB",
+        "fantasy_positions": [
+          "RB"
+        ],
+        "status": "Active",
+        "injury_status": "Out",
+        "injury_body_part": "Hamstring",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RB",
+        "trending_adds_24h": 0,
+        "projected_points": 0.85,
+        "start_percent": 2.48,
+        "rostered_percent": 72.49,
+        "usage_opportunities": 7,
+        "usage_percentile": 36.8,
+        "usage_sample_games": 1,
+        "matchup_index": 54.3,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 1,
+        "week_opponent": "JAX",
+        "game_start": "2026-09-20T20:05Z",
+        "roster_status": "ROSTERED",
+        "fantasy_team": "Krieglach Packers",
+        "health_score": 0,
+        "unavailable": true,
+        "projection_percentile": 9.9,
         "consensus_score": 0,
         "rank": 102
       }
@@ -17130,6 +17130,40 @@
         "rank": 21
       },
       {
+        "player_id": "11635",
+        "name": "Ladd McConkey",
+        "team": "LAC",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "SWR",
+        "trending_adds_24h": 0,
+        "projected_points": 13.26,
+        "start_percent": 62.86,
+        "rostered_percent": 97.3,
+        "usage_opportunities": 7,
+        "usage_percentile": 81.6,
+        "usage_sample_games": 1,
+        "matchup_index": 78.9,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 1,
+        "week_opponent": "LV",
+        "game_start": "2026-09-20T20:05Z",
+        "roster_status": "ROSTERED",
+        "fantasy_team": "FernitzBolts",
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 88.3,
+        "consensus_score": 72.69,
+        "rank": 22
+      },
+      {
         "player_id": "2216",
         "name": "Mike Evans",
         "team": "SF",
@@ -17161,40 +17195,6 @@
         "unavailable": false,
         "projection_percentile": 86.5,
         "consensus_score": 70.42,
-        "rank": 22
-      },
-      {
-        "player_id": "11635",
-        "name": "Ladd McConkey",
-        "team": "LAC",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": "Questionable",
-        "injury_body_part": "Chest",
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "SWR",
-        "trending_adds_24h": 0,
-        "projected_points": 13.26,
-        "start_percent": 62.86,
-        "rostered_percent": 97.3,
-        "usage_opportunities": 7,
-        "usage_percentile": 81.6,
-        "usage_sample_games": 1,
-        "matchup_index": 78.9,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "LV",
-        "game_start": "2026-09-20T20:05Z",
-        "roster_status": "ROSTERED",
-        "fantasy_team": "FernitzBolts",
-        "health_score": 30,
-        "unavailable": false,
-        "projection_percentile": 88.3,
-        "consensus_score": 69.19,
         "rank": 23
       },
       {
@@ -17245,7 +17245,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 48615,
+        "trending_adds_24h": 48727,
         "projected_points": 14.49,
         "start_percent": 22.79,
         "rostered_percent": 84.78,
@@ -17313,7 +17313,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 11268,
+        "trending_adds_24h": 11493,
         "projected_points": 13.58,
         "start_percent": 44.28,
         "rostered_percent": 90.36,
@@ -17449,7 +17449,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 39537,
+        "trending_adds_24h": 40752,
         "projected_points": 10,
         "start_percent": 13.78,
         "rostered_percent": 74.54,
@@ -17483,7 +17483,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 20790,
+        "trending_adds_24h": 21213,
         "projected_points": 10.91,
         "start_percent": 7.84,
         "rostered_percent": 68.73,
@@ -17619,7 +17619,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 15876,
+        "trending_adds_24h": 16146,
         "projected_points": 10.68,
         "start_percent": 31.94,
         "rostered_percent": 89.8,
@@ -17653,7 +17653,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 14934,
+        "trending_adds_24h": 15694,
         "projected_points": 8.2,
         "start_percent": 1.61,
         "rostered_percent": 10.29,
@@ -17687,7 +17687,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 22302,
+        "trending_adds_24h": 22338,
         "projected_points": 10.94,
         "start_percent": 8.87,
         "rostered_percent": 74.96,
@@ -17755,7 +17755,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 59312,
+        "trending_adds_24h": 61864,
         "projected_points": 12.29,
         "start_percent": 0.96,
         "rostered_percent": 7.4,
@@ -17789,7 +17789,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 56238,
+        "trending_adds_24h": 56581,
         "projected_points": 10.32,
         "start_percent": 10.09,
         "rostered_percent": 54.36,
@@ -17823,7 +17823,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 27891,
+        "trending_adds_24h": 27936,
         "projected_points": 11.68,
         "start_percent": 2.7,
         "rostered_percent": 57.6,
@@ -17959,7 +17959,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 319149,
+        "trending_adds_24h": 319545,
         "projected_points": 8.8,
         "start_percent": 0.18,
         "rostered_percent": 0.65,
@@ -17993,7 +17993,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 40528,
+        "trending_adds_24h": 40910,
         "projected_points": 9.08,
         "start_percent": 9.15,
         "rostered_percent": 24.23,
@@ -18027,7 +18027,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 14763,
+        "trending_adds_24h": 15127,
         "projected_points": 9.94,
         "start_percent": 0.07,
         "rostered_percent": 0.72,
@@ -18061,7 +18061,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 17794,
+        "trending_adds_24h": 18025,
         "projected_points": 9.79,
         "start_percent": 8.65,
         "rostered_percent": 70.61,
@@ -18095,7 +18095,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 17808,
+        "trending_adds_24h": 18624,
         "projected_points": 9.82,
         "start_percent": 1.59,
         "rostered_percent": 24.41,
@@ -18129,7 +18129,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 61120,
+        "trending_adds_24h": 62272,
         "projected_points": 8.83,
         "start_percent": 4.16,
         "rostered_percent": 39.36,
@@ -18231,7 +18231,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 10485,
+        "trending_adds_24h": 10775,
         "projected_points": 10.43,
         "start_percent": 3.33,
         "rostered_percent": 65.11,
@@ -18367,7 +18367,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 64115,
+        "trending_adds_24h": 65670,
         "projected_points": 6.55,
         "start_percent": 0.38,
         "rostered_percent": 10.09,
@@ -18435,7 +18435,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 32142,
+        "trending_adds_24h": 32541,
         "projected_points": 8.03,
         "start_percent": 4.13,
         "rostered_percent": 26.38,
@@ -18469,7 +18469,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 33976,
+        "trending_adds_24h": 35664,
         "projected_points": 7.73,
         "start_percent": 0.37,
         "rostered_percent": 4.78,
@@ -18503,7 +18503,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 464128,
+        "trending_adds_24h": 465577,
         "projected_points": 7.84,
         "start_percent": 1.4,
         "rostered_percent": 4.49,
@@ -18537,7 +18537,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 41728,
+        "trending_adds_24h": 43376,
         "projected_points": 8,
         "start_percent": 1.15,
         "rostered_percent": 17.02,
@@ -18639,7 +18639,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 7938,
+        "trending_adds_24h": 7946,
         "projected_points": 10.79,
         "start_percent": 0.63,
         "rostered_percent": 7.08,
@@ -18673,7 +18673,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 8970,
+        "trending_adds_24h": 8976,
         "projected_points": 6.16,
         "start_percent": 0.02,
         "rostered_percent": 0.07,
@@ -18707,7 +18707,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 45879,
+        "trending_adds_24h": 45918,
         "projected_points": 8.76,
         "start_percent": 1.25,
         "rostered_percent": 7.28,
@@ -18741,7 +18741,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 21728,
+        "trending_adds_24h": 21808,
         "projected_points": 9.04,
         "start_percent": 7.25,
         "rostered_percent": 61.89,
@@ -18775,7 +18775,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 9040,
+        "trending_adds_24h": 9432,
         "projected_points": 7.82,
         "start_percent": 1.05,
         "rostered_percent": 26.13,
@@ -18843,7 +18843,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 23172,
+        "trending_adds_24h": 23213,
         "projected_points": 9.56,
         "start_percent": 2.03,
         "rostered_percent": 15.4,
@@ -19115,7 +19115,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 11409,
+        "trending_adds_24h": 11421,
         "projected_points": 4.78,
         "start_percent": 0.06,
         "rostered_percent": 0.18,
@@ -19149,7 +19149,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 8588,
+        "trending_adds_24h": 8752,
         "projected_points": 7.1,
         "start_percent": 0.13,
         "rostered_percent": 3.81,
@@ -19285,7 +19285,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 12025,
+        "trending_adds_24h": 12362,
         "projected_points": 7.35,
         "start_percent": 1.28,
         "rostered_percent": 14.91,
@@ -19387,7 +19387,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 8298,
+        "trending_adds_24h": 8568,
         "projected_points": 7.18,
         "start_percent": 1.08,
         "rostered_percent": 11.98,
@@ -19421,7 +19421,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 26775,
+        "trending_adds_24h": 27315,
         "projected_points": 4.28,
         "start_percent": 0.11,
         "rostered_percent": 1.74,
@@ -19489,7 +19489,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 15540,
+        "trending_adds_24h": 15554,
         "projected_points": 4.46,
         "start_percent": 0.12,
         "rostered_percent": 0.27,
@@ -19591,7 +19591,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 8478,
+        "trending_adds_24h": 8679,
         "projected_points": 4.16,
         "start_percent": 0.29,
         "rostered_percent": 3.92,
@@ -19693,7 +19693,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 82956,
+        "trending_adds_24h": 84984,
         "projected_points": 6.4,
         "start_percent": 0.63,
         "rostered_percent": 3.96,
@@ -19727,7 +19727,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 8939,
+        "trending_adds_24h": 9352,
         "projected_points": 6.72,
         "start_percent": 0.1,
         "rostered_percent": 4.39,
@@ -19761,7 +19761,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 9410,
+        "trending_adds_24h": 9535,
         "projected_points": 4.64,
         "start_percent": 0.01,
         "rostered_percent": 0.08,
@@ -19897,7 +19897,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 122733,
+        "trending_adds_24h": 124425,
         "projected_points": 3.1,
         "start_percent": 0.14,
         "rostered_percent": 1.71,
@@ -20951,7 +20951,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 109845,
+        "trending_adds_24h": 112626,
         "projected_points": 2.3,
         "start_percent": 0.02,
         "rostered_percent": 0.36,
@@ -21495,7 +21495,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 23471,
+        "trending_adds_24h": 23891,
         "projected_points": 0.59,
         "start_percent": 0.02,
         "rostered_percent": 0.37,
@@ -21971,7 +21971,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 15561,
+        "trending_adds_24h": 15588,
         "projected_points": 11.52,
         "start_percent": 5.57,
         "rostered_percent": 65.4,
@@ -22091,8 +22091,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 95,
-        "consensus_score": 88.04,
+        "projection_percentile": 94.9,
+        "consensus_score": 87.99,
         "rank": 3
       },
       {
@@ -22143,7 +22143,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 10472,
+        "trending_adds_24h": 10689,
         "projected_points": 12.14,
         "start_percent": 42.36,
         "rostered_percent": 81.91,
@@ -22193,43 +22193,9 @@
         "fantasy_team": "Krieglach Packers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 86,
-        "consensus_score": 78.11,
+        "projection_percentile": 85.9,
+        "consensus_score": 78.07,
         "rank": 6
-      },
-      {
-        "player_id": "8131",
-        "name": "Isaiah Likely",
-        "team": "NYG",
-        "position": "TE",
-        "fantasy_positions": [
-          "TE"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "TE",
-        "trending_adds_24h": 0,
-        "projected_points": 11.08,
-        "start_percent": 63.27,
-        "rostered_percent": 91.37,
-        "usage_opportunities": 8,
-        "usage_percentile": 94.1,
-        "usage_sample_games": 1,
-        "matchup_index": 51.5,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "LAR",
-        "game_start": "2026-09-22T00:15Z",
-        "roster_status": "ROSTERED",
-        "fantasy_team": "Fressnitz Saints",
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 94,
-        "consensus_score": 77.23,
-        "rank": 7
       },
       {
         "player_id": "9484",
@@ -22263,6 +22229,40 @@
         "unavailable": false,
         "projection_percentile": 97,
         "consensus_score": 77.19,
+        "rank": 7
+      },
+      {
+        "player_id": "8131",
+        "name": "Isaiah Likely",
+        "team": "NYG",
+        "position": "TE",
+        "fantasy_positions": [
+          "TE"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "TE",
+        "trending_adds_24h": 0,
+        "projected_points": 11.08,
+        "start_percent": 63.27,
+        "rostered_percent": 91.37,
+        "usage_opportunities": 8,
+        "usage_percentile": 94.1,
+        "usage_sample_games": 1,
+        "matchup_index": 51.5,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 1,
+        "week_opponent": "LAR",
+        "game_start": "2026-09-22T00:15Z",
+        "roster_status": "ROSTERED",
+        "fantasy_team": "Fressnitz Saints",
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 93.9,
+        "consensus_score": 77.19,
         "rank": 8
       },
       {
@@ -22295,8 +22295,8 @@
         "fantasy_team": "FernitzBolts",
         "health_score": 30,
         "unavailable": false,
-        "projection_percentile": 88,
-        "consensus_score": 76.83,
+        "projection_percentile": 87.9,
+        "consensus_score": 76.79,
         "rank": 9
       },
       {
@@ -22329,8 +22329,8 @@
         "fantasy_team": "FernitzBolts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 91,
-        "consensus_score": 75.86,
+        "projection_percentile": 90.9,
+        "consensus_score": 75.82,
         "rank": 10
       },
       {
@@ -22363,8 +22363,8 @@
         "fantasy_team": "Langenwanger Cowboys",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 92,
-        "consensus_score": 70.06,
+        "projection_percentile": 91.9,
+        "consensus_score": 70.02,
         "rank": 11
       },
       {
@@ -22381,7 +22381,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 271710,
+        "trending_adds_24h": 287505,
         "projected_points": 8.33,
         "start_percent": 17.96,
         "rostered_percent": 28,
@@ -22397,8 +22397,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 81,
-        "consensus_score": 69.83,
+        "projection_percentile": 80.8,
+        "consensus_score": 69.74,
         "rank": 12
       },
       {
@@ -22431,8 +22431,8 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 85,
-        "consensus_score": 68.63,
+        "projection_percentile": 84.8,
+        "consensus_score": 68.54,
         "rank": 13
       },
       {
@@ -22449,7 +22449,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 50355,
+        "trending_adds_24h": 50922,
         "projected_points": 10.47,
         "start_percent": 35.56,
         "rostered_percent": 82.46,
@@ -22465,8 +22465,8 @@
         "fantasy_team": "Vienna Steel",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 90,
-        "consensus_score": 67.91,
+        "projection_percentile": 89.9,
+        "consensus_score": 67.86,
         "rank": 14
       },
       {
@@ -22483,7 +22483,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 28636,
+        "trending_adds_24h": 28708,
         "projected_points": 5.75,
         "start_percent": 4.78,
         "rostered_percent": 16.27,
@@ -22499,8 +22499,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 74,
-        "consensus_score": 63.18,
+        "projection_percentile": 73.7,
+        "consensus_score": 63.04,
         "rank": 15
       },
       {
@@ -22533,8 +22533,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 93,
-        "consensus_score": 62.97,
+        "projection_percentile": 92.9,
+        "consensus_score": 62.93,
         "rank": 16
       },
       {
@@ -22567,8 +22567,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 84,
-        "consensus_score": 61.72,
+        "projection_percentile": 83.8,
+        "consensus_score": 61.63,
         "rank": 17
       },
       {
@@ -22601,8 +22601,8 @@
         "fantasy_team": "Laufnitzdorf Colts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 82,
-        "consensus_score": 61.63,
+        "projection_percentile": 81.8,
+        "consensus_score": 61.54,
         "rank": 18
       },
       {
@@ -22619,7 +22619,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 9326,
+        "trending_adds_24h": 9386,
         "projected_points": 9.9,
         "start_percent": 14.78,
         "rostered_percent": 52.69,
@@ -22635,8 +22635,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 87,
-        "consensus_score": 61.3,
+        "projection_percentile": 86.9,
+        "consensus_score": 61.26,
         "rank": 19
       },
       {
@@ -22653,7 +22653,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 12840,
+        "trending_adds_24h": 12906,
         "projected_points": 10.23,
         "start_percent": 8.56,
         "rostered_percent": 50.72,
@@ -22669,8 +22669,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 89,
-        "consensus_score": 61.02,
+        "projection_percentile": 88.9,
+        "consensus_score": 60.97,
         "rank": 20
       },
       {
@@ -22687,7 +22687,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 36504,
+        "trending_adds_24h": 36567,
         "projected_points": 5.62,
         "start_percent": 5.19,
         "rostered_percent": 37.89,
@@ -22703,8 +22703,8 @@
         "fantasy_team": "Krieglach City Chiefs",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 73,
-        "consensus_score": 59.08,
+        "projection_percentile": 72.7,
+        "consensus_score": 58.94,
         "rank": 21
       },
       {
@@ -22737,8 +22737,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 83,
-        "consensus_score": 55.7,
+        "projection_percentile": 82.8,
+        "consensus_score": 55.61,
         "rank": 22
       },
       {
@@ -22755,7 +22755,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 11691,
+        "trending_adds_24h": 13653,
         "projected_points": 6.6,
         "start_percent": 0.36,
         "rostered_percent": 2.85,
@@ -22771,8 +22771,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 77,
-        "consensus_score": 55.7,
+        "projection_percentile": 76.8,
+        "consensus_score": 55.61,
         "rank": 23
       },
       {
@@ -22805,8 +22805,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 69,
-        "consensus_score": 55.34,
+        "projection_percentile": 68.7,
+        "consensus_score": 55.2,
         "rank": 24
       },
       {
@@ -22839,8 +22839,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 80,
-        "consensus_score": 55.09,
+        "projection_percentile": 79.8,
+        "consensus_score": 55,
         "rank": 25
       },
       {
@@ -22873,8 +22873,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 70,
-        "consensus_score": 54.66,
+        "projection_percentile": 69.7,
+        "consensus_score": 54.53,
         "rank": 26
       },
       {
@@ -22891,7 +22891,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 11961,
+        "trending_adds_24h": 12996,
         "projected_points": 7.88,
         "start_percent": 3.73,
         "rostered_percent": 21.89,
@@ -22907,8 +22907,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 79,
-        "consensus_score": 54.37,
+        "projection_percentile": 78.8,
+        "consensus_score": 54.28,
         "rank": 27
       },
       {
@@ -22941,8 +22941,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 78,
-        "consensus_score": 53.82,
+        "projection_percentile": 77.8,
+        "consensus_score": 53.73,
         "rank": 28
       },
       {
@@ -22975,8 +22975,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 66,
-        "consensus_score": 52.59,
+        "projection_percentile": 65.7,
+        "consensus_score": 52.44,
         "rank": 29
       },
       {
@@ -23009,8 +23009,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 71,
-        "consensus_score": 51.74,
+        "projection_percentile": 70.7,
+        "consensus_score": 51.61,
         "rank": 30
       },
       {
@@ -23043,8 +23043,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 76,
-        "consensus_score": 51.47,
+        "projection_percentile": 75.8,
+        "consensus_score": 51.38,
         "rank": 31
       },
       {
@@ -23077,8 +23077,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 54,
-        "consensus_score": 50.13,
+        "projection_percentile": 53.5,
+        "consensus_score": 49.9,
         "rank": 32
       },
       {
@@ -23111,8 +23111,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 56,
-        "consensus_score": 49.05,
+        "projection_percentile": 55.6,
+        "consensus_score": 48.87,
         "rank": 33
       },
       {
@@ -23129,7 +23129,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 26992,
+        "trending_adds_24h": 29032,
         "projected_points": 4.27,
         "start_percent": 1.53,
         "rostered_percent": 6.66,
@@ -23145,8 +23145,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 65,
-        "consensus_score": 47.2,
+        "projection_percentile": 64.6,
+        "consensus_score": 47.02,
         "rank": 34
       },
       {
@@ -23179,8 +23179,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 63,
-        "consensus_score": 46.91,
+        "projection_percentile": 62.6,
+        "consensus_score": 46.73,
         "rank": 35
       },
       {
@@ -23213,8 +23213,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 75,
-        "consensus_score": 46.32,
+        "projection_percentile": 74.7,
+        "consensus_score": 46.19,
         "rank": 36
       },
       {
@@ -23247,8 +23247,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 60,
-        "consensus_score": 44.3,
+        "projection_percentile": 59.6,
+        "consensus_score": 44.12,
         "rank": 37
       },
       {
@@ -23281,8 +23281,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 51,
-        "consensus_score": 43.54,
+        "projection_percentile": 50.5,
+        "consensus_score": 43.28,
         "rank": 38
       },
       {
@@ -23315,8 +23315,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 67,
-        "consensus_score": 43.09,
+        "projection_percentile": 66.7,
+        "consensus_score": 42.96,
         "rank": 39
       },
       {
@@ -23333,7 +23333,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 25068,
+        "trending_adds_24h": 25692,
         "projected_points": 5.35,
         "start_percent": 0.19,
         "rostered_percent": 1.31,
@@ -23349,8 +23349,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 72,
-        "consensus_score": 42.74,
+        "projection_percentile": 71.7,
+        "consensus_score": 42.61,
         "rank": 40
       },
       {
@@ -23383,8 +23383,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 47,
-        "consensus_score": 42.54,
+        "projection_percentile": 46.5,
+        "consensus_score": 42.27,
         "rank": 41
       },
       {
@@ -23417,8 +23417,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 68,
-        "consensus_score": 42.03,
+        "projection_percentile": 67.7,
+        "consensus_score": 41.9,
         "rank": 42
       },
       {
@@ -23451,8 +23451,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 39,
-        "consensus_score": 41.6,
+        "projection_percentile": 38.4,
+        "consensus_score": 41.33,
         "rank": 43
       },
       {
@@ -23485,8 +23485,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 55,
-        "consensus_score": 41.06,
+        "projection_percentile": 54.5,
+        "consensus_score": 40.84,
         "rank": 44
       },
       {
@@ -23519,8 +23519,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 61,
-        "consensus_score": 39.72,
+        "projection_percentile": 60.6,
+        "consensus_score": 39.54,
         "rank": 45
       },
       {
@@ -23553,8 +23553,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 62,
-        "consensus_score": 39.52,
+        "projection_percentile": 61.6,
+        "consensus_score": 39.34,
         "rank": 46
       },
       {
@@ -23587,8 +23587,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 41,
-        "consensus_score": 39.36,
+        "projection_percentile": 40.4,
+        "consensus_score": 39.04,
         "rank": 47
       },
       {
@@ -23621,8 +23621,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 37,
-        "consensus_score": 37.24,
+        "projection_percentile": 36.4,
+        "consensus_score": 36.92,
         "rank": 48
       },
       {
@@ -23655,8 +23655,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 64,
-        "consensus_score": 36.67,
+        "projection_percentile": 63.6,
+        "consensus_score": 36.49,
         "rank": 49
       },
       {
@@ -23689,8 +23689,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 57,
-        "consensus_score": 36.06,
+        "projection_percentile": 56.6,
+        "consensus_score": 35.85,
         "rank": 50
       },
       {
@@ -23723,8 +23723,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 31,
-        "consensus_score": 36.02,
+        "projection_percentile": 30.3,
+        "consensus_score": 35.7,
         "rank": 51
       },
       {
@@ -23757,8 +23757,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 34,
-        "consensus_score": 35.59,
+        "projection_percentile": 33.3,
+        "consensus_score": 35.22,
         "rank": 52
       },
       {
@@ -23791,8 +23791,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 48,
-        "consensus_score": 35.12,
+        "projection_percentile": 47.5,
+        "consensus_score": 34.86,
         "rank": 53
       },
       {
@@ -23825,8 +23825,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 53,
-        "consensus_score": 35.08,
+        "projection_percentile": 52.5,
+        "consensus_score": 34.85,
         "rank": 54
       },
       {
@@ -23859,8 +23859,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 42,
-        "consensus_score": 34.01,
+        "projection_percentile": 41.4,
+        "consensus_score": 33.65,
         "rank": 55
       },
       {
@@ -23893,77 +23893,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 25,
-        "consensus_score": 33.09,
+        "projection_percentile": 25.3,
+        "consensus_score": 33.23,
         "rank": 56
-      },
-      {
-        "player_id": "7891",
-        "name": "Brock Wright",
-        "team": "DET",
-        "position": "TE",
-        "fantasy_positions": [
-          "TE"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "TE",
-        "trending_adds_24h": 0,
-        "projected_points": 2.29,
-        "start_percent": 0.03,
-        "rostered_percent": 0.12,
-        "usage_opportunities": 1,
-        "usage_percentile": 14.7,
-        "usage_sample_games": 1,
-        "matchup_index": 104.5,
-        "matchup_rating": 0.23,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "BUF",
-        "game_start": "2026-09-18T00:15Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 43,
-        "consensus_score": 32.71,
-        "rank": 57
-      },
-      {
-        "player_id": "6869",
-        "name": "Adam Trautman",
-        "team": "DEN",
-        "position": "TE",
-        "fantasy_positions": [
-          "TE"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "TE",
-        "trending_adds_24h": 0,
-        "projected_points": 1.82,
-        "start_percent": 0.01,
-        "rostered_percent": 0.08,
-        "usage_opportunities": 3,
-        "usage_percentile": 64.7,
-        "usage_sample_games": 1,
-        "matchup_index": 47.2,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "JAX",
-        "game_start": "2026-09-20T20:05Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 40,
-        "consensus_score": 32.71,
-        "rank": 58
       },
       {
         "player_id": "8225",
@@ -23995,8 +23927,76 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 58,
-        "consensus_score": 32.65,
+        "projection_percentile": 57.6,
+        "consensus_score": 32.47,
+        "rank": 57
+      },
+      {
+        "player_id": "7891",
+        "name": "Brock Wright",
+        "team": "DET",
+        "position": "TE",
+        "fantasy_positions": [
+          "TE"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "TE",
+        "trending_adds_24h": 0,
+        "projected_points": 2.29,
+        "start_percent": 0.03,
+        "rostered_percent": 0.12,
+        "usage_opportunities": 1,
+        "usage_percentile": 14.7,
+        "usage_sample_games": 1,
+        "matchup_index": 104.5,
+        "matchup_rating": 0.23,
+        "matchup_sample_weeks": 1,
+        "week_opponent": "BUF",
+        "game_start": "2026-09-18T00:15Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 42.4,
+        "consensus_score": 32.44,
+        "rank": 58
+      },
+      {
+        "player_id": "6869",
+        "name": "Adam Trautman",
+        "team": "DEN",
+        "position": "TE",
+        "fantasy_positions": [
+          "TE"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "TE",
+        "trending_adds_24h": 0,
+        "projected_points": 1.82,
+        "start_percent": 0.01,
+        "rostered_percent": 0.08,
+        "usage_opportunities": 3,
+        "usage_percentile": 64.7,
+        "usage_sample_games": 1,
+        "matchup_index": 47.2,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 1,
+        "week_opponent": "JAX",
+        "game_start": "2026-09-20T20:05Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 39.4,
+        "consensus_score": 32.44,
         "rank": 59
       },
       {
@@ -24029,8 +24029,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 28,
-        "consensus_score": 32.47,
+        "projection_percentile": 27.3,
+        "consensus_score": 32.1,
         "rank": 60
       },
       {
@@ -24063,8 +24063,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 33,
-        "consensus_score": 31.84,
+        "projection_percentile": 32.3,
+        "consensus_score": 31.52,
         "rank": 61
       },
       {
@@ -24097,8 +24097,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 35,
-        "consensus_score": 31.41,
+        "projection_percentile": 34.3,
+        "consensus_score": 31.1,
         "rank": 62
       },
       {
@@ -24131,8 +24131,8 @@
         "fantasy_team": null,
         "health_score": 30,
         "unavailable": false,
-        "projection_percentile": 59,
-        "consensus_score": 31.18,
+        "projection_percentile": 58.6,
+        "consensus_score": 30.98,
         "rank": 63
       },
       {
@@ -24165,8 +24165,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 45,
-        "consensus_score": 30.77,
+        "projection_percentile": 44.4,
+        "consensus_score": 30.5,
         "rank": 64
       },
       {
@@ -24199,77 +24199,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 32,
-        "consensus_score": 30.47,
+        "projection_percentile": 31.3,
+        "consensus_score": 30.1,
         "rank": 65
-      },
-      {
-        "player_id": "3202",
-        "name": "Austin Hooper",
-        "team": "ATL",
-        "position": "TE",
-        "fantasy_positions": [
-          "TE"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "TE",
-        "trending_adds_24h": 0,
-        "projected_points": 2.31,
-        "start_percent": 0.01,
-        "rostered_percent": 0.07,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 83.5,
-        "matchup_rating": -0.83,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "CAR",
-        "game_start": "2026-09-20T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 44,
-        "consensus_score": 30.18,
-        "rank": 66
-      },
-      {
-        "player_id": "11597",
-        "name": "Theo Johnson",
-        "team": "NYG",
-        "position": "TE",
-        "fantasy_positions": [
-          "TE"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "TE",
-        "trending_adds_24h": 0,
-        "projected_points": 3.4,
-        "start_percent": 0.03,
-        "rostered_percent": 0.36,
-        "usage_opportunities": 1,
-        "usage_percentile": 16.2,
-        "usage_sample_games": 1,
-        "matchup_index": 51.5,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "LAR",
-        "game_start": "2026-09-22T00:15Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 50,
-        "consensus_score": 29.94,
-        "rank": 67
       },
       {
         "player_id": "8145",
@@ -24301,8 +24233,76 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 24,
-        "consensus_score": 29.78,
+        "projection_percentile": 24.2,
+        "consensus_score": 29.87,
+        "rank": 66
+      },
+      {
+        "player_id": "3202",
+        "name": "Austin Hooper",
+        "team": "ATL",
+        "position": "TE",
+        "fantasy_positions": [
+          "TE"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "TE",
+        "trending_adds_24h": 0,
+        "projected_points": 2.31,
+        "start_percent": 0.01,
+        "rostered_percent": 0.07,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 83.5,
+        "matchup_rating": -0.83,
+        "matchup_sample_weeks": 1,
+        "week_opponent": "CAR",
+        "game_start": "2026-09-20T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 43.4,
+        "consensus_score": 29.86,
+        "rank": 67
+      },
+      {
+        "player_id": "11597",
+        "name": "Theo Johnson",
+        "team": "NYG",
+        "position": "TE",
+        "fantasy_positions": [
+          "TE"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "TE",
+        "trending_adds_24h": 0,
+        "projected_points": 3.4,
+        "start_percent": 0.03,
+        "rostered_percent": 0.36,
+        "usage_opportunities": 1,
+        "usage_percentile": 16.2,
+        "usage_sample_games": 1,
+        "matchup_index": 51.5,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 1,
+        "week_opponent": "LAR",
+        "game_start": "2026-09-22T00:15Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 49.5,
+        "consensus_score": 29.71,
         "rank": 68
       },
       {
@@ -24335,8 +24335,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 49,
-        "consensus_score": 29.69,
+        "projection_percentile": 48.5,
+        "consensus_score": 29.47,
         "rank": 69
       },
       {
@@ -24353,7 +24353,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 38872,
+        "trending_adds_24h": 39920,
         "projected_points": 3.55,
         "start_percent": 1.31,
         "rostered_percent": 19.2,
@@ -24369,8 +24369,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 52,
-        "consensus_score": 29.16,
+        "projection_percentile": 51.5,
+        "consensus_score": 28.94,
         "rank": 70
       },
       {
@@ -24403,8 +24403,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 46,
-        "consensus_score": 27.52,
+        "projection_percentile": 45.5,
+        "consensus_score": 27.3,
         "rank": 71
       },
       {
@@ -24437,8 +24437,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 18,
-        "consensus_score": 27.18,
+        "projection_percentile": 18.2,
+        "consensus_score": 27.28,
         "rank": 72
       },
       {
@@ -24471,43 +24471,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 36,
-        "consensus_score": 26.28,
+        "projection_percentile": 35.4,
+        "consensus_score": 26.01,
         "rank": 73
-      },
-      {
-        "player_id": "11599",
-        "name": "Cade Stover",
-        "team": "HOU",
-        "position": "TE",
-        "fantasy_positions": [
-          "TE"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "TE",
-        "trending_adds_24h": 0,
-        "projected_points": 1.79,
-        "start_percent": 0.01,
-        "rostered_percent": 0.06,
-        "usage_opportunities": 1,
-        "usage_percentile": 22.1,
-        "usage_sample_games": 1,
-        "matchup_index": 40.7,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "CIN",
-        "game_start": "2026-09-20T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 38,
-        "consensus_score": 25.42,
-        "rank": 74
       },
       {
         "player_id": "8489",
@@ -24539,14 +24505,14 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 19,
-        "consensus_score": 25.32,
-        "rank": 75
+        "projection_percentile": 19.2,
+        "consensus_score": 25.41,
+        "rank": 74
       },
       {
-        "player_id": "13408",
-        "name": "Tanner Koziol",
-        "team": "JAX",
+        "player_id": "11599",
+        "name": "Cade Stover",
+        "team": "HOU",
         "position": "TE",
         "fantasy_positions": [
           "TE"
@@ -24558,24 +24524,24 @@
         "practice_participation": null,
         "depth_chart_position": "TE",
         "trending_adds_24h": 0,
-        "projected_points": 1.08,
-        "start_percent": 0,
-        "rostered_percent": 0.02,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 98,
-        "matchup_rating": -0.1,
+        "projected_points": 1.79,
+        "start_percent": 0.01,
+        "rostered_percent": 0.06,
+        "usage_opportunities": 1,
+        "usage_percentile": 22.1,
+        "usage_sample_games": 1,
+        "matchup_index": 40.7,
+        "matchup_rating": -1,
         "matchup_sample_weeks": 1,
-        "week_opponent": "DEN",
-        "game_start": "2026-09-20T20:05Z",
+        "week_opponent": "CIN",
+        "game_start": "2026-09-20T17:00Z",
         "roster_status": "WAIVER",
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 26,
-        "consensus_score": 24.94,
-        "rank": 76
+        "projection_percentile": 37.4,
+        "consensus_score": 25.15,
+        "rank": 75
       },
       {
         "player_id": "4189",
@@ -24607,9 +24573,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 15,
-        "consensus_score": 24.47,
-        "rank": 77
+        "projection_percentile": 15.2,
+        "consensus_score": 24.58,
+        "rank": 76
       },
       {
         "player_id": "13299",
@@ -24641,9 +24607,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 30,
-        "consensus_score": 23.89,
-        "rank": 78
+        "projection_percentile": 29.3,
+        "consensus_score": 23.57,
+        "rank": 77
       },
       {
         "player_id": "8219",
@@ -24675,8 +24641,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 11,
-        "consensus_score": 23.47,
+        "projection_percentile": 11.1,
+        "consensus_score": 23.52,
+        "rank": 78
+      },
+      {
+        "player_id": "13580",
+        "name": "Carsen Ryan",
+        "team": "CLE",
+        "position": "TE",
+        "fantasy_positions": [
+          "TE"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "TE",
+        "trending_adds_24h": 0,
+        "projected_points": 0.23,
+        "start_percent": 0,
+        "rostered_percent": 0.02,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 182.2,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 1,
+        "week_opponent": "TB",
+        "game_start": "2026-09-20T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 6.1,
+        "consensus_score": 20.88,
         "rank": 79
       },
       {
@@ -24709,14 +24709,14 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 29,
-        "consensus_score": 21.24,
+        "projection_percentile": 28.3,
+        "consensus_score": 20.87,
         "rank": 80
       },
       {
-        "player_id": "13580",
-        "name": "Carsen Ryan",
-        "team": "CLE",
+        "player_id": "7536",
+        "name": "Quintin Morris",
+        "team": "JAX",
         "position": "TE",
         "fantasy_positions": [
           "TE"
@@ -24728,23 +24728,23 @@
         "practice_participation": null,
         "depth_chart_position": "TE",
         "trending_adds_24h": 0,
-        "projected_points": 0.23,
+        "projected_points": 0.4,
         "start_percent": 0,
-        "rostered_percent": 0.02,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 182.2,
-        "matchup_rating": 1,
+        "rostered_percent": 0.01,
+        "usage_opportunities": 1,
+        "usage_percentile": 27.9,
+        "usage_sample_games": 1,
+        "matchup_index": 98,
+        "matchup_rating": -0.1,
         "matchup_sample_weeks": 1,
-        "week_opponent": "TB",
-        "game_start": "2026-09-20T17:00Z",
+        "week_opponent": "DEN",
+        "game_start": "2026-09-20T20:05Z",
         "roster_status": "WAIVER",
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 6,
-        "consensus_score": 20.82,
+        "projection_percentile": 14.1,
+        "consensus_score": 20.03,
         "rank": 81
       },
       {
@@ -24777,43 +24777,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 27,
-        "consensus_score": 20.18,
+        "projection_percentile": 26.3,
+        "consensus_score": 19.81,
         "rank": 82
-      },
-      {
-        "player_id": "7536",
-        "name": "Quintin Morris",
-        "team": "JAX",
-        "position": "TE",
-        "fantasy_positions": [
-          "TE"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "TE",
-        "trending_adds_24h": 0,
-        "projected_points": 0.4,
-        "start_percent": 0,
-        "rostered_percent": 0.01,
-        "usage_opportunities": 1,
-        "usage_percentile": 27.9,
-        "usage_sample_games": 1,
-        "matchup_index": 98,
-        "matchup_rating": -0.1,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "DEN",
-        "game_start": "2026-09-20T20:05Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 14,
-        "consensus_score": 19.99,
-        "rank": 83
       },
       {
         "player_id": "5133",
@@ -24845,9 +24811,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 12,
-        "consensus_score": 19.47,
-        "rank": 84
+        "projection_percentile": 12.1,
+        "consensus_score": 19.53,
+        "rank": 83
       },
       {
         "player_id": "7531",
@@ -24881,7 +24847,7 @@
         "unavailable": false,
         "projection_percentile": 2,
         "consensus_score": 18.71,
-        "rank": 85
+        "rank": 84
       },
       {
         "player_id": "13273",
@@ -24913,9 +24879,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 22,
-        "consensus_score": 18.12,
-        "rank": 86
+        "projection_percentile": 22.2,
+        "consensus_score": 18.23,
+        "rank": 85
       },
       {
         "player_id": "13429",
@@ -24947,9 +24913,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 23,
-        "consensus_score": 18.06,
-        "rank": 87
+        "projection_percentile": 23.2,
+        "consensus_score": 18.16,
+        "rank": 86
       },
       {
         "player_id": "7075",
@@ -24981,9 +24947,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 20,
-        "consensus_score": 17.47,
-        "rank": 88
+        "projection_percentile": 20.2,
+        "consensus_score": 17.58,
+        "rank": 87
       },
       {
         "player_id": "10227",
@@ -25015,9 +24981,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 16,
-        "consensus_score": 16.89,
-        "rank": 89
+        "projection_percentile": 16.2,
+        "consensus_score": 16.99,
+        "rank": 88
       },
       {
         "player_id": "13400",
@@ -25049,9 +25015,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 17,
-        "consensus_score": 14.89,
-        "rank": 90
+        "projection_percentile": 17.2,
+        "consensus_score": 14.99,
+        "rank": 89
       },
       {
         "player_id": "10214",
@@ -25083,9 +25049,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 21,
-        "consensus_score": 14.68,
-        "rank": 91
+        "projection_percentile": 21.2,
+        "consensus_score": 14.77,
+        "rank": 90
       },
       {
         "player_id": "12817",
@@ -25119,7 +25085,7 @@
         "unavailable": false,
         "projection_percentile": 4,
         "consensus_score": 14.29,
-        "rank": 92
+        "rank": 91
       },
       {
         "player_id": "10212",
@@ -25151,9 +25117,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 13,
-        "consensus_score": 12.77,
-        "rank": 93
+        "projection_percentile": 13.1,
+        "consensus_score": 12.82,
+        "rank": 92
       },
       {
         "player_id": "10210",
@@ -25185,9 +25151,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 8,
-        "consensus_score": 11.47,
-        "rank": 94
+        "projection_percentile": 8.1,
+        "consensus_score": 11.53,
+        "rank": 93
       },
       {
         "player_id": "3048",
@@ -25219,9 +25185,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 10,
-        "consensus_score": 11.18,
-        "rank": 95
+        "projection_percentile": 10.1,
+        "consensus_score": 11.23,
+        "rank": 94
       },
       {
         "player_id": "11433",
@@ -25253,9 +25219,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 9,
-        "consensus_score": 10.65,
-        "rank": 96
+        "projection_percentile": 9.1,
+        "consensus_score": 10.7,
+        "rank": 95
       },
       {
         "player_id": "13308",
@@ -25289,7 +25255,7 @@
         "unavailable": false,
         "projection_percentile": 3,
         "consensus_score": 10,
-        "rank": 97
+        "rank": 96
       },
       {
         "player_id": "13433",
@@ -25321,43 +25287,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 7,
-        "consensus_score": 9.59,
-        "rank": 98
-      },
-      {
-        "player_id": "13577",
-        "name": "Dallen Bentley",
-        "team": "DEN",
-        "position": "TE",
-        "fantasy_positions": [
-          "TE"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "TE",
-        "trending_adds_24h": 0,
-        "projected_points": 0.23,
-        "start_percent": 0,
-        "rostered_percent": 0.01,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 47.2,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 1,
-        "week_opponent": "JAX",
-        "game_start": "2026-09-20T20:05Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 5,
-        "consensus_score": 8.53,
-        "rank": 99
+        "projection_percentile": 7.1,
+        "consensus_score": 9.64,
+        "rank": 97
       },
       {
         "player_id": "8484",
@@ -25391,7 +25323,7 @@
         "unavailable": false,
         "projection_percentile": 0,
         "consensus_score": 8.41,
-        "rank": 100
+        "rank": 98
       },
       {
         "player_id": "4602",
@@ -25425,7 +25357,41 @@
         "unavailable": false,
         "projection_percentile": 1,
         "consensus_score": 6.41,
-        "rank": 101
+        "rank": 99
+      },
+      {
+        "player_id": "13577",
+        "name": "Dallen Bentley",
+        "team": "DEN",
+        "position": "TE",
+        "fantasy_positions": [
+          "TE"
+        ],
+        "status": "Active",
+        "injury_status": "Out",
+        "injury_body_part": "Coach's Decision",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "TE",
+        "trending_adds_24h": 0,
+        "projected_points": 0.23,
+        "start_percent": 0,
+        "rostered_percent": 0.01,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 47.2,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 1,
+        "week_opponent": "JAX",
+        "game_start": "2026-09-20T20:05Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 0,
+        "unavailable": true,
+        "projection_percentile": 5.1,
+        "consensus_score": 0,
+        "rank": 100
       }
     ],
     "K": [
@@ -25613,7 +25579,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 14136,
+        "trending_adds_24h": 14433,
         "projected_points": 8.39,
         "start_percent": 72.52,
         "rostered_percent": 79.86,
@@ -25647,7 +25613,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 39888,
+        "trending_adds_24h": 39894,
         "projected_points": 8.22,
         "start_percent": 51.32,
         "rostered_percent": 56.69,
@@ -25715,7 +25681,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 25128,
+        "trending_adds_24h": 25148,
         "projected_points": 8.38,
         "start_percent": 13.18,
         "rostered_percent": 15.43,
@@ -25749,7 +25715,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 40265,
+        "trending_adds_24h": 41205,
         "projected_points": 8.41,
         "start_percent": 1,
         "rostered_percent": 1.58,
@@ -25817,7 +25783,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 62472,
+        "trending_adds_24h": 62960,
         "projected_points": 8.15,
         "start_percent": 16.38,
         "rostered_percent": 19.46,
@@ -25885,7 +25851,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 90069,
+        "trending_adds_24h": 90160,
         "projected_points": 7.82,
         "start_percent": 39.4,
         "rostered_percent": 43.96,
@@ -26533,7 +26499,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 78815,
+        "trending_adds_24h": 78865,
         "projected_points": 26.14,
         "start_percent": null,
         "rostered_percent": null,
@@ -26567,7 +26533,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 43623,
+        "trending_adds_24h": 44001,
         "projected_points": 24.33,
         "start_percent": null,
         "rostered_percent": null,
@@ -26601,7 +26567,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 9643,
+        "trending_adds_24h": 9680,
         "projected_points": 22.44,
         "start_percent": null,
         "rostered_percent": null,
@@ -26669,7 +26635,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 10515,
+        "trending_adds_24h": 10521,
         "projected_points": 20.97,
         "start_percent": null,
         "rostered_percent": null,
@@ -26771,7 +26737,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 10509,
+        "trending_adds_24h": 10512,
         "projected_points": 20.83,
         "start_percent": null,
         "rostered_percent": null,
@@ -26805,7 +26771,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 48825,
+        "trending_adds_24h": 48846,
         "projected_points": 19.95,
         "start_percent": null,
         "rostered_percent": null,
@@ -27213,7 +27179,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 11682,
+        "trending_adds_24h": 12006,
         "projected_points": 14.62,
         "start_percent": null,
         "rostered_percent": null,
@@ -27587,7 +27553,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 9216,
+        "trending_adds_24h": 9660,
         "projected_points": 10.38,
         "start_percent": null,
         "rostered_percent": null,
@@ -27648,11 +27614,11 @@
       "matchup_index": 70.2,
       "matchup_rating": -1,
       "matchup_sample_weeks": 1,
-      "actual_points": 7.4,
+      "actual_points": 9.9,
       "week_opponent": "CLE",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660540
+      "projection_updated_at": 1789930320366
     },
     {
       "player_id": "11604",
@@ -27663,7 +27629,7 @@
         "TE"
       ],
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "injury_body_part": "Knee - Meniscus",
       "injury_notes": "Surgery",
       "practice_participation": null,
@@ -27702,7 +27668,7 @@
       "practice_participation": null,
       "depth_chart_position": "LWR",
       "trending_adds_24h": 0,
-      "trending_drops_24h": 12995,
+      "trending_drops_24h": 13160,
       "slot": "BENCH",
       "projected_points": 8.34,
       "projection_basis": "league_scoring",
@@ -27718,7 +27684,7 @@
       "week_opponent": "DEN",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T20:05Z",
-      "projection_updated_at": 1789929660898
+      "projection_updated_at": 1789930320745
     },
     {
       "player_id": "11646",
@@ -27751,7 +27717,7 @@
       "week_opponent": "ATL",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660723
+      "projection_updated_at": 1789930320554
     },
     {
       "player_id": "12507",
@@ -27784,7 +27750,7 @@
       "week_opponent": "LV",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T20:05Z",
-      "projection_updated_at": 1789929660805
+      "projection_updated_at": 1789930320637
     },
     {
       "player_id": "12512",
@@ -27817,7 +27783,7 @@
       "week_opponent": "TB",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660438
+      "projection_updated_at": 1789930320261
     },
     {
       "player_id": "12526",
@@ -27850,7 +27816,7 @@
       "week_opponent": "ATL",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660728
+      "projection_updated_at": 1789930320558
     },
     {
       "player_id": "12534",
@@ -27879,11 +27845,11 @@
       "matchup_index": 28.4,
       "matchup_rating": -1,
       "matchup_sample_weeks": 1,
-      "actual_points": 3.8,
+      "actual_points": 5,
       "week_opponent": "MIN",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660791
+      "projection_updated_at": 1789930320610
     },
     {
       "player_id": "12711",
@@ -27899,8 +27865,8 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 39888,
-      "trending_drops_24h": 12132,
+      "trending_adds_24h": 39894,
+      "trending_drops_24h": 12324,
       "slot": "STARTER",
       "projected_points": 8.22,
       "projection_basis": "league_scoring",
@@ -27912,11 +27878,11 @@
       "matchup_index": null,
       "matchup_rating": null,
       "matchup_sample_weeks": 0,
-      "actual_points": 1,
+      "actual_points": 6,
       "week_opponent": "NO",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660686
+      "projection_updated_at": 1789930320499
     },
     {
       "player_id": "4881",
@@ -27945,11 +27911,11 @@
       "matchup_index": 93.9,
       "matchup_rating": -0.31,
       "matchup_sample_weeks": 1,
-      "actual_points": 12.54,
+      "actual_points": 14.5,
       "week_opponent": "NO",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660653
+      "projection_updated_at": 1789930320464
     },
     {
       "player_id": "5012",
@@ -27965,8 +27931,8 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 50355,
-      "trending_drops_24h": 10881,
+      "trending_adds_24h": 50922,
+      "trending_drops_24h": 11052,
       "slot": "STARTER",
       "projected_points": 10.47,
       "projection_basis": "league_scoring",
@@ -27978,11 +27944,11 @@
       "matchup_index": 82,
       "matchup_rating": -0.9,
       "matchup_sample_weeks": 1,
-      "actual_points": 5,
+      "actual_points": 8.5,
       "week_opponent": "NO",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660684
+      "projection_updated_at": 1789930320495
     },
     {
       "player_id": "7564",
@@ -28015,7 +27981,7 @@
       "week_opponent": "HOU",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660442
+      "projection_updated_at": 1789930320271
     },
     {
       "player_id": "7594",
@@ -28048,7 +28014,7 @@
       "week_opponent": "ATL",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660717
+      "projection_updated_at": 1789930320547
     },
     {
       "player_id": "9753",
@@ -28097,7 +28063,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 78815,
+      "trending_adds_24h": 78865,
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 26.14,
@@ -28114,11 +28080,11 @@
       "week_opponent": "CLE",
       "game_date": "2026-09-20",
       "game_start": "2026-09-20T17:00Z",
-      "projection_updated_at": 1789929660532
+      "projection_updated_at": 1789930320351
     }
   ],
   "matchup": {
-    "points": 78.94,
+    "points": 91.9,
     "players": [
       "11584",
       "11604",
@@ -28151,36 +28117,36 @@
       "TB"
     ],
     "starters_points": [
-      12.54,
+      14.5,
       0,
-      7.4,
+      9.9,
       14.8,
       11.3,
-      5,
+      8.5,
       11.1,
-      1,
+      6,
       15.8
     ],
     "players_points": {
-      "4881": 12.54,
-      "5012": 5,
+      "4881": 14.5,
+      "5012": 8.5,
       "7564": 14.8,
       "7594": 11.1,
       "9753": 0,
-      "11584": 7.4,
+      "11584": 9.9,
       "11604": 0,
       "11631": 0,
       "11646": 6.6,
       "12507": 0,
       "12512": 3.2,
       "12526": 11.3,
-      "12534": 3.8,
-      "12711": 1,
+      "12534": 5,
+      "12711": 6,
       "TB": 15.8
     }
   },
   "opponent": {
-    "points": 96.32,
+    "points": 97.12,
     "players": [
       "10236",
       "12489",
@@ -28213,9 +28179,9 @@
     ],
     "starters_points": [
       40.82,
-      5.4,
-      8.5,
-      2.6,
+      5.1,
+      6.9,
+      5.3,
       8.5,
       22.5,
       0,
@@ -28226,11 +28192,11 @@
       "4984": 40.82,
       "5967": 3.1,
       "6786": 0,
-      "6790": 8.5,
+      "6790": 6.9,
       "6794": 8.5,
-      "7021": 3,
-      "8146": 2.6,
-      "8155": 5.4,
+      "7021": 4.1,
+      "8146": 5.3,
+      "8155": 5.1,
       "8259": 0,
       "9487": 0,
       "10236": 22.5,
