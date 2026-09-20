@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T00:15:27.768Z",
+  "updated_at": "2026-09-20T00:43:41.314Z",
   "week": 2,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 48984
+      "trending_adds_24h": 47202
     },
     {
       "player_id": "9228",
@@ -35,23 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 20584
-    },
-    {
-      "player_id": "8161",
-      "name": "Malik Willis",
-      "team": "MIA",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "QB",
-      "trending_adds_24h": 14504
+      "trending_adds_24h": 20140
     },
     {
       "player_id": "19",
@@ -67,7 +51,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 14409
+      "trending_adds_24h": 14391
+    },
+    {
+      "player_id": "8161",
+      "name": "Malik Willis",
+      "team": "MIA",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 14147
     },
     {
       "player_id": "9758",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 13384
+      "trending_adds_24h": 13090
     },
     {
       "player_id": "12545",
@@ -99,7 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 13248
+      "trending_adds_24h": 12824
     },
     {
       "player_id": "4574",
@@ -115,7 +115,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 5966
+      "trending_adds_24h": 5708
     },
     {
       "player_id": "96",
@@ -150,9 +150,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "1979",
-      "name": "Blake Bortles",
-      "team": "NO",
+      "player_id": "260",
+      "name": "Josh Johnson",
+      "team": "CIN",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -162,13 +162,13 @@
       "injury_body_part": null,
       "injury_notes": null,
       "practice_participation": null,
-      "depth_chart_position": null,
+      "depth_chart_position": "QB",
       "trending_adds_24h": 0
     },
     {
-      "player_id": "260",
-      "name": "Josh Johnson",
-      "team": "CIN",
+      "player_id": "1979",
+      "name": "Blake Bortles",
+      "team": "NO",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -502,22 +502,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "6147",
-      "name": "Clayton Thorson",
-      "team": "NYG",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "5127",
       "name": "Kyle Allen",
       "team": "BUF",
@@ -531,6 +515,22 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "6147",
+      "name": "Clayton Thorson",
+      "team": "NYG",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
       "trending_adds_24h": 0
     },
     {
@@ -646,22 +646,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "7262",
-      "name": "Jalen Morton",
-      "team": "IND",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "6768",
       "name": "Tua Tagovailoa",
       "team": "ATL",
@@ -694,10 +678,10 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "7149",
-      "name": "Tommy Stevens",
-      "team": "NYG",
-      "position": "TE",
+      "player_id": "7262",
+      "name": "Jalen Morton",
+      "team": "IND",
+      "position": "QB",
       "fantasy_positions": [
         "QB"
       ],
@@ -723,6 +707,22 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "7149",
+      "name": "Tommy Stevens",
+      "team": "NYG",
+      "position": "TE",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
       "trending_adds_24h": 0
     },
     {
