@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-09-20T19:36:21.881Z",
+  "updated_at": "2026-09-20T19:50:39.562Z",
   "week": 2,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
   "position": "QB",
   "available": [
-    {
-      "player_id": "3161",
-      "name": "Carson Wentz",
-      "team": "MIN",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "QB",
-      "trending_adds_24h": 73008
-    },
     {
       "player_id": "9228",
       "name": "Bryce Young",
@@ -35,12 +19,12 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 59492
+      "trending_adds_24h": 76784
     },
     {
-      "player_id": "9758",
-      "name": "C.J. Stroud",
-      "team": "HOU",
+      "player_id": "3161",
+      "name": "Carson Wentz",
+      "team": "MIN",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -51,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 26418
+      "trending_adds_24h": 74670
     },
     {
       "player_id": "8161",
@@ -67,7 +51,39 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 25221
+      "trending_adds_24h": 32858
+    },
+    {
+      "player_id": "11256",
+      "name": "Tyson Bagent",
+      "team": "CHI",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 29526
+    },
+    {
+      "player_id": "9758",
+      "name": "C.J. Stroud",
+      "team": "HOU",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 29407
     },
     {
       "player_id": "19",
@@ -83,7 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 24390
+      "trending_adds_24h": 24399
     },
     {
       "player_id": "12545",
@@ -99,7 +115,39 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 18288
+      "trending_adds_24h": 23240
+    },
+    {
+      "player_id": "3163",
+      "name": "Jared Goff",
+      "team": "DET",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 9975
+    },
+    {
+      "player_id": "1166",
+      "name": "Kirk Cousins",
+      "team": "LV",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 9392
     },
     {
       "player_id": "96",
@@ -198,22 +246,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "1166",
-      "name": "Kirk Cousins",
-      "team": "LV",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "QB",
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "1373",
       "name": "Geno Smith",
       "team": "NYJ",
@@ -265,22 +297,6 @@
       "player_id": "2307",
       "name": "Marcus Mariota",
       "team": "WAS",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "QB",
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "3163",
-      "name": "Jared Goff",
-      "team": "DET",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -777,22 +793,6 @@
       "player_id": "7585",
       "name": "Davis Mills",
       "team": "HOU",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "QB",
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "7591",
-      "name": "Justin Fields",
-      "team": "KC",
       "position": "QB",
       "fantasy_positions": [
         "QB"
