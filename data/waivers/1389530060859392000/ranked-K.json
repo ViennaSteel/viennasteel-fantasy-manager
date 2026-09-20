@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T22:19:45.464Z",
+  "updated_at": "2026-09-20T22:33:38.378Z",
   "week": 2,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -22,11 +22,11 @@
       "depth_chart_position": "K",
       "projected_points": 8.49,
       "week_opponent": "NYG",
-      "rostered_percent": 86.32,
-      "start_percent": 80.01,
+      "rostered_percent": 86.31,
+      "start_percent": 80,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 14142,
+      "trending_drops_24h": 0,
       "waiver_score": 92.51
     },
     {
@@ -46,8 +46,8 @@
       "rostered_percent": 79.78,
       "start_percent": 72.49,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 16254,
-      "trending_drops_24h": 17535,
+      "trending_adds_24h": 16080,
+      "trending_drops_24h": 17172,
       "waiver_score": 80.22
     },
     {
@@ -67,9 +67,9 @@
       "rostered_percent": 19.46,
       "start_percent": 16.38,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 80136,
+      "trending_adds_24h": 82384,
       "trending_drops_24h": 0,
-      "waiver_score": 73.29
+      "waiver_score": 73.48
     },
     {
       "player_id": "11792",
@@ -89,7 +89,7 @@
       "start_percent": 25.71,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 17736,
+      "trending_drops_24h": 17436,
       "waiver_score": 72.68
     },
     {
@@ -190,33 +190,12 @@
       "depth_chart_position": "K",
       "projected_points": 7.96,
       "week_opponent": "ATL",
-      "rostered_percent": 0.74,
+      "rostered_percent": 0.75,
       "start_percent": 0.5,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 65.21
-    },
-    {
-      "player_id": "2020",
-      "name": "Cairo Santos",
-      "team": "CHI",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.82,
-      "week_opponent": "MIN",
-      "rostered_percent": 43.94,
-      "start_percent": 39.39,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 81347,
-      "trending_drops_24h": 33670,
-      "waiver_score": 64.61
     },
     {
       "player_id": "12713",
@@ -240,6 +219,27 @@
       "waiver_score": 64.6
     },
     {
+      "player_id": "2020",
+      "name": "Cairo Santos",
+      "team": "CHI",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7.82,
+      "week_opponent": "MIN",
+      "rostered_percent": 43.94,
+      "start_percent": 39.38,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 78932,
+      "trending_drops_24h": 33761,
+      "waiver_score": 64.42
+    },
+    {
       "player_id": "6083",
       "name": "Matt Gay",
       "team": "LV",
@@ -256,7 +256,7 @@
       "rostered_percent": 1.59,
       "start_percent": 1.01,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 43240,
+      "trending_adds_24h": 42690,
       "trending_drops_24h": 0,
       "waiver_score": 63.86
     },
