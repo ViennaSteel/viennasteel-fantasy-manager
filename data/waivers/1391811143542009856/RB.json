@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T21:51:49.048Z",
+  "updated_at": "2026-09-21T22:10:35.479Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 450846
+      "trending_adds_24h": 465849
     },
     {
       "player_id": "9225",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 245210
+      "trending_adds_24h": 247856
     },
     {
       "player_id": "13345",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 159654
+      "trending_adds_24h": 162658
     },
     {
       "player_id": "4035",
@@ -67,7 +67,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 64248
+      "trending_adds_24h": 64984
+    },
+    {
+      "player_id": "6931",
+      "name": "DeeJay Dallas",
+      "team": "MIN",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "RB",
+      "trending_adds_24h": 5058
     },
     {
       "player_id": "1379",
@@ -438,38 +454,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "6992",
-      "name": "Michael Warren",
-      "team": "DET",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Inactive",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "6918",
-      "name": "Salvon Ahmed",
-      "team": "CHI",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "6167",
       "name": "Jordan Scarlett",
       "team": "MIA",
@@ -502,9 +486,25 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "6828",
-      "name": "AJ Dillon",
-      "team": "CAR",
+      "player_id": "6992",
+      "name": "Michael Warren",
+      "team": "DET",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Inactive",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "6918",
+      "name": "Salvon Ahmed",
+      "team": "CHI",
       "position": "RB",
       "fantasy_positions": [
         "RB"
@@ -514,13 +514,13 @@
       "injury_body_part": null,
       "injury_notes": null,
       "practice_participation": null,
-      "depth_chart_position": "RB",
+      "depth_chart_position": null,
       "trending_adds_24h": 0
     },
     {
-      "player_id": "6931",
-      "name": "DeeJay Dallas",
-      "team": "MIN",
+      "player_id": "6828",
+      "name": "AJ Dillon",
+      "team": "CAR",
       "position": "RB",
       "fantasy_positions": [
         "RB"
