@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T23:01:36.978Z",
+  "updated_at": "2026-09-21T23:20:07.547Z",
   "week": 2,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -25,7 +25,7 @@
       "rostered_percent": 2.3,
       "start_percent": 0.37,
       "previous_week_opportunities": 5,
-      "trending_adds_24h": 7356,
+      "trending_adds_24h": 7428,
       "trending_drops_24h": 0,
       "waiver_score": 95.33
     },
@@ -109,8 +109,8 @@
       "rostered_percent": 5.52,
       "start_percent": 0.73,
       "previous_week_opportunities": 2,
-      "trending_adds_24h": 6054,
-      "trending_drops_24h": 18774,
+      "trending_adds_24h": 6102,
+      "trending_drops_24h": 19134,
       "waiver_score": 94.48
     },
     {
@@ -131,7 +131,7 @@
       "start_percent": 3.76,
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 77382,
+      "trending_drops_24h": 78939,
       "waiver_score": 94.43
     },
     {
@@ -151,8 +151,8 @@
       "rostered_percent": 6.71,
       "start_percent": 1.56,
       "previous_week_opportunities": 5,
-      "trending_adds_24h": 7696,
-      "trending_drops_24h": 39352,
+      "trending_adds_24h": 7720,
+      "trending_drops_24h": 39776,
       "waiver_score": 94.42
     },
     {
@@ -193,7 +193,7 @@
       "rostered_percent": 2.86,
       "start_percent": 0.37,
       "previous_week_opportunities": 2,
-      "trending_adds_24h": 260064,
+      "trending_adds_24h": 262818,
       "trending_drops_24h": 0,
       "waiver_score": 92.71
     },
@@ -215,7 +215,7 @@
       "start_percent": 8.55,
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 15105,
+      "trending_drops_24h": 15423,
       "waiver_score": 92.67
     },
     {
@@ -236,7 +236,7 @@
       "start_percent": 4.77,
       "previous_week_opportunities": 7,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 98604,
+      "trending_drops_24h": 99832,
       "waiver_score": 92.54
     },
     {
@@ -256,7 +256,7 @@
       "rostered_percent": 1.53,
       "start_percent": 0.39,
       "previous_week_opportunities": 2,
-      "trending_adds_24h": 23112,
+      "trending_adds_24h": 28530,
       "trending_drops_24h": 0,
       "waiver_score": 91.67
     },
@@ -277,9 +277,9 @@
       "rostered_percent": 1.96,
       "start_percent": 0.17,
       "previous_week_opportunities": 2,
-      "trending_adds_24h": 40460,
+      "trending_adds_24h": 41840,
       "trending_drops_24h": 0,
-      "waiver_score": 91.66
+      "waiver_score": 91.63
     },
     {
       "player_id": "12487",
@@ -298,9 +298,9 @@
       "rostered_percent": 19.01,
       "start_percent": 1.42,
       "previous_week_opportunities": 1,
-      "trending_adds_24h": 39968,
-      "trending_drops_24h": 23304,
-      "waiver_score": 90.48
+      "trending_adds_24h": 45384,
+      "trending_drops_24h": 24944,
+      "waiver_score": 90.51
     },
     {
       "player_id": "8172",
@@ -509,7 +509,7 @@
       "start_percent": 1.16,
       "previous_week_opportunities": 5,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 19952,
+      "trending_drops_24h": 20320,
       "waiver_score": 82.69
     },
     {
@@ -2214,27 +2214,6 @@
       "waiver_score": 45.12
     },
     {
-      "player_id": "12715",
-      "name": "Thomas Fidone",
-      "team": "NYG",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.01,
-      "start_percent": 0,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 44.45
-    },
-    {
       "player_id": "13321",
       "name": "Dan Villari",
       "team": "LAR",
@@ -2545,7 +2524,7 @@
       "rostered_percent": 0.11,
       "start_percent": 0.01,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 129969,
+      "trending_adds_24h": 138843,
       "trending_drops_24h": 0,
       "waiver_score": 39.87
     },
@@ -2590,6 +2569,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 39.49
+    },
+    {
+      "player_id": "12715",
+      "name": "Thomas Fidone",
+      "team": "NYG",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Coach's Decision",
+      "depth_chart_position": "TE",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.01,
+      "start_percent": 0,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 39.45
     },
     {
       "player_id": "9481",
