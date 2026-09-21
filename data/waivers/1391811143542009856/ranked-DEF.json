@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T18:23:30.224Z",
+  "updated_at": "2026-09-21T18:50:08.592Z",
   "week": 2,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -25,7 +25,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 94200,
+      "trending_adds_24h": 94840,
       "trending_drops_24h": 0,
       "waiver_score": 92.95
     },
@@ -88,7 +88,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 8268,
+      "trending_adds_24h": 8367,
       "trending_drops_24h": 0,
       "waiver_score": 74.11
     },
@@ -109,8 +109,8 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 43578,
-      "trending_drops_24h": 58032,
+      "trending_adds_24h": 44100,
+      "trending_drops_24h": 57159,
       "waiver_score": 69.71
     },
     {
@@ -133,27 +133,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 65.91
-    },
-    {
-      "player_id": "JAX",
-      "name": "Jacksonville Jaguars",
-      "team": "JAX",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 6.34,
-      "week_opponent": "DEN",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 6972,
-      "trending_drops_24h": 44076,
-      "waiver_score": 57.97
     },
     {
       "player_id": "ATL",
@@ -193,9 +172,51 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 20544,
+      "trending_adds_24h": 20520,
       "trending_drops_24h": 0,
       "waiver_score": 56.79
+    },
+    {
+      "player_id": "JAX",
+      "name": "Jacksonville Jaguars",
+      "team": "JAX",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 6.34,
+      "week_opponent": "DEN",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 42684,
+      "waiver_score": 56.5
+    },
+    {
+      "player_id": "NO",
+      "name": "New Orleans Saints",
+      "team": "NO",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 4.84,
+      "week_opponent": "BAL",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 6680,
+      "trending_drops_24h": 0,
+      "waiver_score": 47.32
     },
     {
       "player_id": "MIA",
@@ -217,27 +238,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 46.18
-    },
-    {
-      "player_id": "NO",
-      "name": "New Orleans Saints",
-      "team": "NO",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 4.84,
-      "week_opponent": "BAL",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 45.85
     },
     {
       "player_id": "DAL",
@@ -361,7 +361,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 25674,
+      "trending_adds_24h": 26016,
       "trending_drops_24h": 0,
       "waiver_score": 20.03
     },
