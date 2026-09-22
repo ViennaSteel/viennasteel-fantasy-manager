@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T12:04:42.798Z",
+  "updated_at": "2026-09-22T12:27:30.140Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -20,13 +20,13 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 8.17,
+      "projected_points": 8.1,
       "week_opponent": "DEN",
       "rostered_percent": 85.98,
       "start_percent": 79.56,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 49662,
+      "trending_drops_24h": 52713,
       "waiver_score": 85.77
     },
     {
@@ -47,7 +47,7 @@
       "start_percent": 61.26,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 30936,
+      "trending_drops_24h": 32512,
       "waiver_score": 85.58
     },
     {
@@ -67,7 +67,7 @@
       "rostered_percent": 8.65,
       "start_percent": 7.07,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 17345,
+      "trending_adds_24h": 18440,
       "trending_drops_24h": 0,
       "waiver_score": 78.27
     },
@@ -130,7 +130,7 @@
       "rostered_percent": 2.79,
       "start_percent": 2.05,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 16408,
+      "trending_adds_24h": 17080,
       "trending_drops_24h": 0,
       "waiver_score": 74.97
     },
@@ -172,7 +172,7 @@
       "rostered_percent": 19.49,
       "start_percent": 16.41,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 226296,
+      "trending_adds_24h": 232152,
       "trending_drops_24h": 0,
       "waiver_score": 66.55
     },
@@ -214,7 +214,7 @@
       "rostered_percent": 1.59,
       "start_percent": 1.01,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 14615,
+      "trending_adds_24h": 14990,
       "trending_drops_24h": 0,
       "waiver_score": 62.5
     },
@@ -230,13 +230,13 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 7.57,
+      "projected_points": 7.59,
       "week_opponent": "PHI",
       "rostered_percent": 43.76,
       "start_percent": 39.15,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 65275,
+      "trending_drops_24h": 68810,
       "waiver_score": 59.8
     },
     {
@@ -272,7 +272,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 7.72,
+      "projected_points": 7.78,
       "week_opponent": "LAR",
       "rostered_percent": 5.66,
       "start_percent": 4.26,
@@ -335,7 +335,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 7.36,
+      "projected_points": 7.35,
       "week_opponent": "CHI",
       "rostered_percent": 8.3,
       "start_percent": 5.81,
@@ -387,27 +387,6 @@
       "waiver_score": 40.4
     },
     {
-      "player_id": "11261",
-      "name": "Andre Szmyt",
-      "team": "CLE",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 6.32,
-      "week_opponent": "CAR",
-      "rostered_percent": 0.39,
-      "start_percent": 0.26,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 33.85
-    },
-    {
       "player_id": "13804",
       "name": "Kansei Matsuzawa",
       "team": "LV",
@@ -448,6 +427,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 33.28
+    },
+    {
+      "player_id": "11261",
+      "name": "Andre Szmyt",
+      "team": "CLE",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 6.32,
+      "week_opponent": "CAR",
+      "rostered_percent": 0.39,
+      "start_percent": 0.26,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 32.71
     },
     {
       "player_id": "11058",
@@ -492,6 +492,27 @@
       "waiver_score": 29.8
     },
     {
+      "player_id": "7922",
+      "name": "Riley Patterson",
+      "team": "MIA",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 6.34,
+      "week_opponent": "KC",
+      "rostered_percent": 0.39,
+      "start_percent": 0.22,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 28.44
+    },
+    {
       "player_id": "12548",
       "name": "Lenny Krieg",
       "team": "GB",
@@ -511,27 +532,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 28.26
-    },
-    {
-      "player_id": "7922",
-      "name": "Riley Patterson",
-      "team": "MIA",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 6.32,
-      "week_opponent": "KC",
-      "rostered_percent": 0.39,
-      "start_percent": 0.22,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 27.3
     },
     {
       "player_id": "11653",
