@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T22:20:00.705Z",
+  "updated_at": "2026-09-22T22:34:41.295Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -22,11 +22,11 @@
       "depth_chart_position": "K",
       "projected_points": 8.2,
       "week_opponent": "DEN",
-      "rostered_percent": 85.76,
-      "start_percent": 78.97,
+      "rostered_percent": 85.75,
+      "start_percent": 78.93,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 106884,
+      "trending_drops_24h": 107958,
       "waiver_score": 86.86
     },
     {
@@ -67,7 +67,7 @@
       "rostered_percent": 2.8,
       "start_percent": 2.1,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 35324,
+      "trending_adds_24h": 35774,
       "trending_drops_24h": 0,
       "waiver_score": 81.27
     },
@@ -86,9 +86,9 @@
       "projected_points": 8.63,
       "week_opponent": "MIA",
       "rostered_percent": 80.43,
-      "start_percent": 73.83,
+      "start_percent": 73.85,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 84120,
+      "trending_adds_24h": 85000,
       "trending_drops_24h": 0,
       "waiver_score": 79.56
     },
@@ -109,7 +109,7 @@
       "rostered_percent": 8.63,
       "start_percent": 7.01,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 43650,
+      "trending_adds_24h": 43870,
       "trending_drops_24h": 0,
       "waiver_score": 76.02
     },
@@ -128,11 +128,32 @@
       "projected_points": 7.48,
       "week_opponent": "PIT",
       "rostered_percent": 28.83,
-      "start_percent": 25.56,
+      "start_percent": 25.57,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 18214,
+      "trending_adds_24h": 18231,
       "trending_drops_24h": 0,
       "waiver_score": 70.42
+    },
+    {
+      "player_id": "13833",
+      "name": "Dominic Zvada",
+      "team": "NYG",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7.26,
+      "week_opponent": "TEN",
+      "rostered_percent": 1.91,
+      "start_percent": 1.47,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 63.74
     },
     {
       "player_id": "12713",
@@ -154,27 +175,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 63.53
-    },
-    {
-      "player_id": "13833",
-      "name": "Dominic Zvada",
-      "team": "NYG",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.26,
-      "week_opponent": "TEN",
-      "rostered_percent": 1.91,
-      "start_percent": 1.47,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 62.48
     },
     {
       "player_id": "13968",
@@ -216,7 +216,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 59.16
+      "waiver_score": 60.42
     },
     {
       "player_id": "6083",
@@ -235,7 +235,7 @@
       "rostered_percent": 1.58,
       "start_percent": 1.01,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 22785,
+      "trending_adds_24h": 23050,
       "trending_drops_24h": 0,
       "waiver_score": 58.56
     },
@@ -314,14 +314,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 7.32,
+      "projected_points": 7.24,
       "week_opponent": "GB",
       "rostered_percent": 4.38,
       "start_percent": 2.86,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 45.83
+      "waiver_score": 44.57
     },
     {
       "player_id": "10955",
@@ -345,27 +345,6 @@
       "waiver_score": 42.11
     },
     {
-      "player_id": "5119",
-      "name": "Jason Sanders",
-      "team": "NYJ",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 7.44,
-      "week_opponent": "DET",
-      "rostered_percent": 0.45,
-      "start_percent": 0.3,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 39.17
-    },
-    {
       "player_id": "11058",
       "name": "Blake Grupe",
       "team": "NYJ",
@@ -377,14 +356,35 @@
       "injury_status": "Out",
       "injury_body_part": "Coach's Decision",
       "depth_chart_position": "K",
-      "projected_points": 7.43,
+      "projected_points": 7.42,
       "week_opponent": "DET",
       "rostered_percent": 0.27,
       "start_percent": 0.09,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 35.66
+      "waiver_score": 36.89
+    },
+    {
+      "player_id": "5119",
+      "name": "Jason Sanders",
+      "team": "NYJ",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 7.38,
+      "week_opponent": "DET",
+      "rostered_percent": 0.45,
+      "start_percent": 0.3,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 36.67
     },
     {
       "player_id": "13804",
