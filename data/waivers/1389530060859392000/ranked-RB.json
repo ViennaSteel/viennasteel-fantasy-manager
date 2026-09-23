@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T16:48:14.402Z",
+  "updated_at": "2026-09-23T16:59:56.834Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -28,27 +28,6 @@
       "trending_adds_24h": 74115,
       "trending_drops_24h": 389529,
       "waiver_score": 98.98
-    },
-    {
-      "player_id": "9508",
-      "name": "Tyjae Spears",
-      "team": "TEN",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "RB",
-      "projected_points": 8.98,
-      "week_opponent": "NYG",
-      "rostered_percent": 48.69,
-      "start_percent": 2.59,
-      "previous_week_opportunities": 9,
-      "trending_adds_24h": 46876,
-      "trending_drops_24h": 0,
-      "waiver_score": 97.81
     },
     {
       "player_id": "13345",
@@ -91,6 +70,27 @@
       "trending_adds_24h": 33069,
       "trending_drops_24h": 0,
       "waiver_score": 96.33
+    },
+    {
+      "player_id": "9508",
+      "name": "Tyjae Spears",
+      "team": "TEN",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": "Questionable",
+      "injury_body_part": "Undisclosed",
+      "depth_chart_position": "RB",
+      "projected_points": 8.98,
+      "week_opponent": "NYG",
+      "rostered_percent": 48.69,
+      "start_percent": 2.59,
+      "previous_week_opportunities": 9,
+      "trending_adds_24h": 46876,
+      "trending_drops_24h": 0,
+      "waiver_score": 96.31
     },
     {
       "player_id": "12474",
