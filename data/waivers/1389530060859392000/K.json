@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-09-23T07:13:44.217Z",
+  "updated_at": "2026-09-23T07:30:50.084Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
   "position": "K",
   "available": [
-    {
-      "player_id": "6650",
-      "name": "Chase McLaughlin",
-      "team": "TB",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "K",
-      "trending_adds_24h": 358872
-    },
     {
       "player_id": "12185",
       "name": "Spencer Shrader",
@@ -35,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 52080
+      "trending_adds_24h": 55372
     },
     {
       "player_id": "7042",
@@ -51,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 47125
+      "trending_adds_24h": 48315
     },
     {
       "player_id": "6083",
@@ -67,12 +51,12 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 29425
+      "trending_adds_24h": 31415
     },
     {
-      "player_id": "5189",
-      "name": "Eddy Pineiro",
-      "team": "SF",
+      "player_id": "12711",
+      "name": "Tyler Loop",
+      "team": "BAL",
       "position": "K",
       "fantasy_positions": [
         "K"
@@ -83,12 +67,28 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 20226
+      "trending_adds_24h": 28284
     },
     {
       "player_id": "650",
       "name": "Nick Folk",
       "team": "ATL",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "K",
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "1945",
+      "name": "Chris Boswell",
+      "team": "PIT",
       "position": "K",
       "fantasy_positions": [
         "K"
@@ -150,22 +150,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "5095",
-      "name": "Daniel Carlson",
-      "team": "NO",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "K",
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "5119",
       "name": "Jason Sanders",
       "team": "NYJ",
@@ -179,6 +163,22 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "5095",
+      "name": "Daniel Carlson",
+      "team": "NO",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "K",
       "trending_adds_24h": 0
     },
     {
@@ -254,8 +254,8 @@
         "K"
       ],
       "status": "Active",
-      "injury_status": "Out",
-      "injury_body_part": "Coach's Decision",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
