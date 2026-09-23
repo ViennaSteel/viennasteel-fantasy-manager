@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T19:40:02.318Z",
+  "updated_at": "2026-09-23T19:52:29.139Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "LWR",
-      "trending_adds_24h": 828522
+      "trending_adds_24h": 830616
     },
     {
       "player_id": "11637",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "LWR",
-      "trending_adds_24h": 797157
+      "trending_adds_24h": 800577
     },
     {
       "player_id": "8188",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "LWR",
-      "trending_adds_24h": 251048
+      "trending_adds_24h": 252714
     },
     {
       "player_id": "11608",
@@ -67,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 159420
+      "trending_adds_24h": 160422
     },
     {
       "player_id": "11610",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 150088
+      "trending_adds_24h": 151080
     },
     {
       "player_id": "6149",
@@ -99,7 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 121530
+      "trending_adds_24h": 122082
     },
     {
       "player_id": "8121",
@@ -115,7 +115,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 86768
+      "trending_adds_24h": 87256
     },
     {
       "player_id": "11630",
@@ -131,7 +131,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 60138
+      "trending_adds_24h": 60525
     },
     {
       "player_id": "8168",
@@ -147,7 +147,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 56072
+      "trending_adds_24h": 56504
     },
     {
       "player_id": "2197",
@@ -163,7 +163,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 49756
+      "trending_adds_24h": 50032
     },
     {
       "player_id": "3634",
@@ -179,7 +179,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 48220
+      "trending_adds_24h": 48534
     },
     {
       "player_id": "11783",
@@ -195,7 +195,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 47976
+      "trending_adds_24h": 48304
     },
     {
       "player_id": "11616",
@@ -211,7 +211,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 38538
+      "trending_adds_24h": 38796
     },
     {
       "player_id": "13317",
@@ -227,7 +227,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 34662
+      "trending_adds_24h": 34836
     },
     {
       "player_id": "10218",
@@ -243,7 +243,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "LWR",
-      "trending_adds_24h": 31906
+      "trending_adds_24h": 32074
     },
     {
       "player_id": "3155",
@@ -259,7 +259,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 26565
+      "trending_adds_24h": 26725
     },
     {
       "player_id": "1479",
@@ -550,22 +550,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "5282",
-      "name": "Duplicate Player",
-      "team": "CHI",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "status": "Inactive",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "5086",
       "name": "Marquez Valdes-Scantling",
       "team": "LAC",
@@ -578,7 +562,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "practice_participation": null,
-      "depth_chart_position": null,
+      "depth_chart_position": "LWR",
       "trending_adds_24h": 0
     },
     {
@@ -598,9 +582,25 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "5223",
-      "name": "Caleb Scott",
-      "team": "TEN",
+      "player_id": "5282",
+      "name": "Duplicate Player",
+      "team": "CHI",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "status": "Inactive",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "5744",
+      "name": "Eldridge Massington",
+      "team": "NO",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -614,9 +614,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "5744",
-      "name": "Eldridge Massington",
-      "team": "NO",
+      "player_id": "5223",
+      "name": "Caleb Scott",
+      "team": "TEN",
       "position": "WR",
       "fantasy_positions": [
         "WR"
