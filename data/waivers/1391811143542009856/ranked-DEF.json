@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T00:26:23.048Z",
+  "updated_at": "2026-09-23T00:50:00.927Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -25,7 +25,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 444645,
+      "trending_adds_24h": 459705,
       "trending_drops_24h": 0,
       "waiver_score": 96.46
     },
@@ -67,7 +67,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 135072,
+      "trending_adds_24h": 137992,
       "trending_drops_24h": 0,
       "waiver_score": 83.54
     },
@@ -88,9 +88,30 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 151434,
-      "trending_drops_24h": 128340,
+      "trending_adds_24h": 154368,
+      "trending_drops_24h": 128358,
       "waiver_score": 76.79
+    },
+    {
+      "player_id": "GB",
+      "name": "Green Bay Packers",
+      "team": "GB",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 8.95,
+      "week_opponent": "ATL",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 43485,
+      "trending_drops_24h": 0,
+      "waiver_score": 73.81
     },
     {
       "player_id": "CHI",
@@ -111,28 +132,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 74.99
-    },
-    {
-      "player_id": "GB",
-      "name": "Green Bay Packers",
-      "team": "GB",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 8.95,
-      "week_opponent": "ATL",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 42288,
-      "trending_drops_24h": 0,
-      "waiver_score": 73.81
+      "waiver_score": 73.22
     },
     {
       "player_id": "TEN",
@@ -153,7 +153,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 69.44
+      "waiver_score": 67.68
     },
     {
       "player_id": "NO",
@@ -167,12 +167,12 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 8.21,
+      "projected_points": 8.2,
       "week_opponent": "LV",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 92995,
+      "trending_adds_24h": 96260,
       "trending_drops_24h": 0,
       "waiver_score": 63.81
     },
@@ -194,7 +194,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 152988,
+      "trending_drops_24h": 154536,
       "waiver_score": 54.73
     },
     {
@@ -258,28 +258,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 42.08
-    },
-    {
-      "player_id": "WAS",
-      "name": "Washington Commanders",
-      "team": "WAS",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 5.01,
-      "week_opponent": "SEA",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 29.1
+      "waiver_score": 40.31
     },
     {
       "player_id": "DAL",
@@ -293,14 +272,35 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 5.08,
+      "projected_points": 6.09,
       "week_opponent": "BAL",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 27.03
+      "waiver_score": 34.11
+    },
+    {
+      "player_id": "WAS",
+      "name": "Washington Commanders",
+      "team": "WAS",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 4.89,
+      "week_opponent": "SEA",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 29.1
     },
     {
       "player_id": "LV",
@@ -314,14 +314,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 5.14,
+      "projected_points": 5.13,
       "week_opponent": "NO",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 67920,
+      "trending_adds_24h": 68004,
       "trending_drops_24h": 0,
-      "waiver_score": 24.73
+      "waiver_score": 22.96
     },
     {
       "player_id": "IND",
@@ -335,7 +335,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 6.46,
+      "projected_points": 6.42,
       "week_opponent": "HOU",
       "rostered_percent": null,
       "start_percent": null,
