@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T16:32:16.810Z",
+  "updated_at": "2026-09-23T16:53:12.902Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 3138543
+      "trending_adds_24h": 2954925
     },
     {
       "player_id": "9225",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 579607
+      "trending_adds_24h": 551453
     },
     {
       "player_id": "6828",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 134080
+      "trending_adds_24h": 135104
     },
     {
       "player_id": "9508",
@@ -62,12 +62,12 @@
         "RB"
       ],
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
+      "injury_status": "Questionable",
+      "injury_body_part": "Undisclosed",
+      "injury_notes": "Soreness",
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 47762
+      "trending_adds_24h": 46928
     },
     {
       "player_id": "5995",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 44919
+      "trending_adds_24h": 43641
     },
     {
       "player_id": "11729",
@@ -99,7 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 39494
+      "trending_adds_24h": 38703
     },
     {
       "player_id": "11576",
@@ -115,7 +115,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 38480
+      "trending_adds_24h": 37560
     },
     {
       "player_id": "9511",
@@ -131,7 +131,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 36288
+      "trending_adds_24h": 35226
     },
     {
       "player_id": "12472",
@@ -147,39 +147,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 33104
-    },
-    {
-      "player_id": "11577",
-      "name": "Will Shipley",
-      "team": "PHI",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "RB",
-      "trending_adds_24h": 28342
-    },
-    {
-      "player_id": "7021",
-      "name": "Rico Dowdle",
-      "team": "PIT",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Toe",
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "RB",
-      "trending_adds_24h": 28250
+      "trending_adds_24h": 32376
     },
     {
       "player_id": "4663",
@@ -195,7 +163,39 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 27608
+      "trending_adds_24h": 28296
+    },
+    {
+      "player_id": "7021",
+      "name": "Rico Dowdle",
+      "team": "PIT",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": "Questionable",
+      "injury_body_part": "Toe",
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "RB",
+      "trending_adds_24h": 28265
+    },
+    {
+      "player_id": "11577",
+      "name": "Will Shipley",
+      "team": "PHI",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "RB",
+      "trending_adds_24h": 27586
     },
     {
       "player_id": "1379",
