@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T10:21:40.025Z",
+  "updated_at": "2026-09-23T10:38:39.979Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -22,11 +22,11 @@
       "depth_chart_position": "K",
       "projected_points": 8.2,
       "week_opponent": "DEN",
-      "rostered_percent": 80.48,
-      "start_percent": 73.96,
+      "rostered_percent": 80.3,
+      "start_percent": 73.78,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 123831,
+      "trending_drops_24h": 123429,
       "waiver_score": 85.18
     },
     {
@@ -43,12 +43,12 @@
       "depth_chart_position": "K",
       "projected_points": 8.92,
       "week_opponent": "HOU",
-      "rostered_percent": 4.08,
-      "start_percent": 3.29,
+      "rostered_percent": 4.14,
+      "start_percent": 3.35,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 62244,
+      "trending_adds_24h": 62262,
       "trending_drops_24h": 0,
-      "waiver_score": 81.88
+      "waiver_score": 83.11
     },
     {
       "player_id": "4227",
@@ -64,10 +64,10 @@
       "depth_chart_position": "K",
       "projected_points": 8.63,
       "week_opponent": "MIA",
-      "rostered_percent": 82.06,
-      "start_percent": 75.55,
+      "rostered_percent": 82.12,
+      "start_percent": 75.62,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 129296,
+      "trending_adds_24h": 128428,
       "trending_drops_24h": 0,
       "waiver_score": 81.24
     },
@@ -85,8 +85,8 @@
       "depth_chart_position": "K",
       "projected_points": 8.03,
       "week_opponent": "TB",
-      "rostered_percent": 29.22,
-      "start_percent": 25.62,
+      "rostered_percent": 29.21,
+      "start_percent": 25.61,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -106,10 +106,10 @@
       "depth_chart_position": "K",
       "projected_points": 8.44,
       "week_opponent": "LAC",
-      "rostered_percent": 9.31,
-      "start_percent": 7.59,
+      "rostered_percent": 9.33,
+      "start_percent": 7.62,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 48725,
+      "trending_adds_24h": 47665,
       "trending_drops_24h": 0,
       "waiver_score": 75.82
     },
@@ -127,12 +127,33 @@
       "depth_chart_position": "K",
       "projected_points": 7.48,
       "week_opponent": "PIT",
-      "rostered_percent": 34.36,
-      "start_percent": 30.76,
+      "rostered_percent": 34.56,
+      "start_percent": 30.96,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 23926,
+      "trending_adds_24h": 23679,
       "trending_drops_24h": 0,
       "waiver_score": 72.1
+    },
+    {
+      "player_id": "12713",
+      "name": "Andy Borregales",
+      "team": "NE",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7.37,
+      "week_opponent": "JAX",
+      "rostered_percent": 2.3,
+      "start_percent": 1.68,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 64.36
     },
     {
       "player_id": "13968",
@@ -156,27 +177,6 @@
       "waiver_score": 63.97
     },
     {
-      "player_id": "12713",
-      "name": "Andy Borregales",
-      "team": "NE",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.37,
-      "week_opponent": "JAX",
-      "rostered_percent": 2.3,
-      "start_percent": 1.69,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 63.53
-    },
-    {
       "player_id": "13833",
       "name": "Dominic Zvada",
       "team": "NYG",
@@ -198,27 +198,6 @@
       "waiver_score": 60.84
     },
     {
-      "player_id": "12961",
-      "name": "Ryan Fitzgerald",
-      "team": "CAR",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.38,
-      "week_opponent": "CLE",
-      "rostered_percent": 0.82,
-      "start_percent": 0.56,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 60.42
-    },
-    {
       "player_id": "5095",
       "name": "Daniel Carlson",
       "team": "NO",
@@ -232,12 +211,33 @@
       "depth_chart_position": "K",
       "projected_points": 8.51,
       "week_opponent": "LV",
-      "rostered_percent": 2.25,
-      "start_percent": 1.69,
+      "rostered_percent": 2.3,
+      "start_percent": 1.74,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 59.8
+      "waiver_score": 60.22
+    },
+    {
+      "player_id": "12961",
+      "name": "Ryan Fitzgerald",
+      "team": "CAR",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7.34,
+      "week_opponent": "CLE",
+      "rostered_percent": 0.82,
+      "start_percent": 0.57,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 57.9
     },
     {
       "player_id": "3678",
@@ -253,7 +253,7 @@
       "depth_chart_position": "K",
       "projected_points": 7.75,
       "week_opponent": "LAR",
-      "rostered_percent": 5.56,
+      "rostered_percent": 5.55,
       "start_percent": 4.2,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
@@ -277,7 +277,7 @@
       "rostered_percent": 1.59,
       "start_percent": 1.02,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 37030,
+      "trending_adds_24h": 37175,
       "trending_drops_24h": 0,
       "waiver_score": 56.88
     },
@@ -296,7 +296,7 @@
       "projected_points": 7.23,
       "week_opponent": "CHI",
       "rostered_percent": 8.21,
-      "start_percent": 5.77,
+      "start_percent": 5.76,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -316,12 +316,12 @@
       "depth_chart_position": "K",
       "projected_points": 7.32,
       "week_opponent": "GB",
-      "rostered_percent": 4.12,
-      "start_percent": 2.65,
+      "rostered_percent": 4.11,
+      "start_percent": 2.64,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 45.42
+      "waiver_score": 44.19
     },
     {
       "player_id": "11058",
@@ -358,7 +358,7 @@
       "depth_chart_position": "K",
       "projected_points": 6.84,
       "week_opponent": "SF",
-      "rostered_percent": 0.54,
+      "rostered_percent": 0.53,
       "start_percent": 0.35,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
@@ -384,12 +384,12 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 36.67
+      "waiver_score": 37.94
     },
     {
-      "player_id": "6528",
-      "name": "Joey Slye",
-      "team": "TEN",
+      "player_id": "11261",
+      "name": "Andre Szmyt",
+      "team": "CLE",
       "position": "K",
       "fantasy_positions": [
         "K"
@@ -398,14 +398,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 6.39,
-      "week_opponent": "NYG",
-      "rostered_percent": 0.62,
-      "start_percent": 0.42,
+      "projected_points": 6.43,
+      "week_opponent": "CAR",
+      "rostered_percent": 0.4,
+      "start_percent": 0.28,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 34.8
+      "waiver_score": 34.99
     },
     {
       "player_id": "13804",
@@ -429,9 +429,9 @@
       "waiver_score": 33.95
     },
     {
-      "player_id": "11261",
-      "name": "Andre Szmyt",
-      "team": "CLE",
+      "player_id": "6528",
+      "name": "Joey Slye",
+      "team": "TEN",
       "position": "K",
       "fantasy_positions": [
         "K"
@@ -440,14 +440,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 6.35,
-      "week_opponent": "CAR",
-      "rostered_percent": 0.4,
-      "start_percent": 0.28,
+      "projected_points": 6.39,
+      "week_opponent": "NYG",
+      "rostered_percent": 0.62,
+      "start_percent": 0.42,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 33.76
+      "waiver_score": 33.57
     },
     {
       "player_id": "7922",
