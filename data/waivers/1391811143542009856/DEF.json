@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-09-24T15:46:03.569Z",
+  "updated_at": "2026-09-24T16:11:51.829Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
   "position": "DEF",
   "available": [
-    {
-      "player_id": "MIN",
-      "name": "Minnesota Vikings",
-      "team": "MIN",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 149160
-    },
     {
       "player_id": "NYG",
       "name": "New York Giants",
@@ -35,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 93672
+      "trending_adds_24h": 95908
     },
     {
       "player_id": "DET",
@@ -51,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 76347
+      "trending_adds_24h": 78120
     },
     {
       "player_id": "NO",
@@ -67,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 66630
+      "trending_adds_24h": 67940
     },
     {
       "player_id": "LV",
@@ -83,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 44736
+      "trending_adds_24h": 45756
     },
     {
       "player_id": "ARI",
@@ -233,6 +217,22 @@
       "player_id": "NYJ",
       "name": "New York Jets",
       "team": "NYJ",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "PIT",
+      "name": "Pittsburgh Steelers",
+      "team": "PIT",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
