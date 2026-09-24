@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T11:21:26.546Z",
+  "updated_at": "2026-09-24T11:38:20.519Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -22,10 +22,10 @@
       "depth_chart_position": "TE",
       "projected_points": 8.72,
       "week_opponent": "BUF",
-      "rostered_percent": 12.34,
-      "start_percent": 4.11,
+      "rostered_percent": 12.41,
+      "start_percent": 4.14,
       "previous_week_opportunities": 2,
-      "trending_adds_24h": 159290,
+      "trending_adds_24h": 147735,
       "trending_drops_24h": 0,
       "waiver_score": 97.13
     },
@@ -43,11 +43,11 @@
       "depth_chart_position": "TE",
       "projected_points": 7.76,
       "week_opponent": "CLE",
-      "rostered_percent": 8.39,
-      "start_percent": 2.23,
+      "rostered_percent": 8.41,
+      "start_percent": 2.24,
       "previous_week_opportunities": 3,
-      "trending_adds_24h": 369405,
-      "trending_drops_24h": 53973,
+      "trending_adds_24h": 347112,
+      "trending_drops_24h": 51498,
       "waiver_score": 96.45
     },
     {
@@ -64,8 +64,8 @@
       "depth_chart_position": "TE",
       "projected_points": 8.58,
       "week_opponent": "CIN",
-      "rostered_percent": 21.31,
-      "start_percent": 5.99,
+      "rostered_percent": 21.32,
+      "start_percent": 6,
       "previous_week_opportunities": 6,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -85,11 +85,11 @@
       "depth_chart_position": "TE",
       "projected_points": 3.62,
       "week_opponent": "DEN",
-      "rostered_percent": 21.27,
+      "rostered_percent": 21.28,
       "start_percent": 2.81,
       "previous_week_opportunities": 9,
-      "trending_adds_24h": 215704,
-      "trending_drops_24h": 54200,
+      "trending_adds_24h": 202720,
+      "trending_drops_24h": 51240,
       "waiver_score": 95.56
     },
     {
@@ -106,8 +106,8 @@
       "depth_chart_position": "TE",
       "projected_points": 8.88,
       "week_opponent": "TB",
-      "rostered_percent": 62.02,
-      "start_percent": 17.78,
+      "rostered_percent": 62.01,
+      "start_percent": 17.76,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -127,11 +127,11 @@
       "depth_chart_position": "TE",
       "projected_points": 4.42,
       "week_opponent": "NO",
-      "rostered_percent": 19.6,
-      "start_percent": 7.37,
+      "rostered_percent": 19.56,
+      "start_percent": 7.32,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 305757,
+      "trending_drops_24h": 279072,
       "waiver_score": 94.15
     },
     {
@@ -152,7 +152,7 @@
       "start_percent": 0.8,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 34086,
+      "trending_drops_24h": 31968,
       "waiver_score": 93.73
     },
     {
@@ -258,7 +258,7 @@
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 88.77
+      "waiver_score": 88.92
     },
     {
       "player_id": "4066",
@@ -275,32 +275,11 @@
       "projected_points": 5.23,
       "week_opponent": "LAR",
       "rostered_percent": 5.28,
-      "start_percent": 0.97,
+      "start_percent": 0.96,
       "previous_week_opportunities": 1,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 43280,
+      "trending_drops_24h": 39792,
       "waiver_score": 87.56
-    },
-    {
-      "player_id": "6865",
-      "name": "Colby Parkinson",
-      "team": "LAR",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Knee",
-      "depth_chart_position": "TE",
-      "projected_points": 4.96,
-      "week_opponent": "DEN",
-      "rostered_percent": 1.19,
-      "start_percent": 0.24,
-      "previous_week_opportunities": 2,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 87.11
     },
     {
       "player_id": "5906",
@@ -322,6 +301,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 87.05
+    },
+    {
+      "player_id": "6865",
+      "name": "Colby Parkinson",
+      "team": "LAR",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": "Questionable",
+      "injury_body_part": "Knee",
+      "depth_chart_position": "TE",
+      "projected_points": 4.96,
+      "week_opponent": "DEN",
+      "rostered_percent": 1.18,
+      "start_percent": 0.24,
+      "previous_week_opportunities": 2,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 86.96
     },
     {
       "player_id": "12521",
@@ -673,11 +673,11 @@
       "depth_chart_position": "TE",
       "projected_points": 6.32,
       "week_opponent": "PIT",
-      "rostered_percent": 10.01,
-      "start_percent": 1.8,
+      "rostered_percent": 9.99,
+      "start_percent": 1.79,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 82412,
+      "trending_drops_24h": 75292,
       "waiver_score": 75.56
     },
     {
@@ -757,11 +757,11 @@
       "depth_chart_position": "TE",
       "projected_points": 3,
       "week_opponent": "CHI",
-      "rostered_percent": 2.52,
+      "rostered_percent": 2.53,
       "start_percent": 0.22,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 388314,
-      "trending_drops_24h": 59634,
+      "trending_adds_24h": 366624,
+      "trending_drops_24h": 57393,
       "waiver_score": 72.95
     },
     {
