@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T23:35:31.285Z",
+  "updated_at": "2026-09-24T23:47:43.601Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -8,6 +8,27 @@
   "scoring_note": "Composite of rostered %, league-scoring projection, previous-week opportunities, start %, Sleeper trending and health. Trending is intentionally a minor signal.",
   "available_count": 179,
   "available": [
+    {
+      "player_id": "12487",
+      "name": "Terrance Ferguson",
+      "team": "LAR",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 3.58,
+      "week_opponent": "DEN",
+      "rostered_percent": 22.47,
+      "start_percent": 3.61,
+      "previous_week_opportunities": 9,
+      "trending_adds_24h": 133800,
+      "trending_drops_24h": 38152,
+      "waiver_score": 97.23
+    },
     {
       "player_id": "2505",
       "name": "Darren Waller",
@@ -25,8 +46,8 @@
       "rostered_percent": 9.35,
       "start_percent": 2.61,
       "previous_week_opportunities": 3,
-      "trending_adds_24h": 267498,
-      "trending_drops_24h": 36837,
+      "trending_adds_24h": 266499,
+      "trending_drops_24h": 35667,
       "waiver_score": 96.85
     },
     {
@@ -49,27 +70,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 95.8
-    },
-    {
-      "player_id": "12487",
-      "name": "Terrance Ferguson",
-      "team": "LAR",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Ankle",
-      "depth_chart_position": "TE",
-      "projected_points": 3.58,
-      "week_opponent": "DEN",
-      "rostered_percent": 22.47,
-      "start_percent": 3.61,
-      "previous_week_opportunities": 9,
-      "trending_adds_24h": 134128,
-      "trending_drops_24h": 40040,
-      "waiver_score": 95.73
     },
     {
       "player_id": "5844",
@@ -110,7 +110,7 @@
       "start_percent": 5.83,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 144522,
+      "trending_drops_24h": 138384,
       "waiver_score": 94.27
     },
     {
@@ -131,7 +131,7 @@
       "start_percent": 0.81,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 18600,
+      "trending_drops_24h": 17868,
       "waiver_score": 94.26
     },
     {
@@ -257,7 +257,7 @@
       "start_percent": 0.88,
       "previous_week_opportunities": 1,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 21400,
+      "trending_drops_24h": 20648,
       "waiver_score": 87.99
     },
     {
@@ -656,7 +656,7 @@
       "start_percent": 1.5,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 37540,
+      "trending_drops_24h": 35872,
       "waiver_score": 75.81
     },
     {
@@ -739,8 +739,8 @@
       "rostered_percent": 2.6,
       "start_percent": 0.2,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 177048,
-      "trending_drops_24h": 44154,
+      "trending_adds_24h": 165141,
+      "trending_drops_24h": 42750,
       "waiver_score": 73.19
     },
     {
