@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T13:08:36.652Z",
+  "updated_at": "2026-09-24T13:35:08.806Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -46,30 +46,9 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 207875,
+      "trending_adds_24h": 184095,
       "trending_drops_24h": 0,
       "waiver_score": 91.42
-    },
-    {
-      "player_id": "NYG",
-      "name": "New York Giants",
-      "team": "NYG",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 22.93,
-      "week_opponent": "TEN",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 122396,
-      "trending_drops_24h": 0,
-      "waiver_score": 86.92
     },
     {
       "player_id": "TEN",
@@ -83,14 +62,35 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 20.35,
+      "projected_points": 23.19,
       "week_opponent": "NYG",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 82.38
+      "waiver_score": 88.08
+    },
+    {
+      "player_id": "NYG",
+      "name": "New York Giants",
+      "team": "NYG",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 22.77,
+      "week_opponent": "TEN",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 110108,
+      "trending_drops_24h": 0,
+      "waiver_score": 84.07
     },
     {
       "player_id": "DET",
@@ -109,9 +109,9 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 95643,
-      "trending_drops_24h": 93888,
-      "waiver_score": 76.67
+      "trending_adds_24h": 87327,
+      "trending_drops_24h": 86265,
+      "waiver_score": 75.22
     },
     {
       "player_id": "NO",
@@ -130,30 +130,9 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 85625,
+      "trending_adds_24h": 77475,
       "trending_drops_24h": 0,
       "waiver_score": 73.55
-    },
-    {
-      "player_id": "GB",
-      "name": "Green Bay Packers",
-      "team": "GB",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 21.89,
-      "week_opponent": "ATL",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 30126,
-      "trending_drops_24h": 0,
-      "waiver_score": 71.66
     },
     {
       "player_id": "CHI",
@@ -198,6 +177,27 @@
       "waiver_score": 70.71
     },
     {
+      "player_id": "GB",
+      "name": "Green Bay Packers",
+      "team": "GB",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 21.89,
+      "week_opponent": "ATL",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 27018,
+      "trending_drops_24h": 0,
+      "waiver_score": 70.25
+    },
+    {
       "player_id": "TB",
       "name": "Tampa Bay Buccaneers",
       "team": "TB",
@@ -215,7 +215,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 364350,
+      "trending_drops_24h": 316760,
       "waiver_score": 51.22
     },
     {
@@ -319,7 +319,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 53838,
+      "trending_adds_24h": 49992,
       "trending_drops_24h": 0,
       "waiver_score": 40.46
     },
@@ -362,7 +362,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 35187,
+      "trending_drops_24h": 31300,
       "waiver_score": 29.53
     },
     {
@@ -446,7 +446,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 32345,
+      "trending_drops_24h": 29830,
       "waiver_score": 16.43
     },
     {
@@ -467,7 +467,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 75033,
+      "trending_drops_24h": 68173,
       "waiver_score": 13.82
     }
   ]
