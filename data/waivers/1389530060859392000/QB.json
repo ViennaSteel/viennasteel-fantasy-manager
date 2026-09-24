@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T22:53:06.053Z",
+  "updated_at": "2026-09-24T23:10:12.322Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 203280
+      "trending_adds_24h": 209432
     },
     {
       "player_id": "1166",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 180040
+      "trending_adds_24h": 185768
     },
     {
       "player_id": "9758",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 99155
+      "trending_adds_24h": 101731
     },
     {
       "player_id": "4017",
@@ -67,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 57720
+      "trending_adds_24h": 59496
     },
     {
       "player_id": "11256",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 40914
+      "trending_adds_24h": 41196
     },
     {
       "player_id": "2307",
@@ -99,7 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 37824
+      "trending_adds_24h": 38708
     },
     {
       "player_id": "5854",
@@ -115,7 +115,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 31721
+      "trending_adds_24h": 32668
     },
     {
       "player_id": "421",
@@ -131,7 +131,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 27963
+      "trending_adds_24h": 28449
     },
     {
       "player_id": "11563",
@@ -147,7 +147,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 25164
+      "trending_adds_24h": 25818
     },
     {
       "player_id": "1373",
@@ -163,7 +163,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 24288
+      "trending_adds_24h": 24964
     },
     {
       "player_id": "11559",
@@ -179,7 +179,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 21447
+      "trending_adds_24h": 22245
     },
     {
       "player_id": "19",
@@ -195,7 +195,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 19854
+      "trending_adds_24h": 20196
     },
     {
       "player_id": "8161",
@@ -211,7 +211,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 16604
+      "trending_adds_24h": 17024
     },
     {
       "player_id": "2306",
@@ -227,7 +227,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",
-      "trending_adds_24h": 15732
+      "trending_adds_24h": 16096
+    },
+    {
+      "player_id": "1737",
+      "name": "Case Keenum",
+      "team": "CHI",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "QB",
+      "trending_adds_24h": 13796
     },
     {
       "player_id": "96",
@@ -249,22 +265,6 @@
       "player_id": "138",
       "name": "Ben Roethlisberger",
       "team": "PIT",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "1979",
-      "name": "Blake Bortles",
-      "team": "NO",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -326,9 +326,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "1737",
-      "name": "Case Keenum",
-      "team": "CHI",
+      "player_id": "1979",
+      "name": "Blake Bortles",
+      "team": "NO",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -338,7 +338,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "practice_participation": null,
-      "depth_chart_position": "QB",
+      "depth_chart_position": null,
       "trending_adds_24h": 0
     },
     {
@@ -430,8 +430,8 @@
         "QB"
       ],
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
+      "injury_status": "Out",
+      "injury_body_part": "Coach's Decision",
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "QB",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T22:53:05.321Z",
+  "updated_at": "2026-09-24T23:10:11.489Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 453105
+      "trending_adds_24h": 465057
     },
     {
       "player_id": "6828",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 200744
+      "trending_adds_24h": 208048
     },
     {
       "player_id": "9225",
@@ -46,12 +46,12 @@
         "RB"
       ],
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
+      "injury_status": "Questionable",
+      "injury_body_part": "Abdomen",
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 129605
+      "trending_adds_24h": 131628
     },
     {
       "player_id": "5995",
@@ -67,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 42957
+      "trending_adds_24h": 44595
     },
     {
       "player_id": "12472",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 22864
+      "trending_adds_24h": 23832
     },
     {
       "player_id": "9511",
@@ -99,7 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 22428
+      "trending_adds_24h": 22950
     },
     {
       "player_id": "7021",
@@ -115,7 +115,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 21285
+      "trending_adds_24h": 21880
     },
     {
       "player_id": "7567",
@@ -131,7 +131,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 21160
+      "trending_adds_24h": 21768
     },
     {
       "player_id": "11576",
@@ -147,7 +147,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 15876
+      "trending_adds_24h": 16280
     },
     {
       "player_id": "13347",
@@ -163,23 +163,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
-      "trending_adds_24h": 15819
-    },
-    {
-      "player_id": "9508",
-      "name": "Tyjae Spears",
-      "team": "TEN",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Undisclosed",
-      "injury_notes": "Soreness",
-      "practice_participation": null,
-      "depth_chart_position": "RB",
-      "trending_adds_24h": 12386
+      "trending_adds_24h": 15972
     },
     {
       "player_id": "1379",
@@ -803,6 +787,22 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RB",
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "8129",
+      "name": "Dameon Pierce",
+      "team": "PHI",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
       "trending_adds_24h": 0
     }
   ]
