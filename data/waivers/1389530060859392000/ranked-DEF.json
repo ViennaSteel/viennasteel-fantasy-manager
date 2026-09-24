@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T17:20:47.177Z",
+  "updated_at": "2026-09-24T17:35:37.129Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -62,7 +62,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 23.19,
+      "projected_points": 23.26,
       "week_opponent": "NYG",
       "rostered_percent": null,
       "start_percent": null,
@@ -83,7 +83,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 22.77,
+      "projected_points": 22.67,
       "week_opponent": "TEN",
       "rostered_percent": null,
       "start_percent": null,
@@ -110,7 +110,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 72891,
-      "trending_drops_24h": 72225,
+      "trending_drops_24h": 66168,
       "waiver_score": 75.22
     },
     {
@@ -198,6 +198,27 @@
       "waiver_score": 70.25
     },
     {
+      "player_id": "CLE",
+      "name": "Cleveland Browns",
+      "team": "CLE",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 17.3,
+      "week_opponent": "CAR",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 51.43
+    },
+    {
       "player_id": "TB",
       "name": "Tampa Bay Buccaneers",
       "team": "TB",
@@ -215,29 +236,8 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 232070,
+      "trending_drops_24h": 208630,
       "waiver_score": 51.22
-    },
-    {
-      "player_id": "CLE",
-      "name": "Cleveland Browns",
-      "team": "CLE",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 17.14,
-      "week_opponent": "CAR",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 49.99
     },
     {
       "player_id": "MIA",
@@ -300,7 +300,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 42.13
+      "waiver_score": 40.69
     },
     {
       "player_id": "LV",
@@ -362,7 +362,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 24660,
+      "trending_drops_24h": 22385,
       "waiver_score": 29.53
     },
     {
@@ -398,7 +398,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 17.04,
+      "projected_points": 17.22,
       "week_opponent": "HOU",
       "rostered_percent": null,
       "start_percent": null,
@@ -440,13 +440,13 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 16.76,
+      "projected_points": 16.58,
       "week_opponent": "IND",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 25200,
+      "trending_drops_24h": 23335,
       "waiver_score": 16.43
     },
     {
@@ -467,7 +467,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 56469,
+      "trending_drops_24h": 51492,
       "waiver_score": 13.82
     }
   ]
