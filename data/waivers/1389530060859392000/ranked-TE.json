@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T03:21:57.128Z",
+  "updated_at": "2026-09-26T03:38:45.870Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -23,9 +23,9 @@
       "projected_points": 9.23,
       "week_opponent": "BAL",
       "rostered_percent": 81.19,
-      "start_percent": 33.98,
+      "start_percent": 33.97,
       "previous_week_opportunities": 4,
-      "trending_adds_24h": 8875,
+      "trending_adds_24h": 7900,
       "trending_drops_24h": 0,
       "waiver_score": 98.43
     },
@@ -46,7 +46,7 @@
       "rostered_percent": 54.99,
       "start_percent": 18.64,
       "previous_week_opportunities": 4,
-      "trending_adds_24h": 13150,
+      "trending_adds_24h": 11406,
       "trending_drops_24h": 0,
       "waiver_score": 98.09
     },
@@ -64,11 +64,11 @@
       "depth_chart_position": "TE",
       "projected_points": 7.7,
       "week_opponent": "DEN",
-      "rostered_percent": 27.21,
-      "start_percent": 6.94,
+      "rostered_percent": 27.32,
+      "start_percent": 7,
       "previous_week_opportunities": 9,
-      "trending_adds_24h": 248264,
-      "trending_drops_24h": 19768,
+      "trending_adds_24h": 238080,
+      "trending_drops_24h": 18264,
       "waiver_score": 96.91
     },
     {
@@ -85,8 +85,8 @@
       "depth_chart_position": "TE",
       "projected_points": 11.77,
       "week_opponent": "IND",
-      "rostered_percent": 63.46,
-      "start_percent": 38.19,
+      "rostered_percent": 63.53,
+      "start_percent": 38.28,
       "previous_week_opportunities": 14,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -106,11 +106,11 @@
       "depth_chart_position": "TE",
       "projected_points": 9.02,
       "week_opponent": "BUF",
-      "rostered_percent": 14.66,
-      "start_percent": 5.41,
+      "rostered_percent": 14.67,
+      "start_percent": 5.42,
       "previous_week_opportunities": 2,
-      "trending_adds_24h": 45500,
-      "trending_drops_24h": 13360,
+      "trending_adds_24h": 41985,
+      "trending_drops_24h": 12435,
       "waiver_score": 95.05
     },
     {
@@ -127,11 +127,11 @@
       "depth_chart_position": "TE",
       "projected_points": 9.14,
       "week_opponent": "NE",
-      "rostered_percent": 18.4,
+      "rostered_percent": 18.39,
       "start_percent": 2.68,
       "previous_week_opportunities": 2,
-      "trending_adds_24h": 16362,
-      "trending_drops_24h": 26496,
+      "trending_adds_24h": 14571,
+      "trending_drops_24h": 24435,
       "waiver_score": 94.87
     },
     {
@@ -148,11 +148,11 @@
       "depth_chart_position": "TE",
       "projected_points": 8.01,
       "week_opponent": "CLE",
-      "rostered_percent": 9.91,
+      "rostered_percent": 9.92,
       "start_percent": 2.79,
       "previous_week_opportunities": 3,
-      "trending_adds_24h": 266715,
-      "trending_drops_24h": 29250,
+      "trending_adds_24h": 238707,
+      "trending_drops_24h": 26559,
       "waiver_score": 94.43
     },
     {
@@ -211,7 +211,7 @@
       "depth_chart_position": "TE",
       "projected_points": 8.75,
       "week_opponent": "TB",
-      "rostered_percent": 61.32,
+      "rostered_percent": 61.31,
       "start_percent": 16.95,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
@@ -230,13 +230,13 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 8.46,
+      "projected_points": 8.24,
       "week_opponent": "WAS",
       "rostered_percent": 4.97,
       "start_percent": 0.82,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 11484,
+      "trending_drops_24h": 10608,
       "waiver_score": 91.52
     },
     {
@@ -383,29 +383,8 @@
       "start_percent": 0.81,
       "previous_week_opportunities": 1,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 10064,
+      "trending_drops_24h": 8872,
       "waiver_score": 84.9
-    },
-    {
-      "player_id": "12521",
-      "name": "Elijah Arroyo",
-      "team": "SEA",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": 3.13,
-      "week_opponent": "WAS",
-      "rostered_percent": 0.3,
-      "start_percent": 0.04,
-      "previous_week_opportunities": 1,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 84.78
     },
     {
       "player_id": "6865",
@@ -427,6 +406,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 84.63
+    },
+    {
+      "player_id": "12521",
+      "name": "Elijah Arroyo",
+      "team": "SEA",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 3,
+      "week_opponent": "WAS",
+      "rostered_percent": 0.3,
+      "start_percent": 0.04,
+      "previous_week_opportunities": 1,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 84.6
     },
     {
       "player_id": "11592",
@@ -594,7 +594,7 @@
       "previous_week_opportunities": 1,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 79.5
+      "waiver_score": 79.65
     },
     {
       "player_id": "13319",
@@ -650,14 +650,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 2.69,
+      "projected_points": 2.63,
       "week_opponent": "SEA",
       "rostered_percent": 0.06,
       "start_percent": 0.01,
       "previous_week_opportunities": 1,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 77.04
+      "waiver_score": 76.89
     },
     {
       "player_id": "11433",
@@ -757,11 +757,11 @@
       "depth_chart_position": "TE",
       "projected_points": 6.42,
       "week_opponent": "PIT",
-      "rostered_percent": 8.98,
+      "rostered_percent": 8.97,
       "start_percent": 1.29,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 17492,
+      "trending_drops_24h": 15464,
       "waiver_score": 73.06
     },
     {
@@ -776,7 +776,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 2.01,
+      "projected_points": 1.96,
       "week_opponent": "SEA",
       "rostered_percent": 0.03,
       "start_percent": 0.01,
@@ -804,7 +804,7 @@
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 71.87
+      "waiver_score": 72.05
     },
     {
       "player_id": "13307",
@@ -867,7 +867,7 @@
       "previous_week_opportunities": 1,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 71.46
+      "waiver_score": 71.61
     },
     {
       "player_id": "8225",
@@ -1238,7 +1238,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 0.82,
+      "projected_points": 0.8,
       "week_opponent": "WAS",
       "rostered_percent": 0.04,
       "start_percent": 0.01,
@@ -1345,11 +1345,11 @@
       "depth_chart_position": "TE",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 83.69,
-      "start_percent": 12.33,
+      "rostered_percent": 83.67,
+      "start_percent": 12.28,
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 9454,
+      "trending_drops_24h": 0,
       "waiver_score": 62.59
     },
     {
@@ -1448,14 +1448,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 2.54,
+      "projected_points": 2.49,
       "week_opponent": "SEA",
       "rostered_percent": 0.04,
       "start_percent": 0.01,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 60.51
+      "waiver_score": 60.36
     },
     {
       "player_id": "4995",
