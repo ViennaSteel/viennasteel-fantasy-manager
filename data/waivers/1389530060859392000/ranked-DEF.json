@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T16:03:53.905Z",
+  "updated_at": "2026-09-27T16:22:51.219Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -20,12 +20,12 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 20.28,
+      "projected_points": 20.45,
       "week_opponent": "TB",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 41850,
+      "trending_adds_24h": 45280,
       "trending_drops_24h": 0,
       "waiver_score": 94.06
     },
@@ -48,7 +48,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 91.43
+      "waiver_score": 90.02
     },
     {
       "player_id": "NYG",
@@ -62,14 +62,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 22.81,
+      "projected_points": 23.6,
       "week_opponent": "TEN",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 93256,
+      "trending_adds_24h": 103900,
       "trending_drops_24h": 0,
-      "waiver_score": 88.57
+      "waiver_score": 89.98
     },
     {
       "player_id": "PHI",
@@ -83,7 +83,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 20.05,
+      "projected_points": 19.15,
       "week_opponent": "CHI",
       "rostered_percent": null,
       "start_percent": null,
@@ -125,35 +125,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 23.84,
+      "projected_points": 24.46,
       "week_opponent": "LV",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 37390,
+      "trending_adds_24h": 41010,
       "trending_drops_24h": 0,
       "waiver_score": 73.79
-    },
-    {
-      "player_id": "DET",
-      "name": "Detroit Lions",
-      "team": "DET",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 17.78,
-      "week_opponent": "NYJ",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 33885,
-      "trending_drops_24h": 41472,
-      "waiver_score": 72.14
     },
     {
       "player_id": "BUF",
@@ -174,7 +153,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 70.94
+      "waiver_score": 72.39
     },
     {
       "player_id": "GB",
@@ -198,6 +177,27 @@
       "waiver_score": 70.47
     },
     {
+      "player_id": "DET",
+      "name": "Detroit Lions",
+      "team": "DET",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 17.26,
+      "week_opponent": "NYJ",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 36630,
+      "trending_drops_24h": 44451,
+      "waiver_score": 67.85
+    },
+    {
       "player_id": "MIA",
       "name": "Miami Dolphins",
       "team": "MIA",
@@ -219,27 +219,6 @@
       "waiver_score": 52.17
     },
     {
-      "player_id": "JAX",
-      "name": "Jacksonville Jaguars",
-      "team": "JAX",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 15.37,
-      "week_opponent": "NE",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 38238,
-      "waiver_score": 48.81
-    },
-    {
       "player_id": "CLE",
       "name": "Cleveland Browns",
       "team": "CLE",
@@ -258,7 +237,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 48.37
+      "waiver_score": 49.78
     },
     {
       "player_id": "TB",
@@ -278,8 +257,29 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 64290,
-      "waiver_score": 48.1
+      "trending_drops_24h": 69005,
+      "waiver_score": 49.54
+    },
+    {
+      "player_id": "JAX",
+      "name": "Jacksonville Jaguars",
+      "team": "JAX",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 15.37,
+      "week_opponent": "NE",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 41232,
+      "waiver_score": 48.81
     },
     {
       "player_id": "LV",
@@ -298,8 +298,8 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 29646,
-      "trending_drops_24h": 11652,
+      "trending_adds_24h": 32040,
+      "trending_drops_24h": 12534,
       "waiver_score": 39.05
     },
     {
@@ -335,7 +335,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 17.1,
+      "projected_points": 17,
       "week_opponent": "SEA",
       "rostered_percent": null,
       "start_percent": null,
@@ -467,7 +467,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 32949,
+      "trending_drops_24h": 35420,
       "waiver_score": 10.7
     }
   ]
