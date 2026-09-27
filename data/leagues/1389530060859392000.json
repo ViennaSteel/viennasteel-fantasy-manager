@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T22:10:06.913Z",
+  "updated_at": "2026-09-27T22:26:35.759Z",
   "week": 3,
   "available_weeks": [
     1,
@@ -40,7 +40,7 @@
           "practice_participation": null,
           "depth_chart_position": "SWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 63747,
+          "trending_drops_24h": 65385,
           "slot": "BENCH",
           "projected_points": 12.05,
           "projection_basis": "league_scoring",
@@ -72,8 +72,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 16072,
-          "trending_drops_24h": 25336,
+          "trending_adds_24h": 16136,
+          "trending_drops_24h": 25560,
           "slot": "STARTER",
           "projected_points": 8.84,
           "projection_basis": "league_scoring",
@@ -171,8 +171,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "LWR",
-          "trending_adds_24h": 12128,
-          "trending_drops_24h": 22980,
+          "trending_adds_24h": 0,
+          "trending_drops_24h": 23436,
           "slot": "BENCH",
           "projected_points": 9.66,
           "projection_basis": "league_scoring",
@@ -205,7 +205,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 24995,
+          "trending_drops_24h": 26270,
           "slot": "BENCH",
           "projected_points": 10.47,
           "projection_basis": "league_scoring",
@@ -402,8 +402,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 30492,
-          "trending_drops_24h": 20772,
+          "trending_adds_24h": 30564,
+          "trending_drops_24h": 23643,
           "slot": "STARTER",
           "projected_points": 10.24,
           "projection_basis": "league_scoring",
@@ -783,7 +783,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 24995,
+          "trending_drops_24h": 26270,
           "slot": "BENCH",
           "projected_points": 8.34,
           "projection_basis": "league_scoring",
@@ -980,8 +980,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 21888,
-          "trending_drops_24h": 18234,
+          "trending_adds_24h": 21948,
+          "trending_drops_24h": 18420,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -1046,8 +1046,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 30492,
-          "trending_drops_24h": 20772,
+          "trending_adds_24h": 30564,
+          "trending_drops_24h": 23643,
           "slot": "STARTER",
           "projected_points": 10.47,
           "projection_basis": "league_scoring",
@@ -1179,7 +1179,7 @@
           "practice_participation": null,
           "depth_chart_position": null,
           "trending_adds_24h": 0,
-          "trending_drops_24h": 76225,
+          "trending_drops_24h": 76480,
           "slot": "STARTER",
           "projected_points": 26.14,
           "projection_basis": "league_scoring",
@@ -1371,11 +1371,11 @@
           "matchup_index": 65.3,
           "matchup_rating": -1,
           "matchup_sample_weeks": 2,
-          "actual_points": 6.8,
+          "actual_points": 7.1,
           "week_opponent": "MIN",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:05Z",
-          "projection_updated_at": 1790546460235
+          "projection_updated_at": 1790547659442
         },
         {
           "player_id": "11604",
@@ -1404,11 +1404,11 @@
           "matchup_index": 84.4,
           "matchup_rating": -0.78,
           "matchup_sample_weeks": 2,
-          "actual_points": 15.7,
+          "actual_points": 17.2,
           "week_opponent": "NO",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1790546460366
+          "projection_updated_at": 1790547659484
         },
         {
           "player_id": "11646",
@@ -1441,7 +1441,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790546459931
+          "projection_updated_at": 1790547659185
         },
         {
           "player_id": "12507",
@@ -1474,7 +1474,7 @@
           "week_opponent": "BUF",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790546459801
+          "projection_updated_at": 1790547659081
         },
         {
           "player_id": "12512",
@@ -1507,7 +1507,7 @@
           "week_opponent": "CAR",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790546460018
+          "projection_updated_at": 1790547659293
         },
         {
           "player_id": "12526",
@@ -1540,7 +1540,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790546459925
+          "projection_updated_at": 1790547659181
         },
         {
           "player_id": "12534",
@@ -1573,7 +1573,7 @@
           "week_opponent": "PHI",
           "game_date": "2026-09-28",
           "game_start": "2026-09-29T00:15Z",
-          "projection_updated_at": 1790546460357
+          "projection_updated_at": 1790547659503
         },
         {
           "player_id": "13346",
@@ -1606,7 +1606,7 @@
           "week_opponent": "CAR",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790546460031
+          "projection_updated_at": 1790547659304
         },
         {
           "player_id": "4881",
@@ -1639,7 +1639,7 @@
           "week_opponent": "DAL",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1790546460332
+          "projection_updated_at": 1790547659437
         },
         {
           "player_id": "5001",
@@ -1672,7 +1672,7 @@
           "week_opponent": "IND",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790546459948
+          "projection_updated_at": 1790547659240
         },
         {
           "player_id": "5189",
@@ -1688,7 +1688,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 8.4,
@@ -1705,7 +1705,7 @@
           "week_opponent": "ARI",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:05Z",
-          "projection_updated_at": 1790546460284
+          "projection_updated_at": 1790547659452
         },
         {
           "player_id": "7564",
@@ -1738,7 +1738,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790546459924
+          "projection_updated_at": 1790547659167
         },
         {
           "player_id": "7594",
@@ -1771,7 +1771,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790546459923
+          "projection_updated_at": 1790547659180
         },
         {
           "player_id": "9753",
@@ -1837,11 +1837,11 @@
           "week_opponent": "MIA",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790546459693
+          "projection_updated_at": 1790547658965
         }
       ],
       "matchup": {
-        "points": 90.92,
+        "points": 91.22,
         "players": [
           "11584",
           "11604",
@@ -1876,7 +1876,7 @@
         "starters_points": [
           4.52,
           5.6,
-          6.8,
+          7.1,
           24.8,
           3.7,
           6,
@@ -1891,8 +1891,8 @@
           "7564": 24.8,
           "7594": 15,
           "9753": 0,
-          "11584": 6.8,
-          "11604": 15.7,
+          "11584": 7.1,
+          "11604": 17.2,
           "11646": 3.8,
           "12507": 5.6,
           "12512": 9.9,
@@ -1903,7 +1903,7 @@
         }
       },
       "opponent": {
-        "points": 106.54,
+        "points": 113.3,
         "players": [
           "10859",
           "11632",
@@ -1935,7 +1935,7 @@
           "SF"
         ],
         "starters_points": [
-          15.24,
+          21.8,
           1.7,
           6.8,
           22.6,
@@ -1943,12 +1943,12 @@
           7.4,
           17,
           13,
-          15.2
+          15.4
         ],
         "players_points": {
           "2449": 7.3,
           "5892": 6.8,
-          "7543": 3.1,
+          "7543": 7.4,
           "7839": 13,
           "8167": 22.6,
           "9225": 0,
@@ -1957,9 +1957,9 @@
           "10859": 7.4,
           "11632": 7.6,
           "12490": 17,
-          "12545": 15.24,
+          "12545": 21.8,
           "13298": 2.9,
-          "SF": 15.2
+          "SF": 15.4
         }
       },
       "my_team": {
@@ -2330,7 +2330,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 8.16,
@@ -2974,7 +2974,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -3620,7 +3620,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -4262,7 +4262,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -4904,7 +4904,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": null,
@@ -5550,7 +5550,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -6194,7 +6194,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -6836,7 +6836,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -7478,7 +7478,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -8120,7 +8120,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -8764,7 +8764,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -9410,7 +9410,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -10052,7 +10052,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -10694,7 +10694,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -11340,7 +11340,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12624,
+          "trending_adds_24h": 12675,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -12093,7 +12093,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 19580,
+        "trending_adds_24h": 19980,
         "projected_points": 19.35,
         "start_percent": 38.2,
         "rostered_percent": 79.52,
@@ -12127,7 +12127,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 55200,
+        "trending_adds_24h": 56032,
         "projected_points": 17.87,
         "start_percent": 47.09,
         "rostered_percent": 81.96,
@@ -12161,7 +12161,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 15412,
+        "trending_adds_24h": 15552,
         "projected_points": 15.53,
         "start_percent": 49.97,
         "rostered_percent": 76.2,
@@ -12313,8 +12313,8 @@
         "fantasy_team": "FernitzBolts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 58.1,
-        "consensus_score": 57.41,
+        "projection_percentile": 54.8,
+        "consensus_score": 55.93,
         "rank": 13
       },
       {
@@ -12331,7 +12331,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 86688,
+        "trending_adds_24h": 87328,
         "projected_points": 17.05,
         "start_percent": 20.1,
         "rostered_percent": 60.91,
@@ -12399,7 +12399,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 31136,
+        "trending_adds_24h": 31269,
         "projected_points": 14.94,
         "start_percent": 15.8,
         "rostered_percent": 39.31,
@@ -12420,6 +12420,40 @@
         "rank": 16
       },
       {
+        "player_id": "11563",
+        "name": "Bo Nix",
+        "team": "DEN",
+        "position": "QB",
+        "fantasy_positions": [
+          "QB"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "QB",
+        "trending_adds_24h": 17070,
+        "projected_points": 16.27,
+        "start_percent": 24.06,
+        "rostered_percent": 78.78,
+        "usage_opportunities": 33.5,
+        "usage_percentile": 61.9,
+        "usage_sample_games": 2,
+        "matchup_index": 71.7,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "LAR",
+        "game_start": "2026-09-28T00:20Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 58.1,
+        "consensus_score": 46.45,
+        "rank": 17
+      },
+      {
         "player_id": "4943",
         "name": "Sam Darnold",
         "team": "SEA",
@@ -12433,7 +12467,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 150066,
+        "trending_adds_24h": 153987,
         "projected_points": 16.42,
         "start_percent": 10.86,
         "rostered_percent": 33.91,
@@ -12451,40 +12485,6 @@
         "unavailable": false,
         "projection_percentile": 61.3,
         "consensus_score": 45.66,
-        "rank": 17
-      },
-      {
-        "player_id": "11563",
-        "name": "Bo Nix",
-        "team": "DEN",
-        "position": "QB",
-        "fantasy_positions": [
-          "QB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "QB",
-        "trending_adds_24h": 16656,
-        "projected_points": 16.09,
-        "start_percent": 24.06,
-        "rostered_percent": 78.78,
-        "usage_opportunities": 33.5,
-        "usage_percentile": 61.9,
-        "usage_sample_games": 2,
-        "matchup_index": 71.7,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "LAR",
-        "game_start": "2026-09-28T00:20Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 54.8,
-        "consensus_score": 44.96,
         "rank": 18
       },
       {
@@ -12501,7 +12501,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 42136,
+        "trending_adds_24h": 42932,
         "projected_points": 15.15,
         "start_percent": 3.53,
         "rostered_percent": 7.1,
@@ -12536,7 +12536,7 @@
         "practice_participation": null,
         "depth_chart_position": "QB",
         "trending_adds_24h": 0,
-        "projected_points": 15.38,
+        "projected_points": 15.41,
         "start_percent": 37.91,
         "rostered_percent": 89.71,
         "usage_opportunities": 31,
@@ -12637,7 +12637,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 16513,
+        "trending_adds_24h": 16618,
         "projected_points": 15.62,
         "start_percent": 2.02,
         "rostered_percent": 14.29,
@@ -12671,7 +12671,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 126736,
+        "trending_adds_24h": 127784,
         "projected_points": 14.25,
         "start_percent": 4.31,
         "rostered_percent": 10.23,
@@ -12773,7 +12773,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 64936,
+        "trending_adds_24h": 66864,
         "projected_points": 12.6,
         "start_percent": 3.87,
         "rostered_percent": 7.74,
@@ -12875,7 +12875,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 0,
+        "trending_adds_24h": 12234,
         "projected_points": 12.98,
         "start_percent": 1.42,
         "rostered_percent": 4.21,
@@ -12943,7 +12943,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 21764,
+        "trending_adds_24h": 22380,
         "projected_points": 11.8,
         "start_percent": 1.43,
         "rostered_percent": 3.26,
@@ -13388,7 +13388,7 @@
         "practice_participation": null,
         "depth_chart_position": "RB",
         "trending_adds_24h": 0,
-        "projected_points": 13.59,
+        "projected_points": 13.6,
         "start_percent": 84.63,
         "rostered_percent": 98.42,
         "usage_opportunities": 14,
@@ -13727,7 +13727,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 19725,
+        "trending_adds_24h": 20000,
         "projected_points": 12.51,
         "start_percent": 20.61,
         "rostered_percent": 85.08,
@@ -13879,8 +13879,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 69.8,
-        "consensus_score": 61.52,
+        "projection_percentile": 68.8,
+        "consensus_score": 61.07,
         "rank": 27
       },
       {
@@ -13932,7 +13932,7 @@
         "practice_participation": null,
         "depth_chart_position": "RB",
         "trending_adds_24h": 0,
-        "projected_points": 10.17,
+        "projected_points": 10.16,
         "start_percent": 7.54,
         "rostered_percent": 75.31,
         "usage_opportunities": 11.5,
@@ -13999,7 +13999,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 65898,
+        "trending_adds_24h": 67464,
         "projected_points": 9.04,
         "start_percent": 0.44,
         "rostered_percent": 15.6,
@@ -14034,7 +14034,7 @@
         "practice_participation": null,
         "depth_chart_position": "RB",
         "trending_adds_24h": 0,
-        "projected_points": 11.21,
+        "projected_points": 11.28,
         "start_percent": 11.9,
         "rostered_percent": 79.74,
         "usage_opportunities": 9,
@@ -14049,8 +14049,8 @@
         "fantasy_team": "Krieglach City Chiefs",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 68.8,
-        "consensus_score": 46.68,
+        "projection_percentile": 69.8,
+        "consensus_score": 47.13,
         "rank": 32
       },
       {
@@ -14169,7 +14169,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 24192,
+        "trending_adds_24h": 24642,
         "projected_points": 10.18,
         "start_percent": 8.61,
         "rostered_percent": 67.86,
@@ -14203,7 +14203,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 124016,
+        "trending_adds_24h": 124800,
         "projected_points": 8.06,
         "start_percent": 6.34,
         "rostered_percent": 52.38,
@@ -14237,8 +14237,8 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 23576,
-        "projected_points": 11.5,
+        "trending_adds_24h": 23872,
+        "projected_points": 11.52,
         "start_percent": 4.1,
         "rostered_percent": 68.91,
         "usage_opportunities": 7,
@@ -14271,7 +14271,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 88812,
+        "trending_adds_24h": 89028,
         "projected_points": 6.97,
         "start_percent": 0.67,
         "rostered_percent": 13.88,
@@ -14305,7 +14305,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 28928,
+        "trending_adds_24h": 29288,
         "projected_points": 7.2,
         "start_percent": 0.11,
         "rostered_percent": 0.56,
@@ -14407,7 +14407,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 13895,
+        "trending_adds_24h": 13955,
         "projected_points": 7.13,
         "start_percent": 1.22,
         "rostered_percent": 32.92,
@@ -14441,7 +14441,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 27624,
+        "trending_adds_24h": 27680,
         "projected_points": 11.14,
         "start_percent": 5.57,
         "rostered_percent": 72.39,
@@ -14475,7 +14475,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 19187,
+        "trending_adds_24h": 19572,
         "projected_points": 6.48,
         "start_percent": 0.71,
         "rostered_percent": 22.97,
@@ -14509,7 +14509,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 189405,
+        "trending_adds_24h": 189747,
         "projected_points": 6.33,
         "start_percent": 1.55,
         "rostered_percent": 23.52,
@@ -14543,7 +14543,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 63292,
+        "trending_adds_24h": 66656,
         "projected_points": 6.45,
         "start_percent": 0.64,
         "rostered_percent": 13.98,
@@ -14577,7 +14577,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 21030,
+        "trending_adds_24h": 21726,
         "projected_points": 5.78,
         "start_percent": 0.95,
         "rostered_percent": 21.61,
@@ -14645,7 +14645,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 50958,
+        "trending_adds_24h": 51075,
         "projected_points": 6.6,
         "start_percent": 5.05,
         "rostered_percent": 34.64,
@@ -14679,7 +14679,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 13707,
+        "trending_adds_24h": 14079,
         "projected_points": 7.43,
         "start_percent": 4.9,
         "rostered_percent": 67.51,
@@ -14815,7 +14815,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 18565,
+        "trending_adds_24h": 18695,
         "projected_points": 5.1,
         "start_percent": 0.24,
         "rostered_percent": 6.04,
@@ -14849,7 +14849,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 20958,
+        "trending_adds_24h": 21028,
         "projected_points": 5.49,
         "start_percent": 1.56,
         "rostered_percent": 43.9,
@@ -15053,7 +15053,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 94496,
+        "trending_adds_24h": 94608,
         "projected_points": 6.34,
         "start_percent": 0.03,
         "rostered_percent": 0.09,
@@ -15563,7 +15563,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 62296,
+        "trending_adds_24h": 62320,
         "projected_points": 3.62,
         "start_percent": 0.21,
         "rostered_percent": 1.43,
@@ -15631,7 +15631,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 691285,
+        "trending_adds_24h": 752108,
         "projected_points": 3.52,
         "start_percent": 0.06,
         "rostered_percent": 1.07,
@@ -15666,7 +15666,7 @@
         "practice_participation": null,
         "depth_chart_position": "RB",
         "trending_adds_24h": 0,
-        "projected_points": 3,
+        "projected_points": 3.01,
         "start_percent": 0.02,
         "rostered_percent": 0.26,
         "usage_opportunities": 4,
@@ -16708,40 +16708,6 @@
         "rank": 13
       },
       {
-        "player_id": "6794",
-        "name": "Justin Jefferson",
-        "team": "MIN",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": "Questionable",
-        "injury_body_part": "Ankle",
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "LWR",
-        "trending_adds_24h": 0,
-        "projected_points": 16.68,
-        "start_percent": 99.43,
-        "rostered_percent": 99.9,
-        "usage_opportunities": 7.5,
-        "usage_percentile": 87.9,
-        "usage_sample_games": 2,
-        "matchup_index": 79.8,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "TB",
-        "game_start": "2026-09-27T20:05Z",
-        "roster_status": "ROSTERED",
-        "fantasy_team": "Krieglach Packers",
-        "health_score": 30,
-        "unavailable": false,
-        "projection_percentile": 96.9,
-        "consensus_score": 83.15,
-        "rank": 14
-      },
-      {
         "player_id": "9487",
         "name": "Parker Washington",
         "team": "JAX",
@@ -16773,7 +16739,7 @@
         "unavailable": false,
         "projection_percentile": 95.6,
         "consensus_score": 82.44,
-        "rank": 15
+        "rank": 14
       },
       {
         "player_id": "2133",
@@ -16790,7 +16756,7 @@
         "practice_participation": null,
         "depth_chart_position": "LWR",
         "trending_adds_24h": 0,
-        "projected_points": 14.23,
+        "projected_points": 14.27,
         "start_percent": 90.26,
         "rostered_percent": 98.93,
         "usage_opportunities": 8,
@@ -16807,7 +16773,7 @@
         "unavailable": false,
         "projection_percentile": 91.9,
         "consensus_score": 82.32,
-        "rank": 16
+        "rank": 15
       },
       {
         "player_id": "5872",
@@ -16841,7 +16807,7 @@
         "unavailable": false,
         "projection_percentile": 88.8,
         "consensus_score": 77.92,
-        "rank": 17
+        "rank": 16
       },
       {
         "player_id": "7526",
@@ -16858,7 +16824,7 @@
         "practice_participation": null,
         "depth_chart_position": "RWR",
         "trending_adds_24h": 0,
-        "projected_points": 13.21,
+        "projected_points": 13.29,
         "start_percent": 70.08,
         "rostered_percent": 95.63,
         "usage_opportunities": 6.5,
@@ -16875,7 +16841,7 @@
         "unavailable": false,
         "projection_percentile": 85.6,
         "consensus_score": 77.57,
-        "rank": 18
+        "rank": 17
       },
       {
         "player_id": "12514",
@@ -16909,7 +16875,7 @@
         "unavailable": false,
         "projection_percentile": 72.5,
         "consensus_score": 77.08,
-        "rank": 19
+        "rank": 18
       },
       {
         "player_id": "6801",
@@ -16943,7 +16909,7 @@
         "unavailable": false,
         "projection_percentile": 87.5,
         "consensus_score": 75.61,
-        "rank": 20
+        "rank": 19
       },
       {
         "player_id": "9997",
@@ -16977,7 +16943,7 @@
         "unavailable": false,
         "projection_percentile": 90,
         "consensus_score": 73.76,
-        "rank": 21
+        "rank": 20
       },
       {
         "player_id": "4983",
@@ -17011,7 +16977,7 @@
         "unavailable": false,
         "projection_percentile": 83.1,
         "consensus_score": 72.69,
-        "rank": 22
+        "rank": 21
       },
       {
         "player_id": "10229",
@@ -17045,7 +17011,7 @@
         "unavailable": false,
         "projection_percentile": 82.5,
         "consensus_score": 71.63,
-        "rank": 23
+        "rank": 22
       },
       {
         "player_id": "12501",
@@ -17061,7 +17027,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 36820,
+        "trending_adds_24h": 38332,
         "projected_points": 13.82,
         "start_percent": 29.07,
         "rostered_percent": 84.31,
@@ -17079,41 +17045,7 @@
         "unavailable": false,
         "projection_percentile": 89.4,
         "consensus_score": 70.64,
-        "rank": 24
-      },
-      {
-        "player_id": "2216",
-        "name": "Mike Evans",
-        "team": "SF",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": "Questionable",
-        "injury_body_part": "Undisclosed",
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "LWR",
-        "trending_adds_24h": 0,
-        "projected_points": 12.58,
-        "start_percent": 43.36,
-        "rostered_percent": 92.33,
-        "usage_opportunities": 5,
-        "usage_percentile": 63.1,
-        "usage_sample_games": 2,
-        "matchup_index": 130.3,
-        "matchup_rating": 1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "ARI",
-        "game_start": "2026-09-27T20:05Z",
-        "roster_status": "ROSTERED",
-        "fantasy_team": "FernitzBolts",
-        "health_score": 30,
-        "unavailable": false,
-        "projection_percentile": 84.4,
-        "consensus_score": 69.79,
-        "rank": 25
+        "rank": 23
       },
       {
         "player_id": "9500",
@@ -17129,7 +17061,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 21055,
+        "trending_adds_24h": 21265,
         "projected_points": 11.15,
         "start_percent": 25.82,
         "rostered_percent": 76.94,
@@ -17147,7 +17079,7 @@
         "unavailable": false,
         "projection_percentile": 79.4,
         "consensus_score": 69.07,
-        "rank": 26
+        "rank": 24
       },
       {
         "player_id": "8676",
@@ -17181,7 +17113,7 @@
         "unavailable": false,
         "projection_percentile": 90.6,
         "consensus_score": 67.38,
-        "rank": 27
+        "rank": 25
       },
       {
         "player_id": "8148",
@@ -17215,7 +17147,7 @@
         "unavailable": false,
         "projection_percentile": 85,
         "consensus_score": 65.66,
-        "rank": 28
+        "rank": 26
       },
       {
         "player_id": "5846",
@@ -17249,7 +17181,7 @@
         "unavailable": false,
         "projection_percentile": 80,
         "consensus_score": 62.66,
-        "rank": 29
+        "rank": 27
       },
       {
         "player_id": "8134",
@@ -17265,7 +17197,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 50193,
+        "trending_adds_24h": 50274,
         "projected_points": 10.05,
         "start_percent": 10.78,
         "rostered_percent": 67.33,
@@ -17283,7 +17215,7 @@
         "unavailable": false,
         "projection_percentile": 74.4,
         "consensus_score": 62.35,
-        "rank": 30
+        "rank": 28
       },
       {
         "player_id": "13279",
@@ -17317,7 +17249,7 @@
         "unavailable": false,
         "projection_percentile": 69.4,
         "consensus_score": 62.26,
-        "rank": 31
+        "rank": 29
       },
       {
         "player_id": "11608",
@@ -17333,7 +17265,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 187722,
+        "trending_adds_24h": 188256,
         "projected_points": 12.44,
         "start_percent": 0.99,
         "rostered_percent": 1.65,
@@ -17351,7 +17283,7 @@
         "unavailable": false,
         "projection_percentile": 83.8,
         "consensus_score": 61.21,
-        "rank": 32
+        "rank": 30
       },
       {
         "player_id": "12519",
@@ -17385,7 +17317,7 @@
         "unavailable": false,
         "projection_percentile": 76.9,
         "consensus_score": 61.13,
-        "rank": 33
+        "rank": 31
       },
       {
         "player_id": "13346",
@@ -17419,7 +17351,7 @@
         "unavailable": false,
         "projection_percentile": 75,
         "consensus_score": 60.69,
-        "rank": 34
+        "rank": 32
       },
       {
         "player_id": "11834",
@@ -17435,7 +17367,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 28063,
+        "trending_adds_24h": 28238,
         "projected_points": 10.82,
         "start_percent": 26.87,
         "rostered_percent": 68.37,
@@ -17453,7 +17385,7 @@
         "unavailable": false,
         "projection_percentile": 78.1,
         "consensus_score": 60.35,
-        "rank": 35
+        "rank": 33
       },
       {
         "player_id": "5927",
@@ -17487,7 +17419,7 @@
         "unavailable": false,
         "projection_percentile": 73.1,
         "consensus_score": 60.12,
-        "rank": 36
+        "rank": 34
       },
       {
         "player_id": "13298",
@@ -17503,7 +17435,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 29115,
+        "trending_adds_24h": 29196,
         "projected_points": 11.39,
         "start_percent": 7.46,
         "rostered_percent": 55.71,
@@ -17521,7 +17453,7 @@
         "unavailable": false,
         "projection_percentile": 80.6,
         "consensus_score": 59.98,
-        "rank": 37
+        "rank": 35
       },
       {
         "player_id": "10213",
@@ -17537,7 +17469,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 50358,
+        "trending_adds_24h": 50556,
         "projected_points": 9.9,
         "start_percent": 10.93,
         "rostered_percent": 42.45,
@@ -17555,7 +17487,7 @@
         "unavailable": false,
         "projection_percentile": 73.8,
         "consensus_score": 58.86,
-        "rank": 38
+        "rank": 36
       },
       {
         "player_id": "9754",
@@ -17571,7 +17503,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 28665,
+        "trending_adds_24h": 28749,
         "projected_points": 9.07,
         "start_percent": 7.99,
         "rostered_percent": 61.95,
@@ -17589,7 +17521,7 @@
         "unavailable": false,
         "projection_percentile": 66.9,
         "consensus_score": 58.38,
-        "rank": 39
+        "rank": 37
       },
       {
         "player_id": "5045",
@@ -17605,8 +17537,8 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 25380,
-        "projected_points": 10.12,
+        "trending_adds_24h": 25920,
+        "projected_points": 10.21,
         "start_percent": 21.94,
         "rostered_percent": 85.56,
         "usage_opportunities": 4.5,
@@ -17623,7 +17555,7 @@
         "unavailable": false,
         "projection_percentile": 75.6,
         "consensus_score": 58.11,
-        "rank": 40
+        "rank": 38
       },
       {
         "player_id": "11624",
@@ -17639,7 +17571,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 45036,
+        "trending_adds_24h": 45108,
         "projected_points": 10.6,
         "start_percent": 23.72,
         "rostered_percent": 76.63,
@@ -17657,7 +17589,7 @@
         "unavailable": false,
         "projection_percentile": 77.5,
         "consensus_score": 58.09,
-        "rank": 41
+        "rank": 39
       },
       {
         "player_id": "4037",
@@ -17691,7 +17623,7 @@
         "unavailable": false,
         "projection_percentile": 71.3,
         "consensus_score": 57.98,
-        "rank": 42
+        "rank": 40
       },
       {
         "player_id": "10232",
@@ -17707,7 +17639,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 22005,
+        "trending_adds_24h": 24570,
         "projected_points": 11.95,
         "start_percent": 14.06,
         "rostered_percent": 80.09,
@@ -17725,7 +17657,7 @@
         "unavailable": false,
         "projection_percentile": 81.9,
         "consensus_score": 57.85,
-        "rank": 43
+        "rank": 41
       },
       {
         "player_id": "11610",
@@ -17741,7 +17673,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 276296,
+        "trending_adds_24h": 278848,
         "projected_points": 13.29,
         "start_percent": 2.78,
         "rostered_percent": 13.37,
@@ -17759,7 +17691,7 @@
         "unavailable": false,
         "projection_percentile": 86.3,
         "consensus_score": 57.12,
-        "rank": 44
+        "rank": 42
       },
       {
         "player_id": "7571",
@@ -17775,7 +17707,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 32284,
+        "trending_adds_24h": 32338,
         "projected_points": 10.88,
         "start_percent": 8.67,
         "rostered_percent": 34.85,
@@ -17793,7 +17725,7 @@
         "unavailable": false,
         "projection_percentile": 78.8,
         "consensus_score": 56.95,
-        "rank": 45
+        "rank": 43
       },
       {
         "player_id": "10218",
@@ -17809,7 +17741,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 202895,
+        "trending_adds_24h": 203448,
         "projected_points": 7.81,
         "start_percent": 2.43,
         "rostered_percent": 7.09,
@@ -17827,7 +17759,7 @@
         "unavailable": false,
         "projection_percentile": 60.6,
         "consensus_score": 56.17,
-        "rank": 46
+        "rank": 44
       },
       {
         "player_id": "2449",
@@ -17861,7 +17793,7 @@
         "unavailable": false,
         "projection_percentile": 68.8,
         "consensus_score": 55.62,
-        "rank": 47
+        "rank": 45
       },
       {
         "player_id": "1479",
@@ -17877,7 +17809,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 27064,
+        "trending_adds_24h": 28520,
         "projected_points": 7.74,
         "start_percent": 2.08,
         "rostered_percent": 23.75,
@@ -17895,7 +17827,7 @@
         "unavailable": false,
         "projection_percentile": 60,
         "consensus_score": 53.1,
-        "rank": 48
+        "rank": 46
       },
       {
         "player_id": "9504",
@@ -17929,7 +17861,7 @@
         "unavailable": false,
         "projection_percentile": 65.6,
         "consensus_score": 52.38,
-        "rank": 49
+        "rank": 47
       },
       {
         "player_id": "8126",
@@ -17963,7 +17895,7 @@
         "unavailable": false,
         "projection_percentile": 65,
         "consensus_score": 52.09,
-        "rank": 50
+        "rank": 48
       },
       {
         "player_id": "8121",
@@ -17979,7 +17911,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 28032,
+        "trending_adds_24h": 28144,
         "projected_points": 9.38,
         "start_percent": 16.73,
         "rostered_percent": 65.28,
@@ -17997,7 +17929,7 @@
         "unavailable": false,
         "projection_percentile": 70,
         "consensus_score": 51.33,
-        "rank": 51
+        "rank": 49
       },
       {
         "player_id": "12536",
@@ -18031,7 +17963,7 @@
         "unavailable": false,
         "projection_percentile": 62.5,
         "consensus_score": 51.18,
-        "rank": 52
+        "rank": 50
       },
       {
         "player_id": "9486",
@@ -18047,7 +17979,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 40713,
+        "trending_adds_24h": 41436,
         "projected_points": 9.17,
         "start_percent": 14.45,
         "rostered_percent": 49.04,
@@ -18065,7 +17997,7 @@
         "unavailable": false,
         "projection_percentile": 67.5,
         "consensus_score": 50.86,
-        "rank": 53
+        "rank": 51
       },
       {
         "player_id": "11631",
@@ -18099,7 +18031,7 @@
         "unavailable": false,
         "projection_percentile": 66.3,
         "consensus_score": 50.76,
-        "rank": 54
+        "rank": 52
       },
       {
         "player_id": "3634",
@@ -18115,7 +18047,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 13380,
+        "trending_adds_24h": 13626,
         "projected_points": 8.43,
         "start_percent": 1.03,
         "rostered_percent": 10.07,
@@ -18133,7 +18065,7 @@
         "unavailable": false,
         "projection_percentile": 63.8,
         "consensus_score": 50.16,
-        "rank": 55
+        "rank": 53
       },
       {
         "player_id": "12509",
@@ -18167,7 +18099,7 @@
         "unavailable": false,
         "projection_percentile": 57.5,
         "consensus_score": 49.99,
-        "rank": 56
+        "rank": 54
       },
       {
         "player_id": "11620",
@@ -18201,7 +18133,7 @@
         "unavailable": false,
         "projection_percentile": 61.9,
         "consensus_score": 49.6,
-        "rank": 57
+        "rank": 55
       },
       {
         "player_id": "13285",
@@ -18235,7 +18167,7 @@
         "unavailable": false,
         "projection_percentile": 53.1,
         "consensus_score": 48.8,
-        "rank": 58
+        "rank": 56
       },
       {
         "player_id": "8917",
@@ -18269,7 +18201,7 @@
         "unavailable": false,
         "projection_percentile": 81.3,
         "consensus_score": 47.57,
-        "rank": 59
+        "rank": 57
       },
       {
         "player_id": "11783",
@@ -18285,7 +18217,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 41304,
+        "trending_adds_24h": 41416,
         "projected_points": 7.82,
         "start_percent": 0.35,
         "rostered_percent": 3.46,
@@ -18303,7 +18235,7 @@
         "unavailable": false,
         "projection_percentile": 61.3,
         "consensus_score": 47.29,
-        "rank": 60
+        "rank": 58
       },
       {
         "player_id": "11637",
@@ -18319,7 +18251,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 67455,
+        "trending_adds_24h": 67698,
         "projected_points": 6.75,
         "start_percent": 0.5,
         "rostered_percent": 6.08,
@@ -18337,7 +18269,7 @@
         "unavailable": false,
         "projection_percentile": 53.8,
         "consensus_score": 46.69,
-        "rank": 61
+        "rank": 59
       },
       {
         "player_id": "4039",
@@ -18353,7 +18285,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 14256,
+        "trending_adds_24h": 14718,
         "projected_points": 7.28,
         "start_percent": 0.96,
         "rostered_percent": 10.53,
@@ -18371,7 +18303,7 @@
         "unavailable": false,
         "projection_percentile": 56.9,
         "consensus_score": 45.89,
-        "rank": 62
+        "rank": 60
       },
       {
         "player_id": "13317",
@@ -18387,7 +18319,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 23184,
+        "trending_adds_24h": 23478,
         "projected_points": 5.47,
         "start_percent": 0.06,
         "rostered_percent": 1.06,
@@ -18405,7 +18337,7 @@
         "unavailable": false,
         "projection_percentile": 46.9,
         "consensus_score": 45.89,
-        "rank": 63
+        "rank": 61
       },
       {
         "player_id": "6819",
@@ -18421,7 +18353,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 15080,
+        "trending_adds_24h": 15160,
         "projected_points": 9.4,
         "start_percent": 9.42,
         "rostered_percent": 82.53,
@@ -18439,7 +18371,7 @@
         "unavailable": false,
         "projection_percentile": 70.6,
         "consensus_score": 45.67,
-        "rank": 64
+        "rank": 62
       },
       {
         "player_id": "8168",
@@ -18455,7 +18387,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 34112,
+        "trending_adds_24h": 34520,
         "projected_points": 9.65,
         "start_percent": 0.08,
         "rostered_percent": 0.2,
@@ -18473,7 +18405,7 @@
         "unavailable": false,
         "projection_percentile": 71.9,
         "consensus_score": 45.15,
-        "rank": 65
+        "rank": 63
       },
       {
         "player_id": "8188",
@@ -18489,7 +18421,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 47208,
+        "trending_adds_24h": 47271,
         "projected_points": 10.32,
         "start_percent": 0.21,
         "rostered_percent": 1.36,
@@ -18507,7 +18439,7 @@
         "unavailable": false,
         "projection_percentile": 76.3,
         "consensus_score": 45.03,
-        "rank": 66
+        "rank": 64
       },
       {
         "player_id": "9756",
@@ -18523,7 +18455,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 63801,
+        "trending_adds_24h": 71964,
         "projected_points": 9.19,
         "start_percent": 8.35,
         "rostered_percent": 70.72,
@@ -18541,7 +18473,7 @@
         "unavailable": false,
         "projection_percentile": 68.1,
         "consensus_score": 44.89,
-        "rank": 67
+        "rank": 65
       },
       {
         "player_id": "11616",
@@ -18575,7 +18507,7 @@
         "unavailable": false,
         "projection_percentile": 51.3,
         "consensus_score": 44.81,
-        "rank": 68
+        "rank": 66
       },
       {
         "player_id": "4177",
@@ -18591,7 +18523,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 19953,
+        "trending_adds_24h": 20358,
         "projected_points": 8.51,
         "start_percent": 0.75,
         "rostered_percent": 5.36,
@@ -18609,7 +18541,7 @@
         "unavailable": false,
         "projection_percentile": 64.4,
         "consensus_score": 44.71,
-        "rank": 69
+        "rank": 67
       },
       {
         "player_id": "12492",
@@ -18625,8 +18557,8 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 21656,
-        "projected_points": 7.34,
+        "trending_adds_24h": 22688,
+        "projected_points": 7.42,
         "start_percent": 0.17,
         "rostered_percent": 3.1,
         "usage_opportunities": 4,
@@ -18643,7 +18575,7 @@
         "unavailable": false,
         "projection_percentile": 58.8,
         "consensus_score": 44.61,
-        "rank": 70
+        "rank": 68
       },
       {
         "player_id": "8180",
@@ -18677,7 +18609,7 @@
         "unavailable": false,
         "projection_percentile": 52.5,
         "consensus_score": 44.3,
-        "rank": 71
+        "rank": 69
       },
       {
         "player_id": "9501",
@@ -18711,7 +18643,7 @@
         "unavailable": false,
         "projection_percentile": 58.1,
         "consensus_score": 43.71,
-        "rank": 72
+        "rank": 70
       },
       {
         "player_id": "13320",
@@ -18745,7 +18677,7 @@
         "unavailable": false,
         "projection_percentile": 55,
         "consensus_score": 42.56,
-        "rank": 73
+        "rank": 71
       },
       {
         "player_id": "8119",
@@ -18779,7 +18711,7 @@
         "unavailable": false,
         "projection_percentile": 44.4,
         "consensus_score": 41.91,
-        "rank": 74
+        "rank": 72
       },
       {
         "player_id": "5947",
@@ -18795,7 +18727,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 25314,
+        "trending_adds_24h": 26730,
         "projected_points": 8.43,
         "start_percent": 4.03,
         "rostered_percent": 69.93,
@@ -18813,7 +18745,7 @@
         "unavailable": false,
         "projection_percentile": 63.1,
         "consensus_score": 40.78,
-        "rank": 75
+        "rank": 73
       },
       {
         "player_id": "12497",
@@ -18847,7 +18779,7 @@
         "unavailable": false,
         "projection_percentile": 41.9,
         "consensus_score": 39.84,
-        "rank": 76
+        "rank": 74
       },
       {
         "player_id": "4981",
@@ -18881,7 +18813,7 @@
         "unavailable": false,
         "projection_percentile": 43.8,
         "consensus_score": 38.98,
-        "rank": 77
+        "rank": 75
       },
       {
         "player_id": "7090",
@@ -18915,7 +18847,7 @@
         "unavailable": false,
         "projection_percentile": 40.6,
         "consensus_score": 38.85,
-        "rank": 78
+        "rank": 76
       },
       {
         "player_id": "13294",
@@ -18949,7 +18881,7 @@
         "unavailable": false,
         "projection_percentile": 55.6,
         "consensus_score": 38.71,
-        "rank": 79
+        "rank": 77
       },
       {
         "player_id": "3200",
@@ -18983,7 +18915,7 @@
         "unavailable": false,
         "projection_percentile": 39.4,
         "consensus_score": 38.51,
-        "rank": 80
+        "rank": 78
       },
       {
         "player_id": "12540",
@@ -19017,41 +18949,7 @@
         "unavailable": false,
         "projection_percentile": 51.9,
         "consensus_score": 38.36,
-        "rank": 81
-      },
-      {
-        "player_id": "12483",
-        "name": "Jack Bech",
-        "team": "LV",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "SWR",
-        "trending_adds_24h": 0,
-        "projected_points": 5.08,
-        "start_percent": 0.07,
-        "rostered_percent": 0.79,
-        "usage_opportunities": 3,
-        "usage_percentile": 42.3,
-        "usage_sample_games": 2,
-        "matchup_index": 110.1,
-        "matchup_rating": 0.51,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "NO",
-        "game_start": "2026-09-27T20:25Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 43.1,
-        "consensus_score": 38.31,
-        "rank": 82
+        "rank": 79
       },
       {
         "player_id": "11056",
@@ -19085,7 +18983,7 @@
         "unavailable": false,
         "projection_percentile": 32.5,
         "consensus_score": 38.18,
-        "rank": 83
+        "rank": 80
       },
       {
         "player_id": "12499",
@@ -19119,7 +19017,7 @@
         "unavailable": false,
         "projection_percentile": 38.1,
         "consensus_score": 38.15,
-        "rank": 84
+        "rank": 81
       },
       {
         "player_id": "11630",
@@ -19135,7 +19033,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 66996,
+        "trending_adds_24h": 68778,
         "projected_points": 6.07,
         "start_percent": 0.12,
         "rostered_percent": 0.67,
@@ -19153,7 +19051,7 @@
         "unavailable": false,
         "projection_percentile": 48.8,
         "consensus_score": 37.76,
-        "rank": 85
+        "rank": 82
       },
       {
         "player_id": "13274",
@@ -19187,7 +19085,7 @@
         "unavailable": false,
         "projection_percentile": 41.3,
         "consensus_score": 37.31,
-        "rank": 86
+        "rank": 83
       },
       {
         "player_id": "11628",
@@ -19203,7 +19101,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 12128,
+        "trending_adds_24h": 0,
         "projected_points": 7.6,
         "start_percent": 6.99,
         "rostered_percent": 78.9,
@@ -19221,7 +19119,7 @@
         "unavailable": false,
         "projection_percentile": 59.4,
         "consensus_score": 37.11,
-        "rank": 87
+        "rank": 84
       },
       {
         "player_id": "6783",
@@ -19255,7 +19153,7 @@
         "unavailable": false,
         "projection_percentile": 50,
         "consensus_score": 36.88,
-        "rank": 88
+        "rank": 85
       },
       {
         "player_id": "4454",
@@ -19289,7 +19187,7 @@
         "unavailable": false,
         "projection_percentile": 47.5,
         "consensus_score": 36.69,
-        "rank": 89
+        "rank": 86
       },
       {
         "player_id": "10234",
@@ -19323,7 +19221,7 @@
         "unavailable": false,
         "projection_percentile": 45.6,
         "consensus_score": 36.42,
-        "rank": 90
+        "rank": 87
       },
       {
         "player_id": "11994",
@@ -19357,7 +19255,7 @@
         "unavailable": false,
         "projection_percentile": 35,
         "consensus_score": 36.18,
-        "rank": 91
+        "rank": 88
       },
       {
         "player_id": "3155",
@@ -19373,7 +19271,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 13135,
+        "trending_adds_24h": 13140,
         "projected_points": 4.15,
         "start_percent": 0.04,
         "rostered_percent": 0.2,
@@ -19391,7 +19289,7 @@
         "unavailable": false,
         "projection_percentile": 36.9,
         "consensus_score": 35.03,
-        "rank": 92
+        "rank": 89
       },
       {
         "player_id": "9494",
@@ -19408,7 +19306,7 @@
         "practice_participation": null,
         "depth_chart_position": "SWR",
         "trending_adds_24h": 0,
-        "projected_points": 6.13,
+        "projected_points": 6.23,
         "start_percent": 0.02,
         "rostered_percent": 0.59,
         "usage_opportunities": null,
@@ -19425,7 +19323,7 @@
         "unavailable": false,
         "projection_percentile": 50.6,
         "consensus_score": 33.68,
-        "rank": 93
+        "rank": 90
       },
       {
         "player_id": "13825",
@@ -19459,7 +19357,7 @@
         "unavailable": false,
         "projection_percentile": 10,
         "consensus_score": 32.5,
-        "rank": 94
+        "rank": 91
       },
       {
         "player_id": "7670",
@@ -19493,7 +19391,7 @@
         "unavailable": false,
         "projection_percentile": 26.9,
         "consensus_score": 32.44,
-        "rank": 95
+        "rank": 92
       },
       {
         "player_id": "13075",
@@ -19527,7 +19425,7 @@
         "unavailable": false,
         "projection_percentile": 56.3,
         "consensus_score": 32.38,
-        "rank": 96
+        "rank": 93
       },
       {
         "player_id": "7049",
@@ -19561,7 +19459,7 @@
         "unavailable": false,
         "projection_percentile": 54.4,
         "consensus_score": 30.73,
-        "rank": 97
+        "rank": 94
       },
       {
         "player_id": "8147",
@@ -19595,7 +19493,7 @@
         "unavailable": false,
         "projection_percentile": 24.4,
         "consensus_score": 30.57,
-        "rank": 98
+        "rank": 95
       },
       {
         "player_id": "11320",
@@ -19629,7 +19527,7 @@
         "unavailable": false,
         "projection_percentile": 46.3,
         "consensus_score": 30.4,
-        "rank": 99
+        "rank": 96
       },
       {
         "player_id": "12485",
@@ -19663,7 +19561,7 @@
         "unavailable": false,
         "projection_percentile": 20.6,
         "consensus_score": 30.32,
-        "rank": 100
+        "rank": 97
       },
       {
         "player_id": "13301",
@@ -19697,7 +19595,7 @@
         "unavailable": false,
         "projection_percentile": 38.8,
         "consensus_score": 30.3,
-        "rank": 101
+        "rank": 98
       },
       {
         "player_id": "13311",
@@ -19713,7 +19611,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 25137,
+        "trending_adds_24h": 25452,
         "projected_points": 6.11,
         "start_percent": 0.12,
         "rostered_percent": 2.99,
@@ -19731,7 +19629,7 @@
         "unavailable": false,
         "projection_percentile": 49.4,
         "consensus_score": 30.19,
-        "rank": 102
+        "rank": 99
       },
       {
         "player_id": "6271",
@@ -19765,7 +19663,7 @@
         "unavailable": false,
         "projection_percentile": 29.4,
         "consensus_score": 29.91,
-        "rank": 103
+        "rank": 100
       },
       {
         "player_id": "12535",
@@ -19799,7 +19697,7 @@
         "unavailable": false,
         "projection_percentile": 40,
         "consensus_score": 29.83,
-        "rank": 104
+        "rank": 101
       },
       {
         "player_id": "6847",
@@ -19833,7 +19731,7 @@
         "unavailable": false,
         "projection_percentile": 45,
         "consensus_score": 29.72,
-        "rank": 105
+        "rank": 102
       },
       {
         "player_id": "12547",
@@ -19867,7 +19765,7 @@
         "unavailable": false,
         "projection_percentile": 35.6,
         "consensus_score": 29.07,
-        "rank": 106
+        "rank": 103
       },
       {
         "player_id": "12634",
@@ -19901,7 +19799,7 @@
         "unavailable": false,
         "projection_percentile": 21.3,
         "consensus_score": 28.93,
-        "rank": 107
+        "rank": 104
       },
       {
         "player_id": "12699",
@@ -19935,7 +19833,7 @@
         "unavailable": false,
         "projection_percentile": 36.3,
         "consensus_score": 28.81,
-        "rank": 108
+        "rank": 105
       },
       {
         "player_id": "11157",
@@ -19969,7 +19867,7 @@
         "unavailable": false,
         "projection_percentile": 20,
         "consensus_score": 28.24,
-        "rank": 109
+        "rank": 106
       },
       {
         "player_id": "13338",
@@ -20003,7 +19901,7 @@
         "unavailable": false,
         "projection_percentile": 42.5,
         "consensus_score": 27.85,
-        "rank": 110
+        "rank": 107
       },
       {
         "player_id": "3269",
@@ -20037,7 +19935,7 @@
         "unavailable": false,
         "projection_percentile": 30,
         "consensus_score": 27.83,
-        "rank": 111
+        "rank": 108
       },
       {
         "player_id": "11629",
@@ -20071,7 +19969,7 @@
         "unavailable": false,
         "projection_percentile": 31.9,
         "consensus_score": 27.74,
-        "rank": 112
+        "rank": 109
       },
       {
         "player_id": "13420",
@@ -20105,7 +20003,7 @@
         "unavailable": false,
         "projection_percentile": 37.5,
         "consensus_score": 27.22,
-        "rank": 113
+        "rank": 110
       },
       {
         "player_id": "11623",
@@ -20121,8 +20019,8 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 22221,
-        "projected_points": 6.03,
+        "trending_adds_24h": 22491,
+        "projected_points": 6.04,
         "start_percent": 0.05,
         "rostered_percent": 0.15,
         "usage_opportunities": 1,
@@ -20139,7 +20037,7 @@
         "unavailable": false,
         "projection_percentile": 48.1,
         "consensus_score": 26.66,
-        "rank": 114
+        "rank": 111
       },
       {
         "player_id": "2078",
@@ -20173,7 +20071,7 @@
         "unavailable": false,
         "projection_percentile": 16.9,
         "consensus_score": 26.64,
-        "rank": 115
+        "rank": 112
       },
       {
         "player_id": "11618",
@@ -20207,7 +20105,7 @@
         "unavailable": false,
         "projection_percentile": 23.8,
         "consensus_score": 26.23,
-        "rank": 116
+        "rank": 113
       },
       {
         "player_id": "8414",
@@ -20241,7 +20139,7 @@
         "unavailable": false,
         "projection_percentile": 33.8,
         "consensus_score": 26.13,
-        "rank": 117
+        "rank": 114
       },
       {
         "player_id": "8204",
@@ -20275,7 +20173,7 @@
         "unavailable": false,
         "projection_percentile": 34.4,
         "consensus_score": 26.04,
-        "rank": 118
+        "rank": 115
       },
       {
         "player_id": "4274",
@@ -20309,7 +20207,7 @@
         "unavailable": false,
         "projection_percentile": 15.6,
         "consensus_score": 25.91,
-        "rank": 119
+        "rank": 116
       },
       {
         "player_id": "11617",
@@ -20343,7 +20241,7 @@
         "unavailable": false,
         "projection_percentile": 28.8,
         "consensus_score": 25.66,
-        "rank": 120
+        "rank": 117
       },
       {
         "player_id": "13394",
@@ -20377,7 +20275,7 @@
         "unavailable": false,
         "projection_percentile": 31.3,
         "consensus_score": 25.57,
-        "rank": 121
+        "rank": 118
       },
       {
         "player_id": "7587",
@@ -20411,7 +20309,7 @@
         "unavailable": false,
         "projection_percentile": 26.3,
         "consensus_score": 25,
-        "rank": 122
+        "rank": 119
       },
       {
         "player_id": "13150",
@@ -20445,7 +20343,7 @@
         "unavailable": false,
         "projection_percentile": 25,
         "consensus_score": 24.9,
-        "rank": 123
+        "rank": 120
       },
       {
         "player_id": "2197",
@@ -20479,7 +20377,7 @@
         "unavailable": false,
         "projection_percentile": 13.1,
         "consensus_score": 24.58,
-        "rank": 124
+        "rank": 121
       },
       {
         "player_id": "5086",
@@ -20513,7 +20411,7 @@
         "unavailable": false,
         "projection_percentile": 11.9,
         "consensus_score": 23.95,
-        "rank": 125
+        "rank": 122
       },
       {
         "player_id": "8527",
@@ -20547,7 +20445,7 @@
         "unavailable": false,
         "projection_percentile": 19.4,
         "consensus_score": 23.8,
-        "rank": 126
+        "rank": 123
       },
       {
         "player_id": "7039",
@@ -20581,7 +20479,7 @@
         "unavailable": false,
         "projection_percentile": 16.3,
         "consensus_score": 22.91,
-        "rank": 127
+        "rank": 124
       },
       {
         "player_id": "11168",
@@ -20598,7 +20496,7 @@
         "practice_participation": null,
         "depth_chart_position": "SWR",
         "trending_adds_24h": 0,
-        "projected_points": 3.8,
+        "projected_points": 3.81,
         "start_percent": 0.03,
         "rostered_percent": 0.11,
         "usage_opportunities": 1,
@@ -20615,7 +20513,7 @@
         "unavailable": false,
         "projection_percentile": 33.1,
         "consensus_score": 22.51,
-        "rank": 128
+        "rank": 125
       },
       {
         "player_id": "8117",
@@ -20649,7 +20547,7 @@
         "unavailable": false,
         "projection_percentile": 30.6,
         "consensus_score": 22.09,
-        "rank": 129
+        "rank": 126
       },
       {
         "player_id": "13333",
@@ -20683,7 +20581,7 @@
         "unavailable": false,
         "projection_percentile": 5,
         "consensus_score": 21.98,
-        "rank": 130
+        "rank": 127
       },
       {
         "player_id": "7496",
@@ -20717,7 +20615,7 @@
         "unavailable": false,
         "projection_percentile": 8.1,
         "consensus_score": 21.94,
-        "rank": 131
+        "rank": 128
       },
       {
         "player_id": "12496",
@@ -20751,7 +20649,7 @@
         "unavailable": false,
         "projection_percentile": 28.1,
         "consensus_score": 20.76,
-        "rank": 132
+        "rank": 129
       },
       {
         "player_id": "5773",
@@ -20785,7 +20683,7 @@
         "unavailable": false,
         "projection_percentile": 8.8,
         "consensus_score": 20.57,
-        "rank": 133
+        "rank": 130
       },
       {
         "player_id": "12542",
@@ -20819,7 +20717,7 @@
         "unavailable": false,
         "projection_percentile": 23.1,
         "consensus_score": 20.51,
-        "rank": 134
+        "rank": 131
       },
       {
         "player_id": "13329",
@@ -20853,7 +20751,7 @@
         "unavailable": false,
         "projection_percentile": 9.4,
         "consensus_score": 19.9,
-        "rank": 135
+        "rank": 132
       },
       {
         "player_id": "13264",
@@ -20887,7 +20785,7 @@
         "unavailable": false,
         "projection_percentile": 25.6,
         "consensus_score": 19.35,
-        "rank": 136
+        "rank": 133
       },
       {
         "player_id": "13541",
@@ -20921,7 +20819,7 @@
         "unavailable": false,
         "projection_percentile": 3.1,
         "consensus_score": 19.29,
-        "rank": 137
+        "rank": 134
       },
       {
         "player_id": "11627",
@@ -20938,7 +20836,7 @@
         "practice_participation": null,
         "depth_chart_position": "SWR",
         "trending_adds_24h": 0,
-        "projected_points": 1.54,
+        "projected_points": 1.55,
         "start_percent": 0.03,
         "rostered_percent": 0.66,
         "usage_opportunities": 2,
@@ -20955,7 +20853,7 @@
         "unavailable": false,
         "projection_percentile": 12.5,
         "consensus_score": 19.11,
-        "rank": 138
+        "rank": 135
       },
       {
         "player_id": "12503",
@@ -20989,7 +20887,7 @@
         "unavailable": false,
         "projection_percentile": 18.1,
         "consensus_score": 18.92,
-        "rank": 139
+        "rank": 136
       },
       {
         "player_id": "12505",
@@ -21023,7 +20921,7 @@
         "unavailable": false,
         "projection_percentile": 18.8,
         "consensus_score": 17.99,
-        "rank": 140
+        "rank": 137
       },
       {
         "player_id": "5938",
@@ -21057,7 +20955,7 @@
         "unavailable": false,
         "projection_percentile": 14.4,
         "consensus_score": 17.95,
-        "rank": 141
+        "rank": 138
       },
       {
         "player_id": "11650",
@@ -21091,7 +20989,7 @@
         "unavailable": false,
         "projection_percentile": 22.5,
         "consensus_score": 17.8,
-        "rank": 142
+        "rank": 139
       },
       {
         "player_id": "5121",
@@ -21125,7 +21023,7 @@
         "unavailable": false,
         "projection_percentile": 0,
         "consensus_score": 17.65,
-        "rank": 143
+        "rank": 140
       },
       {
         "player_id": "11034",
@@ -21159,7 +21057,7 @@
         "unavailable": false,
         "projection_percentile": 21.9,
         "consensus_score": 17.48,
-        "rank": 144
+        "rank": 141
       },
       {
         "player_id": "12718",
@@ -21193,7 +21091,7 @@
         "unavailable": false,
         "projection_percentile": 17.5,
         "consensus_score": 15.61,
-        "rank": 145
+        "rank": 142
       },
       {
         "player_id": "13079",
@@ -21227,7 +21125,7 @@
         "unavailable": false,
         "projection_percentile": 15,
         "consensus_score": 15.36,
-        "rank": 146
+        "rank": 143
       },
       {
         "player_id": "6588",
@@ -21261,7 +21159,7 @@
         "unavailable": false,
         "projection_percentile": 13.8,
         "consensus_score": 14.31,
-        "rank": 147
+        "rank": 144
       },
       {
         "player_id": "7595",
@@ -21295,7 +21193,7 @@
         "unavailable": false,
         "projection_percentile": 5.6,
         "consensus_score": 13.38,
-        "rank": 148
+        "rank": 145
       },
       {
         "player_id": "7562",
@@ -21312,7 +21210,7 @@
         "practice_participation": null,
         "depth_chart_position": "RWR",
         "trending_adds_24h": 0,
-        "projected_points": 0.83,
+        "projected_points": 0.84,
         "start_percent": 0.03,
         "rostered_percent": 0.24,
         "usage_opportunities": 2,
@@ -21327,9 +21225,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 6.9,
-        "consensus_score": 13.05,
-        "rank": 149
+        "projection_percentile": 7.5,
+        "consensus_score": 13.32,
+        "rank": 146
       },
       {
         "player_id": "10225",
@@ -21363,7 +21261,7 @@
         "unavailable": false,
         "projection_percentile": 3.8,
         "consensus_score": 12.77,
-        "rank": 150
+        "rank": 147
       },
       {
         "player_id": "8200",
@@ -21397,7 +21295,7 @@
         "unavailable": false,
         "projection_percentile": 10.6,
         "consensus_score": 11.59,
-        "rank": 151
+        "rank": 148
       },
       {
         "player_id": "13411",
@@ -21431,7 +21329,7 @@
         "unavailable": false,
         "projection_percentile": 1.3,
         "consensus_score": 10.69,
-        "rank": 152
+        "rank": 149
       },
       {
         "player_id": "12641",
@@ -21465,7 +21363,7 @@
         "unavailable": false,
         "projection_percentile": 11.3,
         "consensus_score": 10.61,
-        "rank": 153
+        "rank": 150
       },
       {
         "player_id": "8250",
@@ -21499,7 +21397,7 @@
         "unavailable": false,
         "projection_percentile": 6.3,
         "consensus_score": 10.34,
-        "rank": 154
+        "rank": 151
       },
       {
         "player_id": "8135",
@@ -21531,9 +21429,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 7.5,
-        "consensus_score": 10.09,
-        "rank": 155
+        "projection_percentile": 6.9,
+        "consensus_score": 9.82,
+        "rank": 152
       },
       {
         "player_id": "7596",
@@ -21567,7 +21465,7 @@
         "unavailable": false,
         "projection_percentile": 2.5,
         "consensus_score": 9.56,
-        "rank": 156
+        "rank": 153
       },
       {
         "player_id": "13413",
@@ -21601,7 +21499,7 @@
         "unavailable": false,
         "projection_percentile": 4.4,
         "consensus_score": 8.4,
-        "rank": 157
+        "rank": 154
       },
       {
         "player_id": "7757",
@@ -21635,7 +21533,7 @@
         "unavailable": false,
         "projection_percentile": 1.9,
         "consensus_score": 8.08,
-        "rank": 158
+        "rank": 155
       },
       {
         "player_id": "13491",
@@ -21669,7 +21567,41 @@
         "unavailable": false,
         "projection_percentile": 0.6,
         "consensus_score": 6.21,
-        "rank": 159
+        "rank": 156
+      },
+      {
+        "player_id": "6794",
+        "name": "Justin Jefferson",
+        "team": "MIN",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": "Out",
+        "injury_body_part": "Ankle",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "LWR",
+        "trending_adds_24h": 0,
+        "projected_points": 16.68,
+        "start_percent": 99.43,
+        "rostered_percent": 99.9,
+        "usage_opportunities": 7.5,
+        "usage_percentile": 87.9,
+        "usage_sample_games": 2,
+        "matchup_index": 79.8,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "TB",
+        "game_start": "2026-09-27T20:05Z",
+        "roster_status": "ROSTERED",
+        "fantasy_team": "Krieglach Packers",
+        "health_score": 0,
+        "unavailable": true,
+        "projection_percentile": 96.9,
+        "consensus_score": 0,
+        "rank": 157
       },
       {
         "player_id": "11646",
@@ -21702,6 +21634,74 @@
         "health_score": 0,
         "unavailable": true,
         "projection_percentile": 93.1,
+        "consensus_score": 0,
+        "rank": 158
+      },
+      {
+        "player_id": "2216",
+        "name": "Mike Evans",
+        "team": "SF",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": "Out",
+        "injury_body_part": "Ribs",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "LWR",
+        "trending_adds_24h": 0,
+        "projected_points": 12.58,
+        "start_percent": 43.36,
+        "rostered_percent": 92.33,
+        "usage_opportunities": 5,
+        "usage_percentile": 63.1,
+        "usage_sample_games": 2,
+        "matchup_index": 130.3,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "ARI",
+        "game_start": "2026-09-27T20:05Z",
+        "roster_status": "ROSTERED",
+        "fantasy_team": "FernitzBolts",
+        "health_score": 0,
+        "unavailable": true,
+        "projection_percentile": 84.4,
+        "consensus_score": 0,
+        "rank": 159
+      },
+      {
+        "player_id": "12483",
+        "name": "Jack Bech",
+        "team": "LV",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": "Out",
+        "injury_body_part": "Forearm",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "SWR",
+        "trending_adds_24h": 0,
+        "projected_points": 5.08,
+        "start_percent": 0.07,
+        "rostered_percent": 0.79,
+        "usage_opportunities": 3,
+        "usage_percentile": 42.3,
+        "usage_sample_games": 2,
+        "matchup_index": 110.1,
+        "matchup_rating": 0.51,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "NO",
+        "game_start": "2026-09-27T20:25Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 0,
+        "unavailable": true,
+        "projection_percentile": 43.1,
         "consensus_score": 0,
         "rank": 160
       },
@@ -22061,7 +22061,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 30492,
+        "trending_adds_24h": 30564,
         "projected_points": 11.79,
         "start_percent": 37.99,
         "rostered_percent": 82.13,
@@ -22129,7 +22129,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 15780,
+        "trending_adds_24h": 16495,
         "projected_points": 9.46,
         "start_percent": 53.69,
         "rostered_percent": 88.96,
@@ -22265,7 +22265,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 16460,
+        "trending_adds_24h": 16932,
         "projected_points": 10.28,
         "start_percent": 18.12,
         "rostered_percent": 55.23,
@@ -22299,7 +22299,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 224001,
+        "trending_adds_24h": 235863,
         "projected_points": 8.66,
         "start_percent": 5.09,
         "rostered_percent": 33.5,
@@ -22435,7 +22435,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 44315,
+        "trending_adds_24h": 44365,
         "projected_points": 9.03,
         "start_percent": 6.11,
         "rostered_percent": 15.81,
@@ -22537,7 +22537,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 15696,
+        "trending_adds_24h": 16158,
         "projected_points": 8.46,
         "start_percent": 0.84,
         "rostered_percent": 4.96,
@@ -22571,8 +22571,8 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 599800,
-        "projected_points": 7.7,
+        "trending_adds_24h": 604264,
+        "projected_points": 7.72,
         "start_percent": 11.37,
         "rostered_percent": 34.64,
         "usage_opportunities": 5,
@@ -22639,7 +22639,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 14046,
+        "trending_adds_24h": 14322,
         "projected_points": 7.25,
         "start_percent": 0.71,
         "rostered_percent": 2.91,
@@ -22673,7 +22673,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 12636,
+        "trending_adds_24h": 12978,
         "projected_points": 4.72,
         "start_percent": 2.46,
         "rostered_percent": 15.98,
@@ -22707,7 +22707,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 19584,
+        "trending_adds_24h": 19818,
         "projected_points": 9.16,
         "start_percent": 2.43,
         "rostered_percent": 18.01,
@@ -22945,7 +22945,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 133839,
+        "trending_adds_24h": 135621,
         "projected_points": 7.87,
         "start_percent": 2.89,
         "rostered_percent": 10.44,
@@ -23014,7 +23014,7 @@
         "practice_participation": null,
         "depth_chart_position": "TE",
         "trending_adds_24h": 0,
-        "projected_points": 5.21,
+        "projected_points": 5.23,
         "start_percent": 0.75,
         "rostered_percent": 4.91,
         "usage_opportunities": 3,
@@ -23490,7 +23490,7 @@
         "practice_participation": null,
         "depth_chart_position": "TE",
         "trending_adds_24h": 0,
-        "projected_points": 5.94,
+        "projected_points": 5.96,
         "start_percent": 0.12,
         "rostered_percent": 1,
         "usage_opportunities": 2,
@@ -23523,7 +23523,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 46233,
+        "trending_adds_24h": 46989,
         "projected_points": 2.97,
         "start_percent": 0.14,
         "rostered_percent": 2.63,
@@ -23830,7 +23830,7 @@
         "practice_participation": null,
         "depth_chart_position": "TE",
         "trending_adds_24h": 0,
-        "projected_points": 1.6,
+        "projected_points": 1.61,
         "start_percent": 0.01,
         "rostered_percent": 0.05,
         "usage_opportunities": 4,
@@ -24136,7 +24136,7 @@
         "practice_participation": null,
         "depth_chart_position": "TE",
         "trending_adds_24h": 0,
-        "projected_points": 1.63,
+        "projected_points": 1.64,
         "start_percent": 0.04,
         "rostered_percent": 0.27,
         "usage_opportunities": 2,
@@ -25191,7 +25191,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 16072,
+        "trending_adds_24h": 16136,
         "projected_points": 8.8,
         "start_percent": 58.91,
         "rostered_percent": 64.77,
@@ -25225,7 +25225,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 12624,
+        "trending_adds_24h": 12675,
         "projected_points": 8.4,
         "start_percent": 77.2,
         "rostered_percent": 81.99,
@@ -25259,7 +25259,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 30472,
+        "trending_adds_24h": 30556,
         "projected_points": 8.32,
         "start_percent": 78.87,
         "rostered_percent": 84.61,
@@ -25293,7 +25293,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 21888,
+        "trending_adds_24h": 21948,
         "projected_points": 8.61,
         "start_percent": 48.65,
         "rostered_percent": 54.03,
@@ -25395,7 +25395,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 34585,
+        "trending_adds_24h": 35100,
         "projected_points": 8.91,
         "start_percent": 1.03,
         "rostered_percent": 1.6,
@@ -25531,7 +25531,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 29774,
+        "trending_adds_24h": 30308,
         "projected_points": 8.65,
         "start_percent": 5.63,
         "rostered_percent": 6.45,
@@ -25599,7 +25599,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 13550,
+        "trending_adds_24h": 13580,
         "projected_points": 8.13,
         "start_percent": 10.27,
         "rostered_percent": 12.04,
@@ -25668,7 +25668,7 @@
         "practice_participation": null,
         "depth_chart_position": "K",
         "trending_adds_24h": 0,
-        "projected_points": 7.91,
+        "projected_points": 7.94,
         "start_percent": 4,
         "rostered_percent": 5.32,
         "usage_opportunities": null,
@@ -25735,7 +25735,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 87880,
+        "trending_adds_24h": 88680,
         "projected_points": 7.56,
         "start_percent": 24.06,
         "rostered_percent": 27.48,
@@ -26213,7 +26213,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 64480,
+        "trending_adds_24h": 64650,
         "projected_points": 24.46,
         "start_percent": null,
         "rostered_percent": null,
@@ -26247,7 +26247,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 15412,
+        "trending_adds_24h": 15421,
         "projected_points": 24.24,
         "start_percent": null,
         "rostered_percent": null,
@@ -26281,7 +26281,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 117272,
+        "trending_adds_24h": 117552,
         "projected_points": 23.6,
         "start_percent": null,
         "rostered_percent": null,
@@ -26451,7 +26451,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 17820,
+        "trending_adds_24h": 17922,
         "projected_points": 21.82,
         "start_percent": null,
         "rostered_percent": null,
@@ -26485,7 +26485,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 54280,
+        "trending_adds_24h": 54940,
         "projected_points": 20.38,
         "start_percent": null,
         "rostered_percent": null,
@@ -26587,7 +26587,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 42576,
+        "trending_adds_24h": 43014,
         "projected_points": 18.2,
         "start_percent": null,
         "rostered_percent": null,
@@ -26689,7 +26689,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 36468,
+        "trending_adds_24h": 36594,
         "projected_points": 17.46,
         "start_percent": null,
         "rostered_percent": null,
@@ -26927,7 +26927,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 14688,
+        "trending_adds_24h": 15282,
         "projected_points": 15.42,
         "start_percent": null,
         "rostered_percent": null,
@@ -27200,7 +27200,7 @@
         "practice_participation": null,
         "depth_chart_position": null,
         "trending_adds_24h": 0,
-        "projected_points": 13.44,
+        "projected_points": 13.54,
         "start_percent": null,
         "rostered_percent": null,
         "usage_opportunities": null,
@@ -27328,11 +27328,11 @@
       "matchup_index": 65.3,
       "matchup_rating": -1,
       "matchup_sample_weeks": 2,
-      "actual_points": 6.8,
+      "actual_points": 7.1,
       "week_opponent": "MIN",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:05Z",
-      "projection_updated_at": 1790546460235
+      "projection_updated_at": 1790547659442
     },
     {
       "player_id": "11604",
@@ -27361,11 +27361,11 @@
       "matchup_index": 84.4,
       "matchup_rating": -0.78,
       "matchup_sample_weeks": 2,
-      "actual_points": 15.7,
+      "actual_points": 17.2,
       "week_opponent": "NO",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:25Z",
-      "projection_updated_at": 1790546460366
+      "projection_updated_at": 1790547659484
     },
     {
       "player_id": "11646",
@@ -27398,7 +27398,7 @@
       "week_opponent": "CLE",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790546459931
+      "projection_updated_at": 1790547659185
     },
     {
       "player_id": "12507",
@@ -27431,7 +27431,7 @@
       "week_opponent": "BUF",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790546459801
+      "projection_updated_at": 1790547659081
     },
     {
       "player_id": "12512",
@@ -27464,7 +27464,7 @@
       "week_opponent": "CAR",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790546460018
+      "projection_updated_at": 1790547659293
     },
     {
       "player_id": "12526",
@@ -27497,7 +27497,7 @@
       "week_opponent": "CLE",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790546459925
+      "projection_updated_at": 1790547659181
     },
     {
       "player_id": "12534",
@@ -27530,7 +27530,7 @@
       "week_opponent": "PHI",
       "game_date": "2026-09-28",
       "game_start": "2026-09-29T00:15Z",
-      "projection_updated_at": 1790546460357
+      "projection_updated_at": 1790547659503
     },
     {
       "player_id": "13346",
@@ -27563,7 +27563,7 @@
       "week_opponent": "CAR",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790546460031
+      "projection_updated_at": 1790547659304
     },
     {
       "player_id": "4881",
@@ -27596,7 +27596,7 @@
       "week_opponent": "DAL",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:25Z",
-      "projection_updated_at": 1790546460332
+      "projection_updated_at": 1790547659437
     },
     {
       "player_id": "5001",
@@ -27629,7 +27629,7 @@
       "week_opponent": "IND",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790546459948
+      "projection_updated_at": 1790547659240
     },
     {
       "player_id": "5189",
@@ -27645,7 +27645,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 12624,
+      "trending_adds_24h": 12675,
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 8.4,
@@ -27662,7 +27662,7 @@
       "week_opponent": "ARI",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:05Z",
-      "projection_updated_at": 1790546460284
+      "projection_updated_at": 1790547659452
     },
     {
       "player_id": "7564",
@@ -27695,7 +27695,7 @@
       "week_opponent": "PIT",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790546459924
+      "projection_updated_at": 1790547659167
     },
     {
       "player_id": "7594",
@@ -27728,7 +27728,7 @@
       "week_opponent": "CLE",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790546459923
+      "projection_updated_at": 1790547659180
     },
     {
       "player_id": "9753",
@@ -27794,11 +27794,11 @@
       "week_opponent": "MIA",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790546459693
+      "projection_updated_at": 1790547658965
     }
   ],
   "matchup": {
-    "points": 90.92,
+    "points": 91.22,
     "players": [
       "11584",
       "11604",
@@ -27833,7 +27833,7 @@
     "starters_points": [
       4.52,
       5.6,
-      6.8,
+      7.1,
       24.8,
       3.7,
       6,
@@ -27848,8 +27848,8 @@
       "7564": 24.8,
       "7594": 15,
       "9753": 0,
-      "11584": 6.8,
-      "11604": 15.7,
+      "11584": 7.1,
+      "11604": 17.2,
       "11646": 3.8,
       "12507": 5.6,
       "12512": 9.9,
@@ -27860,7 +27860,7 @@
     }
   },
   "opponent": {
-    "points": 106.54,
+    "points": 113.3,
     "players": [
       "10859",
       "11632",
@@ -27892,7 +27892,7 @@
       "SF"
     ],
     "starters_points": [
-      15.24,
+      21.8,
       1.7,
       6.8,
       22.6,
@@ -27900,12 +27900,12 @@
       7.4,
       17,
       13,
-      15.2
+      15.4
     ],
     "players_points": {
       "2449": 7.3,
       "5892": 6.8,
-      "7543": 3.1,
+      "7543": 7.4,
       "7839": 13,
       "8167": 22.6,
       "9225": 0,
@@ -27914,9 +27914,9 @@
       "10859": 7.4,
       "11632": 7.6,
       "12490": 17,
-      "12545": 15.24,
+      "12545": 21.8,
       "13298": 2.9,
-      "SF": 15.2
+      "SF": 15.4
     }
   },
   "opponent_team": {
