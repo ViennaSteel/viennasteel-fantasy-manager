@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T01:23:22.660Z",
+  "updated_at": "2026-09-27T01:46:43.294Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -46,7 +46,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 24580,
+      "trending_adds_24h": 23680,
       "trending_drops_24h": 0,
       "waiver_score": 92.62
     },
@@ -88,7 +88,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 37228,
+      "trending_adds_24h": 36812,
       "trending_drops_24h": 0,
       "waiver_score": 84.31
     },
@@ -151,7 +151,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 15385,
+      "trending_adds_24h": 15010,
       "trending_drops_24h": 0,
       "waiver_score": 70.49
     },
@@ -172,8 +172,8 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 20457,
-      "trending_drops_24h": 18810,
+      "trending_adds_24h": 19818,
+      "trending_drops_24h": 18459,
       "waiver_score": 68.11
     },
     {
@@ -219,6 +219,27 @@
       "waiver_score": 65.94
     },
     {
+      "player_id": "MIA",
+      "name": "Miami Dolphins",
+      "team": "MIA",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 14.51,
+      "week_opponent": "KC",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 47.61
+    },
+    {
       "player_id": "CLE",
       "name": "Cleveland Browns",
       "team": "CLE",
@@ -257,13 +278,13 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 32700,
+      "trending_drops_24h": 31860,
       "waiver_score": 46.66
     },
     {
-      "player_id": "MIA",
-      "name": "Miami Dolphins",
-      "team": "MIA",
+      "player_id": "LV",
+      "name": "Las Vegas Raiders",
+      "team": "LV",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -272,14 +293,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 13.44,
-      "week_opponent": "KC",
+      "projected_points": 18.2,
+      "week_opponent": "NO",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 46.2
+      "trending_adds_24h": 17946,
+      "trending_drops_24h": 6408,
+      "waiver_score": 37.88
     },
     {
       "player_id": "ATL",
@@ -300,28 +321,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 38.56
-    },
-    {
-      "player_id": "LV",
-      "name": "Las Vegas Raiders",
-      "team": "LV",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 18.2,
-      "week_opponent": "NO",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 18486,
-      "trending_drops_24h": 6534,
-      "waiver_score": 37.88
+      "waiver_score": 37.15
     },
     {
       "player_id": "WAS",
@@ -467,7 +467,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 15848,
+      "trending_drops_24h": 15540,
       "waiver_score": 9.29
     }
   ]
