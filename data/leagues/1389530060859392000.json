@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T19:08:57.629Z",
+  "updated_at": "2026-09-27T19:24:22.591Z",
   "week": 3,
   "available_weeks": [
     1,
@@ -40,7 +40,7 @@
           "practice_participation": null,
           "depth_chart_position": "SWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 55746,
+          "trending_drops_24h": 57375,
           "slot": "BENCH",
           "projected_points": 12.05,
           "projection_basis": "league_scoring",
@@ -72,8 +72,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 16864,
-          "trending_drops_24h": 25896,
+          "trending_adds_24h": 16912,
+          "trending_drops_24h": 26144,
           "slot": "STARTER",
           "projected_points": 8.84,
           "projection_basis": "league_scoring",
@@ -133,9 +133,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -171,8 +171,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "LWR",
-          "trending_adds_24h": 12936,
-          "trending_drops_24h": 19716,
+          "trending_adds_24h": 13144,
+          "trending_drops_24h": 20252,
           "slot": "BENCH",
           "projected_points": 9.66,
           "projection_basis": "league_scoring",
@@ -205,7 +205,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12910,
+          "trending_drops_24h": 14115,
           "slot": "BENCH",
           "projected_points": 10.47,
           "projection_basis": "league_scoring",
@@ -402,8 +402,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 32634,
-          "trending_drops_24h": 0,
+          "trending_adds_24h": 33066,
+          "trending_drops_24h": 13167,
           "slot": "STARTER",
           "projected_points": 10.24,
           "projection_basis": "league_scoring",
@@ -744,9 +744,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -783,7 +783,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 12910,
+          "trending_drops_24h": 14115,
           "slot": "BENCH",
           "projected_points": 8.34,
           "projection_basis": "league_scoring",
@@ -810,8 +810,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -980,8 +980,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 21516,
-          "trending_drops_24h": 17748,
+          "trending_adds_24h": 21846,
+          "trending_drops_24h": 17946,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -1046,8 +1046,8 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
-          "trending_adds_24h": 32634,
-          "trending_drops_24h": 0,
+          "trending_adds_24h": 33066,
+          "trending_drops_24h": 13167,
           "slot": "STARTER",
           "projected_points": 10.47,
           "projection_basis": "league_scoring",
@@ -1179,7 +1179,7 @@
           "practice_participation": null,
           "depth_chart_position": null,
           "trending_adds_24h": 0,
-          "trending_drops_24h": 79485,
+          "trending_drops_24h": 80230,
           "slot": "STARTER",
           "projected_points": 26.14,
           "projection_basis": "league_scoring",
@@ -1375,7 +1375,7 @@
           "week_opponent": "MIN",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:05Z",
-          "projection_updated_at": 1790535659037
+          "projection_updated_at": 1790536858914
         },
         {
           "player_id": "11604",
@@ -1386,9 +1386,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -1408,7 +1408,7 @@
           "week_opponent": "NO",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1790535659127
+          "projection_updated_at": 1790536858997
         },
         {
           "player_id": "11646",
@@ -1419,8 +1419,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -1441,7 +1441,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790535658705
+          "projection_updated_at": 1790536858616
         },
         {
           "player_id": "12507",
@@ -1474,7 +1474,7 @@
           "week_opponent": "BUF",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790535658541
+          "projection_updated_at": 1790536858445
         },
         {
           "player_id": "12512",
@@ -1503,11 +1503,11 @@
           "matchup_index": 173.6,
           "matchup_rating": 1,
           "matchup_sample_weeks": 2,
-          "actual_points": 6.7,
+          "actual_points": 7.2,
           "week_opponent": "CAR",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790535658801
+          "projection_updated_at": 1790536858694
         },
         {
           "player_id": "12526",
@@ -1540,7 +1540,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790535658698
+          "projection_updated_at": 1790536858608
         },
         {
           "player_id": "12534",
@@ -1573,7 +1573,7 @@
           "week_opponent": "PHI",
           "game_date": "2026-09-28",
           "game_start": "2026-09-29T00:15Z",
-          "projection_updated_at": 1790535659185
+          "projection_updated_at": 1790536859014
         },
         {
           "player_id": "13346",
@@ -1606,7 +1606,7 @@
           "week_opponent": "CAR",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790535658816
+          "projection_updated_at": 1790536858708
         },
         {
           "player_id": "4881",
@@ -1639,7 +1639,7 @@
           "week_opponent": "DAL",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1790535659095
+          "projection_updated_at": 1790536858956
         },
         {
           "player_id": "5001",
@@ -1672,7 +1672,7 @@
           "week_opponent": "IND",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790535658754
+          "projection_updated_at": 1790536858633
         },
         {
           "player_id": "5189",
@@ -1688,7 +1688,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 8.4,
@@ -1705,7 +1705,7 @@
           "week_opponent": "ARI",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:05Z",
-          "projection_updated_at": 1790535659118
+          "projection_updated_at": 1790536858912
         },
         {
           "player_id": "7564",
@@ -1738,7 +1738,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790535658678
+          "projection_updated_at": 1790536858587
         },
         {
           "player_id": "7594",
@@ -1767,11 +1767,11 @@
           "matchup_index": 80.8,
           "matchup_rating": -0.96,
           "matchup_sample_weeks": 2,
-          "actual_points": 10.5,
+          "actual_points": 11,
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790535658696
+          "projection_updated_at": 1790536858605
         },
         {
           "player_id": "9753",
@@ -1837,11 +1837,11 @@
           "week_opponent": "MIA",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790535658364
+          "projection_updated_at": 1790536858318
         }
       ],
       "matchup": {
-        "points": 56.1,
+        "points": 56.6,
         "players": [
           "11584",
           "11604",
@@ -1880,7 +1880,7 @@
           19.8,
           3.7,
           1.8,
-          10.5,
+          11,
           0,
           15.5
         ],
@@ -1889,13 +1889,13 @@
           "5001": 1.8,
           "5189": 0,
           "7564": 19.8,
-          "7594": 10.5,
+          "7594": 11,
           "9753": 0,
           "11584": 0,
           "11604": 0,
           "11646": 3.8,
           "12507": 4.8,
-          "12512": 6.7,
+          "12512": 7.2,
           "12526": 3.7,
           "12534": 0,
           "13346": 0,
@@ -1946,7 +1946,7 @@
           0
         ],
         "players_points": {
-          "2449": 1.8,
+          "2449": 3.9,
           "5892": 4.3,
           "7543": 0,
           "7839": 12,
@@ -2028,9 +2028,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -2061,8 +2061,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -2330,7 +2330,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 8.16,
@@ -2672,9 +2672,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -2705,8 +2705,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -2974,7 +2974,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -3318,9 +3318,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -3351,8 +3351,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -3620,7 +3620,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -3960,9 +3960,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -3993,8 +3993,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -4262,7 +4262,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -4602,9 +4602,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -4635,8 +4635,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -4904,7 +4904,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": null,
@@ -5248,9 +5248,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -5281,8 +5281,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -5550,7 +5550,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -5892,9 +5892,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -5925,8 +5925,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -6194,7 +6194,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -6534,9 +6534,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -6567,8 +6567,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -6836,7 +6836,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -7176,9 +7176,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -7209,8 +7209,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -7478,7 +7478,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -7818,9 +7818,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -7851,8 +7851,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -8120,7 +8120,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -8462,9 +8462,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -8495,8 +8495,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -8764,7 +8764,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -9108,9 +9108,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -9141,8 +9141,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -9410,7 +9410,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -9750,9 +9750,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -9783,8 +9783,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -10052,7 +10052,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -10392,9 +10392,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -10425,8 +10425,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -10694,7 +10694,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -11038,9 +11038,9 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee - Meniscus",
-          "injury_notes": "Surgery",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 0,
@@ -11071,8 +11071,8 @@
             "WR"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Quadriceps",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "SWR",
@@ -11340,7 +11340,7 @@
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "K",
-          "trending_adds_24h": 12969,
+          "trending_adds_24h": 13185,
           "trending_drops_24h": 0,
           "slot": "STARTER",
           "projected_points": 7.91,
@@ -12060,7 +12060,7 @@
         "practice_participation": null,
         "depth_chart_position": "QB",
         "trending_adds_24h": 0,
-        "projected_points": 18.39,
+        "projected_points": 18.43,
         "start_percent": 68.22,
         "rostered_percent": 94.13,
         "usage_opportunities": 35.5,
@@ -12093,7 +12093,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 18830,
+        "trending_adds_24h": 19145,
         "projected_points": 19.35,
         "start_percent": 38.21,
         "rostered_percent": 79.53,
@@ -12127,7 +12127,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 52240,
+        "trending_adds_24h": 53504,
         "projected_points": 17.87,
         "start_percent": 47.03,
         "rostered_percent": 81.89,
@@ -12161,7 +12161,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 16792,
+        "trending_adds_24h": 16928,
         "projected_points": 15.53,
         "start_percent": 50,
         "rostered_percent": 76.23,
@@ -12331,7 +12331,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 84904,
+        "trending_adds_24h": 86872,
         "projected_points": 17.05,
         "start_percent": 20.05,
         "rostered_percent": 60.85,
@@ -12399,7 +12399,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 34272,
+        "trending_adds_24h": 34482,
         "projected_points": 14.94,
         "start_percent": 15.81,
         "rostered_percent": 39.32,
@@ -12433,7 +12433,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 135882,
+        "trending_adds_24h": 137214,
         "projected_points": 16.42,
         "start_percent": 10.87,
         "rostered_percent": 33.92,
@@ -12467,7 +12467,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 14106,
+        "trending_adds_24h": 14454,
         "projected_points": 16.08,
         "start_percent": 24.07,
         "rostered_percent": 78.79,
@@ -12501,7 +12501,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 37836,
+        "trending_adds_24h": 38096,
         "projected_points": 15.15,
         "start_percent": 3.53,
         "rostered_percent": 7.1,
@@ -12637,7 +12637,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 17563,
+        "trending_adds_24h": 17675,
         "projected_points": 15.62,
         "start_percent": 2.03,
         "rostered_percent": 14.29,
@@ -12671,7 +12671,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 119104,
+        "trending_adds_24h": 122288,
         "projected_points": 14.25,
         "start_percent": 4.26,
         "rostered_percent": 10.15,
@@ -12773,7 +12773,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 56728,
+        "trending_adds_24h": 57040,
         "projected_points": 12.6,
         "start_percent": 3.87,
         "rostered_percent": 7.74,
@@ -12943,7 +12943,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "QB",
-        "trending_adds_24h": 14428,
+        "trending_adds_24h": 15776,
         "projected_points": 11.8,
         "start_percent": 1.43,
         "rostered_percent": 3.26,
@@ -13014,7 +13014,7 @@
         "practice_participation": null,
         "depth_chart_position": "RB",
         "trending_adds_24h": 0,
-        "projected_points": 18.88,
+        "projected_points": 18.94,
         "start_percent": 99.04,
         "rostered_percent": 99.87,
         "usage_opportunities": 22,
@@ -13097,8 +13097,8 @@
         "fantasy_team": "Laufnitzdorf Colts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 90.7,
-        "consensus_score": 93.87,
+        "projection_percentile": 90.6,
+        "consensus_score": 93.82,
         "rank": 4
       },
       {
@@ -13131,8 +13131,8 @@
         "fantasy_team": "Krieglach City Chiefs",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 87.6,
-        "consensus_score": 93.59,
+        "projection_percentile": 87.5,
+        "consensus_score": 93.55,
         "rank": 5
       },
       {
@@ -13199,8 +13199,8 @@
         "fantasy_team": "Krieglach Packers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 88.7,
-        "consensus_score": 89.43,
+        "projection_percentile": 88.5,
+        "consensus_score": 89.34,
         "rank": 7
       },
       {
@@ -13233,8 +13233,8 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 95.9,
-        "consensus_score": 87.38,
+        "projection_percentile": 95.8,
+        "consensus_score": 87.33,
         "rank": 8
       },
       {
@@ -13267,8 +13267,8 @@
         "fantasy_team": "Vienna Steel",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 79.4,
-        "consensus_score": 87.28,
+        "projection_percentile": 79.2,
+        "consensus_score": 87.19,
         "rank": 9
       },
       {
@@ -13335,8 +13335,8 @@
         "fantasy_team": "Langenwanger Cowboys",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 89.7,
-        "consensus_score": 86.5,
+        "projection_percentile": 89.6,
+        "consensus_score": 86.46,
         "rank": 11
       },
       {
@@ -13403,8 +13403,8 @@
         "fantasy_team": "FernitzBolts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 85.6,
-        "consensus_score": 82.8,
+        "projection_percentile": 85.4,
+        "consensus_score": 82.71,
         "rank": 13
       },
       {
@@ -13437,8 +13437,8 @@
         "fantasy_team": "FernitzBolts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 78.4,
-        "consensus_score": 82,
+        "projection_percentile": 78.1,
+        "consensus_score": 81.86,
         "rank": 14
       },
       {
@@ -13471,8 +13471,8 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 83.5,
-        "consensus_score": 81.84,
+        "projection_percentile": 83.3,
+        "consensus_score": 81.75,
         "rank": 15
       },
       {
@@ -13505,8 +13505,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 80.4,
-        "consensus_score": 80.27,
+        "projection_percentile": 80.2,
+        "consensus_score": 80.18,
         "rank": 16
       },
       {
@@ -13539,8 +13539,8 @@
         "fantasy_team": "Vienna Steel",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 72.2,
-        "consensus_score": 76.36,
+        "projection_percentile": 71.9,
+        "consensus_score": 76.22,
         "rank": 17
       },
       {
@@ -13573,8 +13573,8 @@
         "fantasy_team": "Langenwanger Cowboys",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 86.6,
-        "consensus_score": 75.91,
+        "projection_percentile": 86.5,
+        "consensus_score": 75.87,
         "rank": 18
       },
       {
@@ -13607,8 +13607,8 @@
         "fantasy_team": "Vienna Steel",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 81.4,
-        "consensus_score": 75.02,
+        "projection_percentile": 81.3,
+        "consensus_score": 74.97,
         "rank": 19
       },
       {
@@ -13641,8 +13641,8 @@
         "fantasy_team": "Krieglach Packers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 75.3,
-        "consensus_score": 72.7,
+        "projection_percentile": 75,
+        "consensus_score": 72.56,
         "rank": 20
       },
       {
@@ -13675,8 +13675,8 @@
         "fantasy_team": "Fressnitz Saints",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 92.8,
-        "consensus_score": 71.31,
+        "projection_percentile": 92.7,
+        "consensus_score": 71.26,
         "rank": 21
       },
       {
@@ -13709,8 +13709,8 @@
         "fantasy_team": "Vienna Steel",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 84.5,
-        "consensus_score": 70.56,
+        "projection_percentile": 84.4,
+        "consensus_score": 70.51,
         "rank": 22
       },
       {
@@ -13743,8 +13743,8 @@
         "fantasy_team": "Langenwanger Cowboys",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 74.2,
-        "consensus_score": 65.71,
+        "projection_percentile": 74,
+        "consensus_score": 65.62,
         "rank": 23
       },
       {
@@ -13761,7 +13761,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 20920,
+        "trending_adds_24h": 21040,
         "projected_points": 12.51,
         "start_percent": 20.61,
         "rostered_percent": 85.1,
@@ -13777,8 +13777,8 @@
         "fantasy_team": "Krieglach Packers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 73.2,
-        "consensus_score": 62.32,
+        "projection_percentile": 72.9,
+        "consensus_score": 62.18,
         "rank": 24
       },
       {
@@ -13811,8 +13811,8 @@
         "fantasy_team": "Fressnitz Saints",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 82.5,
-        "consensus_score": 62.15,
+        "projection_percentile": 82.3,
+        "consensus_score": 62.06,
         "rank": 25
       },
       {
@@ -13845,8 +13845,8 @@
         "fantasy_team": "KC Pistols",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 77.3,
-        "consensus_score": 62.03,
+        "projection_percentile": 77.1,
+        "consensus_score": 61.94,
         "rank": 26
       },
       {
@@ -13879,8 +13879,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 76.3,
-        "consensus_score": 61.68,
+        "projection_percentile": 76,
+        "consensus_score": 61.54,
         "rank": 27
       },
       {
@@ -13913,8 +13913,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 70.1,
-        "consensus_score": 61.68,
+        "projection_percentile": 69.8,
+        "consensus_score": 61.54,
         "rank": 28
       },
       {
@@ -13947,8 +13947,8 @@
         "fantasy_team": "Langenwanger Cowboys",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 67,
-        "consensus_score": 58.54,
+        "projection_percentile": 66.7,
+        "consensus_score": 58.4,
         "rank": 29
       },
       {
@@ -13981,8 +13981,8 @@
         "fantasy_team": "Krieglach Packers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 64.9,
-        "consensus_score": 54.83,
+        "projection_percentile": 64.6,
+        "consensus_score": 54.7,
         "rank": 30
       },
       {
@@ -14015,8 +14015,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 58.8,
-        "consensus_score": 51.67,
+        "projection_percentile": 58.3,
+        "consensus_score": 51.45,
         "rank": 31
       },
       {
@@ -14049,8 +14049,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 59.8,
-        "consensus_score": 49.63,
+        "projection_percentile": 59.4,
+        "consensus_score": 49.45,
         "rank": 32
       },
       {
@@ -14067,7 +14067,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 56952,
+        "trending_adds_24h": 59472,
         "projected_points": 9.04,
         "start_percent": 0.44,
         "rostered_percent": 15.6,
@@ -14083,8 +14083,8 @@
         "fantasy_team": "KC Pistols",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 62.9,
-        "consensus_score": 48.04,
+        "projection_percentile": 62.5,
+        "consensus_score": 47.86,
         "rank": 33
       },
       {
@@ -14117,8 +14117,8 @@
         "fantasy_team": "Krieglach City Chiefs",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 69.1,
-        "consensus_score": 46.82,
+        "projection_percentile": 68.8,
+        "consensus_score": 46.69,
         "rank": 34
       },
       {
@@ -14151,8 +14151,8 @@
         "fantasy_team": "Vienna Steel",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 61.9,
-        "consensus_score": 46.09,
+        "projection_percentile": 61.5,
+        "consensus_score": 45.91,
         "rank": 35
       },
       {
@@ -14169,7 +14169,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 12276,
+        "trending_adds_24h": 12456,
         "projected_points": 9.61,
         "start_percent": 5.79,
         "rostered_percent": 71.54,
@@ -14185,8 +14185,8 @@
         "fantasy_team": "Langenwanger Cowboys",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 63.9,
-        "consensus_score": 46.08,
+        "projection_percentile": 63.5,
+        "consensus_score": 45.9,
         "rank": 36
       },
       {
@@ -14203,7 +14203,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 23346,
+        "trending_adds_24h": 23823,
         "projected_points": 10.18,
         "start_percent": 8.61,
         "rostered_percent": 67.86,
@@ -14219,8 +14219,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 66,
-        "consensus_score": 45.25,
+        "projection_percentile": 65.6,
+        "consensus_score": 45.07,
         "rank": 37
       },
       {
@@ -14237,7 +14237,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 131432,
+        "trending_adds_24h": 133400,
         "projected_points": 8.06,
         "start_percent": 6.36,
         "rostered_percent": 52.34,
@@ -14253,8 +14253,8 @@
         "fantasy_team": "Fressnitz Saints",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 60.8,
-        "consensus_score": 45.16,
+        "projection_percentile": 60.4,
+        "consensus_score": 44.98,
         "rank": 38
       },
       {
@@ -14271,7 +14271,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 28412,
+        "trending_adds_24h": 28732,
         "projected_points": 11.5,
         "start_percent": 4.09,
         "rostered_percent": 68.92,
@@ -14287,8 +14287,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 71.1,
-        "consensus_score": 44.62,
+        "projection_percentile": 70.8,
+        "consensus_score": 44.48,
         "rank": 39
       },
       {
@@ -14305,7 +14305,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 85518,
+        "trending_adds_24h": 87156,
         "projected_points": 6.97,
         "start_percent": 0.67,
         "rostered_percent": 13.89,
@@ -14321,8 +14321,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 53.6,
-        "consensus_score": 44.15,
+        "projection_percentile": 53.1,
+        "consensus_score": 43.93,
         "rank": 40
       },
       {
@@ -14339,7 +14339,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 27448,
+        "trending_adds_24h": 27760,
         "projected_points": 7.2,
         "start_percent": 0.11,
         "rostered_percent": 0.56,
@@ -14355,43 +14355,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 56.7,
-        "consensus_score": 43.68,
+        "projection_percentile": 56.3,
+        "consensus_score": 43.5,
         "rank": 41
-      },
-      {
-        "player_id": "11570",
-        "name": "Rasheen Ali",
-        "team": "BAL",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 0,
-        "projected_points": 6.51,
-        "start_percent": 0.01,
-        "rostered_percent": 0.16,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 119.1,
-        "matchup_rating": 0.95,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "DAL",
-        "game_start": "2026-09-27T20:25Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 49.5,
-        "consensus_score": 43.56,
-        "rank": 42
       },
       {
         "player_id": "4147",
@@ -14423,8 +14389,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 52.6,
-        "consensus_score": 43.52,
+        "projection_percentile": 52.1,
+        "consensus_score": 43.3,
+        "rank": 42
+      },
+      {
+        "player_id": "11570",
+        "name": "Rasheen Ali",
+        "team": "BAL",
+        "position": "RB",
+        "fantasy_positions": [
+          "RB"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RB",
+        "trending_adds_24h": 0,
+        "projected_points": 6.51,
+        "start_percent": 0.01,
+        "rostered_percent": 0.16,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 119.1,
+        "matchup_rating": 0.95,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "DAL",
+        "game_start": "2026-09-27T20:25Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 49,
+        "consensus_score": 43.3,
         "rank": 43
       },
       {
@@ -14441,7 +14441,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 14950,
+        "trending_adds_24h": 15195,
         "projected_points": 7.13,
         "start_percent": 1.22,
         "rostered_percent": 32.95,
@@ -14457,8 +14457,8 @@
         "fantasy_team": "Laufnitzdorf Colts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 55.7,
-        "consensus_score": 43.04,
+        "projection_percentile": 55.2,
+        "consensus_score": 42.82,
         "rank": 44
       },
       {
@@ -14475,7 +14475,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 29256,
+        "trending_adds_24h": 29856,
         "projected_points": 11.14,
         "start_percent": 5.6,
         "rostered_percent": 72.44,
@@ -14491,8 +14491,8 @@
         "fantasy_team": "KC Pistols",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 68,
-        "consensus_score": 42.94,
+        "projection_percentile": 67.7,
+        "consensus_score": 42.81,
         "rank": 45
       },
       {
@@ -14509,7 +14509,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 17969,
+        "trending_adds_24h": 18284,
         "projected_points": 6.48,
         "start_percent": 0.71,
         "rostered_percent": 23,
@@ -14525,8 +14525,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 48.5,
-        "consensus_score": 42.88,
+        "projection_percentile": 47.9,
+        "consensus_score": 42.61,
         "rank": 46
       },
       {
@@ -14543,7 +14543,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 223452,
+        "trending_adds_24h": 223947,
         "projected_points": 6.33,
         "start_percent": 1.55,
         "rostered_percent": 23.53,
@@ -14559,8 +14559,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 45.4,
-        "consensus_score": 42.58,
+        "projection_percentile": 44.8,
+        "consensus_score": 42.31,
         "rank": 47
       },
       {
@@ -14577,7 +14577,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 25544,
+        "trending_adds_24h": 27976,
         "projected_points": 6.45,
         "start_percent": 0.64,
         "rostered_percent": 13.99,
@@ -14593,43 +14593,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 47.4,
-        "consensus_score": 41.37,
+        "projection_percentile": 46.9,
+        "consensus_score": 41.14,
         "rank": 48
-      },
-      {
-        "player_id": "8136",
-        "name": "Rachaad White",
-        "team": "WAS",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 13374,
-        "projected_points": 7.43,
-        "start_percent": 4.9,
-        "rostered_percent": 67.51,
-        "usage_opportunities": 11,
-        "usage_percentile": 54.9,
-        "usage_sample_games": 2,
-        "matchup_index": 77.2,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "SEA",
-        "game_start": "2026-09-27T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 57.7,
-        "consensus_score": 40.42,
-        "rank": 49
       },
       {
         "player_id": "8154",
@@ -14645,7 +14611,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 20058,
+        "trending_adds_24h": 20454,
         "projected_points": 5.78,
         "start_percent": 0.94,
         "rostered_percent": 21.61,
@@ -14661,9 +14627,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 42.3,
-        "consensus_score": 39.64,
-        "rank": 50
+        "projection_percentile": 41.7,
+        "consensus_score": 39.37,
+        "rank": 49
       },
       {
         "player_id": "11577",
@@ -14695,9 +14661,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 44.3,
-        "consensus_score": 39.35,
-        "rank": 51
+        "projection_percentile": 43.8,
+        "consensus_score": 39.12,
+        "rank": 50
       },
       {
         "player_id": "11435",
@@ -14713,7 +14679,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 62514,
+        "trending_adds_24h": 62703,
         "projected_points": 6.6,
         "start_percent": 5.05,
         "rostered_percent": 34.66,
@@ -14729,8 +14695,42 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 50.5,
-        "consensus_score": 38.05,
+        "projection_percentile": 50,
+        "consensus_score": 37.82,
+        "rank": 51
+      },
+      {
+        "player_id": "8136",
+        "name": "Rachaad White",
+        "team": "WAS",
+        "position": "RB",
+        "fantasy_positions": [
+          "RB"
+        ],
+        "status": "Active",
+        "injury_status": "Questionable",
+        "injury_body_part": "Shoulder",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RB",
+        "trending_adds_24h": 13482,
+        "projected_points": 7.43,
+        "start_percent": 4.9,
+        "rostered_percent": 67.51,
+        "usage_opportunities": 11,
+        "usage_percentile": 54.9,
+        "usage_sample_games": 2,
+        "matchup_index": 77.2,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "SEA",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 30,
+        "unavailable": false,
+        "projection_percentile": 57.3,
+        "consensus_score": 36.74,
         "rank": 52
       },
       {
@@ -14763,8 +14763,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 36.1,
-        "consensus_score": 36.77,
+        "projection_percentile": 35.4,
+        "consensus_score": 36.4,
         "rank": 53
       },
       {
@@ -14797,8 +14797,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 34,
-        "consensus_score": 35.34,
+        "projection_percentile": 33.3,
+        "consensus_score": 35.03,
         "rank": 54
       },
       {
@@ -14831,8 +14831,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 51.5,
-        "consensus_score": 34.84,
+        "projection_percentile": 51,
+        "consensus_score": 34.62,
         "rank": 55
       },
       {
@@ -14849,7 +14849,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 17160,
+        "trending_adds_24h": 17865,
         "projected_points": 5.1,
         "start_percent": 0.24,
         "rostered_percent": 6.04,
@@ -14865,8 +14865,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 37.1,
-        "consensus_score": 31.88,
+        "projection_percentile": 36.5,
+        "consensus_score": 31.61,
         "rank": 56
       },
       {
@@ -14883,7 +14883,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 23611,
+        "trending_adds_24h": 23898,
         "projected_points": 5.49,
         "start_percent": 1.57,
         "rostered_percent": 43.94,
@@ -14899,8 +14899,8 @@
         "fantasy_team": "Laufnitzdorf Colts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 39.2,
-        "consensus_score": 30.94,
+        "projection_percentile": 38.5,
+        "consensus_score": 30.62,
         "rank": 57
       },
       {
@@ -14933,8 +14933,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 24.7,
-        "consensus_score": 30.74,
+        "projection_percentile": 24,
+        "consensus_score": 30.36,
         "rank": 58
       },
       {
@@ -14967,8 +14967,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 54.6,
-        "consensus_score": 29.79,
+        "projection_percentile": 54.2,
+        "consensus_score": 29.61,
         "rank": 59
       },
       {
@@ -15001,43 +15001,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 41.2,
-        "consensus_score": 29.7,
+        "projection_percentile": 40.6,
+        "consensus_score": 29.43,
         "rank": 60
-      },
-      {
-        "player_id": "11647",
-        "name": "Kimani Vidal",
-        "team": "LAC",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 0,
-        "projected_points": 2.94,
-        "start_percent": 0.05,
-        "rostered_percent": 1.69,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 143.9,
-        "matchup_rating": 1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "BUF",
-        "game_start": "2026-09-27T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 22.7,
-        "consensus_score": 29.68,
-        "rank": 61
       },
       {
         "player_id": "12504",
@@ -15069,8 +15035,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 38.1,
-        "consensus_score": 29.65,
+        "projection_percentile": 37.5,
+        "consensus_score": 29.38,
+        "rank": 61
+      },
+      {
+        "player_id": "11647",
+        "name": "Kimani Vidal",
+        "team": "LAC",
+        "position": "RB",
+        "fantasy_positions": [
+          "RB"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RB",
+        "trending_adds_24h": 0,
+        "projected_points": 2.94,
+        "start_percent": 0.05,
+        "rostered_percent": 1.69,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 143.9,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "BUF",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 21.9,
+        "consensus_score": 29.26,
         "rank": 62
       },
       {
@@ -15087,7 +15087,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 101136,
+        "trending_adds_24h": 101280,
         "projected_points": 6.34,
         "start_percent": 0.03,
         "rostered_percent": 0.09,
@@ -15103,43 +15103,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 46.4,
-        "consensus_score": 29.2,
+        "projection_percentile": 45.8,
+        "consensus_score": 28.93,
         "rank": 63
-      },
-      {
-        "player_id": "2359",
-        "name": "Ameer Abdullah",
-        "team": "JAX",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 0,
-        "projected_points": 6.15,
-        "start_percent": 0.03,
-        "rostered_percent": 0.11,
-        "usage_opportunities": 4.5,
-        "usage_percentile": 29.7,
-        "usage_sample_games": 2,
-        "matchup_index": 78.2,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "NE",
-        "game_start": "2026-09-27T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 43.3,
-        "consensus_score": 28.95,
-        "rank": 64
       },
       {
         "player_id": "13315",
@@ -15173,6 +15139,40 @@
         "unavailable": false,
         "projection_percentile": 5.2,
         "consensus_score": 28.9,
+        "rank": 64
+      },
+      {
+        "player_id": "2359",
+        "name": "Ameer Abdullah",
+        "team": "JAX",
+        "position": "RB",
+        "fantasy_positions": [
+          "RB"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RB",
+        "trending_adds_24h": 0,
+        "projected_points": 6.15,
+        "start_percent": 0.03,
+        "rostered_percent": 0.11,
+        "usage_opportunities": 4.5,
+        "usage_percentile": 29.7,
+        "usage_sample_games": 2,
+        "matchup_index": 78.2,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "NE",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 42.7,
+        "consensus_score": 28.68,
         "rank": 65
       },
       {
@@ -15205,9 +15205,43 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 21.6,
-        "consensus_score": 28.69,
+        "projection_percentile": 20.8,
+        "consensus_score": 28.33,
         "rank": 66
+      },
+      {
+        "player_id": "11199",
+        "name": "Emari Demercado",
+        "team": "DAL",
+        "position": "RB",
+        "fantasy_positions": [
+          "RB"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RB",
+        "trending_adds_24h": 0,
+        "projected_points": 3.92,
+        "start_percent": 0.12,
+        "rostered_percent": 1.32,
+        "usage_opportunities": 2.5,
+        "usage_percentile": 18.7,
+        "usage_sample_games": 2,
+        "matchup_index": 97.1,
+        "matchup_rating": -0.15,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "BAL",
+        "game_start": "2026-09-27T20:25Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 32.3,
+        "consensus_score": 26.62,
+        "rank": 67
       },
       {
         "player_id": "12543",
@@ -15239,9 +15273,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 17.5,
-        "consensus_score": 26.92,
-        "rank": 67
+        "projection_percentile": 16.7,
+        "consensus_score": 26.49,
+        "rank": 68
       },
       {
         "player_id": "10219",
@@ -15273,42 +15307,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 35.1,
-        "consensus_score": 26.67,
-        "rank": 68
-      },
-      {
-        "player_id": "11199",
-        "name": "Emari Demercado",
-        "team": "DAL",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 0,
-        "projected_points": 3.86,
-        "start_percent": 0.12,
-        "rostered_percent": 1.32,
-        "usage_opportunities": 2.5,
-        "usage_percentile": 18.7,
-        "usage_sample_games": 2,
-        "matchup_index": 97.1,
-        "matchup_rating": -0.15,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "BAL",
-        "game_start": "2026-09-27T20:25Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 32,
-        "consensus_score": 26.49,
+        "projection_percentile": 34.4,
+        "consensus_score": 26.35,
         "rank": 69
       },
       {
@@ -15341,8 +15341,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 27.8,
-        "consensus_score": 25.02,
+        "projection_percentile": 27.1,
+        "consensus_score": 24.7,
         "rank": 70
       },
       {
@@ -15375,43 +15375,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 33,
-        "consensus_score": 24.81,
+        "projection_percentile": 31.3,
+        "consensus_score": 24.05,
         "rank": 71
-      },
-      {
-        "player_id": "12495",
-        "name": "Ollie Gordon",
-        "team": "MIA",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 230223,
-        "projected_points": 3.52,
-        "start_percent": 0.06,
-        "rostered_percent": 1.07,
-        "usage_opportunities": 3,
-        "usage_percentile": 19.8,
-        "usage_sample_games": 1,
-        "matchup_index": 97.8,
-        "matchup_rating": -0.11,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "KC",
-        "game_start": "2026-09-27T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 26.8,
-        "consensus_score": 24.5,
-        "rank": 72
       },
       {
         "player_id": "12544",
@@ -15443,8 +15409,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 40.2,
-        "consensus_score": 23.76,
+        "projection_percentile": 39.6,
+        "consensus_score": 23.49,
+        "rank": 72
+      },
+      {
+        "player_id": "8254",
+        "name": "Julius Chestnut",
+        "team": "TEN",
+        "position": "RB",
+        "fantasy_positions": [
+          "RB"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RB",
+        "trending_adds_24h": 0,
+        "projected_points": 1.06,
+        "start_percent": 0.01,
+        "rostered_percent": 0.04,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 121.5,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "NYG",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 9.4,
+        "consensus_score": 22.63,
         "rank": 73
       },
       {
@@ -15477,8 +15477,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 13.4,
-        "consensus_score": 23.01,
+        "projection_percentile": 12.5,
+        "consensus_score": 22.61,
         "rank": 74
       },
       {
@@ -15511,14 +15511,14 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 15.5,
-        "consensus_score": 22.86,
+        "projection_percentile": 14.6,
+        "consensus_score": 22.38,
         "rank": 75
       },
       {
-        "player_id": "8254",
-        "name": "Julius Chestnut",
-        "team": "TEN",
+        "player_id": "13347",
+        "name": "Demond Claiborne",
+        "team": "MIN",
         "position": "RB",
         "fantasy_positions": [
           "RB"
@@ -15530,23 +15530,23 @@
         "practice_participation": null,
         "depth_chart_position": "RB",
         "trending_adds_24h": 0,
-        "projected_points": 1.06,
-        "start_percent": 0.01,
-        "rostered_percent": 0.04,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 121.5,
-        "matchup_rating": 1,
+        "projected_points": 3.7,
+        "start_percent": 0.04,
+        "rostered_percent": 1.2,
+        "usage_opportunities": 1,
+        "usage_percentile": 3.3,
+        "usage_sample_games": 1,
+        "matchup_index": 93.2,
+        "matchup_rating": -0.34,
         "matchup_sample_weeks": 2,
-        "week_opponent": "NYG",
-        "game_start": "2026-09-27T17:00Z",
+        "week_opponent": "TB",
+        "game_start": "2026-09-27T20:05Z",
         "roster_status": "WAIVER",
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 9.3,
-        "consensus_score": 22.57,
+        "projection_percentile": 29.2,
+        "consensus_score": 21.95,
         "rank": 76
       },
       {
@@ -15579,43 +15579,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 30.9,
-        "consensus_score": 22.28,
+        "projection_percentile": 30.2,
+        "consensus_score": 21.91,
         "rank": 77
-      },
-      {
-        "player_id": "13347",
-        "name": "Demond Claiborne",
-        "team": "MIN",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 0,
-        "projected_points": 3.7,
-        "start_percent": 0.04,
-        "rostered_percent": 1.2,
-        "usage_opportunities": 1,
-        "usage_percentile": 3.3,
-        "usage_sample_games": 1,
-        "matchup_index": 93.2,
-        "matchup_rating": -0.34,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "TB",
-        "game_start": "2026-09-27T20:05Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 29.9,
-        "consensus_score": 22.26,
-        "rank": 78
       },
       {
         "player_id": "6828",
@@ -15631,7 +15597,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RB",
-        "trending_adds_24h": 80240,
+        "trending_adds_24h": 80312,
         "projected_points": 3.62,
         "start_percent": 0.21,
         "rostered_percent": 1.43,
@@ -15647,9 +15613,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 28.9,
-        "consensus_score": 21.72,
-        "rank": 79
+        "projection_percentile": 28.1,
+        "consensus_score": 21.36,
+        "rank": 78
       },
       {
         "player_id": "9510",
@@ -15681,8 +15647,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 25.8,
-        "consensus_score": 21.31,
+        "projection_percentile": 25,
+        "consensus_score": 20.88,
+        "rank": 79
+      },
+      {
+        "player_id": "12495",
+        "name": "Ollie Gordon",
+        "team": "MIA",
+        "position": "RB",
+        "fantasy_positions": [
+          "RB"
+        ],
+        "status": "Active",
+        "injury_status": "Questionable",
+        "injury_body_part": "Undisclosed",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RB",
+        "trending_adds_24h": 265041,
+        "projected_points": 3.52,
+        "start_percent": 0.06,
+        "rostered_percent": 1.07,
+        "usage_opportunities": 3,
+        "usage_percentile": 19.8,
+        "usage_sample_games": 1,
+        "matchup_index": 97.8,
+        "matchup_rating": -0.11,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "KC",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 30,
+        "unavailable": false,
+        "projection_percentile": 26,
+        "consensus_score": 20.64,
         "rank": 80
       },
       {
@@ -15715,43 +15715,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 23.7,
-        "consensus_score": 19.47,
+        "projection_percentile": 22.9,
+        "consensus_score": 19.11,
         "rank": 81
-      },
-      {
-        "player_id": "13405",
-        "name": "Kaytron Allen",
-        "team": "WAS",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 0,
-        "projected_points": 2.93,
-        "start_percent": 0.02,
-        "rostered_percent": 0.72,
-        "usage_opportunities": 4.5,
-        "usage_percentile": 28.6,
-        "usage_sample_games": 2,
-        "matchup_index": 77.2,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "SEA",
-        "game_start": "2026-09-27T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 20.6,
-        "consensus_score": 18.57,
-        "rank": 82
       },
       {
         "player_id": "8181",
@@ -15783,8 +15749,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 7.2,
-        "consensus_score": 18.24,
+        "projection_percentile": 7.3,
+        "consensus_score": 18.29,
+        "rank": 82
+      },
+      {
+        "player_id": "13405",
+        "name": "Kaytron Allen",
+        "team": "WAS",
+        "position": "RB",
+        "fantasy_positions": [
+          "RB"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RB",
+        "trending_adds_24h": 0,
+        "projected_points": 2.93,
+        "start_percent": 0.02,
+        "rostered_percent": 0.72,
+        "usage_opportunities": 4.5,
+        "usage_percentile": 28.6,
+        "usage_sample_games": 2,
+        "matchup_index": 77.2,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "SEA",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 19.8,
+        "consensus_score": 18.2,
         "rank": 83
       },
       {
@@ -15822,40 +15822,6 @@
         "rank": 84
       },
       {
-        "player_id": "8207",
-        "name": "Tyler Goodson",
-        "team": "DAL",
-        "position": "RB",
-        "fantasy_positions": [
-          "RB"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RB",
-        "trending_adds_24h": 0,
-        "projected_points": 1.35,
-        "start_percent": 0,
-        "rostered_percent": 0.03,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 97.1,
-        "matchup_rating": -0.15,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "BAL",
-        "game_start": "2026-09-27T20:25Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 10.3,
-        "consensus_score": 16.34,
-        "rank": 85
-      },
-      {
         "player_id": "9506",
         "name": "Sean Tucker",
         "team": "TB",
@@ -15885,9 +15851,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 19.6,
-        "consensus_score": 16.26,
-        "rank": 86
+        "projection_percentile": 18.8,
+        "consensus_score": 15.84,
+        "rank": 85
       },
       {
         "player_id": "12467",
@@ -15919,9 +15885,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 16.5,
-        "consensus_score": 16.07,
-        "rank": 87
+        "projection_percentile": 15.6,
+        "consensus_score": 15.66,
+        "rank": 86
       },
       {
         "player_id": "9757",
@@ -15953,9 +15919,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 4.1,
-        "consensus_score": 14.43,
-        "rank": 88
+        "projection_percentile": 4.2,
+        "consensus_score": 14.47,
+        "rank": 87
       },
       {
         "player_id": "13424",
@@ -15987,9 +15953,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 18.6,
-        "consensus_score": 14.39,
-        "rank": 89
+        "projection_percentile": 17.7,
+        "consensus_score": 13.98,
+        "rank": 88
       },
       {
         "player_id": "11729",
@@ -16021,9 +15987,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 14.4,
-        "consensus_score": 14.14,
-        "rank": 90
+        "projection_percentile": 13.5,
+        "consensus_score": 13.73,
+        "rank": 89
       },
       {
         "player_id": "13277",
@@ -16055,9 +16021,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 12.4,
-        "consensus_score": 13.06,
-        "rank": 91
+        "projection_percentile": 11.5,
+        "consensus_score": 12.65,
+        "rank": 90
       },
       {
         "player_id": "12491",
@@ -16089,9 +16055,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 6.2,
-        "consensus_score": 12.54,
-        "rank": 92
+        "projection_percentile": 6.3,
+        "consensus_score": 12.59,
+        "rank": 91
       },
       {
         "player_id": "11237",
@@ -16123,9 +16089,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 11.3,
-        "consensus_score": 11.88,
-        "rank": 93
+        "projection_percentile": 10.4,
+        "consensus_score": 11.41,
+        "rank": 92
       },
       {
         "player_id": "13516",
@@ -16159,7 +16125,7 @@
         "unavailable": false,
         "projection_percentile": 0,
         "consensus_score": 9.77,
-        "rank": 94
+        "rank": 93
       },
       {
         "player_id": "10235",
@@ -16193,7 +16159,7 @@
         "unavailable": false,
         "projection_percentile": 3.1,
         "consensus_score": 9.59,
-        "rank": 95
+        "rank": 94
       },
       {
         "player_id": "7204",
@@ -16227,7 +16193,7 @@
         "unavailable": false,
         "projection_percentile": 2.1,
         "consensus_score": 9.54,
-        "rank": 96
+        "rank": 95
       },
       {
         "player_id": "9226",
@@ -16259,9 +16225,9 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 0,
         "unavailable": true,
-        "projection_percentile": 91.8,
+        "projection_percentile": 91.7,
         "consensus_score": 0,
-        "rank": 97
+        "rank": 96
       },
       {
         "player_id": "11651",
@@ -16293,9 +16259,9 @@
         "fantasy_team": null,
         "health_score": 0,
         "unavailable": true,
-        "projection_percentile": 8.2,
+        "projection_percentile": 8.3,
         "consensus_score": 0,
-        "rank": 98
+        "rank": 97
       }
     ],
     "WR": [
@@ -16635,8 +16601,8 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 87,
-        "consensus_score": 86.38,
+        "projection_percentile": 86.9,
+        "consensus_score": 86.33,
         "rank": 10
       },
       {
@@ -16703,8 +16669,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 88.2,
-        "consensus_score": 85.54,
+        "projection_percentile": 88.1,
+        "consensus_score": 85.49,
         "rank": 12
       },
       {
@@ -16742,40 +16708,6 @@
         "rank": 13
       },
       {
-        "player_id": "11646",
-        "name": "Jalen Coker",
-        "team": "CAR",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "SWR",
-        "trending_adds_24h": 0,
-        "projected_points": 14.69,
-        "start_percent": 56.34,
-        "rostered_percent": 88.67,
-        "usage_opportunities": 9,
-        "usage_percentile": 95.3,
-        "usage_sample_games": 2,
-        "matchup_index": 125.3,
-        "matchup_rating": 1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "CLE",
-        "game_start": "2026-09-27T17:00Z",
-        "roster_status": "BENCH",
-        "fantasy_team": "Vienna Steel",
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 93.2,
-        "consensus_score": 85.32,
-        "rank": 14
-      },
-      {
         "player_id": "8167",
         "name": "Christian Watson",
         "team": "GB",
@@ -16807,7 +16739,7 @@
         "unavailable": false,
         "projection_percentile": 95,
         "consensus_score": 84.03,
-        "rank": 15
+        "rank": 14
       },
       {
         "player_id": "9487",
@@ -16839,9 +16771,9 @@
         "fantasy_team": "Krieglach Packers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 95.7,
-        "consensus_score": 82.49,
-        "rank": 16
+        "projection_percentile": 95.6,
+        "consensus_score": 82.45,
+        "rank": 15
       },
       {
         "player_id": "2133",
@@ -16875,6 +16807,40 @@
         "unavailable": false,
         "projection_percentile": 91.9,
         "consensus_score": 82.31,
+        "rank": 16
+      },
+      {
+        "player_id": "11646",
+        "name": "Jalen Coker",
+        "team": "CAR",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": "Questionable",
+        "injury_body_part": "Quadriceps",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "SWR",
+        "trending_adds_24h": 0,
+        "projected_points": 14.69,
+        "start_percent": 56.34,
+        "rostered_percent": 88.67,
+        "usage_opportunities": 9,
+        "usage_percentile": 95.3,
+        "usage_sample_games": 2,
+        "matchup_index": 125.3,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "CLE",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "BENCH",
+        "fantasy_team": "Vienna Steel",
+        "health_score": 30,
+        "unavailable": false,
+        "projection_percentile": 93.1,
+        "consensus_score": 81.78,
         "rank": 17
       },
       {
@@ -16941,8 +16907,8 @@
         "fantasy_team": "Fressnitz Saints",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 85.7,
-        "consensus_score": 77.65,
+        "projection_percentile": 85.6,
+        "consensus_score": 77.61,
         "rank": 19
       },
       {
@@ -16975,8 +16941,8 @@
         "fantasy_team": "KC Pistols",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 72.7,
-        "consensus_score": 77.22,
+        "projection_percentile": 72.5,
+        "consensus_score": 77.13,
         "rank": 20
       },
       {
@@ -17009,8 +16975,8 @@
         "fantasy_team": "Laufnitzdorf Colts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 87.6,
-        "consensus_score": 75.66,
+        "projection_percentile": 87.5,
+        "consensus_score": 75.61,
         "rank": 21
       },
       {
@@ -17043,9 +17009,43 @@
         "fantasy_team": "FernitzBolts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 84.5,
-        "consensus_score": 73.25,
+        "projection_percentile": 84.4,
+        "consensus_score": 73.2,
         "rank": 22
+      },
+      {
+        "player_id": "9997",
+        "name": "Zay Flowers",
+        "team": "BAL",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "SWR",
+        "trending_adds_24h": 0,
+        "projected_points": 14.04,
+        "start_percent": 46.9,
+        "rostered_percent": 98.46,
+        "usage_opportunities": 6,
+        "usage_percentile": 75.8,
+        "usage_sample_games": 1,
+        "matchup_index": 96.6,
+        "matchup_rating": -0.17,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "DAL",
+        "game_start": "2026-09-27T20:25Z",
+        "roster_status": "ROSTERED",
+        "fantasy_team": "Krieglach City Chiefs",
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 90,
+        "consensus_score": 72.75,
+        "rank": 23
       },
       {
         "player_id": "4983",
@@ -17077,9 +17077,9 @@
         "fantasy_team": "Krieglach City Chiefs",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 83.2,
-        "consensus_score": 72.73,
-        "rank": 23
+        "projection_percentile": 83.1,
+        "consensus_score": 72.69,
+        "rank": 24
       },
       {
         "player_id": "10229",
@@ -17111,9 +17111,9 @@
         "fantasy_team": "Fressnitz Saints",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 82.6,
-        "consensus_score": 71.68,
-        "rank": 24
+        "projection_percentile": 82.5,
+        "consensus_score": 71.63,
+        "rank": 25
       },
       {
         "player_id": "12501",
@@ -17129,7 +17129,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 29946,
+        "trending_adds_24h": 30940,
         "projected_points": 13.82,
         "start_percent": 29.07,
         "rostered_percent": 84.33,
@@ -17147,40 +17147,6 @@
         "unavailable": false,
         "projection_percentile": 89.4,
         "consensus_score": 70.64,
-        "rank": 25
-      },
-      {
-        "player_id": "9997",
-        "name": "Zay Flowers",
-        "team": "BAL",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": "Questionable",
-        "injury_body_part": "Hamstring",
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "SWR",
-        "trending_adds_24h": 0,
-        "projected_points": 14.04,
-        "start_percent": 46.9,
-        "rostered_percent": 98.46,
-        "usage_opportunities": 6,
-        "usage_percentile": 75.8,
-        "usage_sample_games": 1,
-        "matchup_index": 96.6,
-        "matchup_rating": -0.17,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "DAL",
-        "game_start": "2026-09-27T20:25Z",
-        "roster_status": "ROSTERED",
-        "fantasy_team": "Krieglach City Chiefs",
-        "health_score": 30,
-        "unavailable": false,
-        "projection_percentile": 90.1,
-        "consensus_score": 69.29,
         "rank": 26
       },
       {
@@ -17197,7 +17163,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 22085,
+        "trending_adds_24h": 22270,
         "projected_points": 11.15,
         "start_percent": 25.83,
         "rostered_percent": 76.95,
@@ -17213,8 +17179,8 @@
         "fantasy_team": "Laufnitzdorf Colts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 79.5,
-        "consensus_score": 69.11,
+        "projection_percentile": 79.4,
+        "consensus_score": 69.07,
         "rank": 27
       },
       {
@@ -17247,8 +17213,8 @@
         "fantasy_team": "Langenwanger Cowboys",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 90.7,
-        "consensus_score": 67.43,
+        "projection_percentile": 90.6,
+        "consensus_score": 67.38,
         "rank": 28
       },
       {
@@ -17281,8 +17247,8 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 85.1,
-        "consensus_score": 65.71,
+        "projection_percentile": 85,
+        "consensus_score": 65.67,
         "rank": 29
       },
       {
@@ -17315,8 +17281,8 @@
         "fantasy_team": "Krieglach City Chiefs",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 80.1,
-        "consensus_score": 62.7,
+        "projection_percentile": 80,
+        "consensus_score": 62.66,
         "rank": 30
       },
       {
@@ -17333,7 +17299,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 59940,
+        "trending_adds_24h": 60030,
         "projected_points": 10.05,
         "start_percent": 10.79,
         "rostered_percent": 67.33,
@@ -17349,8 +17315,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 74.5,
-        "consensus_score": 62.4,
+        "projection_percentile": 74.4,
+        "consensus_score": 62.35,
         "rank": 31
       },
       {
@@ -17383,8 +17349,8 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 69.6,
-        "consensus_score": 62.35,
+        "projection_percentile": 69.4,
+        "consensus_score": 62.26,
         "rank": 32
       },
       {
@@ -17401,7 +17367,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 194706,
+        "trending_adds_24h": 195120,
         "projected_points": 12.44,
         "start_percent": 1,
         "rostered_percent": 1.65,
@@ -17417,8 +17383,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 83.9,
-        "consensus_score": 61.26,
+        "projection_percentile": 83.8,
+        "consensus_score": 61.21,
         "rank": 33
       },
       {
@@ -17451,8 +17417,8 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 77,
-        "consensus_score": 61.25,
+        "projection_percentile": 76.9,
+        "consensus_score": 61.2,
         "rank": 34
       },
       {
@@ -17485,8 +17451,8 @@
         "fantasy_team": "Vienna Steel",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 75.2,
-        "consensus_score": 60.78,
+        "projection_percentile": 75,
+        "consensus_score": 60.69,
         "rank": 35
       },
       {
@@ -17503,7 +17469,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 29848,
+        "trending_adds_24h": 30282,
         "projected_points": 10.82,
         "start_percent": 27.17,
         "rostered_percent": 68.36,
@@ -17519,8 +17485,8 @@
         "fantasy_team": "KC Pistols",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 78.3,
-        "consensus_score": 60.51,
+        "projection_percentile": 78.1,
+        "consensus_score": 60.42,
         "rank": 36
       },
       {
@@ -17553,8 +17519,8 @@
         "fantasy_team": "Laufnitzdorf Colts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 73.3,
-        "consensus_score": 60.21,
+        "projection_percentile": 73.1,
+        "consensus_score": 60.12,
         "rank": 37
       },
       {
@@ -17571,7 +17537,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 33219,
+        "trending_adds_24h": 33282,
         "projected_points": 11.39,
         "start_percent": 7.47,
         "rostered_percent": 55.73,
@@ -17587,8 +17553,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 80.7,
-        "consensus_score": 60.02,
+        "projection_percentile": 80.6,
+        "consensus_score": 59.98,
         "rank": 38
       },
       {
@@ -17605,7 +17571,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 50934,
+        "trending_adds_24h": 51978,
         "projected_points": 9.9,
         "start_percent": 11.03,
         "rostered_percent": 42.41,
@@ -17621,8 +17587,8 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 73.9,
-        "consensus_score": 58.93,
+        "projection_percentile": 73.8,
+        "consensus_score": 58.88,
         "rank": 39
       },
       {
@@ -17639,7 +17605,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 32781,
+        "trending_adds_24h": 32963,
         "projected_points": 9.07,
         "start_percent": 8,
         "rostered_percent": 61.95,
@@ -17655,8 +17621,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 67.1,
-        "consensus_score": 58.48,
+        "projection_percentile": 66.9,
+        "consensus_score": 58.39,
         "rank": 40
       },
       {
@@ -17673,7 +17639,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 24102,
+        "trending_adds_24h": 24588,
         "projected_points": 10.12,
         "start_percent": 22.11,
         "rostered_percent": 85.6,
@@ -17689,8 +17655,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 75.8,
-        "consensus_score": 58.24,
+        "projection_percentile": 75.6,
+        "consensus_score": 58.15,
         "rank": 41
       },
       {
@@ -17707,7 +17673,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 50877,
+        "trending_adds_24h": 51021,
         "projected_points": 10.6,
         "start_percent": 23.73,
         "rostered_percent": 76.64,
@@ -17723,8 +17689,8 @@
         "fantasy_team": "Krieglach City Chiefs",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 77.6,
-        "consensus_score": 58.14,
+        "projection_percentile": 77.5,
+        "consensus_score": 58.09,
         "rank": 42
       },
       {
@@ -17757,8 +17723,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 71.4,
-        "consensus_score": 58.05,
+        "projection_percentile": 71.3,
+        "consensus_score": 58,
         "rank": 43
       },
       {
@@ -17775,7 +17741,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 21906,
+        "trending_adds_24h": 22284,
         "projected_points": 11.95,
         "start_percent": 14.15,
         "rostered_percent": 80.12,
@@ -17791,8 +17757,8 @@
         "fantasy_team": "Laufnitzdorf Colts",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 82,
-        "consensus_score": 57.92,
+        "projection_percentile": 81.9,
+        "consensus_score": 57.87,
         "rank": 44
       },
       {
@@ -17809,7 +17775,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 35145,
+        "trending_adds_24h": 35425,
         "projected_points": 10.88,
         "start_percent": 9.55,
         "rostered_percent": 34.95,
@@ -17825,8 +17791,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 78.9,
-        "consensus_score": 57.21,
+        "projection_percentile": 78.8,
+        "consensus_score": 57.17,
         "rank": 45
       },
       {
@@ -17843,7 +17809,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 289344,
+        "trending_adds_24h": 292736,
         "projected_points": 13.29,
         "start_percent": 2.78,
         "rostered_percent": 13.37,
@@ -17877,7 +17843,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 225407,
+        "trending_adds_24h": 225659,
         "projected_points": 7.81,
         "start_percent": 2.43,
         "rostered_percent": 7.09,
@@ -17893,8 +17859,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 60.9,
-        "consensus_score": 56.3,
+        "projection_percentile": 60.6,
+        "consensus_score": 56.17,
         "rank": 47
       },
       {
@@ -17927,8 +17893,8 @@
         "fantasy_team": "San G-LANE 49ers",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 68.9,
-        "consensus_score": 55.67,
+        "projection_percentile": 68.8,
+        "consensus_score": 55.62,
         "rank": 48
       },
       {
@@ -17945,7 +17911,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 15184,
+        "trending_adds_24h": 16684,
         "projected_points": 7.74,
         "start_percent": 2.08,
         "rostered_percent": 23.76,
@@ -17961,8 +17927,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 60.2,
-        "consensus_score": 53.19,
+        "projection_percentile": 60,
+        "consensus_score": 53.1,
         "rank": 49
       },
       {
@@ -17995,8 +17961,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 65.8,
-        "consensus_score": 52.48,
+        "projection_percentile": 65.6,
+        "consensus_score": 52.39,
         "rank": 50
       },
       {
@@ -18029,8 +17995,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 65.2,
-        "consensus_score": 52.18,
+        "projection_percentile": 65,
+        "consensus_score": 52.09,
         "rank": 51
       },
       {
@@ -18047,7 +18013,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 32464,
+        "trending_adds_24h": 32512,
         "projected_points": 9.38,
         "start_percent": 16.74,
         "rostered_percent": 65.3,
@@ -18063,8 +18029,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 70.2,
-        "consensus_score": 51.43,
+        "projection_percentile": 70,
+        "consensus_score": 51.34,
         "rank": 52
       },
       {
@@ -18097,8 +18063,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 62.7,
-        "consensus_score": 51.27,
+        "projection_percentile": 62.5,
+        "consensus_score": 51.18,
         "rank": 53
       },
       {
@@ -18115,7 +18081,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 40863,
+        "trending_adds_24h": 41454,
         "projected_points": 9.17,
         "start_percent": 14.59,
         "rostered_percent": 48.88,
@@ -18131,8 +18097,8 @@
         "fantasy_team": "Praterstern Ravens",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 67.7,
-        "consensus_score": 50.98,
+        "projection_percentile": 67.5,
+        "consensus_score": 50.89,
         "rank": 54
       },
       {
@@ -18165,8 +18131,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 66.5,
-        "consensus_score": 50.86,
+        "projection_percentile": 66.3,
+        "consensus_score": 50.77,
         "rank": 55
       },
       {
@@ -18183,7 +18149,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 13044,
+        "trending_adds_24h": 13282,
         "projected_points": 8.43,
         "start_percent": 1.04,
         "rostered_percent": 10.06,
@@ -18199,8 +18165,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 64,
-        "consensus_score": 50.25,
+        "projection_percentile": 63.8,
+        "consensus_score": 50.16,
         "rank": 56
       },
       {
@@ -18233,8 +18199,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 57.8,
-        "consensus_score": 50.13,
+        "projection_percentile": 57.5,
+        "consensus_score": 49.99,
         "rank": 57
       },
       {
@@ -18267,8 +18233,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 62.1,
-        "consensus_score": 49.76,
+        "projection_percentile": 61.9,
+        "consensus_score": 49.67,
         "rank": 58
       },
       {
@@ -18301,8 +18267,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 53.4,
-        "consensus_score": 48.94,
+        "projection_percentile": 53.1,
+        "consensus_score": 48.8,
         "rank": 59
       },
       {
@@ -18335,8 +18301,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 81.4,
-        "consensus_score": 47.62,
+        "projection_percentile": 81.3,
+        "consensus_score": 47.57,
         "rank": 60
       },
       {
@@ -18353,7 +18319,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 37904,
+        "trending_adds_24h": 39232,
         "projected_points": 7.82,
         "start_percent": 0.34,
         "rostered_percent": 3.44,
@@ -18369,8 +18335,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 61.5,
-        "consensus_score": 47.38,
+        "projection_percentile": 61.3,
+        "consensus_score": 47.29,
         "rank": 61
       },
       {
@@ -18387,7 +18353,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 76950,
+        "trending_adds_24h": 77337,
         "projected_points": 6.75,
         "start_percent": 0.5,
         "rostered_percent": 6.08,
@@ -18403,43 +18369,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 54,
-        "consensus_score": 46.78,
+        "projection_percentile": 53.8,
+        "consensus_score": 46.69,
         "rank": 62
-      },
-      {
-        "player_id": "13317",
-        "name": "Ted Hurst",
-        "team": "TB",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RWR",
-        "trending_adds_24h": 15762,
-        "projected_points": 5.47,
-        "start_percent": 0.06,
-        "rostered_percent": 1.06,
-        "usage_opportunities": 5,
-        "usage_percentile": 65.1,
-        "usage_sample_games": 2,
-        "matchup_index": 124.5,
-        "matchup_rating": 1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "MIN",
-        "game_start": "2026-09-27T20:05Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 47.2,
-        "consensus_score": 46.02,
-        "rank": 63
       },
       {
         "player_id": "4039",
@@ -18471,8 +18403,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 57.1,
-        "consensus_score": 45.98,
+        "projection_percentile": 56.9,
+        "consensus_score": 45.89,
+        "rank": 63
+      },
+      {
+        "player_id": "13317",
+        "name": "Ted Hurst",
+        "team": "TB",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RWR",
+        "trending_adds_24h": 16092,
+        "projected_points": 5.47,
+        "start_percent": 0.06,
+        "rostered_percent": 1.06,
+        "usage_opportunities": 5,
+        "usage_percentile": 65.1,
+        "usage_sample_games": 2,
+        "matchup_index": 124.5,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "MIN",
+        "game_start": "2026-09-27T20:05Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 46.9,
+        "consensus_score": 45.89,
         "rank": 64
       },
       {
@@ -18489,7 +18455,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 16655,
+        "trending_adds_24h": 16730,
         "projected_points": 9.4,
         "start_percent": 9.42,
         "rostered_percent": 82.54,
@@ -18505,8 +18471,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 70.8,
-        "consensus_score": 45.76,
+        "projection_percentile": 70.6,
+        "consensus_score": 45.67,
         "rank": 65
       },
       {
@@ -18523,7 +18489,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 36000,
+        "trending_adds_24h": 36224,
         "projected_points": 9.65,
         "start_percent": 0.08,
         "rostered_percent": 0.2,
@@ -18539,8 +18505,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 72,
-        "consensus_score": 45.2,
+        "projection_percentile": 71.9,
+        "consensus_score": 45.15,
         "rank": 66
       },
       {
@@ -18557,7 +18523,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 55006,
+        "trending_adds_24h": 55076,
         "projected_points": 10.32,
         "start_percent": 0.21,
         "rostered_percent": 1.36,
@@ -18573,8 +18539,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 76.4,
-        "consensus_score": 45.07,
+        "projection_percentile": 76.3,
+        "consensus_score": 45.03,
         "rank": 67
       },
       {
@@ -18591,7 +18557,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 29214,
+        "trending_adds_24h": 29718,
         "projected_points": 9.19,
         "start_percent": 8.42,
         "rostered_percent": 70.74,
@@ -18607,8 +18573,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 68.3,
-        "consensus_score": 45,
+        "projection_percentile": 68.1,
+        "consensus_score": 44.91,
         "rank": 68
       },
       {
@@ -18625,7 +18591,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 12744,
+        "trending_adds_24h": 12888,
         "projected_points": 6.35,
         "start_percent": 0.02,
         "rostered_percent": 0.07,
@@ -18641,8 +18607,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 51.6,
-        "consensus_score": 44.97,
+        "projection_percentile": 51.3,
+        "consensus_score": 44.81,
         "rank": 69
       },
       {
@@ -18659,7 +18625,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 19755,
+        "trending_adds_24h": 19908,
         "projected_points": 8.51,
         "start_percent": 0.75,
         "rostered_percent": 5.36,
@@ -18675,8 +18641,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 64.6,
-        "consensus_score": 44.8,
+        "projection_percentile": 64.4,
+        "consensus_score": 44.71,
         "rank": 70
       },
       {
@@ -18693,7 +18659,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 16176,
+        "trending_adds_24h": 16384,
         "projected_points": 7.34,
         "start_percent": 0.17,
         "rostered_percent": 3.1,
@@ -18709,8 +18675,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 59,
-        "consensus_score": 44.7,
+        "projection_percentile": 58.8,
+        "consensus_score": 44.61,
         "rank": 71
       },
       {
@@ -18743,8 +18709,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 52.8,
-        "consensus_score": 44.44,
+        "projection_percentile": 52.5,
+        "consensus_score": 44.3,
         "rank": 72
       },
       {
@@ -18777,8 +18743,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 58.4,
-        "consensus_score": 43.84,
+        "projection_percentile": 58.1,
+        "consensus_score": 43.71,
         "rank": 73
       },
       {
@@ -18811,8 +18777,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 55.3,
-        "consensus_score": 42.69,
+        "projection_percentile": 55,
+        "consensus_score": 42.56,
         "rank": 74
       },
       {
@@ -18845,8 +18811,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 44.7,
-        "consensus_score": 42.04,
+        "projection_percentile": 44.4,
+        "consensus_score": 41.91,
         "rank": 75
       },
       {
@@ -18863,7 +18829,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "RWR",
-        "trending_adds_24h": 0,
+        "trending_adds_24h": 14166,
         "projected_points": 8.43,
         "start_percent": 4.03,
         "rostered_percent": 69.94,
@@ -18879,8 +18845,8 @@
         "fantasy_team": "Langenwanger Cowboys",
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 63.4,
-        "consensus_score": 40.91,
+        "projection_percentile": 63.1,
+        "consensus_score": 40.78,
         "rank": 76
       },
       {
@@ -18913,8 +18879,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 42.2,
-        "consensus_score": 39.99,
+        "projection_percentile": 41.9,
+        "consensus_score": 39.84,
         "rank": 77
       },
       {
@@ -18947,8 +18913,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 44.1,
-        "consensus_score": 39.12,
+        "projection_percentile": 43.8,
+        "consensus_score": 38.98,
         "rank": 78
       },
       {
@@ -18981,8 +18947,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 41,
-        "consensus_score": 39.03,
+        "projection_percentile": 40.6,
+        "consensus_score": 38.85,
         "rank": 79
       },
       {
@@ -19015,8 +18981,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 55.9,
-        "consensus_score": 38.84,
+        "projection_percentile": 55.6,
+        "consensus_score": 38.7,
         "rank": 80
       },
       {
@@ -19049,8 +19015,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 39.8,
-        "consensus_score": 38.72,
+        "projection_percentile": 39.4,
+        "consensus_score": 38.51,
         "rank": 81
       },
       {
@@ -19083,8 +19049,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 52.2,
-        "consensus_score": 38.5,
+        "projection_percentile": 51.9,
+        "consensus_score": 38.36,
         "rank": 82
       },
       {
@@ -19117,8 +19083,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 43.5,
-        "consensus_score": 38.49,
+        "projection_percentile": 43.1,
+        "consensus_score": 38.31,
         "rank": 83
       },
       {
@@ -19151,8 +19117,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 32.9,
-        "consensus_score": 38.36,
+        "projection_percentile": 32.5,
+        "consensus_score": 38.18,
         "rank": 84
       },
       {
@@ -19185,8 +19151,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 38.5,
-        "consensus_score": 38.33,
+        "projection_percentile": 38.1,
+        "consensus_score": 38.15,
         "rank": 85
       },
       {
@@ -19203,7 +19169,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "SWR",
-        "trending_adds_24h": 53694,
+        "trending_adds_24h": 55755,
         "projected_points": 6.07,
         "start_percent": 0.12,
         "rostered_percent": 0.67,
@@ -19219,8 +19185,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 49.1,
-        "consensus_score": 37.9,
+        "projection_percentile": 48.8,
+        "consensus_score": 37.76,
         "rank": 86
       },
       {
@@ -19253,8 +19219,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 41.6,
-        "consensus_score": 37.44,
+        "projection_percentile": 41.3,
+        "consensus_score": 37.31,
         "rank": 87
       },
       {
@@ -19271,7 +19237,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 12936,
+        "trending_adds_24h": 13144,
         "projected_points": 7.6,
         "start_percent": 7.02,
         "rostered_percent": 78.95,
@@ -19287,8 +19253,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 59.6,
-        "consensus_score": 37.21,
+        "projection_percentile": 59.4,
+        "consensus_score": 37.12,
         "rank": 88
       },
       {
@@ -19321,8 +19287,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 50.3,
-        "consensus_score": 37.02,
+        "projection_percentile": 50,
+        "consensus_score": 36.88,
         "rank": 89
       },
       {
@@ -19355,8 +19321,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 47.8,
-        "consensus_score": 36.82,
+        "projection_percentile": 47.5,
+        "consensus_score": 36.69,
         "rank": 90
       },
       {
@@ -19389,8 +19355,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 46,
-        "consensus_score": 36.6,
+        "projection_percentile": 45.6,
+        "consensus_score": 36.42,
         "rank": 91
       },
       {
@@ -19423,8 +19389,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 35.4,
-        "consensus_score": 36.39,
+        "projection_percentile": 35,
+        "consensus_score": 36.18,
         "rank": 92
       },
       {
@@ -19457,8 +19423,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 37.3,
-        "consensus_score": 35.22,
+        "projection_percentile": 36.9,
+        "consensus_score": 35.03,
         "rank": 93
       },
       {
@@ -19491,8 +19457,8 @@
         "fantasy_team": null,
         "health_score": 30,
         "unavailable": false,
-        "projection_percentile": 50.9,
-        "consensus_score": 33.84,
+        "projection_percentile": 50.6,
+        "consensus_score": 33.68,
         "rank": 94
       },
       {
@@ -19525,8 +19491,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 10.6,
-        "consensus_score": 32.95,
+        "projection_percentile": 10,
+        "consensus_score": 32.5,
         "rank": 95
       },
       {
@@ -19559,8 +19525,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 27.3,
-        "consensus_score": 32.62,
+        "projection_percentile": 26.9,
+        "consensus_score": 32.44,
         "rank": 96
       },
       {
@@ -19593,8 +19559,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 56.5,
-        "consensus_score": 32.47,
+        "projection_percentile": 56.3,
+        "consensus_score": 32.38,
         "rank": 97
       },
       {
@@ -19627,43 +19593,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 54.7,
-        "consensus_score": 30.87,
+        "projection_percentile": 54.4,
+        "consensus_score": 30.73,
         "rank": 98
-      },
-      {
-        "player_id": "12485",
-        "name": "Tez Johnson",
-        "team": "TB",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "SWR",
-        "trending_adds_24h": 0,
-        "projected_points": 2.17,
-        "start_percent": 0.01,
-        "rostered_percent": 0.12,
-        "usage_opportunities": 3,
-        "usage_percentile": 40.3,
-        "usage_sample_games": 2,
-        "matchup_index": 124.5,
-        "matchup_rating": 1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "MIN",
-        "game_start": "2026-09-27T20:05Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 21.7,
-        "consensus_score": 30.81,
-        "rank": 99
       },
       {
         "player_id": "8147",
@@ -19695,9 +19627,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 24.8,
-        "consensus_score": 30.78,
-        "rank": 100
+        "projection_percentile": 24.4,
+        "consensus_score": 30.57,
+        "rank": 99
       },
       {
         "player_id": "11320",
@@ -19729,9 +19661,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 46.6,
-        "consensus_score": 30.56,
-        "rank": 101
+        "projection_percentile": 46.3,
+        "consensus_score": 30.4,
+        "rank": 100
       },
       {
         "player_id": "11618",
@@ -19763,8 +19695,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 24.2,
-        "consensus_score": 30.55,
+        "projection_percentile": 23.8,
+        "consensus_score": 30.34,
+        "rank": 101
+      },
+      {
+        "player_id": "12485",
+        "name": "Tez Johnson",
+        "team": "TB",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "SWR",
+        "trending_adds_24h": 0,
+        "projected_points": 2.17,
+        "start_percent": 0.01,
+        "rostered_percent": 0.12,
+        "usage_opportunities": 3,
+        "usage_percentile": 40.3,
+        "usage_sample_games": 2,
+        "matchup_index": 124.5,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "MIN",
+        "game_start": "2026-09-27T20:05Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 20.6,
+        "consensus_score": 30.32,
         "rank": 102
       },
       {
@@ -19797,8 +19763,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 39.1,
-        "consensus_score": 30.43,
+        "projection_percentile": 38.8,
+        "consensus_score": 30.3,
         "rank": 103
       },
       {
@@ -19815,7 +19781,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "LWR",
-        "trending_adds_24h": 24745,
+        "trending_adds_24h": 26180,
         "projected_points": 6.11,
         "start_percent": 0.12,
         "rostered_percent": 2.99,
@@ -19831,8 +19797,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 49.7,
-        "consensus_score": 30.32,
+        "projection_percentile": 49.4,
+        "consensus_score": 30.19,
         "rank": 104
       },
       {
@@ -19865,8 +19831,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 29.8,
-        "consensus_score": 30.09,
+        "projection_percentile": 29.4,
+        "consensus_score": 29.91,
         "rank": 105
       },
       {
@@ -19899,8 +19865,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 40.4,
-        "consensus_score": 30.01,
+        "projection_percentile": 40,
+        "consensus_score": 29.83,
         "rank": 106
       },
       {
@@ -19933,43 +19899,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 45.3,
-        "consensus_score": 29.88,
+        "projection_percentile": 45,
+        "consensus_score": 29.72,
         "rank": 107
-      },
-      {
-        "player_id": "12634",
-        "name": "Jordan Watkins",
-        "team": "SF",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "RWR",
-        "trending_adds_24h": 0,
-        "projected_points": 2.24,
-        "start_percent": 0.01,
-        "rostered_percent": 0.04,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 130.3,
-        "matchup_rating": 1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "ARI",
-        "game_start": "2026-09-27T20:05Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 22.4,
-        "consensus_score": 29.51,
-        "rank": 108
       },
       {
         "player_id": "12547",
@@ -20001,8 +19933,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 36,
-        "consensus_score": 29.25,
+        "projection_percentile": 35.6,
+        "consensus_score": 29.07,
+        "rank": 108
+      },
+      {
+        "player_id": "12634",
+        "name": "Jordan Watkins",
+        "team": "SF",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "RWR",
+        "trending_adds_24h": 0,
+        "projected_points": 2.24,
+        "start_percent": 0.01,
+        "rostered_percent": 0.04,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 130.3,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "ARI",
+        "game_start": "2026-09-27T20:05Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 21.3,
+        "consensus_score": 28.93,
         "rank": 109
       },
       {
@@ -20035,8 +20001,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 36.6,
-        "consensus_score": 28.94,
+        "projection_percentile": 36.3,
+        "consensus_score": 28.81,
         "rank": 110
       },
       {
@@ -20069,8 +20035,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 21.1,
-        "consensus_score": 28.82,
+        "projection_percentile": 20,
+        "consensus_score": 28.24,
         "rank": 111
       },
       {
@@ -20103,8 +20069,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 42.9,
-        "consensus_score": 28.03,
+        "projection_percentile": 42.5,
+        "consensus_score": 27.85,
         "rank": 112
       },
       {
@@ -20137,8 +20103,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 30.4,
-        "consensus_score": 28.01,
+        "projection_percentile": 30,
+        "consensus_score": 27.83,
         "rank": 113
       },
       {
@@ -20171,8 +20137,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 32.3,
-        "consensus_score": 27.92,
+        "projection_percentile": 31.9,
+        "consensus_score": 27.74,
         "rank": 114
       },
       {
@@ -20205,9 +20171,43 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 37.9,
-        "consensus_score": 27.4,
+        "projection_percentile": 37.5,
+        "consensus_score": 27.22,
         "rank": 115
+      },
+      {
+        "player_id": "11623",
+        "name": "Jordan Whittington",
+        "team": "LAR",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "SWR",
+        "trending_adds_24h": 21960,
+        "projected_points": 6.02,
+        "start_percent": 0.04,
+        "rostered_percent": 0.14,
+        "usage_opportunities": 1,
+        "usage_percentile": 0,
+        "usage_sample_games": 1,
+        "matchup_index": 67.8,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "DEN",
+        "game_start": "2026-09-28T00:20Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 48.1,
+        "consensus_score": 26.66,
+        "rank": 116
       },
       {
         "player_id": "2078",
@@ -20239,42 +20239,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 18,
-        "consensus_score": 27.22,
-        "rank": 116
-      },
-      {
-        "player_id": "11623",
-        "name": "Jordan Whittington",
-        "team": "LAR",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "SWR",
-        "trending_adds_24h": 21708,
-        "projected_points": 6.02,
-        "start_percent": 0.04,
-        "rostered_percent": 0.14,
-        "usage_opportunities": 1,
-        "usage_percentile": 0,
-        "usage_sample_games": 1,
-        "matchup_index": 67.8,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "DEN",
-        "game_start": "2026-09-28T00:20Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 48.4,
-        "consensus_score": 26.79,
+        "projection_percentile": 16.9,
+        "consensus_score": 26.64,
         "rank": 117
       },
       {
@@ -20307,8 +20273,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 34.2,
-        "consensus_score": 26.34,
+        "projection_percentile": 33.8,
+        "consensus_score": 26.13,
         "rank": 118
       },
       {
@@ -20341,8 +20307,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 34.8,
-        "consensus_score": 26.22,
+        "projection_percentile": 34.4,
+        "consensus_score": 26.04,
         "rank": 119
       },
       {
@@ -20375,8 +20341,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 16.1,
-        "consensus_score": 26.17,
+        "projection_percentile": 15.6,
+        "consensus_score": 25.91,
         "rank": 120
       },
       {
@@ -20409,8 +20375,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 29.2,
-        "consensus_score": 25.87,
+        "projection_percentile": 28.8,
+        "consensus_score": 25.66,
         "rank": 121
       },
       {
@@ -20443,8 +20409,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 31.7,
-        "consensus_score": 25.75,
+        "projection_percentile": 31.3,
+        "consensus_score": 25.57,
         "rank": 122
       },
       {
@@ -20477,8 +20443,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 26.7,
-        "consensus_score": 25.18,
+        "projection_percentile": 26.3,
+        "consensus_score": 25,
         "rank": 123
       },
       {
@@ -20511,8 +20477,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 25.5,
-        "consensus_score": 25.12,
+        "projection_percentile": 25,
+        "consensus_score": 24.9,
         "rank": 124
       },
       {
@@ -20545,43 +20511,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 13.7,
-        "consensus_score": 24.9,
+        "projection_percentile": 13.1,
+        "consensus_score": 24.58,
         "rank": 125
-      },
-      {
-        "player_id": "8527",
-        "name": "Dareke Young",
-        "team": "LV",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "SWR",
-        "trending_adds_24h": 0,
-        "projected_points": 2.1,
-        "start_percent": 0,
-        "rostered_percent": 0.02,
-        "usage_opportunities": 1,
-        "usage_percentile": 16.8,
-        "usage_sample_games": 1,
-        "matchup_index": 110.1,
-        "matchup_rating": 0.51,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "NO",
-        "game_start": "2026-09-27T20:25Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 20.5,
-        "consensus_score": 24.3,
-        "rank": 126
       },
       {
         "player_id": "5086",
@@ -20613,8 +20545,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 12.4,
-        "consensus_score": 24.21,
+        "projection_percentile": 11.9,
+        "consensus_score": 23.95,
+        "rank": 126
+      },
+      {
+        "player_id": "8527",
+        "name": "Dareke Young",
+        "team": "LV",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "SWR",
+        "trending_adds_24h": 0,
+        "projected_points": 2.1,
+        "start_percent": 0,
+        "rostered_percent": 0.02,
+        "usage_opportunities": 1,
+        "usage_percentile": 16.8,
+        "usage_sample_games": 1,
+        "matchup_index": 110.1,
+        "matchup_rating": 0.51,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "NO",
+        "game_start": "2026-09-27T20:25Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 19.4,
+        "consensus_score": 23.8,
         "rank": 127
       },
       {
@@ -20647,8 +20613,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 16.8,
-        "consensus_score": 23.13,
+        "projection_percentile": 16.3,
+        "consensus_score": 22.91,
         "rank": 128
       },
       {
@@ -20681,8 +20647,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 33.5,
-        "consensus_score": 22.69,
+        "projection_percentile": 33.1,
+        "consensus_score": 22.51,
         "rank": 129
       },
       {
@@ -20715,43 +20681,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 31.1,
-        "consensus_score": 22.35,
+        "projection_percentile": 30.6,
+        "consensus_score": 22.09,
         "rank": 130
-      },
-      {
-        "player_id": "7496",
-        "name": "Nick Westbrook-Ikhine",
-        "team": "IND",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "LWR",
-        "trending_adds_24h": 0,
-        "projected_points": 0.9,
-        "start_percent": 0,
-        "rostered_percent": 0.03,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 137.7,
-        "matchup_rating": 1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "HOU",
-        "game_start": "2026-09-27T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 8.7,
-        "consensus_score": 22.25,
-        "rank": 131
       },
       {
         "player_id": "13333",
@@ -20783,8 +20715,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 5.6,
-        "consensus_score": 22.25,
+        "projection_percentile": 5,
+        "consensus_score": 21.98,
+        "rank": 131
+      },
+      {
+        "player_id": "7496",
+        "name": "Nick Westbrook-Ikhine",
+        "team": "IND",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "LWR",
+        "trending_adds_24h": 0,
+        "projected_points": 0.9,
+        "start_percent": 0,
+        "rostered_percent": 0.03,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 137.7,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "HOU",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 8.1,
+        "consensus_score": 21.94,
         "rank": 132
       },
       {
@@ -20817,8 +20783,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 28.6,
-        "consensus_score": 21.03,
+        "projection_percentile": 28.1,
+        "consensus_score": 20.76,
         "rank": 133
       },
       {
@@ -20851,8 +20817,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 9.3,
-        "consensus_score": 20.79,
+        "projection_percentile": 8.8,
+        "consensus_score": 20.57,
         "rank": 134
       },
       {
@@ -20885,8 +20851,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 23.6,
-        "consensus_score": 20.74,
+        "projection_percentile": 23.1,
+        "consensus_score": 20.51,
         "rank": 135
       },
       {
@@ -20919,43 +20885,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 9.9,
-        "consensus_score": 20.13,
+        "projection_percentile": 9.4,
+        "consensus_score": 19.9,
         "rank": 136
-      },
-      {
-        "player_id": "13541",
-        "name": "Lewis Bond",
-        "team": "HOU",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "LWR",
-        "trending_adds_24h": 0,
-        "projected_points": 0.33,
-        "start_percent": 0.01,
-        "rostered_percent": 0.02,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 136.1,
-        "matchup_rating": 1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "IND",
-        "game_start": "2026-09-27T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 3.7,
-        "consensus_score": 19.61,
-        "rank": 137
       },
       {
         "player_id": "13264",
@@ -20987,14 +20919,14 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 26.1,
-        "consensus_score": 19.58,
-        "rank": 138
+        "projection_percentile": 25.6,
+        "consensus_score": 19.35,
+        "rank": 137
       },
       {
-        "player_id": "12503",
-        "name": "Isaiah Bond",
-        "team": "CLE",
+        "player_id": "13541",
+        "name": "Lewis Bond",
+        "team": "HOU",
         "position": "WR",
         "fantasy_positions": [
           "WR"
@@ -21004,26 +20936,26 @@
         "injury_body_part": null,
         "injury_notes": null,
         "practice_participation": null,
-        "depth_chart_position": "SWR",
+        "depth_chart_position": "LWR",
         "trending_adds_24h": 0,
-        "projected_points": 2.03,
+        "projected_points": 0.33,
         "start_percent": 0.01,
-        "rostered_percent": 0.1,
-        "usage_opportunities": 1,
-        "usage_percentile": 12.8,
-        "usage_sample_games": 1,
-        "matchup_index": 95.4,
-        "matchup_rating": -0.23,
+        "rostered_percent": 0.02,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 136.1,
+        "matchup_rating": 1,
         "matchup_sample_weeks": 2,
-        "week_opponent": "CAR",
+        "week_opponent": "IND",
         "game_start": "2026-09-27T17:00Z",
         "roster_status": "WAIVER",
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 19.3,
-        "consensus_score": 19.46,
-        "rank": 139
+        "projection_percentile": 3.1,
+        "consensus_score": 19.29,
+        "rank": 138
       },
       {
         "player_id": "11627",
@@ -21055,8 +20987,42 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 13,
-        "consensus_score": 19.33,
+        "projection_percentile": 12.5,
+        "consensus_score": 19.11,
+        "rank": 139
+      },
+      {
+        "player_id": "12503",
+        "name": "Isaiah Bond",
+        "team": "CLE",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "SWR",
+        "trending_adds_24h": 0,
+        "projected_points": 2.03,
+        "start_percent": 0.01,
+        "rostered_percent": 0.1,
+        "usage_opportunities": 1,
+        "usage_percentile": 12.8,
+        "usage_sample_games": 1,
+        "matchup_index": 95.4,
+        "matchup_rating": -0.23,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "CAR",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 18.1,
+        "consensus_score": 18.92,
         "rank": 140
       },
       {
@@ -21089,8 +21055,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 19.9,
-        "consensus_score": 18.49,
+        "projection_percentile": 18.8,
+        "consensus_score": 17.99,
         "rank": 141
       },
       {
@@ -21123,8 +21089,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 14.9,
-        "consensus_score": 18.18,
+        "projection_percentile": 14.4,
+        "consensus_score": 17.95,
         "rank": 142
       },
       {
@@ -21157,8 +21123,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 23,
-        "consensus_score": 18.06,
+        "projection_percentile": 22.5,
+        "consensus_score": 17.8,
         "rank": 143
       },
       {
@@ -21196,37 +21162,37 @@
         "rank": 144
       },
       {
-        "player_id": "13477",
-        "name": "Colbie Young",
-        "team": "CIN",
+        "player_id": "11034",
+        "name": "Jalen Brooks",
+        "team": "ARI",
         "position": "WR",
         "fantasy_positions": [
           "WR"
         ],
         "status": "Active",
-        "injury_status": "Questionable",
-        "injury_body_part": "Knee",
+        "injury_status": null,
+        "injury_body_part": null,
         "injury_notes": null,
         "practice_participation": null,
-        "depth_chart_position": "LWR",
+        "depth_chart_position": "SWR",
         "trending_adds_24h": 0,
-        "projected_points": 2.98,
-        "start_percent": 0.02,
-        "rostered_percent": 0.11,
-        "usage_opportunities": 1,
-        "usage_percentile": 15.4,
-        "usage_sample_games": 1,
-        "matchup_index": 49.7,
+        "projected_points": 2.25,
+        "start_percent": 0.01,
+        "rostered_percent": 0.03,
+        "usage_opportunities": null,
+        "usage_percentile": null,
+        "usage_sample_games": 0,
+        "matchup_index": 75.5,
         "matchup_rating": -1,
         "matchup_sample_weeks": 2,
-        "week_opponent": "PIT",
-        "game_start": "2026-09-27T17:00Z",
+        "week_opponent": "SF",
+        "game_start": "2026-09-27T20:05Z",
         "roster_status": "WAIVER",
         "fantasy_team": null,
-        "health_score": 30,
+        "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 28,
-        "consensus_score": 16.42,
+        "projection_percentile": 21.9,
+        "consensus_score": 17.48,
         "rank": 145
       },
       {
@@ -21259,8 +21225,8 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 18.6,
-        "consensus_score": 16.11,
+        "projection_percentile": 17.5,
+        "consensus_score": 15.61,
         "rank": 146
       },
       {
@@ -21293,43 +21259,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 15.5,
-        "consensus_score": 15.58,
+        "projection_percentile": 15,
+        "consensus_score": 15.36,
         "rank": 147
-      },
-      {
-        "player_id": "11034",
-        "name": "Jalen Brooks",
-        "team": "ARI",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "SWR",
-        "trending_adds_24h": 0,
-        "projected_points": 1.91,
-        "start_percent": 0.01,
-        "rostered_percent": 0.03,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 75.5,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "SF",
-        "game_start": "2026-09-27T20:05Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 17.4,
-        "consensus_score": 15.1,
-        "rank": 148
       },
       {
         "player_id": "6588",
@@ -21361,9 +21293,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 14.3,
-        "consensus_score": 14.57,
-        "rank": 149
+        "projection_percentile": 13.8,
+        "consensus_score": 14.31,
+        "rank": 148
       },
       {
         "player_id": "7595",
@@ -21395,9 +21327,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 6.2,
-        "consensus_score": 13.69,
-        "rank": 150
+        "projection_percentile": 5.6,
+        "consensus_score": 13.38,
+        "rank": 149
       },
       {
         "player_id": "7562",
@@ -21429,9 +21361,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 7.5,
-        "consensus_score": 13.32,
-        "rank": 151
+        "projection_percentile": 6.9,
+        "consensus_score": 13.05,
+        "rank": 150
       },
       {
         "player_id": "10225",
@@ -21463,9 +21395,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 4.3,
-        "consensus_score": 12.99,
-        "rank": 152
+        "projection_percentile": 3.8,
+        "consensus_score": 12.77,
+        "rank": 151
       },
       {
         "player_id": "8200",
@@ -21497,77 +21429,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 11.2,
-        "consensus_score": 11.86,
-        "rank": 153
-      },
-      {
-        "player_id": "13268",
-        "name": "Elijah Sarratt",
-        "team": "BAL",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "LWR",
-        "trending_adds_24h": 0,
-        "projected_points": 0.21,
-        "start_percent": 0.01,
-        "rostered_percent": 0.19,
-        "usage_opportunities": null,
-        "usage_percentile": null,
-        "usage_sample_games": 0,
-        "matchup_index": 96.6,
-        "matchup_rating": -0.17,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "DAL",
-        "game_start": "2026-09-27T20:25Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 1.9,
-        "consensus_score": 11.77,
-        "rank": 154
-      },
-      {
-        "player_id": "12641",
-        "name": "Jaylin Lane",
-        "team": "WAS",
-        "position": "WR",
-        "fantasy_positions": [
-          "WR"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "SWR",
-        "trending_adds_24h": 0,
-        "projected_points": 1.19,
-        "start_percent": 0.07,
-        "rostered_percent": 0.16,
-        "usage_opportunities": 1,
-        "usage_percentile": 3.4,
-        "usage_sample_games": 1,
-        "matchup_index": 45.8,
-        "matchup_rating": -1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "SEA",
-        "game_start": "2026-09-27T17:00Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 11.8,
-        "consensus_score": 10.84,
-        "rank": 155
+        "projection_percentile": 10.6,
+        "consensus_score": 11.59,
+        "rank": 152
       },
       {
         "player_id": "13411",
@@ -21599,9 +21463,43 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 1.2,
-        "consensus_score": 10.64,
-        "rank": 156
+        "projection_percentile": 1.3,
+        "consensus_score": 10.69,
+        "rank": 153
+      },
+      {
+        "player_id": "12641",
+        "name": "Jaylin Lane",
+        "team": "WAS",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "SWR",
+        "trending_adds_24h": 0,
+        "projected_points": 1.19,
+        "start_percent": 0.07,
+        "rostered_percent": 0.16,
+        "usage_opportunities": 1,
+        "usage_percentile": 3.4,
+        "usage_sample_games": 1,
+        "matchup_index": 45.8,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "SEA",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 100,
+        "unavailable": false,
+        "projection_percentile": 11.3,
+        "consensus_score": 10.61,
+        "rank": 154
       },
       {
         "player_id": "8250",
@@ -21633,9 +21531,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 6.8,
-        "consensus_score": 10.6,
-        "rank": 157
+        "projection_percentile": 6.3,
+        "consensus_score": 10.34,
+        "rank": 155
       },
       {
         "player_id": "8135",
@@ -21667,9 +21565,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 8.1,
-        "consensus_score": 10.36,
-        "rank": 158
+        "projection_percentile": 7.5,
+        "consensus_score": 10.09,
+        "rank": 156
       },
       {
         "player_id": "7596",
@@ -21701,9 +21599,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 3.1,
-        "consensus_score": 9.88,
-        "rank": 159
+        "projection_percentile": 2.5,
+        "consensus_score": 9.56,
+        "rank": 157
       },
       {
         "player_id": "13413",
@@ -21735,9 +21633,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 5,
-        "consensus_score": 8.67,
-        "rank": 160
+        "projection_percentile": 4.4,
+        "consensus_score": 8.4,
+        "rank": 158
       },
       {
         "player_id": "7757",
@@ -21769,9 +21667,9 @@
         "fantasy_team": null,
         "health_score": 100,
         "unavailable": false,
-        "projection_percentile": 2.5,
-        "consensus_score": 8.35,
-        "rank": 161
+        "projection_percentile": 1.9,
+        "consensus_score": 8.08,
+        "rank": 159
       },
       {
         "player_id": "13491",
@@ -21805,7 +21703,41 @@
         "unavailable": false,
         "projection_percentile": 0.6,
         "consensus_score": 6.21,
-        "rank": 162
+        "rank": 160
+      },
+      {
+        "player_id": "13477",
+        "name": "Colbie Young",
+        "team": "CIN",
+        "position": "WR",
+        "fantasy_positions": [
+          "WR"
+        ],
+        "status": "Active",
+        "injury_status": "Out",
+        "injury_body_part": "Knee",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "LWR",
+        "trending_adds_24h": 0,
+        "projected_points": 2.98,
+        "start_percent": 0.02,
+        "rostered_percent": 0.11,
+        "usage_opportunities": 1,
+        "usage_percentile": 15.4,
+        "usage_sample_games": 1,
+        "matchup_index": 49.7,
+        "matchup_rating": -1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "PIT",
+        "game_start": "2026-09-27T17:00Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 0,
+        "unavailable": true,
+        "projection_percentile": 27.5,
+        "consensus_score": 0,
+        "rank": 161
       }
     ],
     "TE": [
@@ -21858,7 +21790,7 @@
         "practice_participation": null,
         "depth_chart_position": "TE",
         "trending_adds_24h": 0,
-        "projected_points": 16.96,
+        "projected_points": 16.9,
         "start_percent": 99.22,
         "rostered_percent": 99.89,
         "usage_opportunities": 11.5,
@@ -22095,7 +22027,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 32634,
+        "trending_adds_24h": 33066,
         "projected_points": 11.79,
         "start_percent": 38.31,
         "rostered_percent": 82.15,
@@ -22124,9 +22056,9 @@
           "TE"
         ],
         "status": "Active",
-        "injury_status": "Questionable",
-        "injury_body_part": "Knee - Meniscus",
-        "injury_notes": "Surgery",
+        "injury_status": null,
+        "injury_body_part": null,
+        "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
         "trending_adds_24h": 0,
@@ -22143,10 +22075,10 @@
         "game_start": "2026-09-27T20:25Z",
         "roster_status": "BENCH",
         "fantasy_team": "Vienna Steel",
-        "health_score": 30,
+        "health_score": 100,
         "unavailable": false,
         "projection_percentile": 98,
-        "consensus_score": 73.76,
+        "consensus_score": 77.88,
         "rank": 10
       },
       {
@@ -22333,7 +22265,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 14694,
+        "trending_adds_24h": 14906,
         "projected_points": 10.28,
         "start_percent": 18.45,
         "rostered_percent": 55.28,
@@ -22367,7 +22299,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 93690,
+        "trending_adds_24h": 114939,
         "projected_points": 8.66,
         "start_percent": 5.09,
         "rostered_percent": 33.51,
@@ -22435,7 +22367,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 12699,
+        "trending_adds_24h": 12729,
         "projected_points": 10.65,
         "start_percent": 14.83,
         "rostered_percent": 50.91,
@@ -22503,7 +22435,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 53490,
+        "trending_adds_24h": 53555,
         "projected_points": 9.03,
         "start_percent": 6.11,
         "rostered_percent": 15.82,
@@ -22605,7 +22537,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 12312,
+        "trending_adds_24h": 12474,
         "projected_points": 8.46,
         "start_percent": 0.83,
         "rostered_percent": 4.96,
@@ -22639,7 +22571,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 638776,
+        "trending_adds_24h": 646464,
         "projected_points": 7.7,
         "start_percent": 11.28,
         "rostered_percent": 34.28,
@@ -22707,7 +22639,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 13056,
+        "trending_adds_24h": 13452,
         "projected_points": 7.25,
         "start_percent": 0.69,
         "rostered_percent": 2.88,
@@ -22775,7 +22707,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 21555,
+        "trending_adds_24h": 21789,
         "projected_points": 9.16,
         "start_percent": 2.43,
         "rostered_percent": 18.01,
@@ -23013,7 +22945,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "TE",
-        "trending_adds_24h": 148905,
+        "trending_adds_24h": 149301,
         "projected_points": 7.87,
         "start_percent": 2.89,
         "rostered_percent": 10.45,
@@ -23591,7 +23523,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 47790,
+        "trending_adds_24h": 48528,
         "projected_points": 2.97,
         "start_percent": 0.14,
         "rostered_percent": 2.63,
@@ -25259,7 +25191,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 16864,
+        "trending_adds_24h": 16912,
         "projected_points": 8.8,
         "start_percent": 58.92,
         "rostered_percent": 64.78,
@@ -25293,7 +25225,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 12969,
+        "trending_adds_24h": 13185,
         "projected_points": 8.4,
         "start_percent": 77.2,
         "rostered_percent": 81.99,
@@ -25327,7 +25259,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 33972,
+        "trending_adds_24h": 34040,
         "projected_points": 8.32,
         "start_percent": 78.88,
         "rostered_percent": 84.62,
@@ -25361,7 +25293,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 21516,
+        "trending_adds_24h": 21846,
         "projected_points": 8.61,
         "start_percent": 48.65,
         "rostered_percent": 54.04,
@@ -25463,7 +25395,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 34355,
+        "trending_adds_24h": 34820,
         "projected_points": 8.91,
         "start_percent": 1.03,
         "rostered_percent": 1.59,
@@ -25599,7 +25531,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 28168,
+        "trending_adds_24h": 28332,
         "projected_points": 8.65,
         "start_percent": 5.63,
         "rostered_percent": 6.45,
@@ -25667,7 +25599,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 14680,
+        "trending_adds_24h": 14705,
         "projected_points": 8.13,
         "start_percent": 10.27,
         "rostered_percent": 12.04,
@@ -25803,7 +25735,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": "K",
-        "trending_adds_24h": 90248,
+        "trending_adds_24h": 91416,
         "projected_points": 7.56,
         "start_percent": 24.05,
         "rostered_percent": 27.47,
@@ -26281,7 +26213,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 57740,
+        "trending_adds_24h": 59645,
         "projected_points": 24.46,
         "start_percent": null,
         "rostered_percent": null,
@@ -26315,7 +26247,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 16904,
+        "trending_adds_24h": 16911,
         "projected_points": 24.24,
         "start_percent": null,
         "rostered_percent": null,
@@ -26349,7 +26281,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 123760,
+        "trending_adds_24h": 123932,
         "projected_points": 23.6,
         "start_percent": null,
         "rostered_percent": null,
@@ -26519,7 +26451,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 17391,
+        "trending_adds_24h": 17700,
         "projected_points": 21.82,
         "start_percent": null,
         "rostered_percent": null,
@@ -26553,7 +26485,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 52395,
+        "trending_adds_24h": 53200,
         "projected_points": 20.38,
         "start_percent": null,
         "rostered_percent": null,
@@ -26655,7 +26587,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 38124,
+        "trending_adds_24h": 39138,
         "projected_points": 18.2,
         "start_percent": null,
         "rostered_percent": null,
@@ -26757,7 +26689,7 @@
         "injury_notes": null,
         "practice_participation": null,
         "depth_chart_position": null,
-        "trending_adds_24h": 39636,
+        "trending_adds_24h": 39834,
         "projected_points": 17.46,
         "start_percent": null,
         "rostered_percent": null,
@@ -27400,7 +27332,7 @@
       "week_opponent": "MIN",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:05Z",
-      "projection_updated_at": 1790535659037
+      "projection_updated_at": 1790536858914
     },
     {
       "player_id": "11604",
@@ -27411,9 +27343,9 @@
         "TE"
       ],
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Knee - Meniscus",
-      "injury_notes": "Surgery",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
       "trending_adds_24h": 0,
@@ -27433,7 +27365,7 @@
       "week_opponent": "NO",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:25Z",
-      "projection_updated_at": 1790535659127
+      "projection_updated_at": 1790536858997
     },
     {
       "player_id": "11646",
@@ -27444,8 +27376,8 @@
         "WR"
       ],
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
+      "injury_status": "Questionable",
+      "injury_body_part": "Quadriceps",
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
@@ -27466,7 +27398,7 @@
       "week_opponent": "CLE",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790535658705
+      "projection_updated_at": 1790536858616
     },
     {
       "player_id": "12507",
@@ -27499,7 +27431,7 @@
       "week_opponent": "BUF",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790535658541
+      "projection_updated_at": 1790536858445
     },
     {
       "player_id": "12512",
@@ -27528,11 +27460,11 @@
       "matchup_index": 173.6,
       "matchup_rating": 1,
       "matchup_sample_weeks": 2,
-      "actual_points": 6.7,
+      "actual_points": 7.2,
       "week_opponent": "CAR",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790535658801
+      "projection_updated_at": 1790536858694
     },
     {
       "player_id": "12526",
@@ -27565,7 +27497,7 @@
       "week_opponent": "CLE",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790535658698
+      "projection_updated_at": 1790536858608
     },
     {
       "player_id": "12534",
@@ -27598,7 +27530,7 @@
       "week_opponent": "PHI",
       "game_date": "2026-09-28",
       "game_start": "2026-09-29T00:15Z",
-      "projection_updated_at": 1790535659185
+      "projection_updated_at": 1790536859014
     },
     {
       "player_id": "13346",
@@ -27631,7 +27563,7 @@
       "week_opponent": "CAR",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790535658816
+      "projection_updated_at": 1790536858708
     },
     {
       "player_id": "4881",
@@ -27664,7 +27596,7 @@
       "week_opponent": "DAL",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:25Z",
-      "projection_updated_at": 1790535659095
+      "projection_updated_at": 1790536858956
     },
     {
       "player_id": "5001",
@@ -27697,7 +27629,7 @@
       "week_opponent": "IND",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790535658754
+      "projection_updated_at": 1790536858633
     },
     {
       "player_id": "5189",
@@ -27713,7 +27645,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 12969,
+      "trending_adds_24h": 13185,
       "trending_drops_24h": 0,
       "slot": "STARTER",
       "projected_points": 8.4,
@@ -27730,7 +27662,7 @@
       "week_opponent": "ARI",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:05Z",
-      "projection_updated_at": 1790535659118
+      "projection_updated_at": 1790536858912
     },
     {
       "player_id": "7564",
@@ -27763,7 +27695,7 @@
       "week_opponent": "PIT",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790535658678
+      "projection_updated_at": 1790536858587
     },
     {
       "player_id": "7594",
@@ -27792,11 +27724,11 @@
       "matchup_index": 80.8,
       "matchup_rating": -0.96,
       "matchup_sample_weeks": 2,
-      "actual_points": 10.5,
+      "actual_points": 11,
       "week_opponent": "CLE",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790535658696
+      "projection_updated_at": 1790536858605
     },
     {
       "player_id": "9753",
@@ -27862,11 +27794,11 @@
       "week_opponent": "MIA",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790535658364
+      "projection_updated_at": 1790536858318
     }
   ],
   "matchup": {
-    "points": 56.1,
+    "points": 56.6,
     "players": [
       "11584",
       "11604",
@@ -27905,7 +27837,7 @@
       19.8,
       3.7,
       1.8,
-      10.5,
+      11,
       0,
       15.5
     ],
@@ -27914,13 +27846,13 @@
       "5001": 1.8,
       "5189": 0,
       "7564": 19.8,
-      "7594": 10.5,
+      "7594": 11,
       "9753": 0,
       "11584": 0,
       "11604": 0,
       "11646": 3.8,
       "12507": 4.8,
-      "12512": 6.7,
+      "12512": 7.2,
       "12526": 3.7,
       "12534": 0,
       "13346": 0,
@@ -27971,7 +27903,7 @@
       0
     ],
     "players_points": {
-      "2449": 1.8,
+      "2449": 3.9,
       "5892": 4.3,
       "7543": 0,
       "7839": 12,
