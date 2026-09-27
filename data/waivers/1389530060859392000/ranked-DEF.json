@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T03:21:41.191Z",
+  "updated_at": "2026-09-27T03:39:28.790Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -41,12 +41,12 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 20.28,
+      "projected_points": 20.23,
       "week_opponent": "TB",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 24400,
+      "trending_adds_24h": 23645,
       "trending_drops_24h": 0,
       "waiver_score": 92.62
     },
@@ -88,7 +88,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 39164,
+      "trending_adds_24h": 38440,
       "trending_drops_24h": 0,
       "waiver_score": 84.31
     },
@@ -151,7 +151,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 15910,
+      "trending_adds_24h": 15435,
       "trending_drops_24h": 0,
       "waiver_score": 70.49
     },
@@ -172,9 +172,9 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 20358,
-      "trending_drops_24h": 20115,
-      "waiver_score": 68.11
+      "trending_adds_24h": 19683,
+      "trending_drops_24h": 19611,
+      "waiver_score": 66.68
     },
     {
       "player_id": "BUF",
@@ -219,6 +219,27 @@
       "waiver_score": 65.94
     },
     {
+      "player_id": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "team": "TB",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 17.9,
+      "week_opponent": "MIN",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 32285,
+      "waiver_score": 48.1
+    },
+    {
       "player_id": "MIA",
       "name": "Miami Dolphins",
       "team": "MIA",
@@ -261,27 +282,6 @@
       "waiver_score": 46.93
     },
     {
-      "player_id": "TB",
-      "name": "Tampa Bay Buccaneers",
-      "team": "TB",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 17.78,
-      "week_opponent": "MIN",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 33235,
-      "waiver_score": 46.66
-    },
-    {
       "player_id": "LV",
       "name": "Las Vegas Raiders",
       "team": "LV",
@@ -298,8 +298,8 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 18594,
-      "trending_drops_24h": 6696,
+      "trending_adds_24h": 18156,
+      "trending_drops_24h": 6600,
       "waiver_score": 37.88
     },
     {
@@ -356,7 +356,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 15.83,
+      "projected_points": 15.88,
       "week_opponent": "BAL",
       "rostered_percent": null,
       "start_percent": null,
@@ -467,7 +467,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 15967,
+      "trending_drops_24h": 15589,
       "waiver_score": 9.29
     }
   ]
