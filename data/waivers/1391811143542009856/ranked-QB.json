@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T18:23:35.352Z",
+  "updated_at": "2026-09-27T18:48:43.086Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -22,10 +22,10 @@
       "depth_chart_position": "QB",
       "projected_points": 15.38,
       "week_opponent": "DET",
-      "rostered_percent": 7.11,
+      "rostered_percent": 7.1,
       "start_percent": 3.53,
       "previous_week_opportunities": 46,
-      "trending_adds_24h": 38684,
+      "trending_adds_24h": 37728,
       "trending_drops_24h": 0,
       "waiver_score": 96.31
     },
@@ -43,11 +43,11 @@
       "depth_chart_position": "QB",
       "projected_points": 15.72,
       "week_opponent": "KC",
-      "rostered_percent": 14.3,
+      "rostered_percent": 14.29,
       "start_percent": 2.03,
       "previous_week_opportunities": 25,
-      "trending_adds_24h": 17556,
-      "trending_drops_24h": 25725,
+      "trending_adds_24h": 17479,
+      "trending_drops_24h": 25424,
       "waiver_score": 95.62
     },
     {
@@ -64,7 +64,7 @@
       "depth_chart_position": "QB",
       "projected_points": 16.42,
       "week_opponent": "BUF",
-      "rostered_percent": 84.3,
+      "rostered_percent": 84.29,
       "start_percent": 37.96,
       "previous_week_opportunities": 30,
       "trending_adds_24h": 0,
@@ -88,8 +88,8 @@
       "rostered_percent": 7.74,
       "start_percent": 3.87,
       "previous_week_opportunities": 37,
-      "trending_adds_24h": 57328,
-      "trending_drops_24h": 13392,
+      "trending_adds_24h": 56592,
+      "trending_drops_24h": 13176,
       "waiver_score": 95.12
     },
     {
@@ -107,7 +107,7 @@
       "projected_points": 13.32,
       "week_opponent": "HOU",
       "rostered_percent": 24.91,
-      "start_percent": 3.33,
+      "start_percent": 3.32,
       "previous_week_opportunities": 34,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -169,8 +169,8 @@
       "depth_chart_position": "QB",
       "projected_points": 15.22,
       "week_opponent": "SF",
-      "rostered_percent": 4.52,
-      "start_percent": 0.69,
+      "rostered_percent": 4.53,
+      "start_percent": 0.7,
       "previous_week_opportunities": 29,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -193,7 +193,7 @@
       "rostered_percent": 3.26,
       "start_percent": 1.43,
       "previous_week_opportunities": 17,
-      "trending_adds_24h": 14504,
+      "trending_adds_24h": 14320,
       "trending_drops_24h": 0,
       "waiver_score": 88.6
     },
@@ -235,7 +235,7 @@
       "rostered_percent": 33.92,
       "start_percent": 10.87,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 137847,
+      "trending_adds_24h": 135294,
       "trending_drops_24h": 0,
       "waiver_score": 82.19
     },
@@ -274,11 +274,11 @@
       "depth_chart_position": "QB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 5.12,
+      "rostered_percent": 5.11,
       "start_percent": 0.11,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 13192,
+      "trending_drops_24h": 13336,
       "waiver_score": 77.65
     },
     {
@@ -299,7 +299,7 @@
       "start_percent": 10.05,
       "previous_week_opportunities": 5,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 35756,
+      "trending_drops_24h": 35310,
       "waiver_score": 77.47
     },
     {
@@ -324,27 +324,6 @@
       "waiver_score": 77.1
     },
     {
-      "player_id": "13272",
-      "name": "Carson Beck",
-      "team": "ARI",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.47,
-      "start_percent": 0.02,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 74.58
-    },
-    {
       "player_id": "11256",
       "name": "Tyson Bagent",
       "team": "CHI",
@@ -358,12 +337,12 @@
       "depth_chart_position": "QB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 0.47,
-      "start_percent": 0.08,
+      "rostered_percent": 0.5,
+      "start_percent": 0.09,
       "previous_week_opportunities": 9,
-      "trending_adds_24h": 94806,
+      "trending_adds_24h": 91218,
       "trending_drops_24h": 0,
-      "waiver_score": 73.09
+      "waiver_score": 73.39
     },
     {
       "player_id": "13275",
@@ -427,6 +406,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 69.61
+    },
+    {
+      "player_id": "13272",
+      "name": "Carson Beck",
+      "team": "ARI",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Coach's Decision",
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.47,
+      "start_percent": 0.02,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 69.29
     },
     {
       "player_id": "13303",
@@ -530,7 +530,7 @@
       "start_percent": 0.23,
       "previous_week_opportunities": 26,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 41049,
+      "trending_drops_24h": 39933,
       "waiver_score": 64.6
     },
     {
@@ -547,8 +547,8 @@
       "depth_chart_position": "QB",
       "projected_points": 11.9,
       "week_opponent": "PHI",
-      "rostered_percent": 0.45,
-      "start_percent": 0.23,
+      "rostered_percent": 0.46,
+      "start_percent": 0.22,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -758,10 +758,10 @@
       "projected_points": null,
       "week_opponent": null,
       "rostered_percent": 2.47,
-      "start_percent": 0.17,
+      "start_percent": 0.16,
       "previous_week_opportunities": 23,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 32898,
+      "trending_drops_24h": 32598,
       "waiver_score": 59.04
     },
     {
