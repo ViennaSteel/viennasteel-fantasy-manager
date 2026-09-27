@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T21:40:49.920Z",
+  "updated_at": "2026-09-27T21:51:46.985Z",
   "week": 3,
   "available_weeks": [
     1,
@@ -40,7 +40,7 @@
           "practice_participation": null,
           "depth_chart_position": "SWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 62190,
+          "trending_drops_24h": 63054,
           "slot": "BENCH",
           "projected_points": 12.05,
           "projection_basis": "league_scoring",
@@ -73,7 +73,7 @@
           "practice_participation": null,
           "depth_chart_position": "K",
           "trending_adds_24h": 16016,
-          "trending_drops_24h": 25080,
+          "trending_drops_24h": 25240,
           "slot": "STARTER",
           "projected_points": 8.84,
           "projection_basis": "league_scoring",
@@ -172,7 +172,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 12072,
-          "trending_drops_24h": 22500,
+          "trending_drops_24h": 22768,
           "slot": "BENCH",
           "projected_points": 9.66,
           "projection_basis": "league_scoring",
@@ -205,7 +205,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 23710,
+          "trending_drops_24h": 24385,
           "slot": "BENCH",
           "projected_points": 10.47,
           "projection_basis": "league_scoring",
@@ -397,13 +397,13 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Hand",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 30411,
-          "trending_drops_24h": 16632,
+          "trending_drops_24h": 19278,
           "slot": "STARTER",
           "projected_points": 10.24,
           "projection_basis": "league_scoring",
@@ -783,7 +783,7 @@
           "practice_participation": null,
           "depth_chart_position": "LWR",
           "trending_adds_24h": 0,
-          "trending_drops_24h": 23710,
+          "trending_drops_24h": 24385,
           "slot": "BENCH",
           "projected_points": 8.34,
           "projection_basis": "league_scoring",
@@ -981,7 +981,7 @@
           "practice_participation": null,
           "depth_chart_position": "K",
           "trending_adds_24h": 21822,
-          "trending_drops_24h": 18036,
+          "trending_drops_24h": 18138,
           "slot": "STARTER",
           "projected_points": 8.22,
           "projection_basis": "league_scoring",
@@ -1041,13 +1041,13 @@
             "TE"
           ],
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Hand",
           "injury_notes": null,
           "practice_participation": null,
           "depth_chart_position": "TE",
           "trending_adds_24h": 30411,
-          "trending_drops_24h": 16632,
+          "trending_drops_24h": 19278,
           "slot": "STARTER",
           "projected_points": 10.47,
           "projection_basis": "league_scoring",
@@ -1179,7 +1179,7 @@
           "practice_participation": null,
           "depth_chart_position": null,
           "trending_adds_24h": 0,
-          "trending_drops_24h": 76045,
+          "trending_drops_24h": 76150,
           "slot": "STARTER",
           "projected_points": 26.14,
           "projection_basis": "league_scoring",
@@ -1375,7 +1375,7 @@
           "week_opponent": "MIN",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:05Z",
-          "projection_updated_at": 1790544659516
+          "projection_updated_at": 1790545259197
         },
         {
           "player_id": "11604",
@@ -1404,11 +1404,11 @@
           "matchup_index": 84.4,
           "matchup_rating": -0.78,
           "matchup_sample_weeks": 2,
-          "actual_points": 11.1,
+          "actual_points": 15.7,
           "week_opponent": "NO",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1790544659589
+          "projection_updated_at": 1790545259268
         },
         {
           "player_id": "11646",
@@ -1441,7 +1441,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790544659289
+          "projection_updated_at": 1790545258943
         },
         {
           "player_id": "12507",
@@ -1474,7 +1474,7 @@
           "week_opponent": "BUF",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790544659176
+          "projection_updated_at": 1790545258848
         },
         {
           "player_id": "12512",
@@ -1507,7 +1507,7 @@
           "week_opponent": "CAR",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790544659355
+          "projection_updated_at": 1790545259037
         },
         {
           "player_id": "12526",
@@ -1540,7 +1540,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790544659284
+          "projection_updated_at": 1790545258939
         },
         {
           "player_id": "12534",
@@ -1573,7 +1573,7 @@
           "week_opponent": "PHI",
           "game_date": "2026-09-28",
           "game_start": "2026-09-29T00:15Z",
-          "projection_updated_at": 1790544659612
+          "projection_updated_at": 1790545259283
         },
         {
           "player_id": "13346",
@@ -1606,7 +1606,7 @@
           "week_opponent": "CAR",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790544659367
+          "projection_updated_at": 1790545259049
         },
         {
           "player_id": "4881",
@@ -1639,7 +1639,7 @@
           "week_opponent": "DAL",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:25Z",
-          "projection_updated_at": 1790544659542
+          "projection_updated_at": 1790545259217
         },
         {
           "player_id": "5001",
@@ -1672,7 +1672,7 @@
           "week_opponent": "IND",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790544659306
+          "projection_updated_at": 1790545258956
         },
         {
           "player_id": "5189",
@@ -1705,7 +1705,7 @@
           "week_opponent": "ARI",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T20:05Z",
-          "projection_updated_at": 1790544659553
+          "projection_updated_at": 1790545259205
         },
         {
           "player_id": "7564",
@@ -1738,7 +1738,7 @@
           "week_opponent": "PIT",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790544659281
+          "projection_updated_at": 1790545258938
         },
         {
           "player_id": "7594",
@@ -1771,7 +1771,7 @@
           "week_opponent": "CLE",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790544659282
+          "projection_updated_at": 1790545258936
         },
         {
           "player_id": "9753",
@@ -1837,7 +1837,7 @@
           "week_opponent": "MIA",
           "game_date": "2026-09-27",
           "game_start": "2026-09-27T17:00Z",
-          "projection_updated_at": 1790544659062
+          "projection_updated_at": 1790545258745
         }
       ],
       "matchup": {
@@ -1892,7 +1892,7 @@
           "7594": 15,
           "9753": 0,
           "11584": 4.6,
-          "11604": 11.1,
+          "11604": 15.7,
           "11646": 3.8,
           "12507": 5.6,
           "12512": 9.9,
@@ -1903,7 +1903,7 @@
         }
       },
       "opponent": {
-        "points": 105.44,
+        "points": 105.54,
         "players": [
           "10859",
           "11632",
@@ -1943,7 +1943,7 @@
           7.4,
           17,
           13,
-          14.1
+          14.2
         ],
         "players_points": {
           "2449": 7.3,
@@ -1959,7 +1959,7 @@
           "12490": 17,
           "12545": 15.24,
           "13298": 2.9,
-          "SF": 14.1
+          "SF": 14.2
         }
       },
       "my_team": {
@@ -22014,40 +22014,6 @@
         "rank": 8
       },
       {
-        "player_id": "5012",
-        "name": "Mark Andrews",
-        "team": "BAL",
-        "position": "TE",
-        "fantasy_positions": [
-          "TE"
-        ],
-        "status": "Active",
-        "injury_status": null,
-        "injury_body_part": null,
-        "injury_notes": null,
-        "practice_participation": null,
-        "depth_chart_position": "TE",
-        "trending_adds_24h": 30411,
-        "projected_points": 11.79,
-        "start_percent": 37.99,
-        "rostered_percent": 82.13,
-        "usage_opportunities": 6.5,
-        "usage_percentile": 90.1,
-        "usage_sample_games": 2,
-        "matchup_index": 128,
-        "matchup_rating": 1,
-        "matchup_sample_weeks": 2,
-        "week_opponent": "DAL",
-        "game_start": "2026-09-27T20:25Z",
-        "roster_status": "WAIVER",
-        "fantasy_team": null,
-        "health_score": 100,
-        "unavailable": false,
-        "projection_percentile": 94.9,
-        "consensus_score": 80.72,
-        "rank": 9
-      },
-      {
         "player_id": "11604",
         "name": "Brock Bowers",
         "team": "LV",
@@ -22079,6 +22045,40 @@
         "unavailable": false,
         "projection_percentile": 98,
         "consensus_score": 78.59,
+        "rank": 9
+      },
+      {
+        "player_id": "5012",
+        "name": "Mark Andrews",
+        "team": "BAL",
+        "position": "TE",
+        "fantasy_positions": [
+          "TE"
+        ],
+        "status": "Active",
+        "injury_status": "Questionable",
+        "injury_body_part": "Hand",
+        "injury_notes": null,
+        "practice_participation": null,
+        "depth_chart_position": "TE",
+        "trending_adds_24h": 30411,
+        "projected_points": 11.79,
+        "start_percent": 37.99,
+        "rostered_percent": 82.13,
+        "usage_opportunities": 6.5,
+        "usage_percentile": 90.1,
+        "usage_sample_games": 2,
+        "matchup_index": 128,
+        "matchup_rating": 1,
+        "matchup_sample_weeks": 2,
+        "week_opponent": "DAL",
+        "game_start": "2026-09-27T20:25Z",
+        "roster_status": "WAIVER",
+        "fantasy_team": null,
+        "health_score": 30,
+        "unavailable": false,
+        "projection_percentile": 94.9,
+        "consensus_score": 77.22,
         "rank": 10
       },
       {
@@ -27332,7 +27332,7 @@
       "week_opponent": "MIN",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:05Z",
-      "projection_updated_at": 1790544659516
+      "projection_updated_at": 1790545259197
     },
     {
       "player_id": "11604",
@@ -27361,11 +27361,11 @@
       "matchup_index": 84.4,
       "matchup_rating": -0.78,
       "matchup_sample_weeks": 2,
-      "actual_points": 11.1,
+      "actual_points": 15.7,
       "week_opponent": "NO",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:25Z",
-      "projection_updated_at": 1790544659589
+      "projection_updated_at": 1790545259268
     },
     {
       "player_id": "11646",
@@ -27398,7 +27398,7 @@
       "week_opponent": "CLE",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790544659289
+      "projection_updated_at": 1790545258943
     },
     {
       "player_id": "12507",
@@ -27431,7 +27431,7 @@
       "week_opponent": "BUF",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790544659176
+      "projection_updated_at": 1790545258848
     },
     {
       "player_id": "12512",
@@ -27464,7 +27464,7 @@
       "week_opponent": "CAR",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790544659355
+      "projection_updated_at": 1790545259037
     },
     {
       "player_id": "12526",
@@ -27497,7 +27497,7 @@
       "week_opponent": "CLE",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790544659284
+      "projection_updated_at": 1790545258939
     },
     {
       "player_id": "12534",
@@ -27530,7 +27530,7 @@
       "week_opponent": "PHI",
       "game_date": "2026-09-28",
       "game_start": "2026-09-29T00:15Z",
-      "projection_updated_at": 1790544659612
+      "projection_updated_at": 1790545259283
     },
     {
       "player_id": "13346",
@@ -27563,7 +27563,7 @@
       "week_opponent": "CAR",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790544659367
+      "projection_updated_at": 1790545259049
     },
     {
       "player_id": "4881",
@@ -27596,7 +27596,7 @@
       "week_opponent": "DAL",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:25Z",
-      "projection_updated_at": 1790544659542
+      "projection_updated_at": 1790545259217
     },
     {
       "player_id": "5001",
@@ -27629,7 +27629,7 @@
       "week_opponent": "IND",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790544659306
+      "projection_updated_at": 1790545258956
     },
     {
       "player_id": "5189",
@@ -27662,7 +27662,7 @@
       "week_opponent": "ARI",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T20:05Z",
-      "projection_updated_at": 1790544659553
+      "projection_updated_at": 1790545259205
     },
     {
       "player_id": "7564",
@@ -27695,7 +27695,7 @@
       "week_opponent": "PIT",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790544659281
+      "projection_updated_at": 1790545258938
     },
     {
       "player_id": "7594",
@@ -27728,7 +27728,7 @@
       "week_opponent": "CLE",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790544659282
+      "projection_updated_at": 1790545258936
     },
     {
       "player_id": "9753",
@@ -27794,7 +27794,7 @@
       "week_opponent": "MIA",
       "game_date": "2026-09-27",
       "game_start": "2026-09-27T17:00Z",
-      "projection_updated_at": 1790544659062
+      "projection_updated_at": 1790545258745
     }
   ],
   "matchup": {
@@ -27849,7 +27849,7 @@
       "7594": 15,
       "9753": 0,
       "11584": 4.6,
-      "11604": 11.1,
+      "11604": 15.7,
       "11646": 3.8,
       "12507": 5.6,
       "12512": 9.9,
@@ -27860,7 +27860,7 @@
     }
   },
   "opponent": {
-    "points": 105.44,
+    "points": 105.54,
     "players": [
       "10859",
       "11632",
@@ -27900,7 +27900,7 @@
       7.4,
       17,
       13,
-      14.1
+      14.2
     ],
     "players_points": {
       "2449": 7.3,
@@ -27916,7 +27916,7 @@
       "12490": 17,
       "12545": 15.24,
       "13298": 2.9,
-      "SF": 14.1
+      "SF": 14.2
     }
   },
   "opponent_team": {
