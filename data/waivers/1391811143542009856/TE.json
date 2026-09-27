@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T23:10:13.623Z",
+  "updated_at": "2026-09-27T23:25:08.018Z",
   "week": 3,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 594624
+      "trending_adds_24h": 602744
     },
     {
       "player_id": "2505",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 133965
+      "trending_adds_24h": 136017
     },
     {
       "player_id": "1339",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 46899
+      "trending_adds_24h": 48420
     },
     {
       "player_id": "11603",
@@ -67,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 16710
+      "trending_adds_24h": 16992
     },
     {
       "player_id": "8111",
@@ -83,7 +83,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 14232
+      "trending_adds_24h": 14322
+    },
+    {
+      "player_id": "4066",
+      "name": "Evan Engram",
+      "team": "DEN",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "TE",
+      "trending_adds_24h": 13504
     },
     {
       "player_id": "9482",
@@ -99,23 +115,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 13158
-    },
-    {
-      "player_id": "3239",
-      "name": "Bronson Kaufusi",
-      "team": "GB",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
+      "trending_adds_24h": 13392
     },
     {
       "player_id": "1592",
@@ -246,6 +246,22 @@
       "trending_adds_24h": 0
     },
     {
+      "player_id": "3239",
+      "name": "Bronson Kaufusi",
+      "team": "GB",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
       "player_id": "3668",
       "name": "Joshua Perkins",
       "team": "NYJ",
@@ -329,22 +345,6 @@
       "player_id": "4054",
       "name": "Mo Alie-Cox",
       "team": "IND",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "TE",
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "4066",
-      "name": "Evan Engram",
-      "team": "DEN",
       "position": "TE",
       "fantasy_positions": [
         "TE"
@@ -654,8 +654,8 @@
         "TE"
       ],
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
+      "injury_status": "Questionable",
+      "injury_body_part": "Arm",
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
@@ -766,8 +766,8 @@
         "TE"
       ],
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Knee",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
