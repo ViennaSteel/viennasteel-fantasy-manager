@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T11:04:38.632Z",
+  "updated_at": "2026-09-28T11:24:18.989Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -25,30 +25,9 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 77435,
+      "trending_adds_24h": 78080,
       "trending_drops_24h": 0,
       "waiver_score": 93.83
-    },
-    {
-      "player_id": "NYG",
-      "name": "New York Giants",
-      "team": "NYG",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 23.6,
-      "week_opponent": "TEN",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 101212,
-      "trending_drops_24h": 18468,
-      "waiver_score": 89.98
     },
     {
       "player_id": "TEN",
@@ -70,6 +49,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 89.79
+    },
+    {
+      "player_id": "NYG",
+      "name": "New York Giants",
+      "team": "NYG",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 23.6,
+      "week_opponent": "TEN",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 101324,
+      "trending_drops_24h": 18612,
+      "waiver_score": 89.74
     },
     {
       "player_id": "PHI",
@@ -130,7 +130,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 59530,
+      "trending_adds_24h": 59650,
       "trending_drops_24h": 0,
       "waiver_score": 73.55
     },
@@ -193,8 +193,8 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 32526,
-      "trending_drops_24h": 49626,
+      "trending_adds_24h": 32562,
+      "trending_drops_24h": 49860,
       "waiver_score": 69.02
     },
     {
@@ -235,8 +235,8 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 31452,
-      "trending_drops_24h": 31452,
+      "trending_adds_24h": 31770,
+      "trending_drops_24h": 31470,
       "waiver_score": 50.24
     },
     {
@@ -257,7 +257,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 63470,
+      "trending_drops_24h": 63575,
       "waiver_score": 49.54
     },
     {
@@ -282,6 +282,27 @@
       "waiver_score": 48.37
     },
     {
+      "player_id": "LV",
+      "name": "Las Vegas Raiders",
+      "team": "LV",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 18.2,
+      "week_opponent": "NO",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 101652,
+      "trending_drops_24h": 0,
+      "waiver_score": 40
+    },
+    {
       "player_id": "ATL",
       "name": "Atlanta Falcons",
       "team": "ATL",
@@ -301,27 +322,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 39.99
-    },
-    {
-      "player_id": "LV",
-      "name": "Las Vegas Raiders",
-      "team": "LV",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 18.2,
-      "week_opponent": "NO",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 100494,
-      "trending_drops_24h": 0,
-      "waiver_score": 39.76
     },
     {
       "player_id": "WAS",
@@ -467,7 +467,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 76006,
+      "trending_drops_24h": 76531,
       "waiver_score": 12.14
     }
   ]
