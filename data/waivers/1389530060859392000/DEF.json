@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T17:15:59.993Z",
+  "updated_at": "2026-09-28T17:41:28.979Z",
   "week": 3,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 125394
+      "trending_adds_24h": 124056
     },
     {
       "player_id": "MIN",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 72410
+      "trending_adds_24h": 67250
     },
     {
       "player_id": "JAX",
@@ -51,23 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 40086
-    },
-    {
-      "player_id": "NYG",
-      "name": "New York Giants",
-      "team": "NYG",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 36240
+      "trending_adds_24h": 40344
     },
     {
       "player_id": "NO",
@@ -83,7 +67,39 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 35135
+      "trending_adds_24h": 24175
+    },
+    {
+      "player_id": "NYG",
+      "name": "New York Giants",
+      "team": "NYG",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 14292
+    },
+    {
+      "player_id": "CLE",
+      "name": "Cleveland Browns",
+      "team": "CLE",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 9233
     },
     {
       "player_id": "DET",
@@ -99,12 +115,12 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 14427
+      "trending_adds_24h": 8982
     },
     {
-      "player_id": "ARI",
-      "name": "Arizona Cardinals",
-      "team": "ARI",
+      "player_id": "ATL",
+      "name": "Atlanta Falcons",
+      "team": "ATL",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -118,9 +134,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "ATL",
-      "name": "Atlanta Falcons",
-      "team": "ATL",
+      "player_id": "ARI",
+      "name": "Arizona Cardinals",
+      "team": "ARI",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -153,22 +169,6 @@
       "player_id": "CHI",
       "name": "Chicago Bears",
       "team": "CHI",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "CLE",
-      "name": "Cleveland Browns",
-      "team": "CLE",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
