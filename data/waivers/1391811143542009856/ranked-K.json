@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T16:37:41.470Z",
+  "updated_at": "2026-09-29T17:01:15.911Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -20,12 +20,12 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 8.27,
+      "projected_points": 8.24,
       "week_opponent": "TEN",
       "rostered_percent": 54.01,
       "start_percent": 48.89,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 49764,
+      "trending_adds_24h": 51660,
       "trending_drops_24h": 0,
       "waiver_score": 87.09
     },
@@ -41,12 +41,12 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 9.03,
+      "projected_points": 9.33,
       "week_opponent": "MIA",
       "rostered_percent": 28.69,
       "start_percent": 25.44,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 33288,
+      "trending_adds_24h": 34677,
       "trending_drops_24h": 0,
       "waiver_score": 86.25
     },
@@ -62,14 +62,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 7.77,
+      "projected_points": 7.71,
       "week_opponent": "PHI",
       "rostered_percent": 72.81,
       "start_percent": 65.39,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 78.97
+      "waiver_score": 77.72
     },
     {
       "player_id": "4227",
@@ -83,14 +83,35 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 8.59,
+      "projected_points": 8.44,
       "week_opponent": "LV",
       "rostered_percent": 84.45,
       "start_percent": 78.53,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 32948,
+      "trending_drops_24h": 33940,
       "waiver_score": 75.19
+    },
+    {
+      "player_id": "13833",
+      "name": "Dominic Zvada",
+      "team": "NYG",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7.71,
+      "week_opponent": "ARI",
+      "rostered_percent": 1.87,
+      "start_percent": 1.48,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 70.02
     },
     {
       "player_id": "8259",
@@ -114,27 +135,6 @@
       "waiver_score": 69.99
     },
     {
-      "player_id": "13833",
-      "name": "Dominic Zvada",
-      "team": "NYG",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.71,
-      "week_opponent": "ARI",
-      "rostered_percent": 1.87,
-      "start_percent": 1.48,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 68.76
-    },
-    {
       "player_id": "13968",
       "name": "Drew Stevens",
       "team": "WAS",
@@ -153,7 +153,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 68.14
+      "waiver_score": 69.36
     },
     {
       "player_id": "7042",
@@ -177,27 +177,6 @@
       "waiver_score": 66.04
     },
     {
-      "player_id": "5095",
-      "name": "Daniel Carlson",
-      "team": "NO",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 8.24,
-      "week_opponent": "ATL",
-      "rostered_percent": 5.68,
-      "start_percent": 4.97,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 62.49
-    },
-    {
       "player_id": "6083",
       "name": "Matt Gay",
       "team": "LV",
@@ -214,7 +193,7 @@
       "rostered_percent": 1.6,
       "start_percent": 1.05,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 40560,
+      "trending_adds_24h": 42310,
       "trending_drops_24h": 0,
       "waiver_score": 62.3
     },
@@ -238,6 +217,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 60.83
+    },
+    {
+      "player_id": "5095",
+      "name": "Daniel Carlson",
+      "team": "NO",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 8.09,
+      "week_opponent": "ATL",
+      "rostered_percent": 5.68,
+      "start_percent": 4.97,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 60
     },
     {
       "player_id": "12713",
@@ -279,7 +279,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 52.5
+      "waiver_score": 53.76
     },
     {
       "player_id": "3678",
@@ -314,7 +314,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 6.98,
+      "projected_points": 6.97,
       "week_opponent": "LAR",
       "rostered_percent": 8.11,
       "start_percent": 5.66,
