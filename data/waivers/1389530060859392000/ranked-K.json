@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T05:23:13.212Z",
+  "updated_at": "2026-09-29T05:49:22.402Z",
   "week": 4,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -25,7 +25,7 @@
       "rostered_percent": 54,
       "start_percent": 48.62,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 24762,
+      "trending_adds_24h": 24840,
       "trending_drops_24h": 0,
       "waiver_score": 89.44
     },
@@ -46,7 +46,7 @@
       "rostered_percent": 28.67,
       "start_percent": 25.25,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 13110,
+      "trending_adds_24h": 13443,
       "trending_drops_24h": 0,
       "waiver_score": 82.9
     },
@@ -67,30 +67,9 @@
       "rostered_percent": 6.47,
       "start_percent": 5.65,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 28894,
+      "trending_adds_24h": 29178,
       "trending_drops_24h": 0,
       "waiver_score": 79.66
-    },
-    {
-      "player_id": "11539",
-      "name": "Jake Bates",
-      "team": "DET",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.9,
-      "week_opponent": "CAR",
-      "rostered_percent": 64.69,
-      "start_percent": 58.84,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 22128,
-      "waiver_score": 79.64
     },
     {
       "player_id": "12015",
@@ -112,6 +91,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 79.22
+    },
+    {
+      "player_id": "11539",
+      "name": "Jake Bates",
+      "team": "DET",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7.9,
+      "week_opponent": "CAR",
+      "rostered_percent": 64.69,
+      "start_percent": 58.84,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 22240,
+      "waiver_score": 78.47
     },
     {
       "player_id": "13968",
@@ -193,7 +193,7 @@
       "rostered_percent": 1.6,
       "start_percent": 1.03,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 20090,
+      "trending_adds_24h": 19960,
       "trending_drops_24h": 0,
       "waiver_score": 63.48
     },
@@ -219,6 +219,27 @@
       "waiver_score": 63.04
     },
     {
+      "player_id": "2020",
+      "name": "Cairo Santos",
+      "team": "CHI",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7.91,
+      "week_opponent": "NYJ",
+      "rostered_percent": 30.33,
+      "start_percent": 24.47,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 62.32
+    },
+    {
       "player_id": "5095",
       "name": "Daniel Carlson",
       "team": "NO",
@@ -238,27 +259,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 61.34
-    },
-    {
-      "player_id": "2020",
-      "name": "Cairo Santos",
-      "team": "CHI",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.85,
-      "week_opponent": "NYJ",
-      "rostered_percent": 30.33,
-      "start_percent": 24.47,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 61.15
     },
     {
       "player_id": "12961",
@@ -461,7 +461,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 6.97,
+      "projected_points": 6.95,
       "week_opponent": "CHI",
       "rostered_percent": 0.43,
       "start_percent": 0.27,
