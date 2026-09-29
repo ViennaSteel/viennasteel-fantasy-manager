@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T16:09:06.513Z",
+  "updated_at": "2026-09-29T16:37:41.470Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -23,9 +23,9 @@
       "projected_points": 8.27,
       "week_opponent": "TEN",
       "rostered_percent": 54.01,
-      "start_percent": 48.86,
+      "start_percent": 48.89,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 47664,
+      "trending_adds_24h": 49764,
       "trending_drops_24h": 0,
       "waiver_score": 87.09
     },
@@ -41,12 +41,12 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 8.86,
+      "projected_points": 9.03,
       "week_opponent": "MIA",
       "rostered_percent": 28.69,
-      "start_percent": 25.42,
+      "start_percent": 25.44,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 31416,
+      "trending_adds_24h": 33288,
       "trending_drops_24h": 0,
       "waiver_score": 86.25
     },
@@ -65,7 +65,7 @@
       "projected_points": 7.77,
       "week_opponent": "PHI",
       "rostered_percent": 72.81,
-      "start_percent": 65.38,
+      "start_percent": 65.39,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -86,10 +86,10 @@
       "projected_points": 8.59,
       "week_opponent": "LV",
       "rostered_percent": 84.45,
-      "start_percent": 78.55,
+      "start_percent": 78.53,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 31920,
+      "trending_drops_24h": 32948,
       "waiver_score": 75.19
     },
     {
@@ -104,14 +104,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 7.69,
+      "projected_points": 7.1,
       "week_opponent": "SEA",
-      "rostered_percent": 85.83,
-      "start_percent": 78.73,
+      "rostered_percent": 85.82,
+      "start_percent": 78.69,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 73.74
+      "waiver_score": 69.99
     },
     {
       "player_id": "13833",
@@ -128,7 +128,7 @@
       "projected_points": 7.71,
       "week_opponent": "ARI",
       "rostered_percent": 1.87,
-      "start_percent": 1.47,
+      "start_percent": 1.48,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -146,7 +146,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 8.08,
+      "projected_points": 8.15,
       "week_opponent": "IND",
       "rostered_percent": 0.53,
       "start_percent": 0.32,
@@ -169,7 +169,7 @@
       "depth_chart_position": "K",
       "projected_points": 7.93,
       "week_opponent": "NE",
-      "rostered_percent": 11.98,
+      "rostered_percent": 11.97,
       "start_percent": 10.17,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
@@ -188,35 +188,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 8.38,
+      "projected_points": 8.24,
       "week_opponent": "ATL",
       "rostered_percent": 5.68,
-      "start_percent": 4.98,
+      "start_percent": 4.97,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 65.01
-    },
-    {
-      "player_id": "12713",
-      "name": "Andy Borregales",
-      "team": "NE",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.36,
-      "week_opponent": "BUF",
-      "rostered_percent": 2.12,
-      "start_percent": 1.53,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 62.26
+      "waiver_score": 62.49
     },
     {
       "player_id": "6083",
@@ -230,14 +209,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 8.1,
+      "projected_points": 8.3,
       "week_opponent": "KC",
       "rostered_percent": 1.6,
       "start_percent": 1.05,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 38580,
+      "trending_adds_24h": 40560,
       "trending_drops_24h": 0,
-      "waiver_score": 59.78
+      "waiver_score": 62.3
     },
     {
       "player_id": "12961",
@@ -258,7 +237,28 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 59.57
+      "waiver_score": 60.83
+    },
+    {
+      "player_id": "12713",
+      "name": "Andy Borregales",
+      "team": "NE",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 6.89,
+      "week_opponent": "BUF",
+      "rostered_percent": 2.12,
+      "start_percent": 1.53,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 59.77
     },
     {
       "player_id": "650",
@@ -272,7 +272,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 7.97,
+      "projected_points": 8.13,
       "week_opponent": "NO",
       "rostered_percent": 3.77,
       "start_percent": 2.32,
@@ -296,11 +296,11 @@
       "projected_points": 7.65,
       "week_opponent": "SF",
       "rostered_percent": 5.29,
-      "start_percent": 3.95,
+      "start_percent": 3.94,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 48.99
+      "waiver_score": 50.22
     },
     {
       "player_id": "4195",
@@ -316,33 +316,12 @@
       "depth_chart_position": "K",
       "projected_points": 6.98,
       "week_opponent": "LAR",
-      "rostered_percent": 8.12,
-      "start_percent": 5.67,
+      "rostered_percent": 8.11,
+      "start_percent": 5.66,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 48.33
-    },
-    {
-      "player_id": "11261",
-      "name": "Andre Szmyt",
-      "team": "CLE",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 6.78,
-      "week_opponent": "PIT",
-      "rostered_percent": 0.43,
-      "start_percent": 0.31,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 42.68
+      "waiver_score": 49.59
     },
     {
       "player_id": "10955",
@@ -363,7 +342,28 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 41.06
+      "waiver_score": 43.55
+    },
+    {
+      "player_id": "11261",
+      "name": "Andre Szmyt",
+      "team": "CLE",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 6.67,
+      "week_opponent": "PIT",
+      "rostered_percent": 0.43,
+      "start_percent": 0.31,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 42.68
     },
     {
       "player_id": "13804",
@@ -440,7 +440,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 6.74,
+      "projected_points": 6.53,
       "week_opponent": "CHI",
       "rostered_percent": 0.42,
       "start_percent": 0.27,
