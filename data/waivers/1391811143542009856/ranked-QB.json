@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T22:05:08.706Z",
+  "updated_at": "2026-09-30T22:25:33.999Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -25,7 +25,7 @@
       "rostered_percent": 47.23,
       "start_percent": 19.24,
       "previous_week_opportunities": 46,
-      "trending_adds_24h": 130524,
+      "trending_adds_24h": 131412,
       "trending_drops_24h": 0,
       "waiver_score": 98.95
     },
@@ -46,7 +46,7 @@
       "rostered_percent": 23.77,
       "start_percent": 3.76,
       "previous_week_opportunities": 39,
-      "trending_adds_24h": 40775,
+      "trending_adds_24h": 41200,
       "trending_drops_24h": 0,
       "waiver_score": 97.09
     },
@@ -67,7 +67,7 @@
       "rostered_percent": 8.35,
       "start_percent": 3.67,
       "previous_week_opportunities": 41,
-      "trending_adds_24h": 192912,
+      "trending_adds_24h": 194688,
       "trending_drops_24h": 0,
       "waiver_score": 95.28
     },
@@ -88,7 +88,7 @@
       "rostered_percent": 13.04,
       "start_percent": 7.74,
       "previous_week_opportunities": 36,
-      "trending_adds_24h": 130812,
+      "trending_adds_24h": 131932,
       "trending_drops_24h": 0,
       "waiver_score": 95.22
     },
@@ -109,7 +109,7 @@
       "rostered_percent": 8.52,
       "start_percent": 3.82,
       "previous_week_opportunities": 39,
-      "trending_adds_24h": 33072,
+      "trending_adds_24h": 33316,
       "trending_drops_24h": 0,
       "waiver_score": 94.21
     },
@@ -156,27 +156,6 @@
       "waiver_score": 90.65
     },
     {
-      "player_id": "1737",
-      "name": "Case Keenum",
-      "team": "CHI",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": 14.5,
-      "week_opponent": "NYJ",
-      "rostered_percent": 2.72,
-      "start_percent": 1.12,
-      "previous_week_opportunities": 38,
-      "trending_adds_24h": 101008,
-      "trending_drops_24h": 0,
-      "waiver_score": 90.23
-    },
-    {
       "player_id": "8161",
       "name": "Malik Willis",
       "team": "MIA",
@@ -194,8 +173,29 @@
       "start_percent": 1.51,
       "previous_week_opportunities": 45,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 139937,
-      "waiver_score": 90.18
+      "trending_drops_24h": 140357,
+      "waiver_score": 90.48
+    },
+    {
+      "player_id": "1737",
+      "name": "Case Keenum",
+      "team": "CHI",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": 14.5,
+      "week_opponent": "NYJ",
+      "rostered_percent": 2.72,
+      "start_percent": 1.12,
+      "previous_week_opportunities": 38,
+      "trending_adds_24h": 101686,
+      "trending_drops_24h": 0,
+      "waiver_score": 90.23
     },
     {
       "player_id": "12522",
@@ -240,27 +240,6 @@
       "waiver_score": 88.38
     },
     {
-      "player_id": "13425",
-      "name": "Jalon Daniels",
-      "team": "TB",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": 12.86,
-      "week_opponent": "GB",
-      "rostered_percent": 0.9,
-      "start_percent": 0.28,
-      "previous_week_opportunities": 4,
-      "trending_adds_24h": 134622,
-      "trending_drops_24h": 0,
-      "waiver_score": 85.88
-    },
-    {
       "player_id": "96",
       "name": "Aaron Rodgers",
       "team": "PIT",
@@ -280,6 +259,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 85.67
+    },
+    {
+      "player_id": "13425",
+      "name": "Jalon Daniels",
+      "team": "TB",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "QB",
+      "projected_points": 12.67,
+      "week_opponent": "GB",
+      "rostered_percent": 0.9,
+      "start_percent": 0.28,
+      "previous_week_opportunities": 4,
+      "trending_adds_24h": 135282,
+      "trending_drops_24h": 0,
+      "waiver_score": 85.58
     },
     {
       "player_id": "2306",
@@ -635,7 +635,7 @@
       "start_percent": 0.07,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 65526,
+      "trending_drops_24h": 65670,
       "waiver_score": 62.48
     },
     {
@@ -1349,7 +1349,7 @@
       "start_percent": 0.12,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 61764,
+      "trending_drops_24h": 61938,
       "waiver_score": 41.64
     },
     {
