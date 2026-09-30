@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-09-30T06:59:07.407Z",
+  "updated_at": "2026-09-30T07:21:20.647Z",
   "week": 4,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
   "position": "K",
   "available": [
-    {
-      "player_id": "12185",
-      "name": "Spencer Shrader",
-      "team": "IND",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Groin",
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "K",
-      "trending_adds_24h": 94518
-    },
     {
       "player_id": "12711",
       "name": "Tyler Loop",
@@ -35,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 89952
+      "trending_adds_24h": 93330
     },
     {
       "player_id": "11792",
@@ -51,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 71106
+      "trending_adds_24h": 74469
     },
     {
       "player_id": "6083",
@@ -67,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "K",
-      "trending_adds_24h": 69810
+      "trending_adds_24h": 72405
     },
     {
       "player_id": "650",
@@ -182,6 +166,22 @@
       "trending_adds_24h": 0
     },
     {
+      "player_id": "5189",
+      "name": "Eddy Pineiro",
+      "team": "SF",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "K",
+      "trending_adds_24h": 0
+    },
+    {
       "player_id": "6528",
       "name": "Joey Slye",
       "team": "TEN",
@@ -270,8 +270,8 @@
         "K"
       ],
       "status": "Active",
-      "injury_status": "Out",
-      "injury_body_part": "Coach's Decision",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
