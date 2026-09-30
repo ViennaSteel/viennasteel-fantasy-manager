@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T23:20:49.060Z",
+  "updated_at": "2026-09-30T23:36:55.231Z",
   "week": 4,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -8,27 +8,6 @@
   "scoring_note": "Composite of rostered %, league-scoring projection, previous-week opportunities, start %, Sleeper trending and health. Trending is intentionally a minor signal.",
   "available_count": 185,
   "available": [
-    {
-      "player_id": "9480",
-      "name": "Brenton Strange",
-      "team": "JAX",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": 9.77,
-      "week_opponent": "CIN",
-      "rostered_percent": 17.26,
-      "start_percent": 2.79,
-      "previous_week_opportunities": 5,
-      "trending_adds_24h": 89586,
-      "trending_drops_24h": 103365,
-      "waiver_score": 97.86
-    },
     {
       "player_id": "2505",
       "name": "Darren Waller",
@@ -43,12 +22,33 @@
       "depth_chart_position": "TE",
       "projected_points": 9.32,
       "week_opponent": "DET",
-      "rostered_percent": 16.28,
-      "start_percent": 6.58,
+      "rostered_percent": 16.65,
+      "start_percent": 6.86,
       "previous_week_opportunities": 8,
-      "trending_adds_24h": 548820,
-      "trending_drops_24h": 84996,
-      "waiver_score": 97.81
+      "trending_adds_24h": 529596,
+      "trending_drops_24h": 81747,
+      "waiver_score": 97.87
+    },
+    {
+      "player_id": "9480",
+      "name": "Brenton Strange",
+      "team": "JAX",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 9.77,
+      "week_opponent": "CIN",
+      "rostered_percent": 17.25,
+      "start_percent": 2.79,
+      "previous_week_opportunities": 5,
+      "trending_adds_24h": 87903,
+      "trending_drops_24h": 98649,
+      "waiver_score": 97.86
     },
     {
       "player_id": "11603",
@@ -64,10 +64,10 @@
       "depth_chart_position": "TE",
       "projected_points": 9.23,
       "week_opponent": "LAC",
-      "rostered_percent": 7.09,
-      "start_percent": 1.97,
+      "rostered_percent": 7.12,
+      "start_percent": 1.99,
       "previous_week_opportunities": 9,
-      "trending_adds_24h": 96366,
+      "trending_adds_24h": 93534,
       "trending_drops_24h": 0,
       "waiver_score": 96.9
     },
@@ -85,8 +85,8 @@
       "depth_chart_position": "TE",
       "projected_points": 8.98,
       "week_opponent": "HOU",
-      "rostered_percent": 79.88,
-      "start_percent": 31.49,
+      "rostered_percent": 79.85,
+      "start_percent": 31.44,
       "previous_week_opportunities": 5,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -106,33 +106,12 @@
       "depth_chart_position": "TE",
       "projected_points": 7.97,
       "week_opponent": "JAX",
-      "rostered_percent": 9.23,
-      "start_percent": 1.76,
+      "rostered_percent": 9.24,
+      "start_percent": 1.77,
       "previous_week_opportunities": 3,
-      "trending_adds_24h": 44772,
+      "trending_adds_24h": 43592,
       "trending_drops_24h": 0,
       "waiver_score": 93.8
-    },
-    {
-      "player_id": "5012",
-      "name": "Mark Andrews",
-      "team": "BAL",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": 8.69,
-      "week_opponent": "TEN",
-      "rostered_percent": 79.88,
-      "start_percent": 33.79,
-      "previous_week_opportunities": 5,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 268821,
-      "waiver_score": 93.58
     },
     {
       "player_id": "3271",
@@ -148,11 +127,32 @@
       "depth_chart_position": "TE",
       "projected_points": 6.67,
       "week_opponent": "PHI",
-      "rostered_percent": 1.19,
-      "start_percent": 0.32,
+      "rostered_percent": 1.2,
+      "start_percent": 0.33,
       "previous_week_opportunities": 11,
-      "trending_adds_24h": 772047,
-      "trending_drops_24h": 0,
+      "trending_adds_24h": 735921,
+      "trending_drops_24h": 38430,
+      "waiver_score": 93.73
+    },
+    {
+      "player_id": "5012",
+      "name": "Mark Andrews",
+      "team": "BAL",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 8.57,
+      "week_opponent": "TEN",
+      "rostered_percent": 79.84,
+      "start_percent": 33.72,
+      "previous_week_opportunities": 5,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 257022,
       "waiver_score": 93.58
     },
     {
@@ -169,8 +169,8 @@
       "depth_chart_position": "TE",
       "projected_points": 10.5,
       "week_opponent": "DAL",
-      "rostered_percent": 60.73,
-      "start_percent": 30.36,
+      "rostered_percent": 60.64,
+      "start_percent": 30.21,
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -188,10 +188,10 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 7.18,
+      "projected_points": 7.12,
       "week_opponent": "BAL",
       "rostered_percent": 3.68,
-      "start_percent": 0.45,
+      "start_percent": 0.44,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -211,11 +211,11 @@
       "depth_chart_position": "TE",
       "projected_points": 6.65,
       "week_opponent": "SEA",
-      "rostered_percent": 9.41,
-      "start_percent": 2.41,
+      "rostered_percent": 9.35,
+      "start_percent": 2.38,
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 295560,
+      "trending_drops_24h": 279975,
       "waiver_score": 92.5
     },
     {
@@ -232,8 +232,8 @@
       "depth_chart_position": "TE",
       "projected_points": 8.41,
       "week_opponent": "MIA",
-      "rostered_percent": 57.1,
-      "start_percent": 13.65,
+      "rostered_percent": 57.04,
+      "start_percent": 13.59,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -274,11 +274,11 @@
       "depth_chart_position": "TE",
       "projected_points": 5.59,
       "week_opponent": "KC",
-      "rostered_percent": 13.8,
-      "start_percent": 1.93,
+      "rostered_percent": 13.77,
+      "start_percent": 1.92,
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 142731,
+      "trending_drops_24h": 136350,
       "waiver_score": 90.69
     },
     {
@@ -295,8 +295,8 @@
       "depth_chart_position": "TE",
       "projected_points": 6.67,
       "week_opponent": "MIN",
-      "rostered_percent": 1.76,
-      "start_percent": 0.22,
+      "rostered_percent": 1.75,
+      "start_percent": 0.23,
       "previous_week_opportunities": 7,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -316,11 +316,11 @@
       "depth_chart_position": "TE",
       "projected_points": 9.59,
       "week_opponent": "BUF",
-      "rostered_percent": 46.73,
-      "start_percent": 11.41,
+      "rostered_percent": 46.66,
+      "start_percent": 11.35,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 83505,
+      "trending_drops_24h": 79677,
       "waiver_score": 90.19
     },
     {
@@ -337,7 +337,7 @@
       "depth_chart_position": "TE",
       "projected_points": 6.06,
       "week_opponent": "ATL",
-      "rostered_percent": 1.29,
+      "rostered_percent": 1.31,
       "start_percent": 0.35,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
@@ -363,7 +363,7 @@
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 87.83
+      "waiver_score": 87.68
     },
     {
       "player_id": "4066",
@@ -379,11 +379,11 @@
       "depth_chart_position": "TE",
       "projected_points": 5.59,
       "week_opponent": "SF",
-      "rostered_percent": 4.17,
-      "start_percent": 0.61,
+      "rostered_percent": 4.16,
+      "start_percent": 0.6,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 56528,
+      "trending_drops_24h": 53544,
       "waiver_score": 86.26
     },
     {
@@ -446,7 +446,7 @@
       "start_percent": 0.22,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 237024,
+      "trending_drops_24h": 227403,
       "waiver_score": 83.77
     },
     {
@@ -485,7 +485,7 @@
       "projected_points": 3.81,
       "week_opponent": "NYJ",
       "rostered_percent": 1.02,
-      "start_percent": 0.19,
+      "start_percent": 0.18,
       "previous_week_opportunities": 1,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -597,27 +597,6 @@
       "waiver_score": 79.25
     },
     {
-      "player_id": "4314",
-      "name": "Johnny Mundt",
-      "team": "PHI",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": 3.08,
-      "week_opponent": "LAR",
-      "rostered_percent": 0.17,
-      "start_percent": 0.11,
-      "previous_week_opportunities": 1,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 78.1
-    },
-    {
       "player_id": "6001",
       "name": "Drew Sample",
       "team": "CIN",
@@ -637,6 +616,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 78.05
+    },
+    {
+      "player_id": "4314",
+      "name": "Johnny Mundt",
+      "team": "PHI",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 3.08,
+      "week_opponent": "LAR",
+      "rostered_percent": 0.16,
+      "start_percent": 0.11,
+      "previous_week_opportunities": 1,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 77.92
     },
     {
       "player_id": "12521",
@@ -741,7 +741,7 @@
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 76
+      "waiver_score": 76.15
     },
     {
       "player_id": "5985",
@@ -797,9 +797,9 @@
       "injury_status": "Questionable",
       "injury_body_part": "Hamstring",
       "depth_chart_position": "TE",
-      "projected_points": 7.98,
+      "projected_points": 8.06,
       "week_opponent": "IND",
-      "rostered_percent": 3.86,
+      "rostered_percent": 3.85,
       "start_percent": 0.16,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
@@ -933,6 +933,27 @@
       "waiver_score": 72.49
     },
     {
+      "player_id": "11592",
+      "name": "Erick All",
+      "team": "CIN",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 2.88,
+      "week_opponent": "JAX",
+      "rostered_percent": 0.16,
+      "start_percent": 0.02,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 72.31
+    },
+    {
       "player_id": "13307",
       "name": "Marlin Klein",
       "team": "HOU",
@@ -952,27 +973,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 72.19
-    },
-    {
-      "player_id": "11592",
-      "name": "Erick All",
-      "team": "CIN",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": 2.88,
-      "week_opponent": "JAX",
-      "rostered_percent": 0.16,
-      "start_percent": 0.02,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 72.13
     },
     {
       "player_id": "13434",
@@ -1007,7 +1007,7 @@
       "injury_status": "Questionable",
       "injury_body_part": "Ribs",
       "depth_chart_position": "TE",
-      "projected_points": 0.99,
+      "projected_points": 1,
       "week_opponent": "IND",
       "rostered_percent": 0.06,
       "start_percent": 0.02,
@@ -1028,7 +1028,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 2.18,
+      "projected_points": 2.16,
       "week_opponent": "BAL",
       "rostered_percent": 0.03,
       "start_percent": 0.01,
@@ -1112,7 +1112,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 1.89,
+      "projected_points": 1.91,
       "week_opponent": "IND",
       "rostered_percent": 0.04,
       "start_percent": 0.01,
@@ -1238,7 +1238,7 @@
       "injury_status": "Questionable",
       "injury_body_part": "Illness",
       "depth_chart_position": "TE",
-      "projected_points": 1,
+      "projected_points": 1.07,
       "week_opponent": "WAS",
       "rostered_percent": 0.05,
       "start_percent": 0.01,
@@ -1353,27 +1353,6 @@
       "waiver_score": 62.38
     },
     {
-      "player_id": "13324",
-      "name": "Matt Hibner",
-      "team": "BAL",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": 1.95,
-      "week_opponent": "TEN",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": 2,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 60.96
-    },
-    {
       "player_id": "12817",
       "name": "Jake Briningstool",
       "team": "KC",
@@ -1416,6 +1395,27 @@
       "waiver_score": 60.75
     },
     {
+      "player_id": "13324",
+      "name": "Matt Hibner",
+      "team": "BAL",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 1.93,
+      "week_opponent": "TEN",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": 2,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 60.66
+    },
+    {
       "player_id": "6869",
       "name": "Adam Trautman",
       "team": "DEN",
@@ -1434,7 +1434,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 60.43
+      "waiver_score": 60.58
     },
     {
       "player_id": "13429",
@@ -1889,7 +1889,7 @@
       "injury_status": "Questionable",
       "injury_body_part": "Heel",
       "depth_chart_position": "TE",
-      "projected_points": 0.83,
+      "projected_points": 0.82,
       "week_opponent": "TEN",
       "rostered_percent": 0.05,
       "start_percent": 0.01,
@@ -2248,12 +2248,12 @@
       "depth_chart_position": "TE",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 80,
-      "start_percent": 6.82,
+      "rostered_percent": 79.96,
+      "start_percent": 6.79,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 46.19
+      "waiver_score": 46.13
     },
     {
       "player_id": "13712",
