@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T15:15:26.743Z",
+  "updated_at": "2026-09-30T15:44:58.153Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 432005
+      "trending_adds_24h": 432131
     },
     {
       "player_id": "LV",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 319860
+      "trending_adds_24h": 309492
     },
     {
       "player_id": "PIT",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 306741
+      "trending_adds_24h": 297036
     },
     {
       "player_id": "CHI",
@@ -67,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 158690
+      "trending_adds_24h": 155000
     },
     {
       "player_id": "ARI",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 111336
+      "trending_adds_24h": 111040
     },
     {
       "player_id": "JAX",
@@ -99,7 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 69324
+      "trending_adds_24h": 67608
     },
     {
       "player_id": "NO",
@@ -115,28 +115,12 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 37520
+      "trending_adds_24h": 36970
     },
     {
       "player_id": "ATL",
       "name": "Atlanta Falcons",
       "team": "ATL",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "DET",
-      "name": "Detroit Lions",
-      "team": "DET",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -166,9 +150,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "IND",
-      "name": "Indianapolis Colts",
-      "team": "IND",
+      "player_id": "DET",
+      "name": "Detroit Lions",
+      "team": "DET",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -182,9 +166,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "LAC",
-      "name": "Los Angeles Chargers",
-      "team": "LAC",
+      "player_id": "IND",
+      "name": "Indianapolis Colts",
+      "team": "IND",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -214,9 +198,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "MIA",
-      "name": "Miami Dolphins",
-      "team": "MIA",
+      "player_id": "NYJ",
+      "name": "New York Jets",
+      "team": "NYJ",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -230,9 +214,25 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "NYJ",
-      "name": "New York Jets",
-      "team": "NYJ",
+      "player_id": "LAC",
+      "name": "Los Angeles Chargers",
+      "team": "LAC",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "MIA",
+      "name": "Miami Dolphins",
+      "team": "MIA",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
