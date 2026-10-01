@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T22:48:58.166Z",
+  "updated_at": "2026-10-01T23:00:57.901Z",
   "week": 4,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -25,7 +25,7 @@
       "rostered_percent": 77.31,
       "start_percent": 23.21,
       "previous_week_opportunities": 38,
-      "trending_adds_24h": 25194,
+      "trending_adds_24h": 25524,
       "trending_drops_24h": 0,
       "waiver_score": 98
     },
@@ -46,7 +46,7 @@
       "rostered_percent": 49.98,
       "start_percent": 21.92,
       "previous_week_opportunities": 46,
-      "trending_adds_24h": 31425,
+      "trending_adds_24h": 31788,
       "trending_drops_24h": 0,
       "waiver_score": 97.25
     },
@@ -67,8 +67,8 @@
       "rostered_percent": 63.24,
       "start_percent": 27.21,
       "previous_week_opportunities": 31,
-      "trending_adds_24h": 35272,
-      "trending_drops_24h": 54176,
+      "trending_adds_24h": 35904,
+      "trending_drops_24h": 55320,
       "waiver_score": 96.3
     },
     {
@@ -88,7 +88,7 @@
       "rostered_percent": 23.48,
       "start_percent": 3.98,
       "previous_week_opportunities": 39,
-      "trending_adds_24h": 25535,
+      "trending_adds_24h": 26295,
       "trending_drops_24h": 0,
       "waiver_score": 95.85
     },
@@ -109,8 +109,8 @@
       "rostered_percent": 36.96,
       "start_percent": 14.45,
       "previous_week_opportunities": 29,
-      "trending_adds_24h": 86884,
-      "trending_drops_24h": 26089,
+      "trending_adds_24h": 88774,
+      "trending_drops_24h": 26572,
       "waiver_score": 95.65
     },
     {
@@ -130,7 +130,7 @@
       "rostered_percent": 16.87,
       "start_percent": 11.11,
       "previous_week_opportunities": 36,
-      "trending_adds_24h": 50900,
+      "trending_adds_24h": 51884,
       "trending_drops_24h": 0,
       "waiver_score": 94.25
     },
@@ -151,8 +151,8 @@
       "rostered_percent": 15.73,
       "start_percent": 5.64,
       "previous_week_opportunities": 36,
-      "trending_adds_24h": 133320,
-      "trending_drops_24h": 32864,
+      "trending_adds_24h": 135936,
+      "trending_drops_24h": 33552,
       "waiver_score": 92.6
     },
     {
@@ -172,8 +172,8 @@
       "rostered_percent": 8.49,
       "start_percent": 3.55,
       "previous_week_opportunities": 41,
-      "trending_adds_24h": 74600,
-      "trending_drops_24h": 24288,
+      "trending_adds_24h": 76160,
+      "trending_drops_24h": 24880,
       "waiver_score": 92.2
     },
     {
@@ -214,7 +214,7 @@
       "rostered_percent": 3.39,
       "start_percent": 1.52,
       "previous_week_opportunities": 38,
-      "trending_adds_24h": 26236,
+      "trending_adds_24h": 26716,
       "trending_drops_24h": 0,
       "waiver_score": 89.2
     },
@@ -236,7 +236,7 @@
       "start_percent": 1.31,
       "previous_week_opportunities": 45,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 43001,
+      "trending_drops_24h": 43918,
       "waiver_score": 88.35
     },
     {
@@ -361,7 +361,7 @@
       "rostered_percent": 1.22,
       "start_percent": 0.43,
       "previous_week_opportunities": 4,
-      "trending_adds_24h": 23248,
+      "trending_adds_24h": 23590,
       "trending_drops_24h": 0,
       "waiver_score": 82.85
     },
@@ -429,27 +429,6 @@
       "waiver_score": 71.75
     },
     {
-      "player_id": "13289",
-      "name": "Drew Allar",
-      "team": "PIT",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.18,
-      "start_percent": 0.01,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 71.55
-    },
-    {
       "player_id": "13275",
       "name": "Ty Simpson",
       "team": "LAR",
@@ -511,6 +490,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 67.45
+    },
+    {
+      "player_id": "13289",
+      "name": "Drew Allar",
+      "team": "PIT",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Coach's Decision",
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.18,
+      "start_percent": 0.01,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 66.55
     },
     {
       "player_id": "11292",
@@ -618,27 +618,6 @@
       "waiver_score": 64.15
     },
     {
-      "player_id": "13306",
-      "name": "Taylen Green",
-      "team": "CLE",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "QB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.04,
-      "start_percent": 0,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 63
-    },
-    {
       "player_id": "13350",
       "name": "Joe Fagnano",
       "team": "BAL",
@@ -677,7 +656,7 @@
       "start_percent": 0.06,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 18552,
+      "trending_drops_24h": 18924,
       "waiver_score": 61.3
     },
     {
@@ -765,25 +744,25 @@
       "waiver_score": 59.45
     },
     {
-      "player_id": "12511",
-      "name": "Will Howard",
-      "team": "PIT",
+      "player_id": "13306",
+      "name": "Taylen Green",
+      "team": "CLE",
       "position": "QB",
       "fantasy_positions": [
         "QB"
       ],
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
+      "injury_status": "Out",
+      "injury_body_part": "Coach's Decision",
       "depth_chart_position": "QB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 0.06,
+      "rostered_percent": 0.04,
       "start_percent": 0,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 58.3
+      "waiver_score": 58
     },
     {
       "player_id": "13428",
@@ -931,6 +910,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 53.45
+    },
+    {
+      "player_id": "12511",
+      "name": "Will Howard",
+      "team": "PIT",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Coach's Decision",
+      "depth_chart_position": "QB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.06,
+      "start_percent": 0,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 53.3
     },
     {
       "player_id": "9229",
@@ -1391,7 +1391,7 @@
       "start_percent": 0.1,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 21060,
+      "trending_drops_24h": 21402,
       "waiver_score": 40.85
     },
     {
