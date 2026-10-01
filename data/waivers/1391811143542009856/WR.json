@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T04:16:21.793Z",
+  "updated_at": "2026-10-01T04:44:52.325Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "LWR",
-      "trending_adds_24h": 813024
+      "trending_adds_24h": 739917
     },
     {
       "player_id": "3321",
@@ -35,7 +35,7 @@
       "injury_notes": "Surgery",
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 568976
+      "trending_adds_24h": 551160
     },
     {
       "player_id": "3634",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 413466
+      "trending_adds_24h": 368608
     },
     {
       "player_id": "11630",
@@ -67,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 194472
+      "trending_adds_24h": 178290
     },
     {
       "player_id": "13311",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "LWR",
-      "trending_adds_24h": 176169
+      "trending_adds_24h": 155092
     },
     {
       "player_id": "8168",
@@ -99,7 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 153072
+      "trending_adds_24h": 141904
     },
     {
       "player_id": "7049",
@@ -115,7 +115,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 93219
+      "trending_adds_24h": 90559
     },
     {
       "player_id": "12492",
@@ -131,7 +131,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 78152
+      "trending_adds_24h": 73520
     },
     {
       "player_id": "4177",
@@ -147,7 +147,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 67167
+      "trending_adds_24h": 64404
     },
     {
       "player_id": "12509",
@@ -163,7 +163,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 54332
+      "trending_adds_24h": 50184
     },
     {
       "player_id": "13264",
@@ -179,7 +179,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 45153
+      "trending_adds_24h": 41274
     },
     {
       "player_id": "13317",
@@ -195,7 +195,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 35658
+      "trending_adds_24h": 33756
     },
     {
       "player_id": "13296",
@@ -211,7 +211,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "RWR",
-      "trending_adds_24h": 32496
+      "trending_adds_24h": 30776
     },
     {
       "player_id": "11783",
@@ -227,7 +227,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 30208
+      "trending_adds_24h": 29368
     },
     {
       "player_id": "4039",
@@ -243,12 +243,28 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "SWR",
-      "trending_adds_24h": 27426
+      "trending_adds_24h": 26736
     },
     {
-      "player_id": "1984",
-      "name": "Allen Hurns",
-      "team": "MIA",
+      "player_id": "3702",
+      "name": "Andy Jones",
+      "team": "NYG",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "status": "Inactive",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "2334",
+      "name": "Phillip Dorsett",
+      "team": "LV",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -262,14 +278,14 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "3702",
-      "name": "Andy Jones",
-      "team": "NYG",
+      "player_id": "1984",
+      "name": "Allen Hurns",
+      "team": "MIA",
       "position": "WR",
       "fantasy_positions": [
         "WR"
       ],
-      "status": "Inactive",
+      "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
@@ -297,22 +313,6 @@
       "player_id": "1604",
       "name": "Nick Williams",
       "team": "DEN",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "2334",
-      "name": "Phillip Dorsett",
-      "team": "LV",
       "position": "WR",
       "fantasy_positions": [
         "WR"
