@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T09:25:15.432Z",
+  "updated_at": "2026-10-01T09:51:57.450Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -22,11 +22,11 @@
       "depth_chart_position": "TE",
       "projected_points": 9.35,
       "week_opponent": "DET",
-      "rostered_percent": 18.92,
-      "start_percent": 8.47,
+      "rostered_percent": 18.98,
+      "start_percent": 8.52,
       "previous_week_opportunities": 8,
-      "trending_adds_24h": 356400,
-      "trending_drops_24h": 56826,
+      "trending_adds_24h": 345060,
+      "trending_drops_24h": 54936,
       "waiver_score": 99.18
     },
     {
@@ -43,10 +43,10 @@
       "depth_chart_position": "TE",
       "projected_points": 9.19,
       "week_opponent": "LAC",
-      "rostered_percent": 7.3,
+      "rostered_percent": 7.31,
       "start_percent": 2.1,
       "previous_week_opportunities": 9,
-      "trending_adds_24h": 70860,
+      "trending_adds_24h": 68772,
       "trending_drops_24h": 0,
       "waiver_score": 98.41
     },
@@ -62,14 +62,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 7.94,
+      "projected_points": 7.96,
       "week_opponent": "JAX",
-      "rostered_percent": 9.28,
+      "rostered_percent": 9.29,
       "start_percent": 1.82,
       "previous_week_opportunities": 3,
-      "trending_adds_24h": 37204,
+      "trending_adds_24h": 36420,
       "trending_drops_24h": 0,
-      "waiver_score": 96.06
+      "waiver_score": 96.21
     },
     {
       "player_id": "3271",
@@ -83,14 +83,35 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 6.63,
+      "projected_points": 6.6,
       "week_opponent": "PHI",
-      "rostered_percent": 1.28,
+      "rostered_percent": 1.29,
       "start_percent": 0.36,
       "previous_week_opportunities": 11,
-      "trending_adds_24h": 385821,
-      "trending_drops_24h": 44910,
+      "trending_adds_24h": 374454,
+      "trending_drops_24h": 43749,
       "waiver_score": 95.37
+    },
+    {
+      "player_id": "12502",
+      "name": "Gunnar Helm",
+      "team": "TEN",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 7.06,
+      "week_opponent": "BAL",
+      "rostered_percent": 3.63,
+      "start_percent": 0.43,
+      "previous_week_opportunities": 4,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 94.55
     },
     {
       "player_id": "7600",
@@ -114,27 +135,6 @@
       "waiver_score": 94.41
     },
     {
-      "player_id": "12502",
-      "name": "Gunnar Helm",
-      "team": "TEN",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": 7.09,
-      "week_opponent": "BAL",
-      "rostered_percent": 3.63,
-      "start_percent": 0.43,
-      "previous_week_opportunities": 4,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 94.4
-    },
-    {
       "player_id": "5844",
       "name": "T.J. Hockenson",
       "team": "MIN",
@@ -148,8 +148,8 @@
       "depth_chart_position": "TE",
       "projected_points": 8.38,
       "week_opponent": "MIA",
-      "rostered_percent": 56.52,
-      "start_percent": 13.25,
+      "rostered_percent": 56.51,
+      "start_percent": 13.24,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -167,14 +167,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 7.2,
+      "projected_points": 7.06,
       "week_opponent": "GB",
       "rostered_percent": 3.05,
       "start_percent": 0.84,
       "previous_week_opportunities": 6,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 93.12
+      "waiver_score": 92.97
     },
     {
       "player_id": "9482",
@@ -194,7 +194,7 @@
       "start_percent": 1.84,
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 79515,
+      "trending_drops_24h": 77184,
       "waiver_score": 92.38
     },
     {
@@ -232,12 +232,12 @@
       "depth_chart_position": "TE",
       "projected_points": 6.04,
       "week_opponent": "ATL",
-      "rostered_percent": 1.44,
+      "rostered_percent": 1.45,
       "start_percent": 0.4,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 89.89
+      "waiver_score": 90.04
     },
     {
       "player_id": "9479",
@@ -272,13 +272,13 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 5.67,
+      "projected_points": 5.63,
       "week_opponent": "SF",
       "rostered_percent": 4.07,
       "start_percent": 0.58,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 31232,
+      "trending_drops_24h": 30240,
       "waiver_score": 88.43
     },
     {
@@ -314,13 +314,13 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 3.69,
+      "projected_points": 3.67,
       "week_opponent": "LAR",
       "rostered_percent": 2.29,
       "start_percent": 0.22,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 126531,
+      "trending_drops_24h": 121518,
       "waiver_score": 85.86
     },
     {
@@ -387,27 +387,6 @@
       "waiver_score": 84.37
     },
     {
-      "player_id": "6865",
-      "name": "Colby Parkinson",
-      "team": "LAR",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Shoulder",
-      "depth_chart_position": "TE",
-      "projected_points": 6.05,
-      "week_opponent": "PHI",
-      "rostered_percent": 0.87,
-      "start_percent": 0.11,
-      "previous_week_opportunities": 1,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 83.49
-    },
-    {
       "player_id": "4144",
       "name": "Jonnu Smith",
       "team": "GB",
@@ -419,7 +398,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 3.31,
+      "projected_points": 3.28,
       "week_opponent": "TB",
       "rostered_percent": 0.16,
       "start_percent": 0.03,
@@ -427,6 +406,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 83.38
+    },
+    {
+      "player_id": "6865",
+      "name": "Colby Parkinson",
+      "team": "LAR",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": "Questionable",
+      "injury_body_part": "Shoulder",
+      "depth_chart_position": "TE",
+      "projected_points": 6.02,
+      "week_opponent": "PHI",
+      "rostered_percent": 0.87,
+      "start_percent": 0.11,
+      "previous_week_opportunities": 1,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 83.34
     },
     {
       "player_id": "13421",
@@ -524,7 +524,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 3.07,
+      "projected_points": 3.06,
       "week_opponent": "LAR",
       "rostered_percent": 0.16,
       "start_percent": 0.1,
@@ -608,14 +608,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 1.94,
+      "projected_points": 1.93,
       "week_opponent": "SF",
       "rostered_percent": 0.05,
       "start_percent": 0.01,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 77.57
+      "waiver_score": 77.75
     },
     {
       "player_id": "10871",
@@ -699,7 +699,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 76.86
+      "waiver_score": 76.72
     },
     {
       "player_id": "12473",
@@ -734,7 +734,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 3.12,
+      "projected_points": 3.1,
       "week_opponent": "ARI",
       "rostered_percent": 0.29,
       "start_percent": 0.02,
@@ -755,7 +755,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 1.57,
+      "projected_points": 1.58,
       "week_opponent": "CIN",
       "rostered_percent": 0.04,
       "start_percent": 0.01,
@@ -839,7 +839,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 2.87,
+      "projected_points": 2.88,
       "week_opponent": "JAX",
       "rostered_percent": 0.16,
       "start_percent": 0.02,
@@ -965,7 +965,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 1.83,
+      "projected_points": 1.81,
       "week_opponent": "DEN",
       "rostered_percent": 0.05,
       "start_percent": 0.01,
@@ -988,11 +988,11 @@
       "depth_chart_position": "TE",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 25.17,
-      "start_percent": 3.77,
+      "rostered_percent": 25.15,
+      "start_percent": 3.76,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 314328,
+      "trending_drops_24h": 300952,
       "waiver_score": 72.42
     },
     {
@@ -1007,7 +1007,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 0.88,
+      "projected_points": 0.86,
       "week_opponent": "TEN",
       "rostered_percent": 0.03,
       "start_percent": 0.01,
@@ -1290,27 +1290,6 @@
       "waiver_score": 62.2
     },
     {
-      "player_id": "6869",
-      "name": "Adam Trautman",
-      "team": "DEN",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": 1.95,
-      "week_opponent": "SF",
-      "rostered_percent": 0.07,
-      "start_percent": 0.01,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 62.03
-    },
-    {
       "player_id": "13324",
       "name": "Matt Hibner",
       "team": "BAL",
@@ -1322,7 +1301,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 1.92,
+      "projected_points": 1.9,
       "week_opponent": "TEN",
       "rostered_percent": null,
       "start_percent": null,
@@ -1330,6 +1309,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 61.87
+    },
+    {
+      "player_id": "6869",
+      "name": "Adam Trautman",
+      "team": "DEN",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 1.93,
+      "week_opponent": "SF",
+      "rostered_percent": 0.07,
+      "start_percent": 0.01,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 61.85
     },
     {
       "player_id": "13429",
@@ -1448,7 +1448,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 1.41,
+      "projected_points": 1.4,
       "week_opponent": "LAR",
       "rostered_percent": 0.02,
       "start_percent": 0.01,
@@ -1532,7 +1532,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "TE",
-      "projected_points": 0.38,
+      "projected_points": 0.37,
       "week_opponent": "TB",
       "rostered_percent": 0.03,
       "start_percent": 0.01,
