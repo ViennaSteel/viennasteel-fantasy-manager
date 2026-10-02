@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T19:16:16.133Z",
+  "updated_at": "2026-10-02T19:43:17.285Z",
   "week": 4,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 72464
+      "trending_adds_24h": 71208
     },
     {
       "player_id": "CHI",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 37346
+      "trending_adds_24h": 36094
     },
     {
       "player_id": "JAX",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 19506
+      "trending_adds_24h": 19098
     },
     {
       "player_id": "GB",
@@ -67,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 17019
+      "trending_adds_24h": 16617
     },
     {
       "player_id": "NO",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 15765
+      "trending_adds_24h": 15465
     },
     {
       "player_id": "ATL",
@@ -169,6 +169,22 @@
       "player_id": "KC",
       "name": "Kansas City Chiefs",
       "team": "KC",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "team": "TB",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -281,22 +297,6 @@
       "player_id": "SF",
       "name": "San Francisco 49ers",
       "team": "SF",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "TB",
-      "name": "Tampa Bay Buccaneers",
-      "team": "TB",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
