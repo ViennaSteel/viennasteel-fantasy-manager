@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T19:23:23.220Z",
+  "updated_at": "2026-10-02T19:50:15.180Z",
   "week": 4,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -22,10 +22,10 @@
       "depth_chart_position": "RB",
       "projected_points": 8.14,
       "week_opponent": "NYJ",
-      "rostered_percent": 77.27,
-      "start_percent": 10.11,
+      "rostered_percent": 77.26,
+      "start_percent": 10.16,
       "previous_week_opportunities": 10,
-      "trending_adds_24h": 45378,
+      "trending_adds_24h": 44694,
       "trending_drops_24h": 0,
       "waiver_score": 99.21
     },
@@ -43,11 +43,11 @@
       "depth_chart_position": "RB",
       "projected_points": 8.02,
       "week_opponent": "TB",
-      "rostered_percent": 51.62,
-      "start_percent": 4.7,
+      "rostered_percent": 51.52,
+      "start_percent": 4.69,
       "previous_week_opportunities": 7,
-      "trending_adds_24h": 73395,
-      "trending_drops_24h": 137376,
+      "trending_adds_24h": 71964,
+      "trending_drops_24h": 134028,
       "waiver_score": 97.33
     },
     {
@@ -64,8 +64,8 @@
       "depth_chart_position": "RB",
       "projected_points": 8.7,
       "week_opponent": "DAL",
-      "rostered_percent": 52,
-      "start_percent": 5.47,
+      "rostered_percent": 52.01,
+      "start_percent": 5.51,
       "previous_week_opportunities": 6,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -85,11 +85,11 @@
       "depth_chart_position": "RB",
       "projected_points": 5.71,
       "week_opponent": "NO",
-      "rostered_percent": 27.01,
-      "start_percent": 2.99,
+      "rostered_percent": 27.04,
+      "start_percent": 3.01,
       "previous_week_opportunities": 10,
-      "trending_adds_24h": 62094,
-      "trending_drops_24h": 29238,
+      "trending_adds_24h": 60642,
+      "trending_drops_24h": 28536,
       "waiver_score": 95.12
     },
     {
@@ -106,10 +106,10 @@
       "depth_chart_position": "RB",
       "projected_points": 7.64,
       "week_opponent": "ATL",
-      "rostered_percent": 15.66,
-      "start_percent": 3.72,
+      "rostered_percent": 15.8,
+      "start_percent": 3.79,
       "previous_week_opportunities": 7,
-      "trending_adds_24h": 128466,
+      "trending_adds_24h": 127712,
       "trending_drops_24h": 0,
       "waiver_score": 95.05
     },
@@ -127,11 +127,11 @@
       "depth_chart_position": "RB",
       "projected_points": 5.85,
       "week_opponent": "LV",
-      "rostered_percent": 20.96,
+      "rostered_percent": 20.94,
       "start_percent": 0.77,
       "previous_week_opportunities": 6,
-      "trending_adds_24h": 27162,
-      "trending_drops_24h": 65970,
+      "trending_adds_24h": 26487,
+      "trending_drops_24h": 64341,
       "waiver_score": 93.02
     },
     {
@@ -148,11 +148,11 @@
       "depth_chart_position": "RB",
       "projected_points": 6.71,
       "week_opponent": "TEN",
-      "rostered_percent": 12.31,
+      "rostered_percent": 12.3,
       "start_percent": 0.72,
       "previous_week_opportunities": 5,
-      "trending_adds_24h": 33795,
-      "trending_drops_24h": 16209,
+      "trending_adds_24h": 33714,
+      "trending_drops_24h": 15867,
       "waiver_score": 92.92
     },
     {
@@ -169,33 +169,12 @@
       "depth_chart_position": "RB",
       "projected_points": 5.69,
       "week_opponent": "CIN",
-      "rostered_percent": 17.75,
+      "rostered_percent": 17.74,
       "start_percent": 0.63,
       "previous_week_opportunities": 8,
-      "trending_adds_24h": 20538,
-      "trending_drops_24h": 54162,
+      "trending_adds_24h": 20286,
+      "trending_drops_24h": 53091,
       "waiver_score": 92.58
-    },
-    {
-      "player_id": "7528",
-      "name": "Najee Harris",
-      "team": "NYG",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "RB",
-      "projected_points": 4.95,
-      "week_opponent": "ARI",
-      "rostered_percent": 7.73,
-      "start_percent": 0.78,
-      "previous_week_opportunities": 9,
-      "trending_adds_24h": 22105,
-      "trending_drops_24h": 0,
-      "waiver_score": 90.83
     },
     {
       "player_id": "12504",
@@ -212,11 +191,32 @@
       "projected_points": 6.35,
       "week_opponent": "TB",
       "rostered_percent": 6.33,
-      "start_percent": 0.65,
+      "start_percent": 0.66,
       "previous_week_opportunities": 7,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 90.8
+    },
+    {
+      "player_id": "7528",
+      "name": "Najee Harris",
+      "team": "NYG",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "RB",
+      "projected_points": 4.95,
+      "week_opponent": "ARI",
+      "rostered_percent": 7.75,
+      "start_percent": 0.79,
+      "previous_week_opportunities": 9,
+      "trending_adds_24h": 21660,
+      "trending_drops_24h": 0,
+      "waiver_score": 90.69
     },
     {
       "player_id": "9508",
@@ -232,12 +232,12 @@
       "depth_chart_position": "RB",
       "projected_points": 8.38,
       "week_opponent": "BAL",
-      "rostered_percent": 41.97,
+      "rostered_percent": 41.93,
       "start_percent": 2.01,
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 90.73
+      "waiver_score": 90.66
     },
     {
       "player_id": "12472",
@@ -256,8 +256,8 @@
       "rostered_percent": 1.34,
       "start_percent": 0.36,
       "previous_week_opportunities": 6,
-      "trending_adds_24h": 50800,
-      "trending_drops_24h": 35592,
+      "trending_adds_24h": 47152,
+      "trending_drops_24h": 35488,
       "waiver_score": 89.36
     },
     {
@@ -275,9 +275,9 @@
       "projected_points": 6.65,
       "week_opponent": "NE",
       "rostered_percent": 1.63,
-      "start_percent": 0.18,
+      "start_percent": 0.19,
       "previous_week_opportunities": 4,
-      "trending_adds_24h": 26892,
+      "trending_adds_24h": 26208,
       "trending_drops_24h": 0,
       "waiver_score": 88.65
     },
@@ -295,7 +295,7 @@
       "depth_chart_position": "RB",
       "projected_points": 8.12,
       "week_opponent": "JAX",
-      "rostered_percent": 7.87,
+      "rostered_percent": 7.86,
       "start_percent": 0.34,
       "previous_week_opportunities": 6,
       "trending_adds_24h": 0,
@@ -316,12 +316,12 @@
       "depth_chart_position": "RB",
       "projected_points": 5.85,
       "week_opponent": "TB",
-      "rostered_percent": 9.43,
+      "rostered_percent": 9.4,
       "start_percent": 0.78,
       "previous_week_opportunities": 1,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 86.56
+      "waiver_score": 86.49
     },
     {
       "player_id": "12048",
@@ -337,12 +337,12 @@
       "depth_chart_position": "RB",
       "projected_points": 5.18,
       "week_opponent": "LAC",
-      "rostered_percent": 2.97,
+      "rostered_percent": 2.96,
       "start_percent": 0.22,
       "previous_week_opportunities": 8,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 86.15
+      "waiver_score": 85.97
     },
     {
       "player_id": "9225",
@@ -358,11 +358,11 @@
       "depth_chart_position": "RB",
       "projected_points": 5.68,
       "week_opponent": "LAR",
-      "rostered_percent": 16.58,
+      "rostered_percent": 16.54,
       "start_percent": 0.51,
       "previous_week_opportunities": 1,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 70217,
+      "trending_drops_24h": 68607,
       "waiver_score": 85.33
     },
     {
@@ -382,7 +382,7 @@
       "rostered_percent": 0.84,
       "start_percent": 0.09,
       "previous_week_opportunities": 7,
-      "trending_adds_24h": 20762,
+      "trending_adds_24h": 20454,
       "trending_drops_24h": 0,
       "waiver_score": 84.71
     },
@@ -400,12 +400,12 @@
       "depth_chart_position": "RB",
       "projected_points": 9.25,
       "week_opponent": "CHI",
-      "rostered_percent": 7.71,
-      "start_percent": 2.7,
+      "rostered_percent": 7.77,
+      "start_percent": 2.74,
       "previous_week_opportunities": 0,
-      "trending_adds_24h": 437499,
-      "trending_drops_24h": 27954,
-      "waiver_score": 83.77
+      "trending_adds_24h": 436068,
+      "trending_drops_24h": 27738,
+      "waiver_score": 83.95
     },
     {
       "player_id": "13424",
@@ -442,12 +442,12 @@
       "depth_chart_position": "RB",
       "projected_points": 4.28,
       "week_opponent": "MIN",
-      "rostered_percent": 24,
-      "start_percent": 1.95,
+      "rostered_percent": 24.14,
+      "start_percent": 2.01,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 106052,
+      "trending_adds_24h": 105892,
       "trending_drops_24h": 0,
-      "waiver_score": 81.01
+      "waiver_score": 81.08
     },
     {
       "player_id": "11647",
@@ -488,7 +488,7 @@
       "start_percent": 0.14,
       "previous_week_opportunities": 5,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 20984,
+      "trending_drops_24h": 20344,
       "waiver_score": 80.22
     },
     {
@@ -739,7 +739,7 @@
       "rostered_percent": 0.05,
       "start_percent": 0.01,
       "previous_week_opportunities": 1,
-      "trending_adds_24h": 27750,
+      "trending_adds_24h": 27261,
       "trending_drops_24h": 0,
       "waiver_score": 72.89
     },
@@ -841,12 +841,12 @@
       "depth_chart_position": "RB",
       "projected_points": 5.11,
       "week_opponent": "IND",
-      "rostered_percent": 1.9,
+      "rostered_percent": 1.93,
       "start_percent": 0.12,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 21392,
+      "trending_adds_24h": 22000,
       "trending_drops_24h": 0,
-      "waiver_score": 69.55
+      "waiver_score": 69.58
     },
     {
       "player_id": "13345",
@@ -862,11 +862,11 @@
       "depth_chart_position": "RB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 25.83,
+      "rostered_percent": 25.79,
       "start_percent": 0.15,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 16722,
+      "trending_drops_24h": 16402,
       "waiver_score": 69.07
     },
     {
@@ -988,11 +988,11 @@
       "depth_chart_position": "RB",
       "projected_points": 3.26,
       "week_opponent": "ARI",
-      "rostered_percent": 5.2,
-      "start_percent": 0.25,
+      "rostered_percent": 5.18,
+      "start_percent": 0.24,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 98109,
+      "trending_drops_24h": 95112,
       "waiver_score": 64.15
     },
     {
@@ -1177,11 +1177,11 @@
       "depth_chart_position": "RB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 51.1,
+      "rostered_percent": 51.04,
       "start_percent": 0.87,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 15046,
+      "trending_drops_24h": 14850,
       "waiver_score": 59.34
     },
     {
@@ -1300,7 +1300,7 @@
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
-      "depth_chart_position": "RB",
+      "depth_chart_position": null,
       "projected_points": 3.15,
       "week_opponent": "CLE",
       "rostered_percent": 0.01,
@@ -1366,7 +1366,7 @@
       "depth_chart_position": null,
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 0.14,
+      "rostered_percent": 0.13,
       "start_percent": 0.01,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
@@ -1702,11 +1702,11 @@
       "depth_chart_position": "RB",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 23.35,
+      "rostered_percent": 23.33,
       "start_percent": 0.23,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 20288,
+      "trending_drops_24h": 19960,
       "waiver_score": 48.87
     },
     {
@@ -2021,7 +2021,7 @@
       "start_percent": 0.03,
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 19737,
+      "trending_drops_24h": 19206,
       "waiver_score": 44.16
     },
     {
@@ -2424,6 +2424,27 @@
       "waiver_score": 34.32
     },
     {
+      "player_id": "4137",
+      "name": "James Conner",
+      "team": "ARI",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "status": "Inactive",
+      "injury_status": "IR",
+      "injury_body_part": "Foot",
+      "depth_chart_position": "RB",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 2.97,
+      "start_percent": 0.03,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 33.65
+    },
+    {
       "player_id": "11273",
       "name": "Ben VanSumeren",
       "team": "KC",
@@ -2443,27 +2464,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 33.64
-    },
-    {
-      "player_id": "4137",
-      "name": "James Conner",
-      "team": "ARI",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Foot",
-      "depth_chart_position": "RB",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 2.96,
-      "start_percent": 0.03,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 33.47
     },
     {
       "player_id": "4718",
