@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-10-02T15:56:31.852Z",
+  "updated_at": "2026-10-02T16:14:04.851Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
   "position": "TE",
   "available": [
-    {
-      "player_id": "2505",
-      "name": "Darren Waller",
-      "team": "CAR",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": "TE",
-      "trending_adds_24h": 199800
-    },
     {
       "player_id": "3271",
       "name": "Tyler Higbee",
@@ -35,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 184536
+      "trending_adds_24h": 186021
     },
     {
       "player_id": "11603",
@@ -51,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 46452
+      "trending_adds_24h": 47004
     },
     {
       "player_id": "4993",
@@ -67,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 21148
+      "trending_adds_24h": 21380
     },
     {
       "player_id": "9479",
@@ -83,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 20050
+      "trending_adds_24h": 20200
     },
     {
       "player_id": "2118",
@@ -374,22 +358,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "4744",
-      "name": "Barrett Burns",
-      "team": "BAL",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "4314",
       "name": "Johnny Mundt",
       "team": "PHI",
@@ -403,6 +371,22 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "4930",
+      "name": "Franko House",
+      "team": "CHI",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
       "trending_adds_24h": 0
     },
     {
@@ -454,9 +438,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "4930",
-      "name": "Franko House",
-      "team": "CHI",
+      "player_id": "4744",
+      "name": "Barrett Burns",
+      "team": "BAL",
       "position": "TE",
       "fantasy_positions": [
         "TE"
@@ -518,22 +502,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "6016",
-      "name": "Dax Raymond",
-      "team": "PIT",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "5288",
       "name": "Donnie Ernsberger",
       "team": "TEN",
@@ -563,22 +531,6 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "5957",
-      "name": "Isaac Nauta",
-      "team": "GB",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Inactive",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
       "trending_adds_24h": 0
     },
     {
@@ -630,6 +582,22 @@
       "trending_adds_24h": 0
     },
     {
+      "player_id": "5957",
+      "name": "Isaac Nauta",
+      "team": "GB",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Inactive",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
       "player_id": "5973",
       "name": "Josh Oliver",
       "team": "MIN",
@@ -678,9 +646,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "6529",
-      "name": "Chris Myarick",
-      "team": "LV",
+      "player_id": "6016",
+      "name": "Dax Raymond",
+      "team": "PIT",
       "position": "TE",
       "fantasy_positions": [
         "TE"
@@ -694,9 +662,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "7050",
-      "name": "Josiah Deguara",
-      "team": "PHI",
+      "player_id": "6529",
+      "name": "Chris Myarick",
+      "team": "LV",
       "position": "TE",
       "fantasy_positions": [
         "TE"
@@ -739,6 +707,22 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": "TE",
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "7050",
+      "name": "Josiah Deguara",
+      "team": "PHI",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
       "trending_adds_24h": 0
     },
     {
@@ -803,6 +787,22 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "7531",
+      "name": "Feleipe Franks",
+      "team": "CAR",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": "TE",
       "trending_adds_24h": 0
     }
   ]
