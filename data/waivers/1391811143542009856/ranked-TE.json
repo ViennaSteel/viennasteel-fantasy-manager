@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T20:23:06.545Z",
+  "updated_at": "2026-10-02T20:50:28.097Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -22,10 +22,10 @@
       "depth_chart_position": "TE",
       "projected_points": 9.19,
       "week_opponent": "LAC",
-      "rostered_percent": 7.99,
-      "start_percent": 2.55,
+      "rostered_percent": 8,
+      "start_percent": 2.56,
       "previous_week_opportunities": 9,
-      "trending_adds_24h": 45348,
+      "trending_adds_24h": 43938,
       "trending_drops_24h": 0,
       "waiver_score": 98.48
     },
@@ -44,9 +44,9 @@
       "projected_points": 8.02,
       "week_opponent": "JAX",
       "rostered_percent": 9.52,
-      "start_percent": 2.01,
+      "start_percent": 2.02,
       "previous_week_opportunities": 3,
-      "trending_adds_24h": 21332,
+      "trending_adds_24h": 20760,
       "trending_drops_24h": 0,
       "waiver_score": 96.18
     },
@@ -64,8 +64,8 @@
       "depth_chart_position": "TE",
       "projected_points": 8.95,
       "week_opponent": "HOU",
-      "rostered_percent": 79.39,
-      "start_percent": 30.12,
+      "rostered_percent": 79.38,
+      "start_percent": 30.1,
       "previous_week_opportunities": 5,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -85,11 +85,11 @@
       "depth_chart_position": "TE",
       "projected_points": 6.57,
       "week_opponent": "PHI",
-      "rostered_percent": 1.49,
-      "start_percent": 0.45,
+      "rostered_percent": 1.5,
+      "start_percent": 0.46,
       "previous_week_opportunities": 11,
-      "trending_adds_24h": 176688,
-      "trending_drops_24h": 52371,
+      "trending_adds_24h": 169569,
+      "trending_drops_24h": 51777,
       "waiver_score": 95.48
     },
     {
@@ -106,8 +106,8 @@
       "depth_chart_position": "TE",
       "projected_points": 9.51,
       "week_opponent": "MIA",
-      "rostered_percent": 55.33,
-      "start_percent": 12.28,
+      "rostered_percent": 55.31,
+      "start_percent": 12.34,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -211,11 +211,11 @@
       "depth_chart_position": "TE",
       "projected_points": 5.57,
       "week_opponent": "KC",
-      "rostered_percent": 12.72,
-      "start_percent": 1.48,
+      "rostered_percent": 12.7,
+      "start_percent": 1.47,
       "previous_week_opportunities": 3,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 43344,
+      "trending_drops_24h": 42318,
       "waiver_score": 92.32
     },
     {
@@ -235,7 +235,7 @@
       "rostered_percent": 1.27,
       "start_percent": 0.23,
       "previous_week_opportunities": 4,
-      "trending_adds_24h": 21570,
+      "trending_adds_24h": 21270,
       "trending_drops_24h": 0,
       "waiver_score": 92.2
     },
@@ -274,7 +274,7 @@
       "depth_chart_position": "TE",
       "projected_points": 5.61,
       "week_opponent": "SF",
-      "rostered_percent": 3.84,
+      "rostered_percent": 3.83,
       "start_percent": 0.5,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
@@ -299,7 +299,7 @@
       "start_percent": 0.22,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 48267,
+      "trending_drops_24h": 46782,
       "waiver_score": 86.32
     },
     {
@@ -1030,11 +1030,11 @@
       "depth_chart_position": "TE",
       "projected_points": null,
       "week_opponent": null,
-      "rostered_percent": 22.99,
-      "start_percent": 1.9,
+      "rostered_percent": 22.87,
+      "start_percent": 1.82,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 122872,
+      "trending_drops_24h": 120320,
       "waiver_score": 71.08
     },
     {
@@ -2508,27 +2508,6 @@
       "waiver_score": 40.74
     },
     {
-      "player_id": "8127",
-      "name": "Charlie Kolar",
-      "team": "LAC",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": "Doubtful",
-      "injury_body_part": "Forearm",
-      "depth_chart_position": "TE",
-      "projected_points": null,
-      "week_opponent": null,
-      "rostered_percent": 0.06,
-      "start_percent": 0.01,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 40.73
-    },
-    {
       "player_id": "7536",
       "name": "Quintin Morris",
       "team": "JAX",
@@ -2611,6 +2590,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 40.34
+    },
+    {
+      "player_id": "8127",
+      "name": "Charlie Kolar",
+      "team": "LAC",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Forearm",
+      "depth_chart_position": "TE",
+      "projected_points": null,
+      "week_opponent": null,
+      "rostered_percent": 0.06,
+      "start_percent": 0.01,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 39.48
     },
     {
       "player_id": "12480",
