@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T23:40:00.575Z",
+  "updated_at": "2026-10-02T23:52:48.486Z",
   "week": 4,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -19,7 +19,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 62936
+      "trending_adds_24h": 63272
     },
     {
       "player_id": "CHI",
@@ -35,7 +35,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 29478
+      "trending_adds_24h": 29590
     },
     {
       "player_id": "JAX",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 17724
+      "trending_adds_24h": 17820
     },
     {
       "player_id": "GB",
@@ -67,7 +67,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 14893
+      "trending_adds_24h": 14979
+    },
+    {
+      "player_id": "NO",
+      "name": "New Orleans Saints",
+      "team": "NO",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 14225
     },
     {
       "player_id": "ATL",
@@ -166,38 +182,6 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "NYG",
-      "name": "New York Giants",
-      "team": "NYG",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
-      "player_id": "SF",
-      "name": "San Francisco 49ers",
-      "team": "SF",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 0
-    },
-    {
       "player_id": "TB",
       "name": "Tampa Bay Buccaneers",
       "team": "TB",
@@ -262,9 +246,9 @@
       "trending_adds_24h": 0
     },
     {
-      "player_id": "NO",
-      "name": "New Orleans Saints",
-      "team": "NO",
+      "player_id": "NYG",
+      "name": "New York Giants",
+      "team": "NYG",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -297,6 +281,22 @@
       "player_id": "PHI",
       "name": "Philadelphia Eagles",
       "team": "PHI",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 0
+    },
+    {
+      "player_id": "SF",
+      "name": "San Francisco 49ers",
+      "team": "SF",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
