@@ -1,26 +1,10 @@
 {
-  "updated_at": "2026-10-02T21:16:46.601Z",
+  "updated_at": "2026-10-02T21:42:44.690Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
   "position": "DEF",
   "available": [
-    {
-      "player_id": "CLE",
-      "name": "Cleveland Browns",
-      "team": "CLE",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "practice_participation": null,
-      "depth_chart_position": null,
-      "trending_adds_24h": 98315
-    },
     {
       "player_id": "LV",
       "name": "Las Vegas Raiders",
@@ -35,7 +19,23 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 92844
+      "trending_adds_24h": 86712
+    },
+    {
+      "player_id": "CLE",
+      "name": "Cleveland Browns",
+      "team": "CLE",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "practice_participation": null,
+      "depth_chart_position": null,
+      "trending_adds_24h": 80598
     },
     {
       "player_id": "ARI",
@@ -51,7 +51,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 73504
+      "trending_adds_24h": 69632
     },
     {
       "player_id": "CHI",
@@ -67,7 +67,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 36656
+      "trending_adds_24h": 33949
     },
     {
       "player_id": "GB",
@@ -83,7 +83,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 17430
+      "trending_adds_24h": 16398
     },
     {
       "player_id": "NO",
@@ -99,7 +99,7 @@
       "injury_notes": null,
       "practice_participation": null,
       "depth_chart_position": null,
-      "trending_adds_24h": 16045
+      "trending_adds_24h": 15405
     },
     {
       "player_id": "ATL",
