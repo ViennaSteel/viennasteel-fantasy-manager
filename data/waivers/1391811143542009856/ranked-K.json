@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T17:49:02.550Z",
+  "updated_at": "2026-10-02T18:02:32.372Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -25,7 +25,7 @@
       "rostered_percent": 38.47,
       "start_percent": 35.38,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 29721,
+      "trending_adds_24h": 29970,
       "trending_drops_24h": 0,
       "waiver_score": 87.27
     },
@@ -68,7 +68,7 @@
       "start_percent": 74.53,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 18260,
+      "trending_drops_24h": 18400,
       "waiver_score": 76.86
     },
     {
@@ -104,7 +104,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 8.24,
+      "projected_points": 8.15,
       "week_opponent": "IND",
       "rostered_percent": 0.56,
       "start_percent": 0.36,
@@ -135,6 +135,27 @@
       "waiver_score": 68.94
     },
     {
+      "player_id": "7042",
+      "name": "Tyler Bass",
+      "team": "BUF",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 8.12,
+      "week_opponent": "NE",
+      "rostered_percent": 10.16,
+      "start_percent": 8.34,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 68.35
+    },
+    {
       "player_id": "13833",
       "name": "Dominic Zvada",
       "team": "NYG",
@@ -154,27 +175,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 67.71
-    },
-    {
-      "player_id": "7042",
-      "name": "Tyler Bass",
-      "team": "BUF",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 8.02,
-      "week_opponent": "NE",
-      "rostered_percent": 10.16,
-      "start_percent": 8.34,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 67.08
     },
     {
       "player_id": "12961",
@@ -214,9 +214,30 @@
       "rostered_percent": 1.88,
       "start_percent": 1.32,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 57545,
+      "trending_adds_24h": 57995,
       "trending_drops_24h": 0,
       "waiver_score": 61.67
+    },
+    {
+      "player_id": "12713",
+      "name": "Andy Borregales",
+      "team": "NE",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7,
+      "week_opponent": "BUF",
+      "rostered_percent": 1.89,
+      "start_percent": 1.32,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 57.92
     },
     {
       "player_id": "5095",
@@ -237,28 +258,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 58.77
-    },
-    {
-      "player_id": "12713",
-      "name": "Andy Borregales",
-      "team": "NE",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 6.89,
-      "week_opponent": "BUF",
-      "rostered_percent": 1.89,
-      "start_percent": 1.32,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 56.66
+      "waiver_score": 57.51
     },
     {
       "player_id": "3678",
@@ -321,7 +321,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 49.59
+      "waiver_score": 48.33
     },
     {
       "player_id": "10955",
