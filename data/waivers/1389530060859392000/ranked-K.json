@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T13:25:21.561Z",
+  "updated_at": "2026-10-02T13:52:02.139Z",
   "week": 4,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -22,10 +22,10 @@
       "depth_chart_position": "K",
       "projected_points": 9.05,
       "week_opponent": "MIA",
-      "rostered_percent": 38.31,
-      "start_percent": 35.21,
+      "rostered_percent": 38.33,
+      "start_percent": 35.24,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 33192,
+      "trending_adds_24h": 32031,
       "trending_drops_24h": 0,
       "waiver_score": 86.55
     },
@@ -43,12 +43,12 @@
       "depth_chart_position": "K",
       "projected_points": 9.12,
       "week_opponent": "WAS",
-      "rostered_percent": 28.24,
-      "start_percent": 26.49,
+      "rostered_percent": 28.29,
+      "start_percent": 26.54,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 63170,
+      "trending_adds_24h": 60844,
       "trending_drops_24h": 0,
-      "waiver_score": 85.77
+      "waiver_score": 85.58
     },
     {
       "player_id": "12015",
@@ -64,12 +64,33 @@
       "depth_chart_position": "K",
       "projected_points": 7.62,
       "week_opponent": "PHI",
-      "rostered_percent": 70.8,
-      "start_percent": 63.8,
+      "rostered_percent": 70.79,
+      "start_percent": 63.79,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 77.51
+    },
+    {
+      "player_id": "5189",
+      "name": "Eddy Pineiro",
+      "team": "SF",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 8.27,
+      "week_opponent": "DEN",
+      "rostered_percent": 78.9,
+      "start_percent": 73.82,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 77.11
     },
     {
       "player_id": "11539",
@@ -85,33 +106,12 @@
       "depth_chart_position": "K",
       "projected_points": 7.87,
       "week_opponent": "CAR",
-      "rostered_percent": 61.21,
-      "start_percent": 55.41,
+      "rostered_percent": 61.19,
+      "start_percent": 55.4,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 57944,
+      "trending_drops_24h": 56096,
       "waiver_score": 76.72
-    },
-    {
-      "player_id": "5189",
-      "name": "Eddy Pineiro",
-      "team": "SF",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 8.21,
-      "week_opponent": "DEN",
-      "rostered_percent": 78.91,
-      "start_percent": 73.82,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 75.97
     },
     {
       "player_id": "13968",
@@ -169,33 +169,12 @@
       "depth_chart_position": "K",
       "projected_points": 7.92,
       "week_opponent": "NE",
-      "rostered_percent": 10.19,
+      "rostered_percent": 10.18,
       "start_percent": 8.37,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 64.43
-    },
-    {
-      "player_id": "12961",
-      "name": "Ryan Fitzgerald",
-      "team": "CAR",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.6,
-      "week_opponent": "DET",
-      "rostered_percent": 2.52,
-      "start_percent": 2.1,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 63.07
     },
     {
       "player_id": "6083",
@@ -212,11 +191,32 @@
       "projected_points": 9.33,
       "week_opponent": "KC",
       "rostered_percent": 1.88,
-      "start_percent": 1.31,
+      "start_percent": 1.32,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 62885,
+      "trending_adds_24h": 60895,
       "trending_drops_24h": 0,
-      "waiver_score": 62.89
+      "waiver_score": 63.08
+    },
+    {
+      "player_id": "12961",
+      "name": "Ryan Fitzgerald",
+      "team": "CAR",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7.6,
+      "week_opponent": "DET",
+      "rostered_percent": 2.53,
+      "start_percent": 2.1,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 63.07
     },
     {
       "player_id": "2020",
@@ -232,7 +232,7 @@
       "depth_chart_position": "K",
       "projected_points": 7.93,
       "week_opponent": "NYJ",
-      "rostered_percent": 29.09,
+      "rostered_percent": 29.08,
       "start_percent": 24.07,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
@@ -300,7 +300,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 53.46
+      "waiver_score": 52.32
     },
     {
       "player_id": "1945",
@@ -335,10 +335,10 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": "K",
-      "projected_points": 7.64,
+      "projected_points": 7.73,
       "week_opponent": "SF",
       "rostered_percent": 4.64,
-      "start_percent": 3.31,
+      "start_percent": 3.3,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
