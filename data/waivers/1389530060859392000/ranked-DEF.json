@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T00:02:09.868Z",
+  "updated_at": "2026-10-03T00:28:41.787Z",
   "week": 4,
   "league_id": "1389530060859392000",
   "league_name": "BROMANCE LIGA KRGLCH",
@@ -25,7 +25,7 @@
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 29781,
+      "trending_adds_24h": 30088,
       "trending_drops_24h": 0,
       "waiver_score": 93.75
     },
@@ -48,7 +48,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 89.5
+      "waiver_score": 88
     },
     {
       "player_id": "KC",
@@ -62,56 +62,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 17.62,
+      "projected_points": 16.92,
       "week_opponent": "LV",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 85.25
-    },
-    {
-      "player_id": "NYG",
-      "name": "New York Giants",
-      "team": "NYG",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 17.76,
-      "week_opponent": "ARI",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 25840,
-      "waiver_score": 75.5
-    },
-    {
-      "player_id": "GB",
-      "name": "Green Bay Packers",
-      "team": "GB",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 20.84,
-      "week_opponent": "TB",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 15101,
-      "trending_drops_24h": 0,
-      "waiver_score": 70.75
+      "waiver_score": 79.25
     },
     {
       "player_id": "SF",
@@ -125,14 +83,56 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 17.63,
+      "projected_points": 17.78,
       "week_opponent": "DEN",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 39501,
-      "waiver_score": 70.75
+      "trending_drops_24h": 39972,
+      "waiver_score": 72.25
+    },
+    {
+      "player_id": "GB",
+      "name": "Green Bay Packers",
+      "team": "GB",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 21.52,
+      "week_opponent": "TB",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 15327,
+      "trending_drops_24h": 0,
+      "waiver_score": 69.25
+    },
+    {
+      "player_id": "NYG",
+      "name": "New York Giants",
+      "team": "NYG",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 16.95,
+      "week_opponent": "ARI",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 26080,
+      "waiver_score": 68
     },
     {
       "player_id": "NO",
@@ -146,14 +146,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 19.36,
+      "projected_points": 19.03,
       "week_opponent": "ATL",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 14330,
-      "trending_drops_24h": 14990,
-      "waiver_score": 64.5
+      "trending_adds_24h": 14465,
+      "trending_drops_24h": 15135,
+      "waiver_score": 63
     },
     {
       "player_id": "TEN",
@@ -177,27 +177,6 @@
       "waiver_score": 62.25
     },
     {
-      "player_id": "DET",
-      "name": "Detroit Lions",
-      "team": "DET",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 15.67,
-      "week_opponent": "CAR",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 45666,
-      "waiver_score": 53.75
-    },
-    {
       "player_id": "MIA",
       "name": "Miami Dolphins",
       "team": "MIA",
@@ -209,14 +188,35 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 16.77,
+      "projected_points": 17.39,
       "week_opponent": "MIN",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 53.5
+      "waiver_score": 59.5
+    },
+    {
+      "player_id": "DET",
+      "name": "Detroit Lions",
+      "team": "DET",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 15.51,
+      "week_opponent": "CAR",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 46269,
+      "waiver_score": 53.75
     },
     {
       "player_id": "PHI",
@@ -230,7 +230,7 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 12.78,
+      "projected_points": 13.09,
       "week_opponent": "LAR",
       "rostered_percent": null,
       "start_percent": null,
@@ -238,6 +238,69 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 51
+    },
+    {
+      "player_id": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "team": "TB",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 17.45,
+      "week_opponent": "GB",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 19970,
+      "waiver_score": 45.5
+    },
+    {
+      "player_id": "ARI",
+      "name": "Arizona Cardinals",
+      "team": "ARI",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 21.75,
+      "week_opponent": "NYG",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 64712,
+      "trending_drops_24h": 0,
+      "waiver_score": 44.5
+    },
+    {
+      "player_id": "JAX",
+      "name": "Jacksonville Jaguars",
+      "team": "JAX",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": null,
+      "projected_points": 14.52,
+      "week_opponent": "CIN",
+      "rostered_percent": null,
+      "start_percent": null,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 18216,
+      "trending_drops_24h": 22002,
+      "waiver_score": 42.5
     },
     {
       "player_id": "WAS",
@@ -258,12 +321,12 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 43.5
+      "waiver_score": 42
     },
     {
-      "player_id": "ARI",
-      "name": "Arizona Cardinals",
-      "team": "ARI",
+      "player_id": "NYJ",
+      "name": "New York Jets",
+      "team": "NYJ",
       "position": "DEF",
       "fantasy_positions": [
         "DEF"
@@ -272,35 +335,14 @@
       "injury_status": null,
       "injury_body_part": null,
       "depth_chart_position": null,
-      "projected_points": 20.68,
-      "week_opponent": "NYG",
+      "projected_points": 20.23,
+      "week_opponent": "CHI",
       "rostered_percent": null,
       "start_percent": null,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 63824,
+      "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 43
-    },
-    {
-      "player_id": "JAX",
-      "name": "Jacksonville Jaguars",
-      "team": "JAX",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 14.34,
-      "week_opponent": "CIN",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 17958,
-      "trending_drops_24h": 21714,
-      "waiver_score": 42.5
+      "waiver_score": 40
     },
     {
       "player_id": "ATL",
@@ -322,48 +364,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 39.75
-    },
-    {
-      "player_id": "TB",
-      "name": "Tampa Bay Buccaneers",
-      "team": "TB",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 16.96,
-      "week_opponent": "GB",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 19810,
-      "waiver_score": 39.5
-    },
-    {
-      "player_id": "NYJ",
-      "name": "New York Jets",
-      "team": "NYJ",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": null,
-      "projected_points": 18.06,
-      "week_opponent": "CHI",
-      "rostered_percent": null,
-      "start_percent": null,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 35.5
     },
     {
       "player_id": "DAL",
@@ -446,7 +446,7 @@
       "start_percent": null,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 100464,
+      "trending_drops_24h": 101640,
       "waiver_score": 5
     }
   ]
