@@ -14,17 +14,16 @@ const firebaseConfig = {
 const firebaseApp = initializeApp(firebaseConfig);
 const auth = getAuth(firebaseApp);
 const db = getFirestore(firebaseApp);
-const state = { context: null, league: null, week: null, slot: "ALL", view: "dashboard-view", rankingPosition: "QB", rankingSearch: "" };
+const state = { context: null, league: null, profile: null, week: null, slot: "ALL", view: "dashboard-view", rankingPosition: "QB", rankingSearch: "" };
 const splashStartedAt = performance.now();
 let authErrorMessage = "";
 
 const $ = (selector) => document.querySelector(selector);
-const cacheKey = () => `v=${Date.now()}`;
 
-async function loadJson(path) {
-  const response = await fetch(`./${path}?${cacheKey()}`, { cache: "no-store" });
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  return response.json();
+async function loadFantasyDocument(...segments) {
+  const snapshot = await getDoc(doc(db, ...segments));
+  if (!snapshot.exists()) throw new Error(`Firestore document not found: ${segments.join("/")}`);
+  return snapshot.data();
 }
 
 function playerImage(player) {
@@ -594,7 +593,12 @@ async function selectLeague(leagueId) {
   if (!league) return;
   $("#loading").hidden = false;
   $("#dashboard").hidden = true;
-  state.league = await loadJson(league.league_file);
+  state.league = await loadFantasyDocument(
+    "fantasyUsers",
+    state.profile.sleeperUserId,
+    "leagues",
+    String(league.league_id)
+  );
   const availableWeeks = state.league.available_weeks || [Number(state.league.week)];
   const currentWeek = Number(state.context.nfl_week);
   state.week = availableWeeks.includes(currentWeek) ? currentWeek : Number(state.league.week);
@@ -617,7 +621,12 @@ async function init() {
   try {
     $("#error").hidden = true;
     $("#loading").hidden = false;
-    state.context = await loadJson("data/context.json");
+    state.context = await loadFantasyDocument(
+      "fantasyUsers",
+      state.profile.sleeperUserId,
+      "private",
+      "context"
+    );
     renderContext();
     const saved = localStorage.getItem("vienna-steel-league");
     const initial = state.context.leagues.some((league) => league.league_id === saved) ? saved : state.context.leagues[0].league_id;
@@ -684,7 +693,9 @@ onAuthStateChanged(auth, async (user) => {
   }
   try {
     const profileSnapshot = await getDoc(doc(db, "users", user.uid));
-    if (!profileSnapshot.exists() || profileSnapshot.data().active !== true) throw new Error("profile-not-active");
+    const profile = profileSnapshot.exists() ? profileSnapshot.data() : null;
+    if (!profile || profile.active !== true || !profile.sleeperUserId) throw new Error("profile-not-active");
+    state.profile = profile;
     showApp();
     await init();
   } catch (error) {
