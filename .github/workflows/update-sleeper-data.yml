@@ -2,6 +2,15 @@ name: Update Sleeper data
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "app.js"
+      - "index.html"
+      - "styles.css"
+      - "assets/**"
+      - ".github/workflows/update-sleeper-data.yml"
   schedule:
     - cron: "*/15 * * * *"
 
