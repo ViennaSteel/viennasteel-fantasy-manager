@@ -171,8 +171,11 @@ function standingsLabel(identity) {
 function renderWinChance(data) {
   const probability = Number(data.win_probability?.my_team);
   const validProbability = Number.isFinite(probability);
+  const projectedFinal = data.win_probability?.projected_final;
   const mine = validProbability ? Math.round(probability * 100) : 50;
   const opponent = 100 - mine;
+  $("#my-matchup-projection").textContent = `(Proj. ${formatPoints(projectedFinal?.my_team)})`;
+  $("#opponent-matchup-projection").textContent = `(Proj. ${formatPoints(projectedFinal?.opponent)})`;
   $("#my-win-chance").textContent = mine;
   $("#opponent-win-chance").textContent = opponent;
   $("#win-chance-fill").style.width = `${mine}%`;
