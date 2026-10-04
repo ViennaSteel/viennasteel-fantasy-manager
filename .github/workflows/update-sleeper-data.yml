@@ -647,7 +647,6 @@ jobs:
                 league: {
                   league_id: league.league_id,
                   name: league.name,
-                  avatar: league.avatar || null,
                   season: league.season,
                   status: league.status,
                   teams: league.total_rosters,

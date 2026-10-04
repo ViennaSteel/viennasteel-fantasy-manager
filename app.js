@@ -133,16 +133,6 @@ function avatarUrl(avatar) {
   return `https://sleepercdn.com/avatars/thumbs/${encodeURIComponent(avatar)}`;
 }
 
-function renderSplash(league) {
-  const name = league?.name || "Fantasy Football Manager";
-  const src = avatarUrl(league?.avatar);
-  const logo = $("#splash-logo");
-  $("#splash-league-name").textContent = name;
-  logo.innerHTML = src
-    ? `<img src="${src}" alt="${name} Logo" onerror="this.remove();this.parentElement.querySelector('span').hidden=false"><span hidden>${initials(name, "FF")}</span>`
-    : `<span>${initials(name, "FF")}</span>`;
-}
-
 async function finishSplash() {
   const remaining = Math.max(0, 4000 - (performance.now() - splashStartedAt));
   if (remaining) await new Promise(resolve => setTimeout(resolve, remaining));
@@ -564,10 +554,9 @@ async function selectLeague(leagueId) {
   $("#loading").hidden = false;
   $("#dashboard").hidden = true;
   state.league = await loadJson(league.league_file);
-  if (document.body.classList.contains("splash-active")) renderSplash(state.league.league);
-  const savedWeek = Number(localStorage.getItem(`vienna-steel-week-${leagueId}`));
   const availableWeeks = state.league.available_weeks || [Number(state.league.week)];
-  state.week = availableWeeks.includes(savedWeek) ? savedWeek : Number(state.context.nfl_week);
+  const currentWeek = Number(state.context.nfl_week);
+  state.week = availableWeeks.includes(currentWeek) ? currentWeek : Number(state.league.week);
   localStorage.setItem("vienna-steel-league", leagueId);
   renderLeague();
   $("#loading").hidden = true;
