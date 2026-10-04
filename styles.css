@@ -16,6 +16,20 @@
 * { box-sizing: border-box; }
 body { margin: 0; background: radial-gradient(circle at 80% 0%, #3a2253 0, transparent 36rem), var(--bg); color: var(--text); min-height: 100vh; }
 button, select { font: inherit; }
+.splash-screen { position: fixed; z-index: 1000; inset: 0; display: grid; place-content: center; justify-items: center; overflow: hidden; padding: 24px; background: radial-gradient(circle at 50% 42%, #43245f 0, #190d27 30%, #08050d 68%); opacity: 1; visibility: visible; transition: opacity .55s ease, visibility .55s ease; }
+.splash-screen.is-finished { opacity: 0; visibility: hidden; pointer-events: none; }
+.splash-glow { position: absolute; width: min(78vw, 560px); aspect-ratio: 1; border-radius: 50%; background: #c084fc1c; filter: blur(46px); animation: splash-pulse 2s ease-in-out infinite; }
+.splash-logo { position: relative; width: clamp(132px, 24vw, 210px); aspect-ratio: 1; display: grid; place-items: center; overflow: hidden; border: 2px solid #d9b5ff80; border-radius: 28%; color: #190b25; background: linear-gradient(145deg, #d5a4ff, #9e52e8); box-shadow: 0 24px 80px #00000080, 0 0 50px #c084fc38; font-size: clamp(32px, 7vw, 56px); font-weight: 950; letter-spacing: -.06em; animation: splash-arrive .7s cubic-bezier(.2,.8,.2,1) both; }
+.splash-logo img { width: 100%; height: 100%; object-fit: cover; }
+.splash-screen p { position: relative; max-width: min(86vw, 520px); margin: 24px 0 18px; color: var(--text); font-size: clamp(17px, 3vw, 24px); font-weight: 900; letter-spacing: .05em; text-align: center; text-transform: uppercase; }
+.splash-loader { position: relative; width: min(240px, 55vw); height: 3px; overflow: hidden; border-radius: 99px; background: #ffffff16; }
+.splash-loader span { display: block; width: 100%; height: 100%; border-radius: inherit; background: var(--steel); transform-origin: left; animation: splash-progress 4s linear both; }
+body.splash-active { overflow: hidden; }
+body.splash-active .app-shell { opacity: 0; }
+.app-shell { transition: opacity .45s ease; }
+@keyframes splash-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes splash-arrive { from { opacity: 0; transform: translateY(14px) scale(.92); } to { opacity: 1; transform: none; } }
+@keyframes splash-pulse { 50% { transform: scale(1.08); opacity: .72; } }
 .app-shell { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
 .topbar { height: 82px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
 .brand { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 12px; }
@@ -59,6 +73,15 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .team-badge img { width: 100%; height: 100%; border-radius: inherit; object-fit: cover; }
 .team-badge.steel { color: #180b24; background: var(--steel); transform: rotate(-4deg); }
 .team-badge.opponent { background: var(--surface-2); border: 1px solid var(--line); color: var(--muted); }
+.win-chance { margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--line); }
+.win-chance-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.win-chance-heading > span { color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.win-chance-heading strong { color: var(--text); font-size: 14px; }
+.win-chance-track { position: relative; height: 8px; overflow: hidden; border-radius: 99px; background: #ff68684a; }
+.win-chance-track span { display: block; width: 50%; height: 100%; border-radius: inherit; background: var(--steel); transition: width .35s ease; }
+.win-chance.is-leading .win-chance-track span { background: #55df91; }
+.win-chance.is-trailing .win-chance-track span { background: var(--warning); }
+.win-chance > small { display: block; margin-top: 7px; color: var(--muted); font-size: 10px; line-height: 1.35; }
 .alerts { display: grid; gap: 10px; margin-top: 24px; }
 .alert { display: flex; gap: 12px; align-items: center; padding: 12px; border-radius: 12px; background: #ffffff06; }
 .alert-icon { flex: 0 0 32px; height: 32px; display: grid; place-items: center; border-radius: 9px; font-weight: 900; }

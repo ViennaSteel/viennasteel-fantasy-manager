@@ -9,8 +9,14 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Vienna Steel Fantasy Manager</title>
   </head>
-  <body>
-    <div class="app-shell">
+  <body class="splash-active">
+    <div class="splash-screen" id="splash-screen" role="status" aria-live="polite">
+      <div class="splash-glow" aria-hidden="true"></div>
+      <div class="splash-logo" id="splash-logo"><span>BL</span></div>
+      <p id="splash-league-name">Fantasy Football Manager</p>
+      <div class="splash-loader" aria-hidden="true"><span></span></div>
+    </div>
+    <div class="app-shell" id="app-shell" aria-hidden="true">
       <header class="topbar">
         <a class="brand" id="team-brand" href="#" aria-label="Fantasy Manager Startseite">
           <span class="brand-mark" id="brand-mark"><span>VS</span></span>
@@ -65,6 +71,14 @@
                 <div><span class="team-badge steel" id="my-team-badge"><span>VS</span></span><strong id="my-score">0.00</strong><small id="my-matchup-name">Vienna Steel</small><span class="matchup-meta" id="my-matchup-meta">0–0 · Platz –</span></div>
                 <span class="versus">VS</span>
                 <div><span class="team-badge opponent" id="opponent-team-badge"><span>OPP</span></span><strong id="opponent-score">0.00</strong><small id="opponent-matchup-name">Gegner</small><span class="matchup-meta" id="opponent-matchup-meta">0–0 · Platz –</span></div>
+              </div>
+              <div class="win-chance" id="win-chance" aria-label="Geschätzte Gewinnchance">
+                <div class="win-chance-heading">
+                  <span>Gewinnchance</span>
+                  <strong><span id="my-win-chance">50</span>% : <span id="opponent-win-chance">50</span>%</strong>
+                </div>
+                <div class="win-chance-track" aria-hidden="true"><span id="win-chance-fill"></span></div>
+                <small id="win-chance-note">Berechnet aus aktuellem Stand und verbleibenden Prognosen</small>
               </div>
             </article>
 

@@ -1,4 +1,5 @@
 const state = { context: null, league: null, week: null, slot: "ALL", view: "dashboard-view", rankingPosition: "QB", rankingSearch: "" };
+const splashStartedAt = performance.now();
 
 const $ = (selector) => document.querySelector(selector);
 const cacheKey = () => `v=${Date.now()}`;
@@ -132,6 +133,24 @@ function avatarUrl(avatar) {
   return `https://sleepercdn.com/avatars/thumbs/${encodeURIComponent(avatar)}`;
 }
 
+function renderSplash(league) {
+  const name = league?.name || "Fantasy Football Manager";
+  const src = avatarUrl(league?.avatar);
+  const logo = $("#splash-logo");
+  $("#splash-league-name").textContent = name;
+  logo.innerHTML = src
+    ? `<img src="${src}" alt="${name} Logo" onerror="this.remove();this.parentElement.querySelector('span').hidden=false"><span hidden>${initials(name, "FF")}</span>`
+    : `<span>${initials(name, "FF")}</span>`;
+}
+
+async function finishSplash() {
+  const remaining = Math.max(0, 4000 - (performance.now() - splashStartedAt));
+  if (remaining) await new Promise(resolve => setTimeout(resolve, remaining));
+  $("#splash-screen").classList.add("is-finished");
+  $("#app-shell").setAttribute("aria-hidden", "false");
+  document.body.classList.remove("splash-active");
+}
+
 function renderTeamBadge(selector, identity, fallback) {
   const element = $(selector);
   const src = avatarUrl(identity?.avatar);
@@ -157,6 +176,23 @@ function standingsLabel(identity) {
   const ties = Number(identity.ties || 0);
   const record = `${Number(identity.wins || 0)}–${Number(identity.losses || 0)}${ties ? `–${ties}` : ""}`;
   return `${record} · Platz ${identity.rank || "–"}`;
+}
+
+function renderWinChance(data) {
+  const probability = Number(data.win_probability?.my_team);
+  const validProbability = Number.isFinite(probability);
+  const mine = validProbability ? Math.round(probability * 100) : 50;
+  const opponent = 100 - mine;
+  $("#my-win-chance").textContent = mine;
+  $("#opponent-win-chance").textContent = opponent;
+  $("#win-chance-fill").style.width = `${mine}%`;
+  $("#win-chance").classList.toggle("is-leading", mine > opponent);
+  $("#win-chance").classList.toggle("is-trailing", mine < opponent);
+  $("#win-chance-note").textContent = validProbability
+    ? (data.win_probability.final
+      ? "Endergebnis"
+      : "Schätzung aus aktuellem Stand und verbleibenden Prognosen")
+    : "Noch nicht genügend Daten für eine belastbare Schätzung";
 }
 
 function activeWeekData() {
@@ -198,6 +234,7 @@ function renderLeague() {
   $("#opponent-matchup-meta").textContent = standingsLabel(data.opponent_team);
   renderTeamBadge("#my-team-badge", data.my_team, "VS");
   renderTeamBadge("#opponent-team-badge", data.opponent_team, "OPP");
+  renderWinChance(data);
   renderBrand(data.my_team, root.my_team_name);
   $("#sync-label").textContent = `Aktuell · ${formatTime(root.updated_at)}`;
   $("#matchup-status").textContent = state.week < Number(state.context.nfl_week) ? "Final" : state.week === Number(state.context.nfl_week) ? "Live" : "Vorschau";
@@ -527,6 +564,7 @@ async function selectLeague(leagueId) {
   $("#loading").hidden = false;
   $("#dashboard").hidden = true;
   state.league = await loadJson(league.league_file);
+  if (document.body.classList.contains("splash-active")) renderSplash(state.league.league);
   const savedWeek = Number(localStorage.getItem(`vienna-steel-week-${leagueId}`));
   const availableWeeks = state.league.available_weeks || [Number(state.league.week)];
   state.week = availableWeeks.includes(savedWeek) ? savedWeek : Number(state.context.nfl_week);
@@ -561,6 +599,8 @@ async function init() {
     $("#dashboard").hidden = true;
     $("#error").hidden = false;
     $("#sync-label").textContent = "Nicht verbunden";
+  } finally {
+    await finishSplash();
   }
 }
 
