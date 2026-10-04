@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T22:22:08.004Z",
+  "updated_at": "2026-10-04T22:39:33.636Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -25,8 +25,8 @@
       "rostered_percent": 8.6,
       "start_percent": 2.93,
       "previous_week_opportunities": 9,
-      "trending_adds_24h": 29598,
-      "trending_drops_24h": 15852,
+      "trending_adds_24h": 28560,
+      "trending_drops_24h": 16392,
       "waiver_score": 98.48
     },
     {
@@ -46,8 +46,8 @@
       "rostered_percent": 2.43,
       "start_percent": 0.85,
       "previous_week_opportunities": 11,
-      "trending_adds_24h": 133875,
-      "trending_drops_24h": 42831,
+      "trending_adds_24h": 129654,
+      "trending_drops_24h": 41535,
       "waiver_score": 96.88
     },
     {
@@ -67,7 +67,7 @@
       "rostered_percent": 9.62,
       "start_percent": 2.12,
       "previous_week_opportunities": 3,
-      "trending_adds_24h": 23260,
+      "trending_adds_24h": 23184,
       "trending_drops_24h": 0,
       "waiver_score": 96.03
     },
@@ -89,7 +89,7 @@
       "start_percent": 29.36,
       "previous_week_opportunities": 5,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 16260,
+      "trending_drops_24h": 16560,
       "waiver_score": 95.76
     },
     {
@@ -109,8 +109,8 @@
       "rostered_percent": 12.05,
       "start_percent": 1.22,
       "previous_week_opportunities": 3,
-      "trending_adds_24h": 21105,
-      "trending_drops_24h": 37710,
+      "trending_adds_24h": 22401,
+      "trending_drops_24h": 36513,
       "waiver_score": 95.19
     },
     {
@@ -127,7 +127,7 @@
       "depth_chart_position": "TE",
       "projected_points": 9.74,
       "week_opponent": "MIA",
-      "rostered_percent": 54.76,
+      "rostered_percent": 54.75,
       "start_percent": 13.39,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
@@ -148,7 +148,7 @@
       "depth_chart_position": "TE",
       "projected_points": 7.86,
       "week_opponent": "CLE",
-      "rostered_percent": 19.82,
+      "rostered_percent": 19.81,
       "start_percent": 5.18,
       "previous_week_opportunities": 5,
       "trending_adds_24h": 0,
@@ -275,7 +275,7 @@
       "projected_points": 6.06,
       "week_opponent": "ATL",
       "rostered_percent": 1.6,
-      "start_percent": 0.26,
+      "start_percent": 0.25,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -295,7 +295,7 @@
       "depth_chart_position": "TE",
       "projected_points": 3.4,
       "week_opponent": "DET",
-      "rostered_percent": 0.2,
+      "rostered_percent": 0.21,
       "start_percent": 0.08,
       "previous_week_opportunities": 4,
       "trending_adds_24h": 0,
@@ -320,7 +320,7 @@
       "start_percent": 0.27,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 33660,
+      "trending_drops_24h": 33183,
       "waiver_score": 86.46
     },
     {
@@ -447,7 +447,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 82.49
+      "waiver_score": 82.44
     },
     {
       "player_id": "13322",
@@ -702,6 +702,27 @@
       "waiver_score": 76.47
     },
     {
+      "player_id": "11597",
+      "name": "Theo Johnson",
+      "team": "NYG",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "TE",
+      "projected_points": 3.12,
+      "week_opponent": "ARI",
+      "rostered_percent": 0.28,
+      "start_percent": 0.03,
+      "previous_week_opportunities": 0,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 76.24
+    },
+    {
       "player_id": "12473",
       "name": "Mitchell Evans",
       "team": "CAR",
@@ -721,27 +742,6 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 76.11
-    },
-    {
-      "player_id": "11597",
-      "name": "Theo Johnson",
-      "team": "NYG",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "TE",
-      "projected_points": 3.12,
-      "week_opponent": "ARI",
-      "rostered_percent": 0.28,
-      "start_percent": 0.02,
-      "previous_week_opportunities": 0,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 75.96
     },
     {
       "player_id": "13299",
@@ -1034,7 +1034,7 @@
       "start_percent": 0.98,
       "previous_week_opportunities": 2,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 84760,
+      "trending_drops_24h": 81768,
       "waiver_score": 71.03
     },
     {
@@ -1203,7 +1203,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 65.06
+      "waiver_score": 65
     },
     {
       "player_id": "13580",
@@ -1434,7 +1434,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 57.67
+      "waiver_score": 57.61
     },
     {
       "player_id": "10212",
@@ -1497,7 +1497,7 @@
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 57.33
+      "waiver_score": 57.28
     },
     {
       "player_id": "12938",
@@ -1980,7 +1980,7 @@
       "previous_week_opportunities": 0,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
-      "waiver_score": 49.68
+      "waiver_score": 49.62
     },
     {
       "player_id": "13879",
