@@ -19,13 +19,31 @@
       <p id="splash-league-name">BROMANCE LIGA KRGLCH</p>
       <div class="splash-loader" aria-hidden="true"><span></span></div>
     </div>
+    <section class="login-screen" id="login-screen" hidden aria-labelledby="login-title">
+      <div class="login-card">
+        <img class="login-logo" src="./assets/bromance-league-logo.webp" alt="BROMANCE LIGA KRGLCH Logo" />
+        <p class="eyebrow">BROMANCE LIGA KRGLCH</p>
+        <h1 id="login-title">Fantasy Manager Login</h1>
+        <p class="login-intro">Melde dich mit deinem persönlichen Liga-Account an.</p>
+        <form id="login-form" class="login-form">
+          <label><span>E-Mail-Adresse</span><input id="login-email" type="email" autocomplete="email" required /></label>
+          <label><span>Passwort</span><input id="login-password" type="password" autocomplete="current-password" minlength="6" required /></label>
+          <p class="login-error" id="login-error" role="alert" hidden></p>
+          <button id="login-submit" type="submit">Anmelden</button>
+        </form>
+        <small>Zugang nur für freigeschaltete Liga-Teilnehmer.</small>
+      </div>
+    </section>
     <div class="app-shell" id="app-shell" aria-hidden="true">
       <header class="topbar">
         <a class="brand" id="team-brand" href="#" aria-label="Fantasy Manager Startseite">
           <span class="brand-mark" id="brand-mark"><span>VS</span></span>
           <span><strong id="brand-team-name">Vienna Steel</strong><small>Fantasy Manager</small></span>
         </a>
-        <div class="sync-state"><span></span><span id="sync-label">Daten werden geladen</span></div>
+        <div class="topbar-actions">
+          <div class="sync-state"><span></span><span id="sync-label">Daten werden geladen</span></div>
+          <button class="logout-button" id="logout-button" type="button" hidden>Abmelden</button>
+        </div>
       </header>
 
       <nav class="main-nav" aria-label="Hauptnavigation">

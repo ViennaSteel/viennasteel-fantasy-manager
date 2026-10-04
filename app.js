@@ -1,5 +1,22 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
+import { browserLocalPersistence, getAuth, onAuthStateChanged, setPersistence, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
+import { doc, getDoc, getFirestore } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCrD67-1PyNha6bpdPfQBgKflR-nM3gp2A",
+  authDomain: "viennasteel-fantasy-manager.firebaseapp.com",
+  projectId: "viennasteel-fantasy-manager",
+  storageBucket: "viennasteel-fantasy-manager.firebasestorage.app",
+  messagingSenderId: "647220554071",
+  appId: "1:647220554071:web:2f46c93feab1a4199ab612"
+};
+
+const firebaseApp = initializeApp(firebaseConfig);
+const auth = getAuth(firebaseApp);
+const db = getFirestore(firebaseApp);
 const state = { context: null, league: null, week: null, slot: "ALL", view: "dashboard-view", rankingPosition: "QB", rankingSearch: "" };
 const splashStartedAt = performance.now();
+let authErrorMessage = "";
 
 const $ = (selector) => document.querySelector(selector);
 const cacheKey = () => `v=${Date.now()}`;
@@ -137,8 +154,29 @@ async function finishSplash() {
   const remaining = Math.max(0, 4000 - (performance.now() - splashStartedAt));
   if (remaining) await new Promise(resolve => setTimeout(resolve, remaining));
   $("#splash-screen").classList.add("is-finished");
-  $("#app-shell").setAttribute("aria-hidden", "false");
   document.body.classList.remove("splash-active");
+}
+
+function showLogin(message = "") {
+  $("#app-shell").setAttribute("aria-hidden", "true");
+  $("#login-screen").hidden = false;
+  $("#logout-button").hidden = true;
+  $("#login-error").hidden = !message;
+  $("#login-error").textContent = message;
+}
+
+function showApp() {
+  $("#login-screen").hidden = true;
+  $("#app-shell").setAttribute("aria-hidden", "false");
+  $("#logout-button").hidden = false;
+}
+
+function loginErrorMessage(error) {
+  const code = String(error?.code || "");
+  if (["auth/invalid-credential", "auth/wrong-password", "auth/user-not-found"].includes(code)) return "E-Mail-Adresse oder Passwort ist nicht korrekt.";
+  if (code === "auth/too-many-requests") return "Zu viele Anmeldeversuche. Bitte versuche es später erneut.";
+  if (code === "auth/user-disabled") return "Dieser Account wurde deaktiviert.";
+  return "Die Anmeldung ist gerade nicht möglich. Bitte versuche es erneut.";
 }
 
 function renderTeamBadge(selector, identity, fallback) {
@@ -591,8 +629,6 @@ async function init() {
     $("#dashboard").hidden = true;
     $("#error").hidden = false;
     $("#sync-label").textContent = "Nicht verbunden";
-  } finally {
-    await finishSplash();
   }
 }
 
@@ -619,4 +655,41 @@ document.querySelectorAll("[data-ranking-position]").forEach((button) => button.
   renderRankings();
 }));
 
-init();
+$("#login-form").addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const button = $("#login-submit");
+  $("#login-error").hidden = true;
+  button.disabled = true;
+  button.textContent = "Anmeldung läuft …";
+  try {
+    await signInWithEmailAndPassword(auth, $("#login-email").value.trim(), $("#login-password").value);
+    $("#login-password").value = "";
+  } catch (error) {
+    showLogin(loginErrorMessage(error));
+  } finally {
+    button.disabled = false;
+    button.textContent = "Anmelden";
+  }
+});
+
+$("#logout-button").addEventListener("click", () => signOut(auth));
+
+setPersistence(auth, browserLocalPersistence).catch(console.error);
+onAuthStateChanged(auth, async (user) => {
+  await finishSplash();
+  if (!user) {
+    showLogin(authErrorMessage);
+    authErrorMessage = "";
+    return;
+  }
+  try {
+    const profileSnapshot = await getDoc(doc(db, "users", user.uid));
+    if (!profileSnapshot.exists() || profileSnapshot.data().active !== true) throw new Error("profile-not-active");
+    showApp();
+    await init();
+  } catch (error) {
+    console.error(error);
+    authErrorMessage = "Dieser Account ist noch keinem aktiven Liga-Team zugeordnet.";
+    await signOut(auth);
+  }
+});
