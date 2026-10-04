@@ -25,12 +25,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Firebase Admin SDK
+        run: npm install --no-save --no-package-lock firebase-admin@13
+
       - name: Fetch Sleeper data
         uses: actions/github-script@v7
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         with:
           script: |
             const fs = require("fs");
             const path = require("path");
+            const { cert, initializeApp } = require("firebase-admin/app");
+            const { getFirestore } = require("firebase-admin/firestore");
 
             const USERNAME = "ViennaSteel";
             const SEASON = "2026";
@@ -52,6 +64,10 @@ jobs:
             function writeJson(filename, data) {
               ensureDir(path.dirname(filename));
               fs.writeFileSync(filename, JSON.stringify(data, null, 2) + "\n");
+            }
+
+            function firestoreSafe(data) {
+              return JSON.parse(JSON.stringify(data));
             }
 
             function playerInfo(id, p, trendingAdds = 0) {
@@ -692,6 +708,48 @@ jobs:
             }
 
             writeJson("data/context.json", fantasyContext);
+
+            const serviceAccountJson = process.env.FIREBASE_SERVICE_ACCOUNT;
+            if (!serviceAccountJson) {
+              throw new Error("GitHub secret FIREBASE_SERVICE_ACCOUNT is missing");
+            }
+
+            let serviceAccount;
+            try {
+              serviceAccount = JSON.parse(serviceAccountJson);
+            } catch {
+              throw new Error("FIREBASE_SERVICE_ACCOUNT is not valid JSON");
+            }
+
+            initializeApp({ credential: cert(serviceAccount) });
+            const firestore = getFirestore();
+            const userRoot = `fantasyUsers/${user.user_id}`;
+            const writes = [
+              firestore.doc(`${userRoot}/private/context`).set(firestoreSafe(fantasyContext))
+            ];
+
+            for (const league of fantasyContext.leagues) {
+              const leagueId = String(league.league_id);
+              const leaguePayload = JSON.parse(fs.readFileSync(league.league_file, "utf8"));
+              const tradePayload = JSON.parse(fs.readFileSync(league.trade_file, "utf8"));
+              const waiverIndex = JSON.parse(fs.readFileSync(league.waiver_index, "utf8"));
+
+              writes.push(
+                firestore.doc(`${userRoot}/leagues/${leagueId}`).set(firestoreSafe(leaguePayload)),
+                firestore.doc(`${userRoot}/leagues/${leagueId}/private/trade`).set(firestoreSafe(tradePayload)),
+                firestore.doc(`${userRoot}/leagues/${leagueId}/private/waiverIndex`).set(firestoreSafe(waiverIndex))
+              );
+
+              for (const [position, filename] of Object.entries(waiverIndex.files || {})) {
+                const waiverPayload = JSON.parse(fs.readFileSync(filename, "utf8"));
+                writes.push(
+                  firestore.doc(`${userRoot}/leagues/${leagueId}/waivers/${position}`).set(firestoreSafe(waiverPayload))
+                );
+              }
+            }
+
+            await Promise.all(writes);
+            core.info(`Uploaded ${writes.length} protected documents to Firestore.`);
 
       - name: Commit updated data
         run: |
