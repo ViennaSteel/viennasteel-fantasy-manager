@@ -44,7 +44,7 @@ jobs:
             const { cert, initializeApp } = require("firebase-admin/app");
             const { getFirestore } = require("firebase-admin/firestore");
 
-            const USERNAME = "ViennaSteel";
+            const PRIMARY_SLEEPER_USER_ID = "1303014625205321728";
             const SEASON = "2026";
             const API = "https://api.sleeper.app/v1";
             const FAAB_BUDGET_OVERRIDES = {
@@ -104,12 +104,33 @@ jobs:
               return matched ? Math.round((total + Number.EPSILON) * 100) / 100 : null;
             }
 
-            const user = await get(`/user/${encodeURIComponent(USERNAME)}`);
-            if (!user?.user_id) throw new Error(`Sleeper user "${USERNAME}" not found`);
+            const serviceAccountJson = process.env.FIREBASE_SERVICE_ACCOUNT;
+            if (!serviceAccountJson) {
+              throw new Error("GitHub secret FIREBASE_SERVICE_ACCOUNT is missing");
+            }
 
-            const [state, leagues, players, trendingAdds, trendingDrops] = await Promise.all([
+            let serviceAccount;
+            try {
+              serviceAccount = JSON.parse(serviceAccountJson);
+            } catch {
+              throw new Error("FIREBASE_SERVICE_ACCOUNT is not valid JSON");
+            }
+
+            initializeApp({ credential: cert(serviceAccount) });
+            const firestore = getFirestore();
+            const profileSnapshot = await firestore.collection("users").where("active", "==", true).get();
+            const sleeperUserIds = [...new Set(profileSnapshot.docs
+              .map(snapshot => String(snapshot.data().sleeperUserId || "").trim())
+              .filter(Boolean))];
+            if (!sleeperUserIds.length) throw new Error("No active Firestore users with a sleeperUserId found");
+
+            const sleeperUsers = (await Promise.all(sleeperUserIds.map(userId =>
+              get(`/user/${encodeURIComponent(userId)}`).catch(() => null)
+            ))).filter(user => user?.user_id);
+            if (!sleeperUsers.length) throw new Error("No configured Sleeper users could be loaded");
+
+            const [state, players, trendingAdds, trendingDrops] = await Promise.all([
               get("/state/nfl"),
-              get(`/user/${user.user_id}/leagues/nfl/${SEASON}`),
               get("/players/nfl"),
               get("/players/nfl/trending/add?lookback_hours=24&limit=200").catch(() => []),
               get("/players/nfl/trending/drop?lookback_hours=24&limit=200").catch(() => [])
@@ -219,20 +240,26 @@ jobs:
               kickoffMaps.set(week, kickoffMap);
             });
 
+            for (const user of sleeperUsers) {
+            const leagues = await get(`/user/${user.user_id}/leagues/nfl/${SEASON}`);
+            const memberName = user.username || user.display_name || user.user_id;
+            const dataRoot = String(user.user_id) === PRIMARY_SLEEPER_USER_ID
+              ? "data"
+              : `member-data/${user.user_id}`;
             const fantasyContext = {
               updated_at: new Date().toISOString(),
               bridge: "ViennaSteel Fantasy Manager",
               version: 3,
-              username: USERNAME,
+              username: memberName,
               sleeper_user_id: user.user_id,
               season: SEASON,
               nfl_week: state.week,
               leagues: []
             };
 
-            ensureDir("data/leagues");
-            ensureDir("data/waivers");
-            ensureDir("data/trades");
+            ensureDir(`${dataRoot}/leagues`);
+            ensureDir(`${dataRoot}/waivers`);
+            ensureDir(`${dataRoot}/trades`);
 
             for (const league of leagues) {
               const [rosters, users, matchupWeeks] = await Promise.all([
@@ -503,7 +530,7 @@ jobs:
                 let fantasyTeam = null;
                 if (playerRoster?.roster_id === mine.roster_id) {
                   rosterStatus = playerOnReserve ? "IR" : (mine.starters || []).map(String).includes(id) ? "STARTER" : "BENCH";
-                  fantasyTeam = me?.metadata?.team_name || me?.display_name || USERNAME;
+                  fantasyTeam = me?.metadata?.team_name || me?.display_name || memberName;
                 } else if (playerRoster) {
                   rosterStatus = "ROSTERED";
                   fantasyTeam = rosterOwner?.metadata?.team_name || rosterOwner?.display_name || `Roster ${playerRoster.roster_id}`;
@@ -603,7 +630,7 @@ jobs:
                   .filter(p => p.position === pos || (p.fantasy_positions || []).includes(pos))
                   .slice(0, limit);
 
-                const waiverPath = `data/waivers/${league.league_id}/${pos}.json`;
+                const waiverPath = `${dataRoot}/waivers/${league.league_id}/${pos}.json`;
                 writeJson(waiverPath, {
                   updated_at: new Date().toISOString(),
                   week: state.week,
@@ -615,7 +642,7 @@ jobs:
                 waiverIndex.files[pos] = waiverPath;
               }
 
-              writeJson(`data/waivers/${league.league_id}/index.json`, waiverIndex);
+              writeJson(`${dataRoot}/waivers/${league.league_id}/index.json`, waiverIndex);
 
               // League-wide roster snapshot for trade analysis.
               const allTeams = rosters.map(r => {
@@ -653,7 +680,7 @@ jobs:
                 };
               });
 
-              const tradePath = `data/trades/${league.league_id}.json`;
+              const tradePath = `${dataRoot}/trades/${league.league_id}.json`;
               writeJson(tradePath, {
                 updated_at: new Date().toISOString(),
                 week: state.week,
@@ -679,7 +706,7 @@ jobs:
                   scoring_settings: league.scoring_settings,
                   settings: league.settings
                 },
-                my_team_name: me?.metadata?.team_name || me?.display_name || USERNAME,
+                my_team_name: me?.metadata?.team_name || me?.display_name || memberName,
                 faab,
                 ranking_week: Number(state.week),
                 rankings,
@@ -689,40 +716,25 @@ jobs:
                 matchup: weeks[state.week]?.matchup || null,
                 opponent: weeks[state.week]?.opponent || null,
                 opponent_team: weeks[state.week]?.opponent_team || null,
-                waiver_index: `data/waivers/${league.league_id}/index.json`,
+                waiver_index: `${dataRoot}/waivers/${league.league_id}/index.json`,
                 trade_file: tradePath
               };
 
-              writeJson(`data/leagues/${league.league_id}.json`, leaguePayload);
+              writeJson(`${dataRoot}/leagues/${league.league_id}.json`, leaguePayload);
 
               fantasyContext.leagues.push({
                 league_id: league.league_id,
                 name: league.name,
                 teams: league.total_rosters,
                 my_roster_id: mine.roster_id,
-                my_team_name: me?.metadata?.team_name || me?.display_name || USERNAME,
-                league_file: `data/leagues/${league.league_id}.json`,
-                waiver_index: `data/waivers/${league.league_id}/index.json`,
+                my_team_name: me?.metadata?.team_name || me?.display_name || memberName,
+                league_file: `${dataRoot}/leagues/${league.league_id}.json`,
+                waiver_index: `${dataRoot}/waivers/${league.league_id}/index.json`,
                 trade_file: tradePath
               });
             }
 
-            writeJson("data/context.json", fantasyContext);
-
-            const serviceAccountJson = process.env.FIREBASE_SERVICE_ACCOUNT;
-            if (!serviceAccountJson) {
-              throw new Error("GitHub secret FIREBASE_SERVICE_ACCOUNT is missing");
-            }
-
-            let serviceAccount;
-            try {
-              serviceAccount = JSON.parse(serviceAccountJson);
-            } catch {
-              throw new Error("FIREBASE_SERVICE_ACCOUNT is not valid JSON");
-            }
-
-            initializeApp({ credential: cert(serviceAccount) });
-            const firestore = getFirestore();
+            writeJson(`${dataRoot}/context.json`, fantasyContext);
             const userRoot = `fantasyUsers/${user.user_id}`;
             const writes = [
               firestore.doc(`${userRoot}/private/context`).set(firestoreSafe(fantasyContext))
@@ -749,7 +761,8 @@ jobs:
             }
 
             await Promise.all(writes);
-            core.info(`Uploaded ${writes.length} protected documents to Firestore.`);
+            core.info(`Uploaded ${writes.length} protected documents for ${memberName} to Firestore.`);
+            }
 
       - name: Sync private analysis data
         env:
