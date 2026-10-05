@@ -765,7 +765,7 @@ jobs:
             private-fantasy-data
 
           mkdir -p private-fantasy-data/data
-          rsync -a --delete data/ private-fantasy-data/data/
+          rsync -a data/ private-fantasy-data/data/
 
           cd private-fantasy-data
           git config user.name "ViennaSteel Fantasy Bot"
