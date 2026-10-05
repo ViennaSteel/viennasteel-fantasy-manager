@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T23:58:45.909Z",
+  "updated_at": "2026-10-05T00:33:01.818Z",
   "week": 4,
   "league_id": "1391811143542009856",
   "league_name": "SLR2026  - Liga 57",
@@ -44,7 +44,7 @@
       "projected_points": 8.44,
       "week_opponent": "DEN",
       "rostered_percent": 78.45,
-      "start_percent": 73.42,
+      "start_percent": 73.41,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -68,7 +68,7 @@
       "start_percent": 73.86,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
-      "trending_drops_24h": 16740,
+      "trending_drops_24h": 17644,
       "waiver_score": 76.86
     },
     {
@@ -85,8 +85,8 @@
       "depth_chart_position": "K",
       "projected_points": 7.7,
       "week_opponent": "DET",
-      "rostered_percent": 3.04,
-      "start_percent": 2.57,
+      "rostered_percent": 3.05,
+      "start_percent": 2.58,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -128,7 +128,7 @@
       "projected_points": 7.1,
       "week_opponent": "SEA",
       "rostered_percent": 78.71,
-      "start_percent": 69.53,
+      "start_percent": 69.54,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
@@ -151,8 +151,8 @@
       "rostered_percent": 28.01,
       "start_percent": 24.55,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 19440,
-      "trending_drops_24h": 82864,
+      "trending_adds_24h": 19032,
+      "trending_drops_24h": 84928,
       "waiver_score": 69.36
     },
     {
@@ -169,7 +169,7 @@
       "depth_chart_position": "K",
       "projected_points": 7.67,
       "week_opponent": "NE",
-      "rostered_percent": 9.91,
+      "rostered_percent": 9.9,
       "start_percent": 8.1,
       "previous_week_opportunities": null,
       "trending_adds_24h": 0,
@@ -198,6 +198,27 @@
       "waiver_score": 67.71
     },
     {
+      "player_id": "5095",
+      "name": "Daniel Carlson",
+      "team": "NO",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 8.01,
+      "week_opponent": "ATL",
+      "rostered_percent": 4.5,
+      "start_percent": 3.82,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 62.49
+    },
+    {
       "player_id": "6083",
       "name": "Matt Gay",
       "team": "LV",
@@ -214,30 +235,9 @@
       "rostered_percent": 1.96,
       "start_percent": 1.39,
       "previous_week_opportunities": null,
-      "trending_adds_24h": 66425,
+      "trending_adds_24h": 67030,
       "trending_drops_24h": 0,
       "waiver_score": 62.09
-    },
-    {
-      "player_id": "5095",
-      "name": "Daniel Carlson",
-      "team": "NO",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 8.01,
-      "week_opponent": "ATL",
-      "rostered_percent": 4.49,
-      "start_percent": 3.82,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 61.26
     },
     {
       "player_id": "650",
@@ -282,27 +282,6 @@
       "waiver_score": 54.98
     },
     {
-      "player_id": "3678",
-      "name": "Wil Lutz",
-      "team": "DEN",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "depth_chart_position": "K",
-      "projected_points": 7.54,
-      "week_opponent": "SF",
-      "rostered_percent": 4.5,
-      "start_percent": 3.17,
-      "previous_week_opportunities": null,
-      "trending_adds_24h": 0,
-      "trending_drops_24h": 0,
-      "waiver_score": 50.22
-    },
-    {
       "player_id": "4195",
       "name": "Jake Elliott",
       "team": "PHI",
@@ -322,6 +301,27 @@
       "trending_adds_24h": 0,
       "trending_drops_24h": 0,
       "waiver_score": 49.59
+    },
+    {
+      "player_id": "3678",
+      "name": "Wil Lutz",
+      "team": "DEN",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "depth_chart_position": "K",
+      "projected_points": 7.54,
+      "week_opponent": "SF",
+      "rostered_percent": 4.49,
+      "start_percent": 3.17,
+      "previous_week_opportunities": null,
+      "trending_adds_24h": 0,
+      "trending_drops_24h": 0,
+      "waiver_score": 48.99
     },
     {
       "player_id": "10955",
