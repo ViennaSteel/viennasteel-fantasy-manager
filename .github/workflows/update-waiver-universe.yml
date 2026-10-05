@@ -2,6 +2,11 @@ name: Update complete waiver universe
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-waiver-universe.yml"
   schedule:
     - cron: "7,22,37,52 * * * *"
 
