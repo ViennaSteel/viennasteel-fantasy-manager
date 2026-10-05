@@ -6,7 +6,7 @@ on:
     - cron: "7,22,37,52 * * * *"
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   update:
@@ -222,15 +222,30 @@ jobs:
               });
             }
 
-      - name: Commit ranked waiver data
+      - name: Sync private ranked waiver data
+        env:
+          FANTASY_DATA_TOKEN: ${{ secrets.FANTASY_DATA_TOKEN }}
         run: |
+          if [ -z "$FANTASY_DATA_TOKEN" ]; then
+            echo "GitHub secret FANTASY_DATA_TOKEN is missing."
+            exit 1
+          fi
+
+          git clone --depth 1 \
+            "https://x-access-token:${FANTASY_DATA_TOKEN}@github.com/ViennaSteel/viennasteel-fantasy-data.git" \
+            private-fantasy-data
+
+          mkdir -p private-fantasy-data/data/waivers
+          rsync -a data/waivers/ private-fantasy-data/data/waivers/
+
+          cd private-fantasy-data
           git config user.name "ViennaSteel Fantasy Bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/waivers
+
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "Private ranked waiver data is already current."
           else
             git commit -m "Update complete ranked waiver pool"
-            git pull --rebase origin main
-            git push
+            git push origin HEAD:main
           fi
