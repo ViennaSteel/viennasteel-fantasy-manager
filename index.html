@@ -50,7 +50,7 @@
         <button class="active" data-view="dashboard-view" type="button">Dashboard</button>
         <button data-view="start-sit-view" type="button">Start / Sit</button>
         <button data-view="rankings-view" type="button">Rankings</button>
-        <button type="button" disabled>Waiver <small>demnächst</small></button>
+        <button data-view="waiver-view" type="button">Waiver</button>
         <button type="button" disabled>Trades <small>demnächst</small></button>
       </nav>
 
@@ -179,6 +179,41 @@
                 <span>Rang</span><span>Spieler</span><span>VS Score</span><span>Prognose</span><span>Start</span><span>Matchup</span><span>Status</span>
               </div>
               <div id="ranking-list" class="ranking-list"></div>
+            </div>
+          </section>
+
+          <section id="waiver-view" class="app-view waiver-view" hidden>
+            <div class="tool-heading">
+              <div>
+                <p class="eyebrow">Free Agents deiner Liga</p>
+                <h2>Waiver Wire</h2>
+                <p>Nur Spieler, die in deiner ausgewählten Sleeper-Liga aktuell verfügbar sind.</p>
+              </div>
+              <div class="waiver-budget" id="waiver-budget">
+                <span>FAAB-Budget</span>
+                <strong>–</strong>
+              </div>
+            </div>
+
+            <div class="waiver-toolbar panel">
+              <div class="waiver-tabs" role="tablist" aria-label="Waiver-Position auswählen">
+                <button class="active" data-waiver-position="QB" type="button">QB</button>
+                <button data-waiver-position="RB" type="button">RB</button>
+                <button data-waiver-position="WR" type="button">WR</button>
+                <button data-waiver-position="TE" type="button">TE</button>
+                <button data-waiver-position="K" type="button">K</button>
+                <button data-waiver-position="DEF" type="button">DEF</button>
+              </div>
+              <label class="ranking-search"><span>Spieler suchen</span><input id="waiver-search" type="search" placeholder="Name oder Team" /></label>
+            </div>
+
+            <div class="waiver-table-wrap panel">
+              <div class="waiver-table-head" aria-hidden="true">
+                <span>Rang</span><span>Spieler</span><span>VS Score</span><span>Prognose</span><span>Rostered</span><span>Trend 24h</span><span>Status</span>
+              </div>
+              <div id="waiver-list" class="waiver-list">
+                <div class="ranking-empty"><strong>Waiver-Daten werden geladen</strong><span>Einen Moment bitte.</span></div>
+              </div>
             </div>
           </section>
         </div>
