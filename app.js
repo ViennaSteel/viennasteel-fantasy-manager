@@ -14,7 +14,7 @@ const firebaseConfig = {
 const firebaseApp = initializeApp(firebaseConfig);
 const auth = getAuth(firebaseApp);
 const db = getFirestore(firebaseApp);
-const state = { context: null, league: null, profile: null, week: null, slot: "ALL", view: "dashboard-view", rankingPosition: "QB", rankingSearch: "" };
+const state = { context: null, league: null, profile: null, week: null, slot: "ALL", view: "dashboard-view", rankingPosition: "QB", rankingSearch: "", waiverPosition: "QB", waiverSearch: "", waivers: {} };
 const splashStartedAt = performance.now();
 let authErrorMessage = "";
 
@@ -502,11 +502,81 @@ function renderRankings() {
   }).join("");
 }
 
-function switchView(viewId) {
+function waiverScore(player) {
+  const ranking = (state.league.rankings?.[state.waiverPosition] || [])
+    .find(item => String(item.player_id) === String(player.player_id));
+  return ranking?.consensus_score ?? null;
+}
+
+function renderWaiverBudget() {
+  const budget = state.league?.faab;
+  const element = $("#waiver-budget");
+  if (!budget?.enabled) {
+    element.innerHTML = `<span>Waiver-System</span><strong>Priorität</strong>`;
+    return;
+  }
+  const remaining = Number(budget.remaining ?? Math.max(0, Number(budget.total || 0) - Number(budget.used || 0)));
+  element.innerHTML = `<span>FAAB verfügbar</span><strong>$${remaining} <small>von $${Number(budget.total || 0)}</small></strong>`;
+}
+
+async function loadWaivers(position = state.waiverPosition) {
+  if (!state.league || !state.profile) return;
+  const leagueId = String(state.league.league.league_id);
+  const cacheKey = `${leagueId}:${position}`;
+  if (!state.waivers[cacheKey]) {
+    $("#waiver-list").innerHTML = `<div class="ranking-empty"><strong>Waiver-Daten werden geladen</strong><span>Einen Moment bitte.</span></div>`;
+    state.waivers[cacheKey] = await loadFantasyDocument(
+      "fantasyUsers",
+      state.profile.sleeperUserId,
+      "leagues",
+      leagueId,
+      "waivers",
+      position
+    );
+  }
+  renderWaivers();
+}
+
+function renderWaivers() {
+  if (!state.league) return;
+  renderWaiverBudget();
+  const leagueId = String(state.league.league.league_id);
+  const payload = state.waivers[`${leagueId}:${state.waiverPosition}`];
+  if (!payload) return;
+  const query = state.waiverSearch.trim().toLowerCase();
+  const source = [...(payload.available || [])]
+    .map(player => ({ ...player, waiver_score: waiverScore(player) }))
+    .sort((a, b) => Number(b.waiver_score || 0) - Number(a.waiver_score || 0) || Number(b.trending_adds_24h || 0) - Number(a.trending_adds_24h || 0));
+  const players = source.filter(player => !query || `${player.name} ${player.team || ""}`.toLowerCase().includes(query));
+  const list = $("#waiver-list");
+  if (!players.length) {
+    list.innerHTML = `<div class="ranking-empty"><strong>Keine verfügbaren Spieler gefunden</strong><span>Versuche eine andere Position oder Suche.</span></div>`;
+    return;
+  }
+  list.innerHTML = players.map((player, index) => {
+    const availabilityClass = player.unavailable ? "unavailable" : availability(player) === "uncertain" ? "uncertain" : "";
+    const status = player.injury_status || "Verfügbar";
+    return `<article class="waiver-row ${availabilityClass}">
+      <div class="waiver-rank"><span>#</span>${index + 1}</div>
+      <div class="ranking-player">
+        <span class="ranking-photo"><img src="${playerImage(player)}" alt="" loading="lazy" onerror="this.src='./favicon.svg'" />${statusBadge(player)}</span>
+        <span><strong>${player.name}</strong><small>${player.team || "FA"} · ${player.position || state.waiverPosition} · ${player.depth_chart_position || "Depth Chart offen"}</small></span>
+      </div>
+      <strong class="waiver-score">${formatPoints(player.waiver_score)}</strong>
+      <span><strong>${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></span>
+      <span><strong>${formatPercent(player.rostered_percent)}</strong><small>Rostered</small></span>
+      <span class="waiver-trend"><strong>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</strong><small>Adds</small></span>
+      <span class="waiver-status ${availabilityClass}">${status}</span>
+    </article>`;
+  }).join("");
+}
+
+async function switchView(viewId) {
   state.view = viewId;
   document.querySelectorAll(".app-view").forEach((view) => { view.hidden = view.id !== viewId; });
   document.querySelectorAll("[data-view]").forEach((button) => button.classList.toggle("active", button.dataset.view === viewId));
   localStorage.setItem("vienna-steel-view", viewId);
+  if (viewId === "waiver-view") await loadWaivers();
 }
 
 function renderAlerts() {
@@ -599,11 +669,13 @@ async function selectLeague(leagueId) {
     "leagues",
     String(league.league_id)
   );
+  state.waivers = {};
   const availableWeeks = state.league.available_weeks || [Number(state.league.week)];
   const currentWeek = Number(state.context.nfl_week);
   state.week = availableWeeks.includes(currentWeek) ? currentWeek : Number(state.league.week);
   localStorage.setItem("vienna-steel-league", leagueId);
   renderLeague();
+  if (state.view === "waiver-view") await loadWaivers();
   $("#loading").hidden = true;
   $("#dashboard").hidden = false;
 }
@@ -651,7 +723,7 @@ document.querySelectorAll("[data-slot]").forEach((button) => button.addEventList
   document.querySelectorAll("[data-slot]").forEach((item) => item.classList.toggle("active", item === button));
   renderRoster();
 }));
-document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => switchView(button.dataset.view)));
+document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => switchView(button.dataset.view).catch(console.error)));
 $("#player-a").addEventListener("change", renderComparison);
 $("#player-b").addEventListener("change", renderComparison);
 $("#ranking-search").addEventListener("input", (event) => {
@@ -662,6 +734,20 @@ document.querySelectorAll("[data-ranking-position]").forEach((button) => button.
   state.rankingPosition = button.dataset.rankingPosition;
   document.querySelectorAll("[data-ranking-position]").forEach((item) => item.classList.toggle("active", item === button));
   renderRankings();
+}));
+$("#waiver-search").addEventListener("input", (event) => {
+  state.waiverSearch = event.target.value;
+  renderWaivers();
+});
+document.querySelectorAll("[data-waiver-position]").forEach((button) => button.addEventListener("click", async () => {
+  state.waiverPosition = button.dataset.waiverPosition;
+  document.querySelectorAll("[data-waiver-position]").forEach((item) => item.classList.toggle("active", item === button));
+  try {
+    await loadWaivers();
+  } catch (error) {
+    console.error(error);
+    $("#waiver-list").innerHTML = `<div class="ranking-empty"><strong>Waiver-Daten konnten nicht geladen werden</strong><span>Bitte versuche es gleich noch einmal.</span></div>`;
+  }
 }));
 
 $("#login-form").addEventListener("submit", async (event) => {
