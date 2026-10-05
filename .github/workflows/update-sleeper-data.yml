@@ -750,3 +750,31 @@ jobs:
 
             await Promise.all(writes);
             core.info(`Uploaded ${writes.length} protected documents to Firestore.`);
+
+      - name: Sync private analysis data
+        env:
+          FANTASY_DATA_TOKEN: ${{ secrets.FANTASY_DATA_TOKEN }}
+        run: |
+          if [ -z "$FANTASY_DATA_TOKEN" ]; then
+            echo "GitHub secret FANTASY_DATA_TOKEN is missing."
+            exit 1
+          fi
+
+          git clone --depth 1 \
+            "https://x-access-token:${FANTASY_DATA_TOKEN}@github.com/ViennaSteel/viennasteel-fantasy-data.git" \
+            private-fantasy-data
+
+          mkdir -p private-fantasy-data/data
+          rsync -a --delete data/ private-fantasy-data/data/
+
+          cd private-fantasy-data
+          git config user.name "ViennaSteel Fantasy Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+
+          if git diff --cached --quiet; then
+            echo "Private fantasy data is already current."
+          else
+            git commit -m "Update Sleeper analysis data"
+            git push origin HEAD:main
+          fi
