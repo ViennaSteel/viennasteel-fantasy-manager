@@ -868,6 +868,7 @@ function renderWaivers() {
     const recommendation = waiverRecommendation(player);
     const difference = recommendation.difference === null ? "" : `${recommendation.difference >= 0 ? "+" : ""}${formatPoints(recommendation.difference)} VS Score`;
     const dropText = recommendation.drop && recommendation.tier !== "none" ? `Add ${player.name} · Drop ${recommendation.drop.name}` : recommendation.reason;
+    const detailText = difference && difference !== dropText ? difference : "";
     return `<article class="waiver-row ${availabilityClass}">
       <div class="waiver-rank"><span>#</span>${index + 1}</div>
       <div class="ranking-player">
@@ -881,7 +882,7 @@ function renderWaivers() {
       <span class="waiver-status ${availabilityClass}">${status}</span>
       <div class="waiver-recommendation ${recommendation.tier}">
         <span class="waiver-tier">${recommendation.title}</span>
-        <span class="waiver-move"><strong>${dropText}</strong><small>${difference || recommendation.reason}</small></span>
+        <span class="waiver-move"><strong>${dropText}</strong>${detailText ? `<small>${detailText}</small>` : ""}</span>
         <span class="waiver-faab"><small>FAAB-Empfehlung</small><strong>${recommendation.faab.label}</strong></span>
         <button class="waiver-detail-button" data-waiver-player="${player.player_id}" data-waiver-position="${player.position}" type="button">Details</button>
       </div>
