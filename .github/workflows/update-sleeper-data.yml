@@ -86,6 +86,7 @@ jobs:
                 injury_notes: p?.injury_notes ?? null,
                 practice_participation: p?.practice_participation ?? null,
                 depth_chart_position: p?.depth_chart_position ?? null,
+                years_exp: Number.isFinite(Number(p?.years_exp)) ? Number(p.years_exp) : null,
                 trending_adds_24h: trendingAdds
               };
             }

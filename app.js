@@ -539,13 +539,15 @@ function rosteredWaiverProfile(rostered) {
   const startPercent = Number(profile.start_percent);
   const projection = Number(profile.projected_points);
   const trend = Number(profile.trending_adds_24h || 0);
+  const yearsExperience = profile.years_exp === null || profile.years_exp === undefined ? null : Number(profile.years_exp);
+  const unavailable = availability(rostered) !== "available";
   const protectedPlayer =
-    rostered.slot !== "BENCH" ||
-    availability(rostered) !== "available" ||
     (Number.isFinite(rosteredPercent) && rosteredPercent >= 85) ||
     (Number.isFinite(startPercent) && startPercent >= 30) ||
     (Number.isFinite(consensus) && consensus >= 72) ||
-    (["RB", "WR"].includes(rostered.position) && trend >= 5000);
+    (["RB", "WR"].includes(rostered.position) && trend >= 5000) ||
+    (unavailable && Number.isFinite(yearsExperience) && yearsExperience <= 2) ||
+    (unavailable && Number.isFinite(rosteredPercent) && rosteredPercent >= 60);
   const dropScore =
     (Number.isFinite(consensus) ? consensus * 0.5 : 25) +
     (Number.isFinite(rosteredPercent) ? rosteredPercent * 0.25 : 12.5) +
@@ -561,6 +563,7 @@ function waiverPositionNeed(position) {
   const unavailableStarters = starters.filter(player => {
     if (isByeWeek(player)) return true;
     if (availability(player) === "unavailable") return true;
+    if (["QB", "TE"].includes(position) && availability(player) === "uncertain") return true;
     const projection = player.projected_points === null || player.projected_points === undefined
       ? null
       : Number(player.projected_points);
@@ -578,7 +581,7 @@ function waiverPositionNeed(position) {
 function waiverDropCandidate(player, need = waiverPositionNeed(player.position)) {
   const team = activeWeekData().team || [];
   const candidates = team
-    .filter(rostered => rostered.slot === "BENCH" && availability(rostered) === "available")
+    .filter(rostered => need.urgent || rostered.slot !== "IR")
     .map(rosteredWaiverProfile)
     .filter(rostered => !rostered.protected_player)
     .sort((a, b) => Number(a.drop_score) - Number(b.drop_score));
@@ -587,7 +590,7 @@ function waiverDropCandidate(player, need = waiverPositionNeed(player.position))
   if (need.urgent) return candidates[0];
 
   const samePosition = candidates.filter(rostered => rostered.position === player.position);
-  return samePosition[0] || candidates[0];
+  return samePosition[0] || null;
 }
 
 function faabRecommendation(tier, player, scoreDifference) {
@@ -640,10 +643,11 @@ function waiverRecommendation(player) {
     };
   }
   if (!drop) {
-    const tier = playerScore >= 70 ? "upgrade" : "watch";
+    const premiumStash = ["RB", "WR"].includes(player.position) && playerScore >= 65;
+    const tier = premiumStash ? "upgrade" : "watch";
     return {
       tier,
-      title: tier === "upgrade" ? "Top Target" : "Watchlist",
+      title: premiumStash ? "Top Target" : "Watchlist",
       drop: null,
       difference: null,
       reason: `Interessanter ${player.position}, aber aktuell kein verantwortbarer Drop`,
@@ -786,6 +790,7 @@ function renderWaiverPriorities() {
   const leagueId = String(state.league.league.league_id);
   const positions = ["QB", "RB", "WR", "TE", "K", "DEF"];
   const tierOrder = { must: 3, upgrade: 2, watch: 1, none: 0 };
+  const positionValue = { RB: 30, WR: 25, QB: 15, TE: 8, DEF: 0, K: -5 };
   const rankedRecommendations = positions.flatMap(position => {
     const payload = state.waivers[`${leagueId}:${position}`];
     return (payload?.available || []).map(player => {
@@ -796,6 +801,7 @@ function renderWaiverPriorities() {
     .sort((a, b) =>
       Number(Boolean(b.recommendation.urgentNeed)) - Number(Boolean(a.recommendation.urgentNeed)) ||
       tierOrder[b.recommendation.tier] - tierOrder[a.recommendation.tier] ||
+      Number(positionValue[b.player.position] || 0) - Number(positionValue[a.player.position] || 0) ||
       Number(b.recommendation.difference || 0) - Number(a.recommendation.difference || 0) ||
       Number(b.player.waiver_score || 0) - Number(a.player.waiver_score || 0)
     );
