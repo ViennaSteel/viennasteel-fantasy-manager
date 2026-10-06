@@ -33,13 +33,20 @@ function playerImage(player) {
   return `https://sleepercdn.com/content/nfl/players/thumb/${player.player_id}.jpg`;
 }
 
+function isByeWeek(player) {
+  const team = String(player.team || "").trim().toUpperCase();
+  if (!team || team === "FA") return false;
+  return !player.week_opponent && !player.game_start && !player.game_date;
+}
+
 function statusBadge(player) {
   const status = String(player.injury_status || "").toUpperCase();
-  if (!status && player.slot !== "IR") return "";
+  const byeBadge = isByeWeek(player) ? `<span class="photo-status bye" title="Bye Week">BYE</span>` : "";
+  if (!status && player.slot !== "IR") return byeBadge;
   const labels = { QUESTIONABLE: "Q", DOUBTFUL: "D", OUT: "OUT", PUP: "PUP", IR: "IR", SUSPENDED: "SUSP", NFI: "NFI" };
   const label = labels[status] || (player.slot === "IR" ? "IR" : status);
   const tone = availability(player) === "uncertain" ? "uncertain" : "unavailable";
-  return `<span class="photo-status ${tone}" title="${player.injury_status || "Injured Reserve"}">${label}</span>`;
+  return `<span class="photo-status ${tone}" title="${player.injury_status || "Injured Reserve"}">${label}</span>${byeBadge}`;
 }
 
 function formatTime(value) {
@@ -99,6 +106,7 @@ function performanceIndicator(player) {
 }
 
 function matchupLabel(player) {
+  if (isByeWeek(player)) return "BYE WEEK";
   if (!player.week_opponent) return "Termin offen";
   const opponent = `vs ${player.week_opponent}`;
   if (player.game_start) {
@@ -118,6 +126,7 @@ function matchupLabel(player) {
 }
 
 function matchupDisplay(player) {
+  if (isByeWeek(player)) return `<span class="matchup-date bye-label">BYE WEEK</span>`;
   if (!player.week_opponent) return `<span class="matchup-date">Termin offen</span>`;
   const opponent = `vs ${player.week_opponent}`;
   if (player.game_start) {
@@ -295,10 +304,10 @@ function renderPlayerOptions() {
 function comparisonCard(player, label) {
   const flags = [];
   flags.push(`<li><span>Lineup</span><strong>${player.slot === "STARTER" ? "Starter" : player.slot === "BENCH" ? "Bank" : "IR"}</strong></li>`);
-  flags.push(`<li><span>Status</span><strong class="${player.injury_status ? "negative" : "positive"}">${player.injury_status || "Aktiv"}</strong></li>`);
+  flags.push(`<li><span>Status</span><strong class="${player.injury_status || isByeWeek(player) ? "negative" : "positive"}">${player.injury_status || (isByeWeek(player) ? "BYE" : "Aktiv")}</strong></li>`);
   flags.push(`<li><span>Depth Chart</span><strong>${player.depth_chart_position || "–"}</strong></li>`);
   flags.push(`<li><span>Gegner</span><strong>${matchupLabel(player)}</strong></li>`);
-  flags.push(`<li><span>Prognose</span><strong>${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)} Pkt.</strong></li>`);
+  flags.push(`<li><span>Prognose</span><strong>${availability(player) === "unavailable" || isByeWeek(player) ? "0.00" : formatPoints(player.projected_points)} Pkt.</strong></li>`);
   flags.push(`<li><span>Ist-Punkte</span><strong>${actualPointsLabel(player)} Pkt.</strong></li>`);
   flags.push(`<li><span>Rostered</span><strong>${formatPercent(player.rostered_percent)}</strong></li>`);
   flags.push(`<li><span>Startquote</span><strong>${formatPercent(player.start_percent)}</strong></li>`);
@@ -409,6 +418,12 @@ function renderComparison() {
   } else if (kickoffLocked(a) || kickoffLocked(b)) {
     const locked = [a, b].filter(kickoffLocked).map(player => player.name).join(" und ");
     setRecommendation("warning", "Lineup-Entscheidung bereits gesperrt", `${locked} hat bereits gespielt oder das Spiel hat begonnen. Sleeper erlaubt deshalb keinen Wechsel mehr.`, "Kickoff-Sperre aktiv");
+  } else if (isByeWeek(a) && isByeWeek(b)) {
+    setRecommendation("danger", "Beide Spieler haben Bye Week", `${a.name} und ${b.name} können in dieser Woche keine Punkte erzielen.`);
+  } else if (isByeWeek(a)) {
+    setRecommendation("good", `Starte ${b.name}`, `${a.name} hat in dieser Woche spielfrei und erhält deshalb keine Start-Empfehlung.`, "Klare Empfehlung · Bye Week");
+  } else if (isByeWeek(b)) {
+    setRecommendation("good", `Starte ${a.name}`, `${b.name} hat in dieser Woche spielfrei und erhält deshalb keine Start-Empfehlung.`, "Klare Empfehlung · Bye Week");
   } else if (aAvailability === "unavailable" && bAvailability === "unavailable") {
     setRecommendation("danger", "Keiner der beiden Spieler ist aktuell einsatzfähig", `${a.name} (${a.injury_status || "IR"}) und ${b.name} (${b.injury_status || "IR"}) dürfen aktuell nicht als Start-Option gewertet werden.`);
   } else if (aAvailability === "unavailable") {
@@ -496,7 +511,7 @@ function renderRankings() {
       <strong class="ranking-score">${formatPoints(player.consensus_score)}</strong>
       <span><strong>${formatPoints(player.projected_points)}</strong><small>Pkt.</small></span>
       <span><strong>${formatPercent(player.start_percent)}</strong><small>Startquote</small></span>
-      <span class="${matchupClass}"><strong>${matchupDifference === null ? "–" : `${matchupDifference >= 0 ? "+" : ""}${formatPoints(matchupDifference)}%`}</strong><small>${player.week_opponent ? `vs ${player.week_opponent}` : "Offen"}</small></span>
+      <span class="${matchupClass}"><strong>${isByeWeek(player) ? "BYE" : matchupDifference === null ? "–" : `${matchupDifference >= 0 ? "+" : ""}${formatPoints(matchupDifference)}%`}</strong><small>${isByeWeek(player) ? "Spielfrei" : player.week_opponent ? `vs ${player.week_opponent}` : "Offen"}</small></span>
       <span class="ranking-status ${player.roster_status?.toLowerCase() || ""}">${rankingRosterLabel(player)}</span>
     </article>`;
   }).join("");
@@ -516,17 +531,63 @@ function enrichedWaiverPlayer(player, position = state.waiverPosition) {
   };
 }
 
-function waiverDropCandidate(player) {
+function rosteredWaiverProfile(rostered) {
+  const ranking = rankingPlayer(rostered.player_id, rostered.position);
+  const profile = { ...rostered, ...(ranking || {}) };
+  const consensus = Number(ranking?.consensus_score);
+  const rosteredPercent = Number(profile.rostered_percent);
+  const startPercent = Number(profile.start_percent);
+  const projection = Number(profile.projected_points);
+  const trend = Number(profile.trending_adds_24h || 0);
+  const protectedPlayer =
+    rostered.slot !== "BENCH" ||
+    availability(rostered) !== "available" ||
+    (Number.isFinite(rosteredPercent) && rosteredPercent >= 85) ||
+    (Number.isFinite(startPercent) && startPercent >= 30) ||
+    (Number.isFinite(consensus) && consensus >= 72) ||
+    (["RB", "WR"].includes(rostered.position) && trend >= 5000);
+  const dropScore =
+    (Number.isFinite(consensus) ? consensus * 0.5 : 25) +
+    (Number.isFinite(rosteredPercent) ? rosteredPercent * 0.25 : 12.5) +
+    (Number.isFinite(startPercent) ? startPercent * 0.15 : 7.5) +
+    (Number.isFinite(projection) ? Math.min(25, projection) * 0.4 : 5) +
+    Math.min(10, Math.log10(trend + 1) * 2);
+  return { ...profile, roster_score: Number.isFinite(consensus) ? consensus : null, drop_score: dropScore, protected_player: protectedPlayer };
+}
+
+function waiverPositionNeed(position) {
+  const team = activeWeekData().team || [];
+  const starters = team.filter(player => player.slot === "STARTER" && player.position === position);
+  const unavailableStarters = starters.filter(player => {
+    if (isByeWeek(player)) return true;
+    if (availability(player) === "unavailable") return true;
+    const projection = player.projected_points === null || player.projected_points === undefined
+      ? null
+      : Number(player.projected_points);
+    const kickoffPending = !player.game_start || new Date(player.game_start) > new Date();
+    return kickoffPending && projection !== null && Number.isFinite(projection) && projection <= 0;
+  });
+  const playableBench = team.filter(player => player.slot === "BENCH" && player.position === position && availability(player) === "available" && !isByeWeek(player));
+  return {
+    urgent: unavailableStarters.length > 0 && playableBench.length === 0,
+    unavailableStarters,
+    playableBench
+  };
+}
+
+function waiverDropCandidate(player, need = waiverPositionNeed(player.position)) {
   const team = activeWeekData().team || [];
   const candidates = team
-    .filter(rostered => rostered.slot === "BENCH" && rostered.position === player.position && availability(rostered) === "available")
-    .map(rostered => {
-      const ranking = rankingPlayer(rostered.player_id, rostered.position);
-      return { ...rostered, roster_score: ranking?.consensus_score ?? null };
-    })
-    .filter(rostered => Number.isFinite(Number(rostered.roster_score)))
-    .sort((a, b) => Number(a.roster_score) - Number(b.roster_score));
-  return candidates[0] || null;
+    .filter(rostered => rostered.slot === "BENCH" && availability(rostered) === "available")
+    .map(rosteredWaiverProfile)
+    .filter(rostered => !rostered.protected_player)
+    .sort((a, b) => Number(a.drop_score) - Number(b.drop_score));
+
+  if (!candidates.length) return null;
+  if (need.urgent) return candidates[0];
+
+  const samePosition = candidates.filter(rostered => rostered.position === player.position);
+  return samePosition[0] || candidates[0];
 }
 
 function faabRecommendation(tier, player, scoreDifference) {
@@ -538,6 +599,7 @@ function faabRecommendation(tier, player, scoreDifference) {
 
   let range = tier === "must" ? [10, 18] : tier === "upgrade" ? [4, 9] : [1, 3];
   if (tier === "must" && Number(player.rostered_percent || 0) >= 60 && scoreDifference >= 20) range = [15, 25];
+  if (player.position === "QB" && tier === "must" && Number(player.rostered_percent || 0) < 30) range = [3, 6];
   if (["K", "DEF"].includes(player.position)) range = tier === "must" ? [3, 6] : tier === "upgrade" ? [1, 3] : [0, 1];
   const minimum = Math.min(remaining, Math.round(total * range[0] / 100));
   const maximum = Math.min(remaining, Math.max(minimum, Math.round(total * range[1] / 100)));
@@ -552,9 +614,42 @@ function waiverRecommendation(player) {
   if (!Number.isFinite(playerScore)) {
     return { tier: "watch", title: "Watchlist", drop: null, difference: null, reason: "Noch keine vollständige Wochenbewertung", faab: faabRecommendation("watch", player, 0) };
   }
-  const drop = waiverDropCandidate(player);
+  const need = waiverPositionNeed(player.position);
+  const drop = waiverDropCandidate(player, need);
+  if (need.urgent) {
+    const missing = need.unavailableStarters.map(starter => starter.name).join(", ") || `dein ${player.position}-Starter`;
+    if (isByeWeek(player)) {
+      return {
+        tier: "watch",
+        title: "Watchlist",
+        drop: null,
+        difference: null,
+        reason: `${player.name} hat selbst Bye Week und löst den akuten ${player.position}-Bedarf nicht`,
+        urgentNeed: false,
+        faab: faabRecommendation("watch", player, 0)
+      };
+    }
+    return {
+      tier: "must",
+      title: "Must Add",
+      drop,
+      difference: drop && Number.isFinite(Number(drop.roster_score)) ? playerScore - Number(drop.roster_score) : null,
+      reason: `Akuter Ersatzbedarf: ${missing} ist nicht einsatzfähig und auf der Bank fehlt ein spielbereiter Ersatz`,
+      urgentNeed: true,
+      faab: faabRecommendation("must", player, 0)
+    };
+  }
   if (!drop) {
-    return { tier: "watch", title: "Watchlist", drop: null, difference: null, reason: `Kein sicherer ${player.position}-Drop auf deiner Bank`, faab: faabRecommendation("watch", player, 0) };
+    const tier = playerScore >= 70 ? "upgrade" : "watch";
+    return {
+      tier,
+      title: tier === "upgrade" ? "Top Target" : "Watchlist",
+      drop: null,
+      difference: null,
+      reason: `Interessanter ${player.position}, aber aktuell kein verantwortbarer Drop`,
+      urgentNeed: false,
+      faab: faabRecommendation(tier, player, 0)
+    };
   }
   const difference = playerScore - Number(drop.roster_score);
   const tier = difference >= 15 && playerScore >= 65 ? "must" : difference >= 7 ? "upgrade" : difference >= 2 ? "watch" : "none";
@@ -565,10 +660,11 @@ function waiverRecommendation(player) {
     watch: `Kleiner Vorteil gegenüber ${drop.name}`,
     none: `${drop.name} ist aktuell mindestens gleichwertig`
   };
-  return { tier, title: titles[tier], drop, difference, reason: reasons[tier], faab: faabRecommendation(tier, player, difference) };
+  return { tier, title: titles[tier], drop, difference, reason: reasons[tier], urgentNeed: false, faab: faabRecommendation(tier, player, difference) };
 }
 
 function waiverRole(player, recommendation) {
+  if (recommendation.urgentNeed) return `Akuter ${player.position}-Ersatz`;
   if (recommendation.tier === "none") return "Aktuell kein Kader-Upgrade";
   if (recommendation.tier === "watch") return "Watchlist / Tiefe";
   const starters = activeWeekData().team
@@ -582,6 +678,7 @@ function waiverRole(player, recommendation) {
 
 function waiverDecisionReasons(player, recommendation) {
   const reasons = [];
+  if (recommendation.urgentNeed) reasons.push(recommendation.reason);
   if (player.projected_points !== null && player.projected_points !== undefined && Number.isFinite(Number(player.projected_points))) reasons.push(`${formatPoints(player.projected_points)} prognostizierte Punkte im Liga-Scoring`);
   if (player.start_percent !== null && player.start_percent !== undefined && Number.isFinite(Number(player.start_percent))) reasons.push(`${formatPercent(player.start_percent)} Startquote`);
   if (player.usage_opportunities !== null && player.usage_opportunities !== undefined && Number.isFinite(Number(player.usage_opportunities))) reasons.push(`${formatPoints(player.usage_opportunities)} Opportunities pro Spiel`);
@@ -697,6 +794,7 @@ function renderWaiverPriorities() {
     });
   }).filter(item => item.recommendation.tier !== "none")
     .sort((a, b) =>
+      Number(Boolean(b.recommendation.urgentNeed)) - Number(Boolean(a.recommendation.urgentNeed)) ||
       tierOrder[b.recommendation.tier] - tierOrder[a.recommendation.tier] ||
       Number(b.recommendation.difference || 0) - Number(a.recommendation.difference || 0) ||
       Number(b.player.waiver_score || 0) - Number(a.player.waiver_score || 0)
@@ -748,8 +846,8 @@ function renderWaivers() {
     return;
   }
   list.innerHTML = players.map((player, index) => {
-    const availabilityClass = player.unavailable ? "unavailable" : availability(player) === "uncertain" ? "uncertain" : "";
-    const status = player.injury_status || "Verfügbar";
+    const availabilityClass = player.unavailable ? "unavailable" : availability(player) === "uncertain" ? "uncertain" : isByeWeek(player) ? "bye" : "";
+    const status = player.injury_status || (isByeWeek(player) ? "BYE" : "Verfügbar");
     const recommendation = waiverRecommendation(player);
     const difference = recommendation.difference === null ? "" : `${recommendation.difference >= 0 ? "+" : ""}${formatPoints(recommendation.difference)} VS Score`;
     const dropText = recommendation.drop && recommendation.tier !== "none" ? `Add ${player.name} · Drop ${recommendation.drop.name}` : recommendation.reason;
@@ -760,7 +858,7 @@ function renderWaivers() {
         <span><strong>${player.name}</strong><small>${player.team || "FA"} · ${player.position || state.waiverPosition} · ${player.depth_chart_position || "Depth Chart offen"}</small></span>
       </div>
       <strong class="waiver-score">${formatPoints(player.waiver_score)}</strong>
-      <span><strong>${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></span>
+      <span><strong>${availability(player) === "unavailable" || isByeWeek(player) ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></span>
       <span><strong>${formatPercent(player.rostered_percent)}</strong><small>Rostered</small></span>
       <span class="waiver-trend"><strong>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</strong><small>Adds</small></span>
       <span class="waiver-status ${availabilityClass}">${status}</span>
@@ -834,7 +932,7 @@ function renderRoster() {
   $("#roster").innerHTML = groups.map((group) => `
     <div class="roster-group-title"><span>${group.label}</span><small>${group.players.length} Spieler</small></div>
     ${group.players.map((player) => `
-    <article class="player-card availability-${availability(player)}">
+    <article class="player-card availability-${isByeWeek(player) ? "bye" : availability(player)}">
       <div class="player-photo-wrap">
         <img class="player-photo" src="${playerImage(player)}" alt="" loading="lazy" onerror="this.src='./favicon.svg'" />
         ${statusBadge(player)}
@@ -852,7 +950,7 @@ function renderRoster() {
       </div>
       <div class="player-week">
         <div class="week-stat"><span>Matchup</span><div class="week-value matchup-value"><strong>${matchupDisplay(player)}</strong></div></div>
-        <div class="week-stat"><span>Prognose</span><div class="week-value"><strong class="projection">${availability(player) === "unavailable" ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></div></div>
+        <div class="week-stat"><span>Prognose</span><div class="week-value"><strong class="projection">${availability(player) === "unavailable" || isByeWeek(player) ? "0.00" : formatPoints(player.projected_points)}</strong><small>Pkt.</small></div></div>
         <div class="week-stat"><span>Erreicht</span><div class="week-value"><strong>${actualPointsLabel(player)}</strong><small>Pkt.</small></div></div>
         ${performanceIndicator(player)}
       </div>
