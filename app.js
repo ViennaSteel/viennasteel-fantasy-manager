@@ -578,10 +578,21 @@ function waiverPositionNeed(position) {
   };
 }
 
+function dropKeepsRosterLegal(rostered, addedPosition, team) {
+  if (rostered.slot === "IR" || rostered.position === addedPosition) return true;
+  const required = (state.league?.league?.roster_positions || [])
+    .filter(position => position === rostered.position)
+    .length;
+  if (!required) return true;
+  const activeAtPosition = team.filter(player => player.slot !== "IR" && player.position === rostered.position).length;
+  return activeAtPosition - 1 >= required;
+}
+
 function waiverDropCandidate(player, need = waiverPositionNeed(player.position)) {
   const team = activeWeekData().team || [];
   const candidates = team
     .filter(rostered => need.urgent || rostered.slot !== "IR")
+    .filter(rostered => dropKeepsRosterLegal(rostered, player.position, team))
     .map(rosteredWaiverProfile)
     .filter(rostered => !rostered.protected_player)
     .sort((a, b) => Number(a.drop_score) - Number(b.drop_score));
