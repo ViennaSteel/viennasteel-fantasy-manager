@@ -237,6 +237,32 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .waiver-budget > span { display: block; margin-bottom: 3px; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; }
 .waiver-budget strong { color: var(--steel); font-size: 20px; }
 .waiver-budget small { color: var(--muted); font-size: 10px; }
+.waiver-priorities { padding: 0; overflow: hidden; }
+.waiver-priorities-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; padding: 18px 20px; border-bottom: 1px solid var(--line); }
+.waiver-priorities-heading h3 { margin: 0; font-size: 19px; }
+.waiver-priorities-heading > small { color: var(--muted); font-size: 10px; }
+.waiver-priorities-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.waiver-priority-card { position: relative; min-width: 0; display: grid; grid-template-columns: 34px 54px minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 15px 16px 42px; border-right: 1px solid var(--line); }
+.waiver-priority-card:last-child { border-right: 0; }
+.waiver-priority-card.must { box-shadow: inset 0 3px 0 #55df91; }
+.waiver-priority-card.upgrade { box-shadow: inset 0 3px 0 var(--steel); }
+.waiver-priority-card.watch { box-shadow: inset 0 3px 0 var(--warning); }
+.waiver-priority-number { color: var(--steel); font-size: 22px; font-weight: 950; }
+.waiver-priority-photo { position: relative; width: 54px; height: 58px; overflow: hidden; border-radius: 10px; background: linear-gradient(155deg, #4e2c6c, #160d20); }
+.waiver-priority-photo img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+.waiver-priority-photo .photo-status { top: 3px; left: 3px; min-width: 22px; padding: 3px; border-radius: 5px; font-size: 8px; }
+.waiver-priority-copy { min-width: 0; }
+.waiver-priority-copy small, .waiver-priority-copy strong, .waiver-priority-copy > span { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.waiver-priority-copy small { color: var(--steel); font-size: 9px; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; }
+.waiver-priority-copy strong { margin-top: 4px; font-size: 13px; }
+.waiver-priority-copy > span { margin-top: 3px; color: var(--muted); font-size: 9px; }
+.waiver-priority-bid { padding-left: 8px; text-align: right; }
+.waiver-priority-bid small, .waiver-priority-bid strong { display: block; }
+.waiver-priority-bid small { color: var(--muted); font-size: 8px; letter-spacing: .06em; }
+.waiver-priority-bid strong { margin-top: 2px; color: var(--steel); font-size: 14px; }
+.waiver-detail-button { padding: 6px 9px; border: 1px solid #c084fc45; border-radius: 7px; color: var(--steel); background: #c084fc0b; cursor: pointer; font-size: 9px; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; }
+.waiver-detail-button:hover { color: #180b24; background: var(--steel); }
+.waiver-priority-card > .waiver-detail-button { position: absolute; right: 16px; bottom: 10px; }
 .waiver-toolbar { display: flex; align-items: end; justify-content: space-between; gap: 20px; padding: 14px; }
 .waiver-tabs { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 11px; background: #100a18; }
 .waiver-tabs button { min-width: 52px; padding: 8px 11px; border: 0; border-radius: 8px; color: var(--muted); background: transparent; cursor: pointer; font-weight: 800; }
@@ -258,11 +284,58 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
 .waiver-status { justify-self: start; max-width: 100%; padding: 5px 8px; border-radius: 7px; color: #55df91; background: #55df9112; font-size: 10px; font-weight: 800; white-space: nowrap; }
 .waiver-status.unavailable { color: var(--danger); background: #ff686817; }
 .waiver-status.uncertain { color: var(--warning); background: #ffc65817; }
+.waiver-recommendation { grid-column: 1 / -1; display: grid; grid-template-columns: 110px minmax(0, 1fr) 130px auto; align-items: center; gap: 16px; margin: 7px -18px -8px; padding: 11px 18px; border-top: 1px solid var(--line); background: #ffffff03; }
+.waiver-tier { width: max-content; max-width: 100%; padding: 5px 8px; border-radius: 7px; color: var(--muted); background: #ffffff09; font-size: 10px; font-weight: 900; letter-spacing: .04em; text-transform: uppercase; }
+.waiver-recommendation.must .waiver-tier { color: #07130d; background: #55df91; }
+.waiver-recommendation.upgrade .waiver-tier { color: #180b24; background: var(--steel); }
+.waiver-recommendation.watch .waiver-tier { color: #2b1c00; background: var(--warning); }
+.waiver-move { min-width: 0; }
+.waiver-move strong, .waiver-move small, .waiver-faab strong, .waiver-faab small { display: block; }
+.waiver-move strong { overflow: hidden; font-size: 12px; white-space: nowrap; text-overflow: ellipsis; }
+.waiver-move small { margin-top: 3px; color: var(--muted); font-size: 10px; }
+.waiver-faab { text-align: right; }
+.waiver-faab small { margin-bottom: 2px; color: var(--muted); font-size: 9px; letter-spacing: .06em; text-transform: uppercase; }
+.waiver-faab strong { color: var(--steel); font-size: 15px; }
+.waiver-dialog { width: min(760px, calc(100% - 28px)); max-height: min(88vh, 820px); overflow: auto; padding: 0; border: 1px solid #c084fc55; border-radius: 20px; color: var(--text); background: linear-gradient(145deg, #1c1428, #100b18); box-shadow: 0 28px 100px #000000b5; }
+.waiver-dialog::backdrop { background: #06030aa8; backdrop-filter: blur(5px); }
+.waiver-dialog-close { position: sticky; z-index: 5; top: 12px; float: right; width: 34px; height: 34px; margin: 12px 12px -46px 0; border: 1px solid var(--line); border-radius: 10px; color: var(--text); background: #100a18dd; cursor: pointer; font-size: 22px; line-height: 1; }
+.waiver-dialog-hero { display: grid; grid-template-columns: 100px minmax(0, 1fr) auto; align-items: center; gap: 18px; min-height: 145px; padding: 24px; background: radial-gradient(circle at 15% 100%, #5c347d, transparent 44%); }
+.waiver-dialog-photo { position: relative; width: 100px; height: 116px; overflow: hidden; border-radius: 14px; background: #160d20; }
+.waiver-dialog-photo img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+.waiver-dialog-hero h2 { margin: 0 0 5px; font-size: 28px; }
+.waiver-dialog-hero > div > span { color: var(--muted); font-size: 12px; }
+.waiver-dialog-faab { padding-right: 38px; text-align: right; }
+.waiver-dialog-faab small, .waiver-dialog-faab strong { display: block; }
+.waiver-dialog-faab small { color: var(--muted); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
+.waiver-dialog-faab strong { margin-top: 3px; color: var(--steel); font-size: 24px; }
+.waiver-dialog-move { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px; margin: 0 24px; padding: 15px 0; border-bottom: 1px solid var(--line); }
+.waiver-dialog-move > span { min-width: 0; }
+.waiver-dialog-move small, .waiver-dialog-move strong, .waiver-dialog-move em { display: block; }
+.waiver-dialog-move small { color: var(--muted); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
+.waiver-dialog-move strong { margin-top: 3px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.waiver-dialog-move em { margin-top: 3px; color: var(--steel); font-size: 10px; font-style: normal; }
+.waiver-dialog-move b { color: var(--steel); }
+.waiver-dialog-note { margin: 0 24px; padding: 15px 0; border-bottom: 1px solid var(--line); color: var(--muted); }
+.waiver-dialog-stats { display: grid; grid-template-columns: repeat(3, 1fr); margin: 0 24px; border-bottom: 1px solid var(--line); }
+.waiver-dialog-stats > span { padding: 14px 10px; border-right: 1px solid var(--line); }
+.waiver-dialog-stats > span:nth-child(3n) { border-right: 0; }
+.waiver-dialog-stats small, .waiver-dialog-stats strong { display: block; }
+.waiver-dialog-stats small, .waiver-dialog-matchup small { color: var(--muted); font-size: 9px; letter-spacing: .06em; text-transform: uppercase; }
+.waiver-dialog-stats strong { margin-top: 4px; font-size: 15px; }
+.waiver-dialog-matchup { display: grid; grid-template-columns: 1fr 150px; gap: 18px; margin: 0 24px; padding: 15px 0; border-bottom: 1px solid var(--line); }
+.waiver-dialog-matchup small, .waiver-dialog-matchup strong { display: block; }
+.waiver-dialog-matchup strong { margin-top: 4px; font-size: 14px; }
+.waiver-dialog-reasons { padding: 20px 24px 24px; }
+.waiver-dialog-reasons ul { display: grid; gap: 8px; margin: 0 0 14px; padding-left: 19px; color: var(--text); font-size: 12px; line-height: 1.4; }
+.waiver-dialog-reasons > small { color: var(--muted); font-size: 9px; }
 [hidden] { display: none !important; }
 
 @media (max-width: 1080px) {
   .player-card { grid-template-columns: 90px 70px 1fr; }
   .player-week { grid-column: 2 / 4; border-left: 0; border-top: 1px solid var(--line); grid-template-columns: 1.2fr .72fr .72fr 1fr; }
+  .waiver-priorities-list { grid-template-columns: 1fr; }
+  .waiver-priority-card { border-right: 0; border-bottom: 1px solid var(--line); }
+  .waiver-priority-card:last-child { border-bottom: 0; }
 }
 
 @media (max-width: 900px) {
@@ -312,6 +385,7 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
   .scoreboard strong { font-size: 29px; }
   .tool-heading { align-items: start; flex-direction: column; }
   .waiver-budget { width: 100%; text-align: left; }
+  .waiver-priorities-heading { align-items: start; flex-direction: column; gap: 6px; }
   .compare-controls { grid-template-columns: 1fr; gap: 12px; }
   .compare-vs { display: none; }
   .compare-player-head { min-height: 160px; padding-left: 12px; gap: 12px; }
@@ -335,4 +409,19 @@ select { color: var(--text); background: var(--surface); border: 1px solid var(-
   .waiver-status { grid-column: 2 / 4; }
   .waiver-rank { font-size: 17px; }
   .waiver-score { justify-self: end; font-size: 16px; }
+  .waiver-recommendation { grid-template-columns: 1fr auto; gap: 9px; margin: 8px -12px -10px; padding: 10px 12px; }
+  .waiver-tier { grid-column: 1; }
+  .waiver-move { grid-column: 1 / -1; grid-row: 2; }
+  .waiver-faab { grid-column: 2; grid-row: 1; }
+  .waiver-recommendation > .waiver-detail-button { grid-column: 2; grid-row: 2; align-self: end; }
+  .waiver-dialog-hero { grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding: 18px; }
+  .waiver-dialog-photo { width: 76px; height: 92px; }
+  .waiver-dialog-hero h2 { font-size: 21px; }
+  .waiver-dialog-faab { grid-column: 1 / -1; padding: 0; text-align: left; }
+  .waiver-dialog-move { margin-inline: 18px; gap: 9px; }
+  .waiver-dialog-stats { grid-template-columns: repeat(2, 1fr); margin-inline: 18px; }
+  .waiver-dialog-stats > span, .waiver-dialog-stats > span:nth-child(3n) { border-right: 1px solid var(--line); }
+  .waiver-dialog-stats > span:nth-child(2n) { border-right: 0; }
+  .waiver-dialog-matchup { grid-template-columns: 1fr; margin-inline: 18px; }
+  .waiver-dialog-reasons { padding-inline: 18px; }
 }

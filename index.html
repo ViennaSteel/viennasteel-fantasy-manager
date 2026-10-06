@@ -195,6 +195,16 @@
               </div>
             </div>
 
+            <section class="waiver-priorities panel" aria-labelledby="waiver-priorities-title">
+              <div class="waiver-priorities-heading">
+                <div><p class="eyebrow">Persönliche Shortlist</p><h3 id="waiver-priorities-title">Deine besten Waiver-Moves</h3></div>
+                <small>Automatisch aus deinem Kader und dieser Liga</small>
+              </div>
+              <div id="waiver-priorities-list" class="waiver-priorities-list">
+                <div class="ranking-empty"><strong>Prioritäten werden berechnet</strong><span>Einen Moment bitte.</span></div>
+              </div>
+            </section>
+
             <div class="waiver-toolbar panel">
               <div class="waiver-tabs" role="tablist" aria-label="Waiver-Position auswählen">
                 <button class="active" data-waiver-position="QB" type="button">QB</button>
@@ -215,6 +225,11 @@
                 <div class="ranking-empty"><strong>Waiver-Daten werden geladen</strong><span>Einen Moment bitte.</span></div>
               </div>
             </div>
+
+            <dialog class="waiver-dialog" id="waiver-dialog" aria-labelledby="waiver-dialog-title">
+              <button class="waiver-dialog-close" id="waiver-dialog-close" type="button" aria-label="Detailansicht schließen">×</button>
+              <div id="waiver-dialog-content"></div>
+            </dialog>
           </section>
         </div>
       </main>

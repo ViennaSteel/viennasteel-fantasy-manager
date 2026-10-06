@@ -502,10 +502,136 @@ function renderRankings() {
   }).join("");
 }
 
-function waiverScore(player) {
-  const ranking = (state.league.rankings?.[state.waiverPosition] || [])
-    .find(item => String(item.player_id) === String(player.player_id));
-  return ranking?.consensus_score ?? null;
+function rankingPlayer(playerId, position) {
+  return (state.league.rankings?.[position] || [])
+    .find(item => String(item.player_id) === String(playerId)) || null;
+}
+
+function enrichedWaiverPlayer(player, position = state.waiverPosition) {
+  const ranking = rankingPlayer(player.player_id, position);
+  return {
+    ...player,
+    ...(ranking || {}),
+    waiver_score: ranking?.consensus_score ?? null
+  };
+}
+
+function waiverDropCandidate(player) {
+  const team = activeWeekData().team || [];
+  const candidates = team
+    .filter(rostered => rostered.slot === "BENCH" && rostered.position === player.position && availability(rostered) === "available")
+    .map(rostered => {
+      const ranking = rankingPlayer(rostered.player_id, rostered.position);
+      return { ...rostered, roster_score: ranking?.consensus_score ?? null };
+    })
+    .filter(rostered => Number.isFinite(Number(rostered.roster_score)))
+    .sort((a, b) => Number(a.roster_score) - Number(b.roster_score));
+  return candidates[0] || null;
+}
+
+function faabRecommendation(tier, player, scoreDifference) {
+  const budget = state.league?.faab;
+  if (!budget?.enabled || tier === "none") return { minimum: 0, maximum: 0, label: budget?.enabled ? "$0" : "–" };
+  const total = Number(budget.total || 100);
+  const remaining = Number(budget.remaining ?? Math.max(0, total - Number(budget.used || 0)));
+  if (remaining <= 0) return { minimum: 0, maximum: 0, label: "$0 · Budget aufgebraucht" };
+
+  let range = tier === "must" ? [10, 18] : tier === "upgrade" ? [4, 9] : [1, 3];
+  if (tier === "must" && Number(player.rostered_percent || 0) >= 60 && scoreDifference >= 20) range = [15, 25];
+  if (["K", "DEF"].includes(player.position)) range = tier === "must" ? [3, 6] : tier === "upgrade" ? [1, 3] : [0, 1];
+  const minimum = Math.min(remaining, Math.round(total * range[0] / 100));
+  const maximum = Math.min(remaining, Math.max(minimum, Math.round(total * range[1] / 100)));
+  return { minimum, maximum, label: minimum === maximum ? `$${minimum}` : `$${minimum}–${maximum}` };
+}
+
+function waiverRecommendation(player) {
+  if (availability(player) === "unavailable") {
+    return { tier: "none", title: "Kein Bedarf", drop: null, difference: null, reason: `Status ${player.injury_status || "nicht einsatzfähig"}`, faab: faabRecommendation("none", player, 0) };
+  }
+  const playerScore = Number(player.waiver_score);
+  if (!Number.isFinite(playerScore)) {
+    return { tier: "watch", title: "Watchlist", drop: null, difference: null, reason: "Noch keine vollständige Wochenbewertung", faab: faabRecommendation("watch", player, 0) };
+  }
+  const drop = waiverDropCandidate(player);
+  if (!drop) {
+    return { tier: "watch", title: "Watchlist", drop: null, difference: null, reason: `Kein sicherer ${player.position}-Drop auf deiner Bank`, faab: faabRecommendation("watch", player, 0) };
+  }
+  const difference = playerScore - Number(drop.roster_score);
+  const tier = difference >= 15 && playerScore >= 65 ? "must" : difference >= 7 ? "upgrade" : difference >= 2 ? "watch" : "none";
+  const titles = { must: "Must Add", upgrade: "Upgrade", watch: "Watchlist", none: "Kein Bedarf" };
+  const reasons = {
+    must: `Deutliches Upgrade gegenüber ${drop.name}`,
+    upgrade: `Sinnvolles Upgrade gegenüber ${drop.name}`,
+    watch: `Kleiner Vorteil gegenüber ${drop.name}`,
+    none: `${drop.name} ist aktuell mindestens gleichwertig`
+  };
+  return { tier, title: titles[tier], drop, difference, reason: reasons[tier], faab: faabRecommendation(tier, player, difference) };
+}
+
+function waiverRole(player, recommendation) {
+  if (recommendation.tier === "none") return "Aktuell kein Kader-Upgrade";
+  if (recommendation.tier === "watch") return "Watchlist / Tiefe";
+  const starters = activeWeekData().team
+    .filter(item => item.slot === "STARTER" && item.position === player.position)
+    .map(item => rankingPlayer(item.player_id, item.position)?.consensus_score)
+    .filter(value => Number.isFinite(Number(value)));
+  const weakestStarter = starters.length ? Math.min(...starters.map(Number)) : null;
+  if (weakestStarter !== null && Number(player.waiver_score) > weakestStarter) return "Starter-Potenzial";
+  return recommendation.tier === "must" ? "Prioritäres Bank-Upgrade" : "Bank-Upgrade";
+}
+
+function waiverDecisionReasons(player, recommendation) {
+  const reasons = [];
+  if (player.projected_points !== null && player.projected_points !== undefined && Number.isFinite(Number(player.projected_points))) reasons.push(`${formatPoints(player.projected_points)} prognostizierte Punkte im Liga-Scoring`);
+  if (player.start_percent !== null && player.start_percent !== undefined && Number.isFinite(Number(player.start_percent))) reasons.push(`${formatPercent(player.start_percent)} Startquote`);
+  if (player.usage_opportunities !== null && player.usage_opportunities !== undefined && Number.isFinite(Number(player.usage_opportunities))) reasons.push(`${formatPoints(player.usage_opportunities)} Opportunities pro Spiel`);
+  if (player.matchup_index !== null && player.matchup_index !== undefined && Number.isFinite(Number(player.matchup_index))) {
+    const difference = Number(player.matchup_index) - 100;
+    reasons.push(`Matchup ${difference >= 0 ? "+" : ""}${formatPoints(difference)} % zum Liga-Schnitt`);
+  }
+  if (recommendation.drop) reasons.push(`${recommendation.difference >= 0 ? "+" : ""}${formatPoints(recommendation.difference)} VS Score gegenüber ${recommendation.drop.name}`);
+  if (player.injury_status) reasons.push(`Einsatzstatus ${player.injury_status}`);
+  return reasons.length ? reasons : [recommendation.reason];
+}
+
+function findWaiverPlayer(playerId, position) {
+  const leagueId = String(state.league.league.league_id);
+  const payload = state.waivers[`${leagueId}:${position}`];
+  const player = (payload?.available || []).find(item => String(item.player_id) === String(playerId));
+  return player ? enrichedWaiverPlayer(player, position) : null;
+}
+
+function openWaiverDetails(playerId, position) {
+  const player = findWaiverPlayer(playerId, position);
+  if (!player) return;
+  const recommendation = waiverRecommendation(player);
+  const role = waiverRole(player, recommendation);
+  const reasons = waiverDecisionReasons(player, recommendation);
+  const matchupDifference = player.matchup_index !== null && player.matchup_index !== undefined && Number.isFinite(Number(player.matchup_index)) ? Number(player.matchup_index) - 100 : null;
+  const dropComparison = recommendation.drop
+    ? `<div class="waiver-dialog-move"><span><small>Add</small><strong>${player.name}</strong><em>${formatPoints(player.waiver_score)} VS Score</em></span><b>→</b><span><small>Drop</small><strong>${recommendation.drop.name}</strong><em>${formatPoints(recommendation.drop.roster_score)} VS Score</em></span></div>`
+    : `<div class="waiver-dialog-note">${recommendation.reason}</div>`;
+
+  $("#waiver-dialog-content").innerHTML = `
+    <div class="waiver-dialog-hero">
+      <span class="waiver-dialog-photo"><img src="${playerImage(player)}" alt="" onerror="this.src='./favicon.svg'" />${statusBadge(player)}</span>
+      <div><p class="eyebrow">${recommendation.title} · ${role}</p><h2 id="waiver-dialog-title">${player.name}</h2><span>${player.team || "FA"} · ${player.position} · ${player.depth_chart_position || "Depth Chart offen"}</span></div>
+      <div class="waiver-dialog-faab"><small>FAAB</small><strong>${recommendation.faab.label}</strong></div>
+    </div>
+    ${dropComparison}
+    <div class="waiver-dialog-stats">
+      <span><small>VS Score</small><strong>${formatPoints(player.waiver_score)}</strong></span>
+      <span><small>Prognose</small><strong>${formatPoints(player.projected_points)} Pkt.</strong></span>
+      <span><small>Rostered</small><strong>${formatPercent(player.rostered_percent)}</strong></span>
+      <span><small>Startquote</small><strong>${formatPercent(player.start_percent)}</strong></span>
+      <span><small>Nutzung</small><strong>${formatPoints(player.usage_opportunities)} Opp.</strong></span>
+      <span><small>Trending</small><strong>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</strong></span>
+    </div>
+    <div class="waiver-dialog-matchup"><span><small>Nächstes Matchup</small><strong>${matchupDisplay(player)}</strong></span><span><small>Matchup-Wert</small><strong>${matchupDifference === null ? "–" : `${matchupDifference >= 0 ? "+" : ""}${formatPoints(matchupDifference)} %`}</strong></span></div>
+    <div class="waiver-dialog-reasons"><p class="eyebrow">Warum diese Empfehlung?</p><ul>${reasons.map(reason => `<li>${reason}</li>`).join("")}</ul><small>Die FAAB-Spanne ist eine Entscheidungshilfe und kein automatisches Gebot.</small></div>`;
+  const dialog = $("#waiver-dialog");
+  if (typeof dialog.showModal === "function") dialog.showModal();
+  else dialog.setAttribute("open", "");
 }
 
 function renderWaiverBudget() {
@@ -535,6 +661,74 @@ async function loadWaivers(position = state.waiverPosition) {
     );
   }
   renderWaivers();
+  await loadWaiverPriorities();
+}
+
+async function loadWaiverPriorities() {
+  if (!state.league || !state.profile) return;
+  const leagueId = String(state.league.league.league_id);
+  const positions = ["QB", "RB", "WR", "TE", "K", "DEF"];
+  const missing = positions.filter(position => !state.waivers[`${leagueId}:${position}`]);
+  if (missing.length) {
+    const payloads = await Promise.all(missing.map(position => loadFantasyDocument(
+      "fantasyUsers",
+      state.profile.sleeperUserId,
+      "leagues",
+      leagueId,
+      "waivers",
+      position
+    )));
+    missing.forEach((position, index) => { state.waivers[`${leagueId}:${position}`] = payloads[index]; });
+  }
+  renderWaiverPriorities();
+}
+
+function renderWaiverPriorities() {
+  const list = $("#waiver-priorities-list");
+  if (!state.league || !list) return;
+  const leagueId = String(state.league.league.league_id);
+  const positions = ["QB", "RB", "WR", "TE", "K", "DEF"];
+  const tierOrder = { must: 3, upgrade: 2, watch: 1, none: 0 };
+  const rankedRecommendations = positions.flatMap(position => {
+    const payload = state.waivers[`${leagueId}:${position}`];
+    return (payload?.available || []).map(player => {
+      const enriched = enrichedWaiverPlayer(player, position);
+      return { player: enriched, recommendation: waiverRecommendation(enriched) };
+    });
+  }).filter(item => item.recommendation.tier !== "none")
+    .sort((a, b) =>
+      tierOrder[b.recommendation.tier] - tierOrder[a.recommendation.tier] ||
+      Number(b.recommendation.difference || 0) - Number(a.recommendation.difference || 0) ||
+      Number(b.player.waiver_score || 0) - Number(a.player.waiver_score || 0)
+    );
+  const recommendations = [];
+  const usedPositions = new Set();
+  const usedDrops = new Set();
+  for (const item of rankedRecommendations) {
+    const dropId = item.recommendation.drop?.player_id || null;
+    if (usedPositions.has(item.player.position) || (dropId && usedDrops.has(String(dropId)))) continue;
+    recommendations.push(item);
+    usedPositions.add(item.player.position);
+    if (dropId) usedDrops.add(String(dropId));
+    if (recommendations.length === 3) break;
+  }
+
+  if (!recommendations.length) {
+    list.innerHTML = `<div class="ranking-empty"><strong>Aktuell kein klarer Waiver-Move</strong><span>Dein Kader ist gegenüber den verfügbaren Spielern mindestens gleichwertig.</span></div>`;
+    return;
+  }
+
+  list.innerHTML = recommendations.map(({ player, recommendation }, index) => {
+    const drop = recommendation.drop ? `Drop ${recommendation.drop.name}` : "Kein sicherer Drop";
+    const difference = recommendation.difference === null ? recommendation.reason : `${recommendation.difference >= 0 ? "+" : ""}${formatPoints(recommendation.difference)} VS Score`;
+    return `<article class="waiver-priority-card ${recommendation.tier}">
+      <span class="waiver-priority-number">${index + 1}</span>
+      <span class="waiver-priority-photo"><img src="${playerImage(player)}" alt="" loading="lazy" onerror="this.src='./favicon.svg'" />${statusBadge(player)}</span>
+      <span class="waiver-priority-copy"><small>${recommendation.title} · ${player.position}</small><strong>Add ${player.name}</strong><span>${drop} · ${difference}</span></span>
+      <span class="waiver-priority-bid"><small>FAAB</small><strong>${recommendation.faab.label}</strong></span>
+      <button class="waiver-detail-button" data-waiver-player="${player.player_id}" data-waiver-position="${player.position}" type="button">Details</button>
+    </article>`;
+  }).join("");
 }
 
 function renderWaivers() {
@@ -545,7 +739,7 @@ function renderWaivers() {
   if (!payload) return;
   const query = state.waiverSearch.trim().toLowerCase();
   const source = [...(payload.available || [])]
-    .map(player => ({ ...player, waiver_score: waiverScore(player) }))
+    .map(player => enrichedWaiverPlayer(player, state.waiverPosition))
     .sort((a, b) => Number(b.waiver_score || 0) - Number(a.waiver_score || 0) || Number(b.trending_adds_24h || 0) - Number(a.trending_adds_24h || 0));
   const players = source.filter(player => !query || `${player.name} ${player.team || ""}`.toLowerCase().includes(query));
   const list = $("#waiver-list");
@@ -556,6 +750,9 @@ function renderWaivers() {
   list.innerHTML = players.map((player, index) => {
     const availabilityClass = player.unavailable ? "unavailable" : availability(player) === "uncertain" ? "uncertain" : "";
     const status = player.injury_status || "Verfügbar";
+    const recommendation = waiverRecommendation(player);
+    const difference = recommendation.difference === null ? "" : `${recommendation.difference >= 0 ? "+" : ""}${formatPoints(recommendation.difference)} VS Score`;
+    const dropText = recommendation.drop && recommendation.tier !== "none" ? `Add ${player.name} · Drop ${recommendation.drop.name}` : recommendation.reason;
     return `<article class="waiver-row ${availabilityClass}">
       <div class="waiver-rank"><span>#</span>${index + 1}</div>
       <div class="ranking-player">
@@ -567,6 +764,12 @@ function renderWaivers() {
       <span><strong>${formatPercent(player.rostered_percent)}</strong><small>Rostered</small></span>
       <span class="waiver-trend"><strong>+${Number(player.trending_adds_24h || 0).toLocaleString("de-AT")}</strong><small>Adds</small></span>
       <span class="waiver-status ${availabilityClass}">${status}</span>
+      <div class="waiver-recommendation ${recommendation.tier}">
+        <span class="waiver-tier">${recommendation.title}</span>
+        <span class="waiver-move"><strong>${dropText}</strong><small>${difference || recommendation.reason}</small></span>
+        <span class="waiver-faab"><small>FAAB-Empfehlung</small><strong>${recommendation.faab.label}</strong></span>
+        <button class="waiver-detail-button" data-waiver-player="${player.player_id}" data-waiver-position="${player.position}" type="button">Details</button>
+      </div>
     </article>`;
   }).join("");
 }
@@ -749,6 +952,14 @@ document.querySelectorAll("[data-waiver-position]").forEach((button) => button.a
     $("#waiver-list").innerHTML = `<div class="ranking-empty"><strong>Waiver-Daten konnten nicht geladen werden</strong><span>Bitte versuche es gleich noch einmal.</span></div>`;
   }
 }));
+$("#waiver-view").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-waiver-player]");
+  if (button) openWaiverDetails(button.dataset.waiverPlayer, button.dataset.waiverPosition);
+});
+$("#waiver-dialog-close").addEventListener("click", () => $("#waiver-dialog").close());
+$("#waiver-dialog").addEventListener("click", (event) => {
+  if (event.target === $("#waiver-dialog")) $("#waiver-dialog").close();
+});
 
 $("#login-form").addEventListener("submit", async (event) => {
   event.preventDefault();

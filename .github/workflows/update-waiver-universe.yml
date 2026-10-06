@@ -8,7 +8,7 @@ on:
     paths:
       - ".github/workflows/update-waiver-universe.yml"
   schedule:
-    - cron: "7,22,37,52 * * * *"
+    - cron: "7 */2 * * *"
 
 permissions:
   contents: read
