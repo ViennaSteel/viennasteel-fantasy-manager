@@ -12,7 +12,10 @@ on:
       - "assets/**"
       - ".github/workflows/update-sleeper-data.yml"
   schedule:
-    - cron: "*/15 * * * *"
+    # Stagger away from the top of the hour to reduce GitHub scheduler congestion.
+    - cron: "7,22,37,52 * * * *"
+    # Secondary schedule to reduce gaps when GitHub drops a scheduled event.
+    - cron: "13,43 * * * *"
 
 permissions:
   contents: read
